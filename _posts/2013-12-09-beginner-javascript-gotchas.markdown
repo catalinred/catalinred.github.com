@@ -24,10 +24,10 @@ I consider myself a novice when it comes to coding in JavaScript but lately I pl
 At first sight, this is very odd, but once you read more about the [comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators) this make sense. To avoid misunderstandings like this one, be sure to always use the strictly equal operator (===) to do this type of comparison. [Lous Lazaris](http://www.impressivewebs.com/why-use-triple-equals-javascipt/) wrote an entire article on the unpredictable results that can occur when the equality comparison operator is not used the right way.
 
     
-    
-    console.log(0 == "0"); // true
-    console.log(0 === "0"); // false
-    
+{% highlight js %}    
+console.log(0 == "0"); // true
+console.log(0 === "0"); // false
+{% endhighlight %}    
 
 
 
@@ -41,11 +41,11 @@ You may want to check this JavaScript [truth table](http://zero.milosz.ca/) as w
 JavaScript is quite tolerant when it's about strings and numbers, just think about the "+" operator, which both adds and concatenates. Unlike other programming languages that would shout at you when encountering the line above, JavaScript actually tries to solve this by assuming, at a time, that numbers are strings too. 
 
     
-    
+{% highlight js %}    
     1+2+"3" != "1"+"2"+3; 
     // 3+"3" != "12"+3
     // 33 !=123
-    
+{% endhighlight %}    
 
 
 

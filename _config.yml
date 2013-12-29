@@ -2,4 +2,5 @@ name: RedTeamDesign
 markdown: redcarpet
 pygments: true
 permalink: /:title
+paginate: 10
 exclude: [rtd.sublime-project, rtd.sublime-workspace]
