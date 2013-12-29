@@ -1,0 +1,5 @@
+name: RedTeamDesign
+markdown: redcarpet
+pygments: true
+permalink: /:title
+exclude: [rtd.sublime-project, rtd.sublime-workspace]

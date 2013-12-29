@@ -1,0 +1,234 @@
+---
+author: Red
+comments: true
+date: 2011-09-26 06:00:51+00:00
+layout: post
+slug: css3-tabs-with-beveled-corners
+title: CSS3 tabs with beveled corners
+wordpress_id: 3156
+categories:
+- CSS
+- jQuery
+tags:
+- CSS3
+- HTML
+- jQuery
+---
+
+Organizing content was always an important task for web designers. Just like [accordions](/css3-accordion), using a CSS3 tabbed navigation can help you structuring similar groups of content.
+
+Along with so many rounded corners (which lately became the default), today you'll learn how to create some good looking CSS3 tabs with beveled corners. We'll do that using a clever CSS3 [gradients](/css-gradients-quick-tutorial) technique.
+
+![](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs.png)
+
+<!-- more -->
+
+There are a lot of articles in the wild that show you how to create tabs with CSS3 and jQuery. Yet, I decided to create my own CSS3 tabs as well and I hope you'll like my result.
+
+
+
+
+[View demo](/wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html)
+
+
+
+
+
+
+### The idea
+
+
+A while ago I read [this](http://leaverou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/) wonderful article by [Lea Verou](http://leaverou.me/) about how to create beveled corners using CSS3 gradients. I found that very clever and we will use that technique in order to create our tabs.
+
+
+
+### The HTML
+
+
+The purpose here, as usual, is to write clean and semantic markup: unordered list for the tabbed navigation and simple `div`'s for wrapping content. 
+
+So, check the HTML below:
+
+
+    
+    
+    <ul id="tabs">
+        <li><a href="#" title="tab1">One</a></li>
+        <li><a href="#" title="tab2">Two</a></li>
+        <li><a href="#" title="tab3">Three</a></li>
+        <li><a href="#" title="tab4">Four</a></li>    
+    </ul>
+    
+    <div id="content"> 
+        <div id="tab1">One - content</div>
+        <div id="tab2">Two - content</div>
+        <div id="tab3">Three - content</div>
+        <div id="tab4">Four - content</div>
+    </div>
+    
+
+
+
+
+
+### The CSS
+
+
+Minimal and easy to update styles, also no images were used here:
+
+    
+    
+    #tabs
+    {
+      overflow: auto;
+      width: 100%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #tabs li
+    {
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    
+    #tabs a
+    {
+        -moz-box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+        -webkit-box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+        box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+        background: #ad1c1c;
+        background:    -moz-linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+        background:    -webkit-linear-gradient(220deg, transparent 10px, #ad1c1c 10px);     
+        background:     -ms-linear-gradient(220deg, transparent 10px, #ad1c1c 10px); 
+        background:      -o-linear-gradient(220deg, transparent 10px, #ad1c1c 10px); 
+        background:         linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+        text-shadow: 0 1px 0 rgba(0,0,0,.5);
+        color: #fff;
+        float: left;
+        font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+        height: 35px;
+        padding: 0 30px;
+        text-decoration: none;
+    }
+    
+    #tabs a:hover
+    {
+        background: #c93434;
+        background:    -moz-linear-gradient(220deg, transparent 10px, #c93434 10px);
+        background:    -webkit-linear-gradient(220deg, transparent 10px, #c93434 10px);     
+        background:     -ms-linear-gradient(220deg, transparent 10px, #c93434 10px); 
+        background:      -o-linear-gradient(220deg, transparent 10px, #c93434 10px); 
+        background:         linear-gradient(220deg, transparent 10px, #c93434 10px);     
+    }
+    
+    #tabs a:focus
+    {
+        outline: 0;
+    }
+    
+    #tabs #current a
+    {
+        background: #fff;
+        background:    -moz-linear-gradient(220deg, transparent 10px, #fff 10px);
+        background:    -webkit-linear-gradient(220deg, transparent 10px, #fff 10px);     
+        background:     -ms-linear-gradient(220deg, transparent 10px, #fff 10px); 
+        background:      -o-linear-gradient(220deg, transparent 10px, #fff 10px); 
+        background:         linear-gradient(220deg, transparent 10px, #fff 10px);
+        text-shadow: none;    
+        color: #333;
+    }
+    
+    #content
+    {
+        background-color: #fff;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+        background-image: -webkit-linear-gradient(top, #fff, #ddd); 
+        background-image:    -moz-linear-gradient(top, #fff, #ddd); 
+        background-image:     -ms-linear-gradient(top, #fff, #ddd); 
+        background-image:      -o-linear-gradient(top, #fff, #ddd); 
+        background-image:         linear-gradient(top, #fff, #ddd);
+        -moz-border-radius: 0 2px 2px 2px;
+        -webkit-border-radius: 0 2px 2px 2px;
+        border-radius: 0 2px 2px 2px;
+        -moz-box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+        -webkit-box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+        box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+        padding: 30px;
+    }
+    
+    /* Remove the rule below if you want the content to be "organic" */
+    #content div
+    {
+        height: 220px; 
+    }
+    
+    
+
+
+
+
+
+### The jQuery
+
+
+The code below it may not be the best possible, but I think it's pretty decent :)
+
+    
+    
+    $(document).ready(function() {
+    	$("#content div").hide(); // Initially hide all content
+    	$("#tabs li:first").attr("id","current"); // Activate first tab
+    	$("#content div:first").fadeIn(); // Show first tab content
+        
+        $('#tabs a').click(function(e) {
+            e.preventDefault();        
+            $("#content div").hide(); //Hide all content
+            $("#tabs li").attr("id",""); //Reset id's
+            $(this).parent().attr("id","current"); // Activate this
+            $('#' + $(this).attr('title')).fadeIn(); // Show content for current tab
+        });
+    })();
+    
+
+
+
+
+
+### The result
+
+
+Check out the **transparent corners**! You can use the tabs with any background image. No side effects, no overlapping colors to match or something else.
+
+Also, the left [shadow](/how-to-create-slick-effects-with-css3-box-shadow) helps creating the effect of overlapping tabs.
+
+[![](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs-result.png)](/wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html)
+
+
+
+
+[View demo](/wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html)
+
+
+
+
+
+
+### Browser support
+
+
+If you read my previous articles, then you already know that I like to do stuff that works (even if it just degrades gracefully) also on older browsers like the [IE (Trident)](http://www.red-team-design.com/how-to-solve-common-ie-bugs).
+
+Having said that, this demo is working also for older browsers. Obviously, it just look slightly different, as no CSS3 support is available:
+
+![](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs-browser-support.png)
+_Such a gradient for Safari (lower than 5.1) would be quite complex. So, I decided to skip it (for now)._
+
+
+
+### That's it!
+
+
+I hope you enjoyed this article and if you have questions, comments, or suggestions, let me know! Thanks for reading.
