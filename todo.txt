@@ -1,0 +1,15 @@
+Find a way to show excerpt on the index page.
+
+Build the sidebar
+
+Make the contact page work.
+
+---
+
+Later
+
+SCSS STUFF
+
+grid
+syntax
+rem based mixin...

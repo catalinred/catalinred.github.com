@@ -5,25 +5,15 @@
 /*****************************************************************************/
 
 /* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  font: 1em Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
-
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -56,8 +46,6 @@ a:visited { color: #a0a; }
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
-  text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
@@ -121,40 +109,72 @@ a:visited { color: #a0a; }
   border: 0;
 }
 
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+/* bquote*/
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+blockquote, q {
+  quotes: "" "";
+}
+blockquote {
+  font-family: Georgia, "Bitstream Charter", serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 1.3em;
+  position: relative;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+blockquote:before {
+  color: #ddd;
+      content: "\201C";
+      font: italic 100px Tahoma,Arial;
+      left: -40px; top: -30px;
+      position: absolute;
+      z-index: -1;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
+blockquote em, blockquote i, blockquote cite {
+  font-style: normal;
+}
+blockquote cite {
+  color: #666;
+  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
-.post pre code {
-  border: none;
+/**/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
 
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
+mark{
+  border-bottom: 2px solid #333;
+  background: #555;
 }
 
-.post pre.terminal code {
-  background-color: #333;
+.info-block{
+  padding: 20px !important;
+  background: #fff6cd;
+  border: 1px solid rgba(0,0,0,.1);
+}
+
+::selection{
+  color: #fff;
+  background-color: #dd3333;
+  text-shadow: none;
+}
+
+::-moz-selection{
+  color: #fff;
+  background-color: #dd3333;
+  text-shadow: none;
+}
+
+.post img {
+border: 1px solid #DDD;
+padding: 6px;
 }
