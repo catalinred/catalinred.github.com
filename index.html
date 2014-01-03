@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Front-end development stuff, CSS, JavaScript and more.
 ---
 
 <div id="home">
 
-<h1>Blog Posts</h1>
 <!-- This loops through the paginated posts -->
-  <ul class="posts">
 {% for post in paginator.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+
+<small>{{ post.date | date_to_string }}</small> 
+<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<p>{{ post.excerpt }}</p>
+
 {% endfor %}
-  </ul>
 
 <!-- Pagination links -->
 <ol class="nav  pagination">

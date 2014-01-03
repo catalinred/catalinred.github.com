@@ -1,5 +1,16 @@
+code {
+  background: #ddd;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+code a {
+    color: #8BC8F5;
+}
+
 .highlight pre { padding: 1em; overflow: auto;}
-.highlight pre, .highlight pre code { line-height: 1.5em; font-size: 1em; background: #111111; color: #93A1A1; }
+.highlight code { white-space: inherit; padding: 0; }
+.highlight pre, .highlight pre code { line-height: 1.4em; font-size: 14px; background: #111; color: #93A1A1;}
 .highlight .hll { background-color: #ffffcc }
 .highlight  { background: #002B36; color: #93A1A1 }
 .highlight .c { color: #586E75 } /* Comment */

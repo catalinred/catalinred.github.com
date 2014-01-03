@@ -1,3 +1,11 @@
+Fix the markdown files and highlighting stuff.
+Add meta description for each.
+View demo link buttons
+Fix jQuery-> JavaScript category
+Fix paths to relative instead of absolute, add img folder
+
+
+
 Find a way to show excerpt on the index page.
 
 Build the sidebar
@@ -10,6 +18,6 @@ Later
 
 SCSS STUFF
 
-grid
+grid http://joshnh.com/2013/12/04/creating-lightweight-grid-system/
 syntax
 rem based mixin...
