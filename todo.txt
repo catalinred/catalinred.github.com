@@ -1,9 +1,15 @@
 Fix the markdown files and highlighting stuff.
+
 Add meta description for each.
+
 View demo link buttons, Check demos.
-Fix jQuery-> JavaScript category replace - jQuery
 Fix paths to relative instead of absolute, add img folder
+
+Fix jQuery-> JavaScript category replace - jQuery
+
 RSS
+ <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/redteamdesign">
+
 rEMOVE EXTRA paragraph from index excerpt
 Figure + figcaption
 Check <mark>
@@ -11,8 +17,6 @@ Check <mark>
 
 
 Footer: http://demo.tutorialzine.com/2013/08/slideout-footer-css/
-
-Find a way to show excerpt on the index page.
 
 Build the sidebar
 
