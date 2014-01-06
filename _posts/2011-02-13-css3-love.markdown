@@ -1,0 +1,23 @@
+---
+author: Red
+comments: true
+date: 2011-02-13 23:00:54+00:00
+layout: post
+slug: css3-love
+title: CSS3 love
+wordpress_id: 2280
+categories:
+- CSS
+tags:
+- CSS3
+---
+
+I made a page with the heart shape you can make with CSS3. Just some CSS3 `text-shadow`, a HTML heart character and voila:
+
+![CSS3 love icon](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-love.jpg)
+
+<!-- more -->
+
+I wish you all a **Happy Valentine's Day**!
+
+[View demo](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-love-demo.html)

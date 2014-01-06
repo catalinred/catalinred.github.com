@@ -27,7 +27,7 @@ Having said that, in this article you'll learn how to create your own CSS3 toolt
 
 The HTML `title` attribute is the default additional info you can use. But, the default `title`'s can't be styled. So, if you want something cool, that you can style it as you wish, then a custom CSS3 tooltip is the solution.
 
-## How is made
+## How it's made
 
 The method might be familiar to you, a `relative` positioned element  who wraps an `absolute` positioned one. With this article I'm not trying to reinvent the wheel, I'm just showing you how to create some cool CSS3 tooltips.
 
