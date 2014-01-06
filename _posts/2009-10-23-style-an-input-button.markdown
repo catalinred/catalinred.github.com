@@ -4,7 +4,7 @@ comments: true
 date: 2009-10-23 21:34:55+00:00
 layout: post
 slug: style-an-input-button
-title: 'Here’s a quick way to style an input button '
+title: Here's a quick way to style an input button
 wordpress_id: 103
 categories:
 - CSS

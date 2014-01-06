@@ -4,7 +4,7 @@ comments: true
 date: 2011-07-05 07:30:12+00:00
 layout: post
 slug: cool-notification-messages-with-css3-jquery
-title: 'Cool notification messages with CSS3 & jQuery '
+title: Cool notification messages with CSS3 & jQuery
 wordpress_id: 1867
 categories:
 - CSS

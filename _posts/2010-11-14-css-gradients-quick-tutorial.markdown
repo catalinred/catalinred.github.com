@@ -71,7 +71,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 
 ## CSS3 radial gradient
 
-IE gradient filters doesn’t support color-stop, gradient angle, and radial gradient. This means you can only specify just horizontal and vertical linear gradients (as above) with two colors, one for start and one for end. 
+IE gradient filters doesn't support color-stop, gradient angle, and radial gradient. This means you can only specify just horizontal and vertical linear gradients (as above) with two colors, one for start and one for end. 
 
 But lets see how you can define a CSS3 radial gradient for Firefox, Safari and Chrome.
 
@@ -88,7 +88,7 @@ background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#cde6f9
 
 ## Conclusion
 
-Although CSS gradients are great, not all browsers support it (yet). So, you shouldn’t totally rely on CSS gradient when coding your web design and you should always use a fallback for it.
+Although CSS gradients are great, not all browsers support it (yet). So, you shouldn't totally rely on CSS gradient when coding your web design and you should always use a fallback for it.
 
 If you have anything to add, feel free to do it in the comments below. Let me know your opinion.
 

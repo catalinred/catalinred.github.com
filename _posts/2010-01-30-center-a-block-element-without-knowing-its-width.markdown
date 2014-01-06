@@ -4,7 +4,7 @@ comments: true
 date: 2010-01-30 11:00:35+00:00
 layout: post
 slug: center-a-block-element-without-knowing-its-width
-title: 'Center a block element without knowing its width  '
+title: Center a block element without knowing its width
 wordpress_id: 492
 categories:
 - CSS
