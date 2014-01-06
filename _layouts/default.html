@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, minimum-scale=1.0">
         <title>{{ page.title }}</title>
         <meta name="description" content="{{ page.description }}">
+        <meta name='google-site-verification' content='C5zdBQFWWh6uslnkcC0u_F5av9GyYt90auGayV4ELbM'>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
-
+        <link rel="stylesheet" href="/css/syntax.css">
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400">
 
-    </head>
+        <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/redteamdesign">
+        <link rel="author" href="https://plus.google.com/114910105297465575018/posts"/>
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
+    </head>
     <!-- 
            _        _ 
      _ __ | |_   __| |
@@ -26,33 +28,27 @@
      -->
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-            <a class="extra" href="/about/">archives</a>
-            <a class="extra" href="/about/">about</a>
-            <a class="extra" href="/contact/">contact</a>
-          </div>
+      <header role="banner">
+        <h1><a href="/">{{ site.name }}</a></h1>
+        <nav role="navigation">
+          <li><a href="/">home</a></li>
+          <li><a href="/about/">archives</a></li>
+          <li><a href="/about/">about</a></li>
+          <li><a href="/contact/">contact</a> </li>            
+        </nav>
+      </header>
 
-          {{ content }}
+      <div role="main">
+        {{ content }}
+      </div>
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+      <div role="complementary">
+        sidebar
+      </div>
+
+      <footer role="contentinfo">
+        footer
+      </footer>
 
     </body>
 </html>

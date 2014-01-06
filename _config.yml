@@ -2,6 +2,6 @@ name: RedTeamDesign
 markdown: rdiscount
 pygments: true
 permalink: /:title
-paginate: 100
+paginate: 10
 excerpt_separator: <!-- more -->
 exclude: [rtd.sublime-project, rtd.sublime-workspace]

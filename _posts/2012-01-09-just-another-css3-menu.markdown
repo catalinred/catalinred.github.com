@@ -147,13 +147,13 @@ The below is the most interesting part, in my opinion. Without, adding any extra
 
 {% highlight css %}
 nav a::before{
-    <mark>content: '';</mark>
-    <mark>position: absolute;</mark>
-    <mark>top: -10px;</mark>
-    <mark>right: -10px;</mark>
-    <mark>bottom: -10px;</mark>
-    <mark>left: -10px;</mark>
-    <mark>z-index: -1;</mark>
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    z-index: -1;
     background-color: #e3e3e3;
     background-image: linear-gradient(top, #e3e3e3, #f7f7f7);
     border-radius: 2px;

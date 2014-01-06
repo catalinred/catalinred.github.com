@@ -155,7 +155,7 @@ For the jagged effect, you can use an [encoded](http://webcodertools.com/imageto
     bottom: -8px; left: 0;
     height: 3px; width: 100%;
     content: '';
-    <mark>background-image: url(data:image/png;base64,iVBO[...]);</mark>
+    background-image: url(data:image/png;base64,iVBO[...]);
 }
 
 #pricing-table .popular-plan .header {

@@ -56,7 +56,7 @@ This technique uses [Automatic counters and numbering](http://www.w3.org/TR/CSS2
 
 {% highlight css %}
 ol {
-    <mark>counter-reset: li; /* Initiate a counter */</mark>
+    counter-reset: li; /* Initiate a counter */
     list-style: none; /* Remove default numbering */
     *list-style: decimal; /* Keep using default numbering for IE6/7 */
     font: 15px 'trebuchet MS', 'lucida sans';
@@ -98,8 +98,8 @@ ol ol {
 }
 
 .rounded-list a:before{
-    <mark>content: counter(li);</mark>
-    <mark>counter-increment: li;</mark>
+    content: counter(li);
+    counter-increment: li;
     position: absolute; 
     left: -1.3em;
     top: 50%;
@@ -140,8 +140,8 @@ ol ol {
 }   
 
 .rectangle-list a:before{
-    <mark>content: counter(li);</mark>
-    <mark>counter-increment: li;</mark>
+    content: counter(li);
+    counter-increment: li;
     position: absolute; 
     left: -2.5em;
     top: 50%;

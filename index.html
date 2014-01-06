@@ -3,20 +3,20 @@ layout: default
 title: Front-end development stuff, CSS, JavaScript and more.
 ---
 
-<div id="home">
-
-<!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-
-<small>{{ post.date | date_to_string }}</small> 
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<p>{{ post.excerpt }}</p>
-
+<article>
+    <header>
+        <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    </header>
+    <div>
+        {{ post.excerpt }}
+    </div>
+</article>
 {% endfor %}
 
-<!-- Pagination links -->
-<ol class="nav  pagination">
-    <li class="pagination__prev">
+<ul>
+    <li>
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
             <a href="/">Previous</a>
@@ -26,15 +26,12 @@ title: Front-end development stuff, CSS, JavaScript and more.
         {% else %}
             Previous
         {% endif %}
-    </li><!--
-    
- --><li class="pagination__next">
+    </li>
+    <li>
         {% if paginator.next_page %}
             <a href="/page{{paginator.next_page}}">Next</a>
         {% else %}
             Next
         {% endif %}
     </li>
-</ol>
-
-</div>
+</ul>

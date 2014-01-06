@@ -62,7 +62,7 @@ To achieve the snow effect, you will need to animate the `background-position` p
     margin: 0 0 30px;
     background: url(header-bg.png);
     background: url(snow-bg.png) repeat-y center, url(header-bg.png);
-    <mark>animation: animate-snow 9s linear infinite;</mark>        
+    animation: animate-snow 9s linear infinite;        
 }
 
 @keyframes animate-snow
@@ -100,7 +100,7 @@ For the Christmas trees, the `animation-duration` value was randomly changed in 
 .christmas-tree,
 .snowman {
     position: absolute;
-    <mark>animation: animate-drop 1s linear;</mark>
+    animation: animate-drop 1s linear;
 }
 
 .christmas-tree {
@@ -115,43 +115,43 @@ For the Christmas trees, the `animation-duration` value was randomly changed in 
     top: 195px;
     left: 415px;
     background: url(snowman.png);
-    <mark>animation-duration: .6s;</mark>
+    animation-duration: .6s;
 }   
     
 .tree1 {
     top: 165px;
     left: 35px;
-    <mark>animation-duration: .6s;</mark>       
+    animation-duration: .6s;       
 }
 
 .tree2 {
     left: 185px;
     top: 175px; 
-    <mark>animation-duration: .9s;</mark>       
+    animation-duration: .9s;       
 }
 
 .tree3 {
     left: 340px;
     top: 125px; 
-    <mark>animation-duration: .7s;</mark>       
+    animation-duration: .7s;       
 }
 
 .tree4 {
     left: 555px;
     top: 155px; 
-    <mark>animation-duration: .8s;</mark>       
+    animation-duration: .8s;       
 }
 
 .tree5 {
     left: 710px;
     top: 170px; 
-    <mark>animation-duration: .7s;</mark>       
+    animation-duration: .7s;       
 }
 
 .tree6 {
     left: 855px;
     top: 125px;
-    <mark>animation-duration: .6s;</mark>       
+    animation-duration: .6s;       
 }
 {% endhighlight %}
 

@@ -165,7 +165,7 @@ With CSS3 transitons we can animate changes to CSS properties like `margin` or `
     background: linear-gradient(#444, #111);
     box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
     border-radius: 3px;
-    <mark>transition: all .2s ease-in-out;</mark>  
+    transition: all .2s ease-in-out;
 }
 
 #menu li:hover > ul {

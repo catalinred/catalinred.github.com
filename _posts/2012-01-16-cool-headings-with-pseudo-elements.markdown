@@ -54,7 +54,7 @@ body {
   border: 7px solid #cecece;
   border: 7px solid rgba(0,0,0,.05);
   background: #fff;
-  <mark>background-clip: padding-box;</mark>
+  background-clip: padding-box;
   box-shadow: 0 0 2px rgba(0, 0, 0, .5);
 }
 

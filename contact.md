@@ -6,11 +6,11 @@ permalink: /contact/
 
 You can contact me using the form below. I commit to get back to you as soon as I am available and answer any questions you may have.
 
-<h3>Also, to save both of us some time, you should know that:</h3>
-<ul>
-<li>Currently, I am not available for freelance projects.</li>
-<li>I do not publish guest posts here, unless perhaps you have a cool front-end technique you'd like to share.</li>
-</ul>
+##Also, to save both of us some time, you should know that:
+
+* Currently, I am not available for freelance projects.</li>
+* I do not publish guest posts here, unless perhaps you have a cool front-end technique you'd like to share.</li>
+
 
 <form action="/sendemail.php" method="POST" onsubmit="return checkForm(this)">
 <div id="contact-form">
