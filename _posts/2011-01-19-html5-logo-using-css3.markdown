@@ -5,7 +5,7 @@ date: 2011-01-19 00:22:50+00:00
 layout: post
 slug: html5-logo-using-css3
 title: HTML5 logo using CSS3
-description: I made the HTML5 logo using pure CSS3: transforms, rotations and pseudo elements.
+description: I made the HTML5 logo using pure CSS3 with transforms, rotations and pseudo elements.
 wordpress_id: 2059
 categories:
 - CSS

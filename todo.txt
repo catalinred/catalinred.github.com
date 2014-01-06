@@ -1,6 +1,5 @@
 ------Fix the markdown files and highlighting stuff.
-
-Add meta description for each.
+------Add meta description for each.
 
 View demo link buttons, Check demos.
 Fix paths to relative instead of absolute, add img folder
