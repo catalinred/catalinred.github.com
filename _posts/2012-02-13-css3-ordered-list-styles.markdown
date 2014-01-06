@@ -5,6 +5,7 @@ date: 2012-02-13 06:00:59+00:00
 layout: post
 slug: css3-ordered-list-styles
 title: CSS3 ordered list styles
+description: Learn how to style your ordered lists, using semantic markup and CSS3 fine tuning.
 wordpress_id: 3706
 categories:
 - CSS

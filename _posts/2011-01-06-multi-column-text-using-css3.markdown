@@ -5,6 +5,7 @@ date: 2011-01-06 07:41:00+00:00
 layout: post
 slug: multi-column-text-using-css3
 title: Multi-column text using CSS3
+description: Read more on how to use multi-column text using CSS3.
 wordpress_id: 1949
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2012-07-23 05:00:46+00:00
 layout: post
 slug: firefox-doesnt-allow-cross-domain-fonts-by-default
 title: Firefox doesn't allow cross-domain fonts
+description: Read this article to find out more about Mozilla Firefox and cross-domain fonts issue and workarounds.
 wordpress_id: 5076
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2011-10-03 22:00:23+00:00
 layout: post
 slug: practical-css3-tables-with-rounded-corners
 title: Practical CSS3 tables with rounded corners
+description: Check this article to see how to create beautiful CSS3 tables with rounded corners in a just few steps.
 wordpress_id: 3304
 categories:
 - CSS

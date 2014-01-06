@@ -5,6 +5,7 @@ date: 2011-06-01 14:00:26+00:00
 layout: post
 slug: css3-accordion
 title: Pure CSS3 accordion
+description: In this article you'll learn how to build a simple animated CSS3 accordion. A jQuery fallback for older browsers is also provided.
 wordpress_id: 2942
 categories:
 - CSS

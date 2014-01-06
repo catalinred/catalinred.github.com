@@ -5,6 +5,7 @@ date: 2012-05-28 05:00:45+00:00
 layout: post
 slug: css-parent-selector
 title: Thoughts on upcoming CSS parent selector
+description: Using the upcoming CSS parent selector, you won't need to rely on JavaScript to select a parent element.
 wordpress_id: 4664
 categories:
 - CSS

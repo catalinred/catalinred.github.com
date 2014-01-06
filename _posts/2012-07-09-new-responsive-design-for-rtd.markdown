@@ -5,6 +5,7 @@ date: 2012-07-09 05:00:24+00:00
 layout: post
 slug: new-responsive-design-for-rtd
 title: New responsive design for RTD
+description: In this short article I'm presenting you the tools and techniques I used for redesigning my new responsive website.
 wordpress_id: 4986
 categories:
 - Miscellaneous

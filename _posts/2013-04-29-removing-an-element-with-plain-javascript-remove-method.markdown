@@ -5,6 +5,7 @@ date: 2013-04-29 05:00:21+00:00
 layout: post
 slug: removing-an-element-with-plain-javascript-remove-method
 title: Removing an element with the plain JavaScript remove() method
+description: Remove an element with the plain JavaScript remove() method available in the current DOM4 specs along with other mutation methods like append(), prepend(), before(), after() and replace().
 wordpress_id: 6329
 categories:
 - jQuery

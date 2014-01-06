@@ -5,6 +5,7 @@ date: 2011-04-17 21:01:31+00:00
 layout: post
 slug: how-to-create-slick-effects-with-css3-box-shadow
 title: How to create slick effects with CSS3 box-shadow
+description: Learn how to create awesome CSS3 shadows without actually needing Photoshop anymore.
 wordpress_id: 1689
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2009-11-01 23:01:52+00:00
 layout: post
 slug: 3d-typography-effect
 title: How to create 3D typography effect using Extrude&Bevel
+description: Use Illustrator and Photoshop to create a 3D typography effect.
 wordpress_id: 149
 categories:
 - Miscellaneous

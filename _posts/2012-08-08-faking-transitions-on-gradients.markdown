@@ -5,6 +5,7 @@ date: 2012-08-08 05:00:43+00:00
 layout: post
 slug: faking-transitions-on-gradients
 title: Faking transitions on gradients
+description: Check this article to learn about two interesting workarounds for faking transitions on background gradients.
 wordpress_id: 5149
 categories:
 - CSS

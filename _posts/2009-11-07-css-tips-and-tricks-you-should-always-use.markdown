@@ -5,6 +5,7 @@ date: 2009-11-07 17:53:26+00:00
 layout: post
 slug: css-tips-and-tricks-you-should-always-use
 title: 10 CSS tips and tricks you should always use
+description: Check this beginner's list for various CSS tips and tricks.
 wordpress_id: 206
 categories:
 - CSS

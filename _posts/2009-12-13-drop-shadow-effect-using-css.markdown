@@ -5,6 +5,7 @@ date: 2009-12-13 22:36:24+00:00
 layout: post
 slug: drop-shadow-effect-using-css
 title: Add drop shadow effect using CSS text-shadow property
+description: Check this article for various drop shadow effects using CSS3 text-shadow.
 wordpress_id: 360
 categories:
 - CSS

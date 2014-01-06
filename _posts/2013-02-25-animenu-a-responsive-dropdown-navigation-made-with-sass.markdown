@@ -5,6 +5,7 @@ date: 2013-02-25 06:00:10+00:00
 layout: post
 slug: animenu-a-responsive-dropdown-navigation-made-with-sass
 title: Animenu - a responsive dropdown navigation made with SASS
+description: Learn how to create a responsive dropdown navigation with SASS and Compass. The project is hosted also on GitHub.
 wordpress_id: 6032
 categories:
 - CSS

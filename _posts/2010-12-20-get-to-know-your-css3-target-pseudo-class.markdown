@@ -5,6 +5,7 @@ date: 2010-12-20 08:15:09+00:00
 layout: post
 slug: get-to-know-your-css3-target-pseudo-class
 title: Get to know your CSS3 :target pseudo-class
+description: Read more about the CSS3 :target pseudo-class and how to use it to enhance your designs.
 wordpress_id: 1823
 categories:
 - CSS

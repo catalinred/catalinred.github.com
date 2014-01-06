@@ -5,6 +5,7 @@ date: 2011-11-08 03:00:45+00:00
 layout: post
 slug: design-a-beautiful-css3-search-form
 title: Design a beautiful CSS3 search form
+description: In this article you will learn how to style a search form using the most exciting CSS3 features.
 wordpress_id: 3721
 categories:
 - CSS

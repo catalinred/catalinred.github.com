@@ -5,6 +5,7 @@ date: 2010-10-05 18:50:10+00:00
 layout: post
 slug: center-a-block-element-without-knowing-its-width-part-ii
 title: Center a block element without knowing its width - Part II
+description: Maybe one of the most tricky problem: center a block element without knowing its width. 
 wordpress_id: 560
 categories:
 - CSS

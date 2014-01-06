@@ -5,6 +5,7 @@ date: 2011-08-28 22:00:19+00:00
 layout: post
 slug: clearing-floats-nowadays
 title: Clearing floats nowadays
+description: In this article you'll see some effective solutions for clearing CSS floated elements.
 wordpress_id: 2462
 categories:
 - CSS

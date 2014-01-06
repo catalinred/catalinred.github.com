@@ -5,6 +5,7 @@ date: 2011-03-17 22:28:13+00:00
 layout: post
 slug: css3-dropdown-menu
 title: CSS3 dropdown menu
+description: Learn how to create an awesome CSS3 dropdown menu, without any additional JavaScript code.
 wordpress_id: 1947
 categories:
 - CSS

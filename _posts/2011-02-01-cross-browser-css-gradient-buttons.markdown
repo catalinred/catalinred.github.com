@@ -5,6 +5,7 @@ date: 2011-02-01 07:30:56+00:00
 layout: post
 slug: cross-browser-css-gradient-buttons
 title: Cross-browser CSS gradient buttons
+description: Read about how to create some cool CSS3 buttons with no images.
 wordpress_id: 2173
 categories:
 - CSS

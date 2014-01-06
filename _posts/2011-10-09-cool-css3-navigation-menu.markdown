@@ -5,6 +5,7 @@ date: 2011-10-09 22:00:14+00:00
 layout: post
 slug: cool-css3-navigation-menu
 title: Cool CSS3 navigation menu
+description: In this article you'll learn how to create a stylish navigation menu with CSS3. Additionally you can get the full code of a working example.
 wordpress_id: 3524
 categories:
 - CSS

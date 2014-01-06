@@ -5,6 +5,7 @@ date: 2012-07-17 05:00:52+00:00
 layout: post
 slug: designing-an-effective-pricing-table
 title: Designing an effective pricing table
+description: Read this article to find out how to design a simple and effective pricing table using CSS3 only.
 wordpress_id: 5017
 categories:
 - CSS

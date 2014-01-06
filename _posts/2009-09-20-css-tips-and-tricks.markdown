@@ -5,6 +5,7 @@ date: 2009-09-20 13:15:10+00:00
 layout: post
 slug: css-tips-and-tricks
 title: CSS tips and tricks, tutorials, templates
+description: Welcome to RedTeamDesign, a fast growing web development blog, targeted towards web designers and developers.
 wordpress_id: 3
 categories:
 - Miscellaneous

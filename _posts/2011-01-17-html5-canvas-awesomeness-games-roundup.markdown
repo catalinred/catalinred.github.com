@@ -5,6 +5,7 @@ date: 2011-01-17 07:35:37+00:00
 layout: post
 slug: html5-canvas-awesomeness-games-roundup
 title: HTML5 canvas awesomeness - games roundup
+description: Check this list with HTML5 canvas games and more.
 wordpress_id: 1997
 categories:
 - HTML5

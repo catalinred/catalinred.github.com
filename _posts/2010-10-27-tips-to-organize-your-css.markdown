@@ -5,6 +5,7 @@ date: 2010-10-27 14:42:32+00:00
 layout: post
 slug: tips-to-organize-your-css
 title: 7 tips to organize your CSS
+description: Read some simple and effective tips on how to organize your CSS files.
 wordpress_id: 1191
 categories:
 - CSS

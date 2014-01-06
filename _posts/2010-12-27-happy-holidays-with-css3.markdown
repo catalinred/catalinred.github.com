@@ -5,6 +5,7 @@ date: 2010-12-27 07:10:27+00:00
 layout: post
 slug: happy-holidays-with-css3
 title: Happy Holidays with CSS3
+description: RedTeamDesign wish you Happy Holidays. With CSS3, of course.
 wordpress_id: 1875
 categories:
 - CSS

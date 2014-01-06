@@ -5,6 +5,7 @@ date: 2012-12-10 06:00:11+00:00
 layout: post
 slug: css-diagonal-borders-still-not-rendering-properly-on-firefox
 title: CSS diagonal borders still not rendering properly on Firefox
+description: Read more about CSS diagonal borders rendering on Mozilla Firefox.
 wordpress_id: 5506
 categories:
 - CSS

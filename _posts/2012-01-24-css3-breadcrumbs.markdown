@@ -5,6 +5,7 @@ date: 2012-01-24 06:00:48+00:00
 layout: post
 slug: css3-breadcrumbs
 title: CSS3 breadcrumbs
+description: Read this tutorial to learn how to create your own cool CSS3 breadcrumbs. Pseudo-elements are also used here.
 wordpress_id: 4189
 categories:
 - CSS

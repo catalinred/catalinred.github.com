@@ -5,6 +5,7 @@ date: 2012-01-09 06:00:25+00:00
 layout: post
 slug: just-another-css3-menu
 title: Just another CSS3 menu
+description: In this article you'll learn how to create a simple and clean CSS3 menu in just a few steps.
 wordpress_id: 4105
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2012-09-10 05:00:06+00:00
 layout: post
 slug: how-to-create-triangle-shapes
 title: How to create triangle shapes
+description: Check this article to learn multiple ways to create triangle shapes for your designs including HTML5 canvas and SVG.
 wordpress_id: 5154
 categories:
 - CSS

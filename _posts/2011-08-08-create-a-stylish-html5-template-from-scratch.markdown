@@ -5,6 +5,7 @@ date: 2011-08-08 07:00:03+00:00
 layout: post
 slug: create-a-stylish-html5-template-from-scratch
 title: Create a stylish HTML5 template from scratch
+description: Check this article to see how to build a HTML5 template using the full power of CSS3.
 wordpress_id: 3158
 categories:
 - CSS

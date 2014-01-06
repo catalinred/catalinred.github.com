@@ -5,6 +5,7 @@ date: 2010-09-29 20:38:51+00:00
 layout: post
 slug: tools-to-optimize-images
 title: 8 tools to optimize your images
+description: Tools that can help you optimze images. Get rid of extra bytes and make your site faster!
 wordpress_id: 768
 categories:
 - Miscellaneous

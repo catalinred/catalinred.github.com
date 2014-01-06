@@ -5,6 +5,7 @@ date: 2010-05-05 18:05:19+00:00
 layout: post
 slug: outline-dotted-border-and-image-replacement-technique
 title: The outline dotted border and the image replacement technique
+description: Read more on the outline dotted border and the image replacement technique.
 wordpress_id: 563
 categories:
 - CSS

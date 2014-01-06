@@ -5,6 +5,7 @@ date: 2011-09-26 06:00:51+00:00
 layout: post
 slug: css3-tabs-with-beveled-corners
 title: CSS3 tabs with beveled corners
+description: Read about how to create good looking CSS3 tabs without any images. Additionally, check the demo page to get the code.
 wordpress_id: 3156
 categories:
 - CSS

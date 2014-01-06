@@ -5,6 +5,7 @@ date: 2011-09-04 22:00:28+00:00
 layout: post
 slug: just-another-awesome-css3-buttons
 title: Just some other awesome CSS3 buttons
+description: Read this article to learn how to create some cool CSS3 buttons in just a few steps. Pure CSS3 social buttons also included.
 wordpress_id: 3148
 categories:
 - CSS

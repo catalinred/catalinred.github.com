@@ -5,6 +5,7 @@ date: 2009-11-20 23:33:23+00:00
 layout: post
 slug: get-rid-of-safari-blue-input-outer-glow-once-and-for-all
 title: Get rid of Safari's blue input outer glow once and for all
+description: A quick solution for getting rid of Safari's blue input outer glow.
 wordpress_id: 260
 categories:
 - CSS

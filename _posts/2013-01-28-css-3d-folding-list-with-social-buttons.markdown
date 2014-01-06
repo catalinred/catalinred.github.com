@@ -5,6 +5,7 @@ date: 2013-01-28 06:00:44+00:00
 layout: post
 slug: css-3d-folding-list-with-social-buttons
 title: CSS 3D folding list with social buttons
+description: Draw users' attention by using CSS 3D transforms in order to simulate a folding list with social buttons.
 wordpress_id: 5898
 categories:
 - CSS

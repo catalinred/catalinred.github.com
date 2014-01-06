@@ -5,6 +5,7 @@ date: 2009-12-01 12:56:57+00:00
 layout: post
 slug: things-you-should-know-about-css-anatomy
 title: Things you should know about CSS anatomy
+description: Before anything else, learn more about CSS anatomy.
 wordpress_id: 288
 categories:
 - CSS

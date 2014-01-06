@@ -5,6 +5,7 @@ date: 2013-04-08 08:15:50+00:00
 layout: post
 slug: becoming-a-better-developer
 title: Thoughts on becoming a better developer
+description: Stay up-to-date with latest technology and development news, be part of the community and practice a lot. All these to become a better developer every day.
 wordpress_id: 6196
 categories:
 - Miscellaneous

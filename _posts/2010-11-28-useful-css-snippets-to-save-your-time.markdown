@@ -5,6 +5,7 @@ date: 2010-11-28 22:00:54+00:00
 layout: post
 slug: useful-css-snippets-to-save-your-time
 title: 11 useful CSS snippets to save your time
+description: Check some useful CSS snippets to save your time.
 wordpress_id: 1245
 categories:
 - CSS

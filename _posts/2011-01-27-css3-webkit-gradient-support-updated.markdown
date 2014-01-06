@@ -5,6 +5,7 @@ date: 2011-01-27 07:00:42+00:00
 layout: post
 slug: css3-webkit-gradient-support-updated
 title: CSS3 Webkit gradient support updated
+description: The CSS3 Webkit gradient syntax is getting a new look.
 wordpress_id: 1717
 categories:
 - CSS

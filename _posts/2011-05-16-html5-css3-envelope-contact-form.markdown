@@ -5,6 +5,7 @@ date: 2011-05-16 22:07:29+00:00
 layout: post
 slug: html5-css3-envelope-contact-form
 title: HTML5 & CSS3 envelope contact form
+description: In this article you'll learn how to create a beautiful HTML5 & CSS3 contact form.
 wordpress_id: 2818
 categories:
 - CSS

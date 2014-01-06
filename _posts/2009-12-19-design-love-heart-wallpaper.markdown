@@ -5,6 +5,7 @@ date: 2009-12-19 20:20:57+00:00
 layout: post
 slug: design-love-heart-wallpaper
 title: How to design a love heart wallpaper
+description: How to design a love heart wallpaper using Photoshop's Pen Tool.
 wordpress_id: 400
 categories:
 - Miscellaneous

@@ -5,6 +5,7 @@ date: 2011-04-25 21:10:52+00:00
 layout: post
 slug: how-to-solve-common-ie-bugs
 title: How to solve common IE bugs
+description: Read more about how to solve Internet Explorer common bugs.
 wordpress_id: 1068
 categories:
 - CSS

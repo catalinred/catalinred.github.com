@@ -5,6 +5,7 @@ date: 2011-10-16 23:00:35+00:00
 layout: post
 slug: image-map-with-css3-jquery-tooltips
 title: Image map with CSS3 & jQuery tooltips
+description: Learn how to create your own CSS3 & jQuery image map with pins and tooltips. Also, you can get a demo example with the result.
 wordpress_id: 3504
 categories:
 - CSS

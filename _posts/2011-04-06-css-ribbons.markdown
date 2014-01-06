@@ -5,6 +5,7 @@ date: 2011-04-06 22:46:31+00:00
 layout: post
 slug: css-ribbons
 title: CSS ribbons
+description: Read this article to learn how to create beautiful CSS ribbons, without any images.
 wordpress_id: 2522
 categories:
 - CSS

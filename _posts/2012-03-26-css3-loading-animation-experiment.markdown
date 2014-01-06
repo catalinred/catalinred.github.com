@@ -5,6 +5,7 @@ date: 2012-03-26 05:00:18+00:00
 layout: post
 slug: css3-loading-animation-experiment
 title: CSS3 loading animation experiment
+description: In this article you'll see an experiment about how to create a simple CSS3 loading animation.
 wordpress_id: 4423
 categories:
 - CSS

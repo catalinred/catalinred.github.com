@@ -5,6 +5,7 @@ date: 2010-11-08 16:00:31+00:00
 layout: post
 slug: png8-alpha-transparency-using-adobe-fireworks
 title: PNG8 alpha transparency using Adobe Fireworks
+description: Read more on PNG8 alpha transparency using Adobe Fireworks.
 wordpress_id: 771
 categories:
 - Miscellaneous

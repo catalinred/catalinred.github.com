@@ -5,6 +5,7 @@ date: 2011-04-27 23:40:07+00:00
 layout: post
 slug: css3-tooltips
 title: CSS3 tooltips
+description: In this article you'll learn how to create your own CSS3 tooltips with no images or JavaScript. Demo example is included.
 wordpress_id: 2643
 categories:
 - CSS

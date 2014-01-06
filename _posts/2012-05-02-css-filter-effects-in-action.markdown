@@ -5,6 +5,7 @@ date: 2012-05-02 05:00:45+00:00
 layout: post
 slug: css-filter-effects-in-action
 title: CSS filter effects in action
+description: In this article we’ll be using CSS filter effects and the CSS3 :not selector to create a small image gallery.
 wordpress_id: 4562
 categories:
 - CSS

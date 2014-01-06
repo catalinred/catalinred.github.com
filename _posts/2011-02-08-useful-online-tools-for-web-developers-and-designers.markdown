@@ -5,6 +5,7 @@ date: 2011-02-08 07:26:55+00:00
 layout: post
 slug: useful-online-tools-for-web-developers-and-designers
 title: 11 useful online tools for web developers and designers
+description: Just some useful online tools for web developers and designers.
 wordpress_id: 2222
 categories:
 - CSS

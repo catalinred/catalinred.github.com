@@ -5,6 +5,7 @@ date: 2013-03-07 07:50:52+00:00
 layout: post
 slug: horizontal-centering-using-css-fit-content-value
 title: Horizontal centering using CSS fit-content value
+description: Read about an alternative approach on horizontal centering using the new CSS fit-content value.
 wordpress_id: 6137
 categories:
 - CSS

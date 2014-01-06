@@ -5,6 +5,7 @@ date: 2011-12-27 03:00:37+00:00
 layout: post
 slug: awesome-css3-animated-header
 title: Awesome CSS3 animated header
+description: In this article you will learn how to create an awesome CSS3 animated header using CSS3 keyframes.
 wordpress_id: 4025
 categories:
 - CSS

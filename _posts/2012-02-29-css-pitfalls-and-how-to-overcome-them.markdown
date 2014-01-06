@@ -5,6 +5,7 @@ date: 2012-02-29 06:00:04+00:00
 layout: post
 slug: css-pitfalls-and-how-to-overcome-them
 title: CSS pitfalls and how to overcome them
+description: Learn about common CSS pitfalls and how to overcome them using simple and effective tips and tricks.
 wordpress_id: 4187
 categories:
 - CSS

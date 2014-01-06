@@ -5,6 +5,7 @@ date: 2012-03-12 13:00:03+00:00
 layout: post
 slug: css3-signup-form
 title: CSS3 signup form
+description: Check this article to learn how to design a clean and attractive CSS3 signup form.
 wordpress_id: 4390
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2010-10-19 19:08:40+00:00
 layout: post
 slug: free-text-editors-tools-for-developers
 title: 9 FREE text editors tools for developers
+description: Check some free text editors that can help you develop your websites.
 wordpress_id: 873
 categories:
 - CSS

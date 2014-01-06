@@ -5,6 +5,7 @@ date: 2010-12-13 13:28:59+00:00
 layout: post
 slug: 10-outstanding-css3-animation-demos
 title: 10 Outstanding CSS3 animation demos
+description: CSS3 is definitely awesome. Check this article's list with some outstanding CSS3 animation demos.
 wordpress_id: 1481
 categories:
 - CSS

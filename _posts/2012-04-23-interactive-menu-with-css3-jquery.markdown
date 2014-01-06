@@ -5,6 +5,7 @@ date: 2012-04-23 05:00:37+00:00
 layout: post
 slug: interactive-menu-with-css3-jquery
 title: Interactive menu with CSS3 & jQuery
+description: In this article you'll learn how to create an interactive menu using CSS3 goodness and jQuery's power.
 wordpress_id: 4486
 categories:
 - CSS

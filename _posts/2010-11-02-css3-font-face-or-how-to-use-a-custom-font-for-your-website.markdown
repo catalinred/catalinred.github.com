@@ -5,6 +5,7 @@ date: 2010-11-02 18:00:43+00:00
 layout: post
 slug: css3-font-face-or-how-to-use-a-custom-font-for-your-website
 title: CSS3 font-face or how to use a custom font for your website
+description: Get rid of the common fonts and learn more about how to use a custom font for your website.
 wordpress_id: 1253
 categories:
 - CSS

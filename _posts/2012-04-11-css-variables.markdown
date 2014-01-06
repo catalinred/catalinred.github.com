@@ -5,6 +5,7 @@ date: 2012-04-11 05:00:41+00:00
 layout: post
 slug: css-variables
 title: CSS Variables Preview
+description: Read this article for a short introduction of CSS Variables.
 wordpress_id: 4453
 categories:
 - CSS

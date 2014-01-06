@@ -5,6 +5,7 @@ date: 2010-09-21 16:06:09+00:00
 layout: post
 slug: css-shorthand-tips
 title: 5 CSS shorthand tips and how to optimize CSS
+description: Read more about the CSS shorthand tips and how to optimize your CSS files.
 wordpress_id: 672
 categories:
 - CSS

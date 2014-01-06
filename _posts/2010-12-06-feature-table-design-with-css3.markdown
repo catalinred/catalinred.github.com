@@ -5,6 +5,7 @@ date: 2010-12-06 08:25:48+00:00
 layout: post
 slug: feature-table-design-with-css3
 title: Feature table design with CSS3
+description: Learn how to build a feature table design with CSS3.
 wordpress_id: 1721
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2011-03-01 12:11:49+00:00
 layout: post
 slug: inset-box-shadow-behavior-on-chrome-beta
 title: Inset box-shadow behavior on Chrome beta
+description: Read more about a strange behavior on Chrome beta version for the inset box-shadow.
 wordpress_id: 2371
 categories:
 - CSS

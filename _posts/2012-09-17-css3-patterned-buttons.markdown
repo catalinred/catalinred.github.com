@@ -5,6 +5,7 @@ date: 2012-09-17 05:00:29+00:00
 layout: post
 slug: css3-patterned-buttons
 title: CSS3 patterned buttons
+description: Check this article to see how to create some nice CSS3 patterned buttons.
 wordpress_id: 5151
 categories:
 - CSS

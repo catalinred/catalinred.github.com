@@ -4,7 +4,8 @@ comments: true
 date: 2012-06-26 05:00:01+00:00
 layout: post
 slug: notification-bubble-css3-keyframe-animation
-title: 'Notification bubble with CSS3 keyframe animation '
+title: Notification bubble with CSS3 keyframe animation
+description: In this article you'll learn how to animate a notification bubble every time its value is dynamically changed.
 wordpress_id: 4764
 categories:
 - CSS

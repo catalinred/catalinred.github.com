@@ -5,6 +5,7 @@ date: 2010-02-01 11:47:14+00:00
 layout: post
 slug: submit-form-on-enter-key-using-anchor
 title: Submit form on enter key using anchor
+description: Read more on how to submit a form on ENTER key using a link.
 wordpress_id: 498
 categories:
 - CSS

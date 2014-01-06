@@ -5,6 +5,7 @@ date: 2010-11-17 17:40:10+00:00
 layout: post
 slug: google-font-api-and-typekit-solutions-vs-font-face
 title: Google Font API and Typekit solutions VS @font-face
+description: Read more on Google Font API and Typekit solutions versus the pure CSS3 @font-face.
 wordpress_id: 1347
 categories:
 - CSS

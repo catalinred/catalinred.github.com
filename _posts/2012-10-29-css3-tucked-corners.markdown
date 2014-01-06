@@ -5,6 +5,7 @@ date: 2012-10-29 06:00:19+00:00
 layout: post
 slug: css3-tucked-corners
 title: CSS3 tucked corners
+description: Learn how to create and use CSS3 tucked corners even when you're using a pattern as background for the containing block in which the box live.
 wordpress_id: 5414
 categories:
 - CSS

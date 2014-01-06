@@ -5,6 +5,7 @@ date: 2013-05-13 05:00:12+00:00
 layout: post
 slug: dribbble-invites-giveaway
 title: Dribbble invites giveaway
+description: Join the best design community in the wild, show me your best work and you can win a Dribbble invite.
 wordpress_id: 6385
 categories:
 - Miscellaneous

@@ -5,6 +5,7 @@ date: 2013-07-29 05:00:00+00:00
 layout: post
 slug: dropdown-menu-concept
 title: Just another dropdown menu concept
+description: Check this article to read about another CSS3 dropdown menu concept.
 wordpress_id: 6535
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2009-09-24 21:22:12+00:00
 layout: post
 slug: create-a-cool-wallpaper
 title: Create a cool wallpaper
+description: Use Photoshop's Pen Tool to create a neon effect wallpaper.
 wordpress_id: 23
 categories:
 - Miscellaneous

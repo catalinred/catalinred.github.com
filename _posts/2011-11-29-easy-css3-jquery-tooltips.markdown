@@ -5,6 +5,7 @@ date: 2011-11-29 04:00:38+00:00
 layout: post
 slug: easy-css3-jquery-tooltips
 title: Easy CSS3 & jQuery tooltips
+description: In this article you'll learn how to create awesome CSS3 & jQuery tooltips.
 wordpress_id: 3900
 categories:
 - CSS

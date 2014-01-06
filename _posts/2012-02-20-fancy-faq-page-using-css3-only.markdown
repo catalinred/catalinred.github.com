@@ -5,6 +5,7 @@ date: 2012-02-20 06:00:16+00:00
 layout: post
 slug: fancy-faq-page-using-css3-only
 title: Fancy FAQ page using CSS3 only
+description: In this article I'll learn how to create a fancy FAQ page using CSS3 only, no JavaScript.
 wordpress_id: 4298
 categories:
 - CSS

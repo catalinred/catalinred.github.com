@@ -5,6 +5,7 @@ date: 2012-12-17 06:00:11+00:00
 layout: post
 slug: tips-and-tricks-on-sublime-text-2-your-favorite-code-editor
 title: Tips on Sublime Text 2 - your favorite code editor
+description: Extend Sublime Text 2 functionality with useful packages to improve the way you write code.
 wordpress_id: 5573
 categories:
 - Miscellaneous

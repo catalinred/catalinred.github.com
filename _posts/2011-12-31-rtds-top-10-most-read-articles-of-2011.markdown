@@ -5,6 +5,7 @@ date: 2011-12-31 02:00:48+00:00
 layout: post
 slug: rtds-top-10-most-read-articles-of-2011
 title: RTD's top 10 most read articles of 2011
+description: Check my top 10 HTML5 and CSS3 posts of 2011.
 wordpress_id: 4071
 categories:
 - CSS

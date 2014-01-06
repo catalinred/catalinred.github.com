@@ -5,6 +5,7 @@ date: 2011-05-09 21:01:29+00:00
 layout: post
 slug: before-after-pseudo-elements
 title: The :before and :after pseudo-elements syntax
+description: Clarify some common misunderstandings regarding the :before and :after pseudo-elements syntax.
 wordpress_id: 2535
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2010-07-07 20:12:40+00:00
 layout: post
 slug: web-usability-tips-for-your-website
 title: 10 Web Usability tips for your website
+description: A beginner's list with web usability tips for your website.
 wordpress_id: 565
 categories:
 - Miscellaneous

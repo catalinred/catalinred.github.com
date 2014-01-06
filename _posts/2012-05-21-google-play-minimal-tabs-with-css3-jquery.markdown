@@ -5,6 +5,7 @@ date: 2012-05-21 05:00:34+00:00
 layout: post
 slug: google-play-minimal-tabs-with-css3-jquery
 title: Google Play's minimal tabs with CSS3 & jQuery
+description: In this article you'll learn how to build some new CSS3 & jQuery tabs inspired by Google Play's design.
 wordpress_id: 4617
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2012-01-31 06:00:19+00:00
 layout: post
 slug: css3-jquery-folder-tabs
 title: CSS3 & jQuery folder tabs
+description: Check this article to learn how to create some cool folder tabs using CSS3 and jQuery.
 wordpress_id: 4230
 categories:
 - CSS

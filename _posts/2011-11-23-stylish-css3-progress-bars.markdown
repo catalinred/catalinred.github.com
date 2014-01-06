@@ -5,6 +5,7 @@ date: 2011-11-23 06:30:51+00:00
 layout: post
 slug: stylish-css3-progress-bars
 title: Stylish CSS3 progress bars
+description: In this article you’ll learn how to create stylish and animated progress bars using CSS3.
 wordpress_id: 3152
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2012-06-20 05:00:57+00:00
 layout: post
 slug: css-generated-content-replaced-elements
 title: CSS generated content on replaced elements
+description: Read more about the HTML replaced elements and pseudo-elements. Also, find out more about WebKit Shadow DOM and its advantages.
 wordpress_id: 4752
 categories:
 - CSS

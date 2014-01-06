@@ -5,6 +5,7 @@ date: 2011-10-31 02:00:47+00:00
 layout: post
 slug: simple-and-effective-dropdown-login-box
 title: Simple and effective dropdown login box
+description: This article presents a simple and effective CSS3 & jQuery dropdown login box with a working example.
 wordpress_id: 3301
 categories:
 - CSS

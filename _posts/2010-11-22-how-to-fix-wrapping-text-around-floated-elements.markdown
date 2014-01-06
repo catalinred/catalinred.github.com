@@ -5,6 +5,7 @@ date: 2010-11-22 17:18:13+00:00
 layout: post
 slug: how-to-fix-wrapping-text-around-floated-elements
 title: How to fix wrapping text around floated elements
+description: If you always wondered how to fix flowing text around floated elements, then this article is for you.
 wordpress_id: 774
 categories:
 - CSS

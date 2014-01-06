@@ -5,6 +5,7 @@ date: 2010-11-14 15:58:08+00:00
 layout: post
 slug: css-gradients-quick-tutorial
 title: CSS gradients - quick tutorial
+description: Create simple CSS3 gradients with no hassle. Get rid of images and start using gradients now!
 wordpress_id: 1443
 categories:
 - CSS

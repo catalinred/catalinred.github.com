@@ -5,6 +5,7 @@ date: 2011-11-14 12:00:00+00:00
 layout: post
 slug: css3-animated-dropdown-menu
 title: CSS3 animated dropdown menu
+description: Learn how to create an awesome CSS3 animated dropdown menu. Along with the HTML and CSS code you will also find a working example.
 wordpress_id: 3784
 categories:
 - CSS

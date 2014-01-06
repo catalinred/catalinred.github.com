@@ -5,6 +5,7 @@ date: 2013-12-09 06:00:57+00:00
 layout: post
 slug: beginner-javascript-gotchas
 title: A beginner's list of JavaScript gotchas
+description: This article contains a list of some JavaScript gotchas that every new JavaScript developer might find it useful.
 wordpress_id: 6718
 categories:
 - jQuery

@@ -4,7 +4,8 @@ comments: true
 date: 2013-09-16 05:00:43+00:00
 layout: post
 slug: position-sticky-might-be-the-next-best-thing
-title: 'position: sticky might be the next best thing'
+title: position: sticky might be the next best thing
+description: Check current browser support for sticky positioning and how this new CSS feature can enhance the user experience without any JavaScript.
 wordpress_id: 6648
 categories:
 - CSS

@@ -5,6 +5,7 @@ date: 2011-09-18 22:00:04+00:00
 layout: post
 slug: slick-login-form-with-html5-css3
 title: Slick login form with HTML5 & CSS3
+description: Check this article to find out how to create a HTML5 and CSS3 powered login form without any additional images or JavaScript.
 wordpress_id: 3154
 categories:
 - CSS

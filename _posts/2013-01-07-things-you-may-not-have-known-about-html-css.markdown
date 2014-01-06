@@ -5,6 +5,7 @@ date: 2013-01-07 07:06:36+00:00
 layout: post
 slug: things-you-may-not-have-known-about-html-css
 title: Things you may not have known about HTML & CSS
+description: In this article you'll find some random things and facts you may not have known about HTML & CSS.
 wordpress_id: 5605
 categories:
 - CSS

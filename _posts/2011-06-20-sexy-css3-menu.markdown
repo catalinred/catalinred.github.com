@@ -5,6 +5,7 @@ date: 2011-06-20 06:30:16+00:00
 layout: post
 slug: sexy-css3-menu
 title: Sexy CSS3 menu
+description: Check this article to learn how to create a good looking CSS3 menu using also graceful degradation for older browsers.
 wordpress_id: 2998
 categories:
 - CSS

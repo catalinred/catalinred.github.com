@@ -5,6 +5,7 @@ date: 2013-07-01 05:00:05+00:00
 layout: post
 slug: making-html-dropdowns-not-suck
 title: Making HTML dropdowns not suck
+description: Customize the look of HTML dropdowns using some cutting edge techniques like @supports, pointer-events and appearance.
 wordpress_id: 6410
 categories:
 - CSS

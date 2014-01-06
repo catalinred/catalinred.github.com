@@ -5,6 +5,7 @@ date: 2011-04-23 22:19:18+00:00
 layout: post
 slug: dribbble-invite
 title: Put me in, coach!
+description: On getting a Dribbble invite.
 wordpress_id: 2729
 categories:
 - Miscellaneous

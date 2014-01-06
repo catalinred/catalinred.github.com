@@ -5,6 +5,7 @@ date: 2011-12-20 03:00:47+00:00
 layout: post
 slug: meet-the-css4-selectors
 title: Meet the CSS4 selectors
+description: In this article you'll find out some interesting stuff about the CSS4 selectors.
 wordpress_id: 3981
 categories:
 - CSS

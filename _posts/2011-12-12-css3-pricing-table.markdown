@@ -5,6 +5,7 @@ date: 2011-12-12 02:00:01+00:00
 layout: post
 slug: css3-pricing-table
 title: CSS3 pricing table
+description: In this article you'll learn how to build an awesome CSS3 pricing table, with no images and minimal HTML markup.
 wordpress_id: 3938
 categories:
 - CSS

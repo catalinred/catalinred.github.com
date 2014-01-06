@@ -5,6 +5,7 @@ date: 2011-02-18 07:46:16+00:00
 layout: post
 slug: how-to-create-a-cool-and-usable-css3-search-box
 title: How to create a cool and usable CSS3 search box
+description: Learn how create a cool CSS3 search box using the HTML5 placeholder attribute. This article contains also a jQuery placeholder fallback.
 wordpress_id: 2299
 categories:
 - CSS

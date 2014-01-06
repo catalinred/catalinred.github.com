@@ -5,6 +5,7 @@ date: 2012-01-16 06:00:46+00:00
 layout: post
 slug: cool-headings-with-pseudo-elements
 title: Cool headings with pseudo-elements
+description: In this article you'll learn how to create some cool headings effects using CSS pseudo-elements.
 wordpress_id: 4152
 categories:
 - CSS
