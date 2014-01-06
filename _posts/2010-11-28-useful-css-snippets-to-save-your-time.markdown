@@ -214,6 +214,7 @@ font: italic small-caps bold 12px/20px Arial, Helvetica;
 ## 11.Change text selection style
 
 ![CSS3 text selection](http://www.red-team-design.com/wp-content/uploads/2010/11/text-selection.png)
+
 If your get tired of the default blue background selection and white text when you highlight text on a browser then you can try the following.
 
 {% highlight css %}

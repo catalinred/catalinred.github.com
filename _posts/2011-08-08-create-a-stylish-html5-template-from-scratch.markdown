@@ -174,7 +174,7 @@ _Pretty semantic code._
 
 The jQuery code who animates this menu:
 
-{% highlight js %}
+{% highlight html %}
 <script>
     function initMenu() {
       $('#menu ul').hide(); // Hide the submenu

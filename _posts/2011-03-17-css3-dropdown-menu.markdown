@@ -226,7 +226,7 @@ The sub-menu is displayed when hovering on a `li` element. As you already know, 
 
 Although, at the beginning of this article I said "without any Javascript", in order maintain accessibility also for IE6, please allow me to add some scripting code:
 
-{% highlight js %}
+{% highlight html %}
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
     $(function() {

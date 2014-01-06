@@ -31,7 +31,7 @@ If you're designing with [usability](http://www.red-team-design.com/web-usabilit
 
 For this experiment I'll use one of the new HTML5 elements, it's about the `section` element. When using new HTML5 elements like this one, for older browsers, you need to use the following trick:
 
-{% highlight js %}
+{% highlight html %}
 <script>document.createElement('section');</script>
 {% endhighlight %}
 

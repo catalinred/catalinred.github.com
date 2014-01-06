@@ -129,7 +129,7 @@ Below you'll find the CSS lines necessary for creating these tabs. Also, the dem
 
 There is nothing to add here, it's similar to my previous tabs article.
 
-{% highlight js %}
+{% highlight html %}
 <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script>
 $(document).ready(function() {

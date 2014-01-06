@@ -71,7 +71,7 @@ We'll need some jQuery to manipulate the folding list and [Modernizr](http://mod
 
 As you can see below, the code will be executed only if `csstransforms3d` HTML class is added by Modernizr. The advantage here is that the rest of jQuery code will not be executed on browsers that do not support CSS 3D transforms. 
 
-{% highlight js %}
+{% highlight html %}
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script>

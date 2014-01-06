@@ -57,7 +57,7 @@ Just for compatibility reasons. IE6 has a problem with the `:hover` pseudo-class
 
 If you want to use them, and anchors are not an option for you, then you can use this to trigger the tooltips for [IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs):
 
-{% highlight js %}
+{% highlight html %}
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
   $(function() {

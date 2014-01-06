@@ -5,6 +5,7 @@ date: 2014-02-01 08:00
 layout: post
 slug: moving-from-wordpress-to-jekyll
 title: Moving from Wordpress to Jekyll
+description: test description
 categories:
 - Miscellaneous
 ---

@@ -174,6 +174,8 @@ Now if you want this table to degrade gracefully for IE you must add different c
 
 I also made an example without pseudo-selectors and bellow you can see a demo or download files.
 
-[View 2nd example Demo](/wp-content/uploads/2010/12/feature-table-ie.html)[Download 2nd example Files](/wp-content/uploads/2010/12/feature-table-ie.zip)
+[View 2nd example Demo](/wp-content/uploads/2010/12/feature-table-ie.html)
+
+[Download 2nd example Files](/wp-content/uploads/2010/12/feature-table-ie.zip)
 
 Hope you enjoyed this article and looking forward for your opinions regarding it!
