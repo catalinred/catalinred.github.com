@@ -20,7 +20,7 @@ I've read a lot of inspiring articles on moving from WordPress to Jekyll but the
 
 I'm still a big fan of WordPress, I'm still using it for other projects, I'll still recommend to others. But this time I just wanted something different. Lately I thought a lot about it and this move was part of my New Year's resolutions.
 
-I knew from the start what moving from WordPress to Jekyll will involve, so I made my homeworks, some things worked as expected and some other not but in the end I made it. This article is a plain HTML file generated with Jekyll and it was written using Markdown. Phew!
+From the start, I knew what moving from WordPress to Jekyll will involve, so I made my homeworks, some things worked as expected and some other not but in the end I made it. This article is a plain HTML file generated with Jekyll and it was written using Markdown. Phew!
 
 ## Running Jekyll
 
