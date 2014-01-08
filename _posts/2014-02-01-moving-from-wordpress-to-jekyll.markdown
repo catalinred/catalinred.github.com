@@ -10,12 +10,13 @@ categories:
 - Miscellaneous
 ---
 
-I've read a lot of inspiring articles on moving from WordPress to Jekyll but the one you're reading now is a bit different, this one is merely mine. Jekyll might not be the easiest way to blog but it's one of the most challenging for sure. *Blogging Like a Hacker*, by its creator, [Tom Preston-Werner](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), might be the best title ever that describes Jekyll.
+My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a pretty good question and the I think the shortest answer is to learn.
 
 <!-- more -->
 
-## But... why?
-Yep, that's a pretty good question. Why would you want to move from WordPress to Jekyll when everything works just fine? The short answer is to learn. Obviously, I'm not a hacker but my website needed a fresh new look, and what better chance to **learn a new approach** than this?
+## Still... why?
+
+I've read a lot of inspiring articles on moving from WordPress to Jekyll but the one you're reading now is a bit different, this one is merely mine. Jekyll might not be the easiest way to blog but it's one of the most challenging for sure. *Blogging Like a Hacker*, by its creator, [Tom Preston-Werner](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), might be the best title ever that describes Jekyll. Don't get me wrong, I'm not a hacker! :)
 
 I'm still a big fan of WordPress, I'm still using it for other projects, I'll still recommend to others. But this time I just wanted something different. Lately I thought a lot about it and this move was part of my New Year's resolutions.
 
