@@ -1,0 +1,159 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+<title>Happy Holidays with CSS3 demo - RedTeamDesign</title>
+<link href='http://fonts.googleapis.com/css?family=Sniglet:800' rel='stylesheet' type='text/css'>
+<style>
+html
+{
+    height: 100%;
+    background-color: #869EA3;
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+                        color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+                        color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+                        color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+                        to(transparent));
+    background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+                        transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+                        transparent 75%, transparent);    
+    -webkit-background-size: 400px 400px;
+    -moz-background-size: 400px 400px;
+    background-size: 400px 400px;
+}
+
+#wrapper
+{
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -400px;
+    overflow: hidden;  
+    background: #0093d8;
+    background: -moz-linear-gradient(top, #0093d8, #fff);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fff),color-stop(1, #0093d8));
+    -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);    
+}
+
+#wrapper:before
+{
+    content: '*';
+    font: bold 1000px arial;
+    color: #fff;
+    color: rgba(255,255,255,0.1);
+    position: absolute;
+    top: -200px;
+    left: -100px
+}
+
+#snow
+{
+    position: absolute;
+    z-index: 5;
+    top: 400px;
+    left: 50%;
+    margin-left: -1000px;
+    width: 2000px;
+    height: 2000px;
+    background: #fff;
+    -moz-border-radius: 2000px;
+    border-radius: 2000px;
+}
+
+#snow:before
+{
+    content: '';
+    position: absolute;
+    left: 400px;
+    height: 2000px;
+    width: 2000px;
+    background: #f2f2f2;
+    -moz-border-radius: 2000px;
+    border-radius: 2000px;
+}
+
+#snow:after
+{
+    content: '';
+    position: absolute;
+    right: 400px;
+    height: 2000px;
+    width: 2000px;
+    background: #eaeaea;    
+    -moz-border-radius: 2000px;
+    border-radius: 2000px; 
+}
+
+h1
+{
+    font: bold 120px/95px 'Sniglet', Arial;
+    color: #fafafa;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15), 0 10px 0 #cfeaed, -5px -5px 10px #4ea5b1;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+}
+
+#tree
+{
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid green;
+    height: 0;
+    width: 0;
+    position: absolute;
+    right: 50px;
+    top: 240px;
+}
+
+#tree:before
+{
+    content:'';
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    border-bottom: 90px solid green;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -90px;
+    top: 30px;
+}
+
+#tree:after
+{
+    content:'';
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid green;
+    height: 0;
+    width: 0;
+    position: absolute;
+    left: -120px;
+    top: 60px;
+}
+</style>
+
+</head>
+<body>
+    
+<div id="wrapper">
+    <div id="snow"></div>
+    <div id="tree"></div>
+    <h1>Happy Holidays</h1>
+</div>
+
+</body>
+</html>

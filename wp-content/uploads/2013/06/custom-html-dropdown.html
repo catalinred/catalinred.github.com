@@ -1,0 +1,389 @@
+<!doctype html>
+<html>
+<head>
+    <title>Making HTML dropdowns not suck demo</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width" />    
+	<style>
+		/*
+			B.E.M Naming convention:
+			(Block) .custom-dropdown			= The main component
+			(Element) .custom-dropdown__select	= Descendant of .custom-dropdown
+			(Modifier) .custom-dropdown--*		= Different state of .custom-dropdown
+		*/
+
+		.custom-dropdown--large {
+			font-size: 1.5em;
+		}
+
+		.custom-dropdown--small {
+			font-size: .7em;
+		}
+
+		.custom-dropdown__select{
+			font-size: inherit; /* inherit size from .custom-dropdown */
+			padding: .5em; /* add some space*/
+			margin: 0; /* remove default margins */
+		}
+
+		.custom-dropdown__select--white {
+			background-color: #fff;
+			color: #444;    
+		}	
+		
+		.custom-dropdown__select--emerald {
+			background-color: #20b390;
+			color: #fff;    
+		}				
+
+		.custom-dropdown__select--red {
+			background-color: #d53a22;
+			color: #fff;
+		}
+
+		@supports (pointer-events: none) and
+				  ((-webkit-appearance: none) or
+				  (-moz-appearance: none) or
+				  (appearance: none)) {
+
+			
+			h2+p {
+				color: green; /* Demo only */
+			}
+
+			.custom-dropdown {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.custom-dropdown__select {
+				padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */				
+				border: 0;
+				border-radius: 3px;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				appearance: none;    
+			}
+
+			.custom-dropdown::before,
+			.custom-dropdown::after {
+				content: "";
+				position: absolute;
+				pointer-events: none;
+			}
+
+			.custom-dropdown::after { /*  Custom dropdown arrow */
+				content: "\25BC";
+				height: 1em;
+				font-size: .625em;
+				line-height: 1;
+				right: 1.2em;
+				top: 50%; margin-top: -.5em;
+			}
+
+			.custom-dropdown::before { /*  Custom dropdown arrow cover */
+				width: 2em;
+				right: 0; top: 0; bottom: 0;
+				border-radius: 0 3px 3px 0;
+			}
+
+			.custom-dropdown__select[disabled] {
+				color: rgba(0,0,0,.3);
+			}
+
+			.custom-dropdown.custom-dropdown--disabled::after {
+				color: rgba(0,0,0,.1);
+			}
+
+			/* White dropdown style */
+			.custom-dropdown--white::before {
+				top: .5em; bottom: .5em;
+				background-color: #fff;
+				border-left: 1px solid rgba(0,0,0,.1);
+			}
+
+			.custom-dropdown--white::after {
+				color: rgba(0,0,0,.9);
+			}					
+
+			/* Emerald dropdown style */
+			.custom-dropdown--emerald::before {
+				background-color: #1aa181;
+			}
+
+			.custom-dropdown--emerald::after {
+				color: rgba(0,0,0,.4);
+			}
+
+
+			/* Red dropdown style */
+			.custom-dropdown--red::before {
+				background-color: #d53a22;
+			}
+
+			.custom-dropdown--red::after {
+				color: rgba(0,0,0,.4);
+			}
+
+			/* FF only temporary & ugly fixes */
+			/* the "appearance: none" applied on select still shows a dropdown arrow on Firefox */
+			/* https://bugzilla.mozilla.org/show_bug.cgi?id=649849 */
+			@-moz-document url-prefix() {
+				.custom-dropdown__select 						 { padding-right: .9em }
+				.custom-dropdown--large .custom-dropdown__select { padding-right: 1.3em }
+				.custom-dropdown--small .custom-dropdown__select { padding-right: .5em }
+			}	
+
+		}
+
+        /* Demo only */
+        body {
+            background: #1C1E2B;
+            color: #fff;
+            text-align: center;
+            margin: 100px 0;
+            font-family: Arial, Helvetica;
+        }
+
+        #about {
+            margin: 50px 0 0 0;
+            color: #eee;
+        }
+        
+        #about a {
+            color: #777;
+        }
+
+        .custom-dropdown {
+            margin: 10px;
+            display: inline-block;
+        }        
+	</style>
+</head>
+<body>
+
+<h2>Making HTML dropdowns not suck demo</h2>
+<p><b>If this row isn't green then your browser does not support CSS @supports.</b></p>
+
+<br><br>
+  
+<span class="custom-dropdown custom-dropdown--white custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--white">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--white">
+    <select class="custom-dropdown__select custom-dropdown__select--white">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--white custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--white">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<br><br>    
+
+<span class="custom-dropdown custom-dropdown--white custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--white" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--white">
+    <select class="custom-dropdown__select custom-dropdown__select--white" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--white custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--white" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+<br><br><br><br>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+<span class="custom-dropdown custom-dropdown--emerald custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--emerald">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--emerald custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<br><br>    
+
+<span class="custom-dropdown custom-dropdown--emerald custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--emerald">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--emerald custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--emerald" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+<br><br><br><br>
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+<span class="custom-dropdown custom-dropdown--red custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--red">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--red">
+    <select class="custom-dropdown__select custom-dropdown__select--red">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--red custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--red">
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<br><br>    
+
+<span class="custom-dropdown custom-dropdown--red custom-dropdown--large">
+    <select class="custom-dropdown__select custom-dropdown__select--red" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--red">
+    <select class="custom-dropdown__select custom-dropdown__select--red" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<span class="custom-dropdown custom-dropdown--red custom-dropdown--small">
+    <select class="custom-dropdown__select custom-dropdown__select--red" disabled>
+        <option>The Shawshank Redemption</option>
+        <option>The Godfather</option>
+        <option>Pulp Fiction</option>
+        <option>The Good, the Bad and the Ugly</option>
+        <option>12 Angry Men</option>
+    </select>
+</span>
+
+<p id="about">Back to <a href="http://www.red-team-design.com/making-html-dropdowns-not-suck">article</a> / Follow me on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+<script>
+(function(){
+	var customSelects = document.querySelectorAll(".custom-dropdown__select");
+	for(var i=0; i<customSelects.length; i++){
+		if (customSelects[i].hasAttribute("disabled")){
+			customSelects[i].parentNode.className += " custom-dropdown--disabled";
+		}
+	}	
+})()
+</script>
+
+<!-- AdPacks.com Ad Code -->
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script>
+(function(){
+  var bsa = document.createElement('script');
+     bsa.async = true;
+     bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+
+</body>
+</html>

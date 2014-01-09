@@ -19,15 +19,15 @@ You've seen triangles everywhere: on [tooltips](http://www.red-team-design.com/e
 
 There are some different ways to build a triangle for your web designs and in this article you'll see how you can actually do that.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/08/webdesign-triangles.png)
+![](/wp-content/uploads/2012/08/webdesign-triangles.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/09/create-triangle-shapes-demo.html)
+[View demo](/wp-content/uploads/2012/09/create-triangle-shapes-demo.html)
 
 ## Encoded image
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/09/encoded-base64.png)
+![](/wp-content/uploads/2012/09/encoded-base64.png)
 
 Assuming you already created your custom triangle image and you want to save a valuable HTTP request, then converting it into a base64 string is the best solution.
 
@@ -48,7 +48,7 @@ Assuming you already created your custom triangle image and you want to save a v
 
 ## CSS borders
 
-![CSS border triangle](http://www.red-team-design.com/wp-content/uploads/2012/09/border-triangle.png)
+![CSS border triangle](/wp-content/uploads/2012/09/border-triangle.png)
 
 This is also a pretty common technique used on stuff like [tooltips](http://www.red-team-design.com/css3-tooltips) and [dropdowns](http://www.red-team-design.com/css3-dropdown-menu). Together with the above, this is one of my favorite methods for creating small and useful triangles.
 
@@ -67,7 +67,7 @@ This is also a pretty common technique used on stuff like [tooltips](http://www.
 
 ## HTML entity
 
-![HTML entity triangle](http://www.red-team-design.com/wp-content/uploads/2012/09/entity-triangle.png)
+![HTML entity triangle](/wp-content/uploads/2012/09/entity-triangle.png)
 
 If you read my [previous](http://www.red-team-design.com/simple-and-effective-dropdown-login-box) [articles](http://www.red-team-design.com/just-another-awesome-css3-buttons), then you've seen how this solution works. It's based on using characters from the available [Unicode characters list](http://en.wikipedia.org/wiki/List_of_Unicode_characters).
 
@@ -87,7 +87,7 @@ Besides using an entity, if you're already using an [iconic font](http://fortawe
 
 ## CSS rotated square
 
-![Cropped triangle with CSS](http://www.red-team-design.com/wp-content/uploads/2012/09/cropped-triangle.png)
+![Cropped triangle with CSS](/wp-content/uploads/2012/09/cropped-triangle.png)
 
 Basically, for this technique to work, you'll need two blocks. But, it's not mandatory to use two elements, so you can use an element with a pseudo-element for example.
 	

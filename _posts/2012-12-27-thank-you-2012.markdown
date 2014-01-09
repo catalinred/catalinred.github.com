@@ -17,7 +17,7 @@ tags:
 
 The New Year is coming and I have wrote this short post to **thank you all** sincerely for reading my articles. I think I should say it more often as well.
 
-![Thank you (2012)](http://www.red-team-design.com/wp-content/uploads/2012/12/thank-you.png)
+![Thank you (2012)](/wp-content/uploads/2012/12/thank-you.png)
 
 <!-- more -->
 
@@ -46,43 +46,43 @@ Since we're still here, as the end of the world is postponed, check the below li
 
 ### CSS3 loading animation experiment
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/03/css3-loading-animation.png)](http://www.red-team-design.com/css3-loading-animation-experiment)
+[![](/wp-content/uploads/2012/03/css3-loading-animation.png)](http://www.red-team-design.com/css3-loading-animation-experiment)
 
 ### Interactive menu with CSS3 & jQuery
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-preview.png)](http://www.red-team-design.com/interactive-menu-with-css3-jquery)
+[![](/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-preview.png)](http://www.red-team-design.com/interactive-menu-with-css3-jquery)
 
 ### CSS generated content on replaced elements
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/06/css-generated-content-replaced-elements.png)](http://www.red-team-design.com/css-generated-content-replaced-elements)
+[![](/wp-content/uploads/2012/06/css-generated-content-replaced-elements.png)](http://www.red-team-design.com/css-generated-content-replaced-elements)
 
 ### CSS3 patterned buttons
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons.png)](http://www.red-team-design.com/css3-patterned-buttons)
+[![](/wp-content/uploads/2012/09/css3-patterned-buttons.png)](http://www.red-team-design.com/css3-patterned-buttons)
 
 ### CSS3 tucked corners
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/10/css3-tucked-corners.jpg)](http://www.red-team-design.com/css3-tucked-corners)
+[![](/wp-content/uploads/2012/10/css3-tucked-corners.jpg)](http://www.red-team-design.com/css3-tucked-corners)
 
 ### CSS3 ordered list styles
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-styles.png)](http://www.red-team-design.com/css3-ordered-list-styles)
+[![](/wp-content/uploads/2012/02/css3-ordered-list-styles.png)](http://www.red-team-design.com/css3-ordered-list-styles)
 
 ### CSS3 breadcrumbs
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/01/css3-breadcrumbs.png)](http://www.red-team-design.com/css3-breadcrumbs)
+[![](/wp-content/uploads/2012/01/css3-breadcrumbs.png)](http://www.red-team-design.com/css3-breadcrumbs)
 
 ### CSS filter effects in action
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/05/css-filter-effects-in-action.png)](http://www.red-team-design.com/css-filter-effects-in-action)
+[![](/wp-content/uploads/2012/05/css-filter-effects-in-action.png)](http://www.red-team-design.com/css-filter-effects-in-action)
 
 ### Designing an effective pricing table
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/07/css3-pricing-table.png)](http://www.red-team-design.com/designing-an-effective-pricing-table)
+[![](/wp-content/uploads/2012/07/css3-pricing-table.png)](http://www.red-team-design.com/designing-an-effective-pricing-table)
 
 ### Google Play’s minimal tabs
 
-[![](http://www.red-team-design.com/wp-content/uploads/2012/05/minimal-tabs-css3-jquery.png)](http://www.red-team-design.com/google-play-minimal-tabs-with-css3-jquery)
+[![](/wp-content/uploads/2012/05/minimal-tabs-css3-jquery.png)](http://www.red-team-design.com/google-play-minimal-tabs-with-css3-jquery)
 
 ## New Year's resolutions
 

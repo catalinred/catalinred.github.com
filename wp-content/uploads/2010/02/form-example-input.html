@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Submit a form with input button - Red Team design</title>
+    <style>    
+    /*General styles*/
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background: #d7d3be url(http://www.red-team-design.com/wp-content/themes/red/images/back.jpg) left top;
+			font-family: 'trebuchet MS', Verdana, Arial;
+        }
+        
+        #main
+        {
+            width: 960px;
+            margin: 160px auto 0 auto;
+            background: white;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            padding: 30px;
+            border: 1px solid #adaa9f;
+            -moz-box-shadow: 0 2px 2px #9c9c9c;
+            -webkit-box-shadow: 0 2px 2px #9c9c9c;
+        }
+        
+    /*Form styles*/
+        form
+        {
+            width: 200px;
+            margin: 0 auto;
+        }
+        label
+        {
+            text-indent: -9999px;
+            height: 35px;
+            display: block;
+        }
+        
+        #name-label
+        {
+            background: url(http://www.red-team-design.com/wp-content/themes/red/images/form-example-images/sprite.png) no-repeat 0 -35px;
+        }
+        
+        #surname-label
+        {
+            background: url(http://www.red-team-design.com/wp-content/themes/red/images/form-example-images/sprite.png) no-repeat 0 -70px;
+        }
+        
+        input#surname, input#name
+        {
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            background: url(http://www.red-team-design.com/wp-content/themes/red/images/form-example-images/sprite.png) repeat-x left bottom;
+            border: 1px solid #c1c1c1;
+            padding: 7px 7px;
+            width: 170px;
+        }
+        
+        input#surname:focus, input#name:focus
+        {
+            background: white;
+            outline: none;
+        }
+        
+        #submit
+        {
+        background: url(http://www.red-team-design.com/wp-content/themes/red/images/form-example-images/sprite.png) repeat-x 0 0;
+        border: none;
+        display: block;
+        height: 35px;
+        width: 120px;
+        margin: 20px auto 0 auto;
+        cursor: pointer;
+        text-indent: -9999px;
+        overflow: hidden;
+        }      
+    </style>
+</head>
+<body>
+    <div id="main">
+
+	<h3>Submitting the form with regullary submit button:</h3>
+	
+    <form action="#" name="myform" onsubmit="alert('Form submitted using normal submit input');">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name">
+                
+            <label for="surname" id="surname-label">Surname</label>
+            <input type="text" id="surname">
+        
+            <input type="submit" id="submit">        
+    </form>
+    
+    </div>
+
+
+</body>
+</html>

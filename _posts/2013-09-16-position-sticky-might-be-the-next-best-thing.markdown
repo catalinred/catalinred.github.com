@@ -13,7 +13,7 @@ categories:
 
 As you may have read a while ago, `position: sticky` [landed in WebKit](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit). Now, the latest news is that Firefox Nightly supports sticky positioning too and that's definitely good news!
 
-![Sticky positioning](http://www.red-team-design.com/wp-content/uploads/2013/09/position-sticky.png)
+![Sticky positioning](/wp-content/uploads/2013/09/position-sticky.png)
 
 <!-- more -->
 
@@ -52,7 +52,7 @@ Note the `top` value which is mandatory as it lets the browser know the distance
 
 At this time, the browser support include: [Chrome Canary](http://updates.html5rocks.com/2012/08/Stick-your-landings-position-sticky-lands-in-WebKit) (unprefixed), [Firefox Nightly](https://air.mozilla.org/intern-presentation-ford/) (unprefixed) and [Safari 7](http://www.broken-links.com/2013/07/10/web-platform-technologies-in-safari-6-1-and-7/) (OS X Mavericks - TBA). Plus, Safari and Chrome on iOS 6 already support sticky positioning (with `-webkit-` prefix) which is pretty cool and it was a big surprise for me too, as I didn't know it before writing this. Yet, no good news regarding Android support.
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2013/09/sticky-positioning.html)
+[View demo](/wp-content/uploads/2013/09/sticky-positioning.html)
 
 Also, in order to view this feature in action on both Canary and Nightly versions, you need to check some settings first. For Chrome Canary, you need to type "about://flags" in your browser address bar and search for "Enable experimental WebKit features". On Firefox Nightly, type "about:config" and search for "layout.css.sticky.enabled", the last one should be set to true. 
 

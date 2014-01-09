@@ -20,17 +20,17 @@ HTML5 is certainly one of the latest buzzwords in the web community. It isn't so
 
 So, today we're going to build a HTML5 template using the full power of CSS3.
 
-![HTML5 template preview](http://www.red-team-design.com/wp-content/uploads/2011/08/html5-template.png)
+![HTML5 template preview](/wp-content/uploads/2011/08/html5-template.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/08/create-a-stylish-html5-template-from-scratch-demo.html)
+[View demo](/wp-content/uploads/2011/08/create-a-stylish-html5-template-from-scratch-demo.html)
 
 ## The HTML5 template design
 
 Here's a screenshot with the HTML5 template layout we're going to code:
 
-![Template preview](http://www.red-team-design.com/wp-content/uploads/2011/08/html5-template-preview.jpg)
+![Template preview](/wp-content/uploads/2011/08/html5-template-preview.jpg)
 
 As you may notice, the above HTML5 template is simple, minimal and stylish - thanks to the CSS3 awesome features. **Long live the CSS3!**
 
@@ -55,7 +55,7 @@ body {
 }
 {% endhighlight %}
 
-![base64 encoded image](http://www.red-team-design.com/wp-content/uploads/2011/08/encoded-image.png)
+![base64 encoded image](/wp-content/uploads/2011/08/encoded-image.png)
 
 _The encoded image is basically a pattern._
 
@@ -69,7 +69,7 @@ You just need an encoder for that, here's an [online encoding tool](http://webse
 
 
 
-![Basic HTML5 template structure](http://www.red-team-design.com/wp-content/uploads/2011/08/html5-structure.png)
+![Basic HTML5 template structure](/wp-content/uploads/2011/08/html5-structure.png)
 
 _Basic structure for the HTML5 template._
 
@@ -138,7 +138,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
             <section>
                 <h1><a href="http://www.red-team-design.com/css3-dropdown-menu">CSS3 Dropdown menu</a></h1>
                 <figure>
-                    <img src="http://www.red-team-design.com/wp-content/uploads/2011/03/css-menu.png" width="600" height="200" alt="CSS3 Dropdown menu">
+                    <img src="/wp-content/uploads/2011/03/css-menu.png" width="600" height="200" alt="CSS3 Dropdown menu">
                     <figcaption>Contains clean and accessible HTML structure. Javascript fix only for IE6.</figcaption>
                 </figure>
             </section>
@@ -148,7 +148,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
             <section>
                 <h1><a href="http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box">CSS3 search box</a></h1>
                 <figure>
-                    <img src="http://www.red-team-design.com/wp-content/uploads/2011/02/css3-searchbox.png" width="600" height="200" alt="CSS3 search box">
+                    <img src="/wp-content/uploads/2011/02/css3-searchbox.png" width="600" height="200" alt="CSS3 search box">
                     <figcaption>Modernizr's feature detection included.</figcaption>                    
                 </figure>
             </section>
@@ -158,7 +158,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
             <section>
                 <h1><a href="http://www.red-team-design.com/css3-tooltips">CSS3 tooltips</a></h1>
                 <figure>
-                    <img src="http://www.red-team-design.com/wp-content/uploads/2011/04/css3-tooltips.png" width="600" height="200" alt="CSS3 tooltips">
+                    <img src="/wp-content/uploads/2011/04/css3-tooltips.png" width="600" height="200" alt="CSS3 tooltips">
                     <figcaption>CSS3 gradients, box shadows, pseudo-elements.</figcaption>                    
                 </figure>
             </section>
@@ -170,7 +170,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
 
 ### The animated menu
 
-![HTML5 template menu preview](http://www.red-team-design.com/wp-content/uploads/2011/08/html5-template-menu.png)
+![HTML5 template menu preview](/wp-content/uploads/2011/08/html5-template-menu.png)
 _Pretty semantic code._
 
 The jQuery code who animates this menu:

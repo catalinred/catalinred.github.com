@@ -20,53 +20,53 @@ The canvas is a rectangular area within you can use Javascript to draw graphics 
 
 Today I'll share with you some awesome HTML5 games demos that show the HTML5 canvas potential.
 
-![Asteroids canvas game](http://www.red-team-design.com/wp-content/uploads/2011/01/asteroids.jpg)
+![Asteroids canvas game](/wp-content/uploads/2011/01/asteroids.jpg)
 
 <!-- more -->
 
 ### [Agent 008 Ball](http://agent8ball.com/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/8ball.jpg)](http://agent8ball.com/)
+[![](/wp-content/uploads/2011/01/8ball.jpg)](http://agent8ball.com/)
 
 ### [Z-Type](http://www.phoboslab.org/ztype/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/z-type.jpg)](http://www.phoboslab.org/ztype/)
+[![](/wp-content/uploads/2011/01/z-type.jpg)](http://www.phoboslab.org/ztype/)
 
 ### [RGB Invaders](http://10k.aneventapart.com/Uploads/392/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/rgb-invaders.jpg)](http://10k.aneventapart.com/Uploads/392/)
+[![](/wp-content/uploads/2011/01/rgb-invaders.jpg)](http://10k.aneventapart.com/Uploads/392/)
 
 ### [Pacman](http://arandomurl.com/2010/07/25/html5-pacman.html)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/pacman.jpg)]( http://arandomurl.com/2010/07/25/html5-pacman.html)
+[![](/wp-content/uploads/2011/01/pacman.jpg)]( http://arandomurl.com/2010/07/25/html5-pacman.html)
 
 ### [Spy Chase](http://www.wilfscorner.co.uk/games/spychasemobile/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/spy-chase.jpg)](http://www.wilfscorner.co.uk/games/spychasemobile/)
+[![](/wp-content/uploads/2011/01/spy-chase.jpg)](http://www.wilfscorner.co.uk/games/spychasemobile/)
 
 ### [Biolab Disaster](http://playbiolab.com/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/biolab-disaster.jpg)](http://playbiolab.com/)
+[![](/wp-content/uploads/2011/01/biolab-disaster.jpg)](http://playbiolab.com/)
 
 ### [Wolfenstein 3D](http://www.nihilogic.dk/labs/wolf/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/wolf.jpg)](http://www.nihilogic.dk/labs/wolf/)
+[![](/wp-content/uploads/2011/01/wolf.jpg)](http://www.nihilogic.dk/labs/wolf/)
 
 ### [Fred Jones in Adventureland](http://www.watersheep.org/~markh/html_canvas/game.html)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/fred-jones-in-adventureland.jpg)](http://www.watersheep.org/~markh/html_canvas/game.html)
+[![](/wp-content/uploads/2011/01/fred-jones-in-adventureland.jpg)](http://www.watersheep.org/~markh/html_canvas/game.html)
 
 ### [Asteroids](http://www.kevs3d.co.uk/dev/asteroids/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/asteroids.jpg)](http://www.kevs3d.co.uk/dev/asteroids/)
+[![](/wp-content/uploads/2011/01/asteroids.jpg)](http://www.kevs3d.co.uk/dev/asteroids/)
 
 ### [Crystal Galaxy](http://www.effectgames.com/effect/games/crystalgalaxy/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/crystal-galaxy.jpg)](http://www.effectgames.com/effect/games/crystalgalaxy/)
+[![](/wp-content/uploads/2011/01/crystal-galaxy.jpg)](http://www.effectgames.com/effect/games/crystalgalaxy/)
 
 ### [Same Game](http://grenlibre.fr/demo/same/)
 
-[![](http://www.red-team-design.com/wp-content/uploads/2011/01/same-game.jpg)](http://grenlibre.fr/demo/same/)
+[![](/wp-content/uploads/2011/01/same-game.jpg)](http://grenlibre.fr/demo/same/)
 
 ## Final words
 

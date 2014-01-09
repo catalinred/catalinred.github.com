@@ -20,11 +20,11 @@ Nowadays, contact forms can be found everywhere. To attract visitors' attention,
 
 In this article you'll learn how to create a nice CSS3 contact form using also some HTML5 features.
 
-![CSS3 contact form](http://www.red-team-design.com/wp-content/uploads/2011/05/contact-form.png)
+![CSS3 contact form](/wp-content/uploads/2011/05/contact-form.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/05/html5-css3-envelope-contact-form-demo.html)
+[View demo](/wp-content/uploads/2011/05/html5-css3-envelope-contact-form-demo.html)
 
 ## First of all
 
@@ -32,7 +32,7 @@ What's so cool about this CSS3 contact form? There are so many others CSS3 conta
 
 I'd say that, with CSS3, there are endless possibilities to create a contact form and this article is just about **how to design a cool envelope style contact form**.
 
-[![CSS3 contact form preview](http://www.red-team-design.com/wp-content/uploads/2011/05/contact-form-preview.png)](http://www.red-team-design.com/wp-content/uploads/2011/05/html5-css3-envelope-contact-form-demo.html)
+[![CSS3 contact form preview](/wp-content/uploads/2011/05/contact-form-preview.png)](/wp-content/uploads/2011/05/html5-css3-envelope-contact-form-demo.html)
 _Contact form preview_
 
 ## HTML structure
@@ -76,7 +76,7 @@ The HTML5 feature used for this CSS3 contact form is the `placeholder` attribute
 
 Using cool CSS3 [box shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) and [gradient](http://www.red-team-design.com/css-gradients-quick-tutorial) effects , we'll create a contact form with envelope look. Below you can see the initial CSS styling:
 
-![CSS3 effects](http://www.red-team-design.com/wp-content/uploads/2011/05/css-gradient-and-box-shadow.png)
+![CSS3 effects](/wp-content/uploads/2011/05/css-gradient-and-box-shadow.png)
 
 {% highlight css %}
 #form-wrapper {
@@ -120,7 +120,7 @@ Using cool CSS3 [box shadow](http://www.red-team-design.com/how-to-create-slick-
 
 Below you have a beautiful CSS3 button, no images as you probably guessed:
 
-![CSS3 button](http://www.red-team-design.com/wp-content/uploads/2011/05/css3-button.png)
+![CSS3 button](/wp-content/uploads/2011/05/css3-button.png)
 
 ## CSS
 

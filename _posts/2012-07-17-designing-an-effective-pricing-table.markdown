@@ -19,12 +19,12 @@ Having an effective pricing table can help you a lot to increase the conversion 
 
 The pricing table's design also plays an important role here. So, in today's article you'll learn how to create a nice and effective pricing table using CSS3.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/07/css3-pricing-table.png)
+![](/wp-content/uploads/2012/07/css3-pricing-table.png)
 
 <!-- more -->
 
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/07/effective-css3-pricing-table.html)
+[View demo](/wp-content/uploads/2012/07/effective-css3-pricing-table.html)
 
 
 Before going further, in case you missed it, you may want to check also my previous [CSS3 pricing table design](http://www.red-team-design.com/css3-pricing-table).
@@ -62,7 +62,7 @@ Below you can find a markup excerpt. As usual, there is nothing complicated here
 
 ## Starting structure
 
-![Initial structure](http://www.red-team-design.com/wp-content/uploads/2012/07/initial-css3-pricing-plan.png)
+![Initial structure](/wp-content/uploads/2012/07/initial-css3-pricing-plan.png)
 
 The snippet below contains the initial styles for our pricing table layout:
     
@@ -100,7 +100,7 @@ The snippet below contains the initial styles for our pricing table layout:
 
 ## Slick bottom shadow
 
-![Slick drop shadow](http://www.red-team-design.com/wp-content/uploads/2012/07/pricing-plan-slick-shadow.jpg)
+![Slick drop shadow](/wp-content/uploads/2012/07/pricing-plan-slick-shadow.jpg)
 
 To add some depth to our pricing plans, we'll add a [cool shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) for each.
     
@@ -120,7 +120,7 @@ To add some depth to our pricing plans, we'll add a [cool shadow](http://www.red
 
 ## Highlighting a preferred plan
 
-![Popular plan](http://www.red-team-design.com/wp-content/uploads/2012/07/css3-pricing-table-highlighted-plan.png)
+![Popular plan](/wp-content/uploads/2012/07/css3-pricing-table-highlighted-plan.png)
 
 The plans are already relative positioned and that's why we can elevate the `.popular-plan` block using a negative `top` value.
     
@@ -133,7 +133,7 @@ The plans are already relative positioned and that's why we can elevate the `.po
 
 ## The headers design
 
-![Pricing plan header](http://www.red-team-design.com/wp-content/uploads/2012/07/css3-pricing-table-headers.png)
+![Pricing plan header](/wp-content/uploads/2012/07/css3-pricing-table-headers.png)
 
 For the jagged effect, you can use an [encoded](http://webcodertools.com/imagetobase64converter) white triangle image and repeat it above the bottom borders.    
 
@@ -182,7 +182,7 @@ For the jagged effect, you can use an [encoded](http://webcodertools.com/imageto
 
 ## Price, feats and sign up styles
 
-![Pricing plan final result](http://www.red-team-design.com/wp-content/uploads/2012/07/css3-pricing-table-result.png)
+![Pricing plan final result](/wp-content/uploads/2012/07/css3-pricing-table-result.png)
 
 With these last styles, our pricing table is ready for action. 
 

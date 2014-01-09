@@ -19,7 +19,7 @@ If you are a developer then you are very familiar with variables and they are pr
 
 But, what is this having to do with the CSS we all know? The latest news is that the first working draft of [CSS Variables](http://www.w3.org/TR/css-variables/) just got released.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/04/css-variables.jpg)
+![](/wp-content/uploads/2012/04/css-variables.jpg)
 
 <!-- more -->
 
@@ -51,11 +51,11 @@ The idea of using variables for style sheets was one of those that have propelle
 
 ### LESS
 
-![LESS](http://www.red-team-design.com/wp-content/uploads/2012/04/less-variables.png)
+![LESS](/wp-content/uploads/2012/04/less-variables.png)
 
 ### Sass
 
-![Sass](http://www.red-team-design.com/wp-content/uploads/2012/04/sass-variables.png)
+![Sass](/wp-content/uploads/2012/04/sass-variables.png)
 
 ## How it will work
 

@@ -17,7 +17,7 @@ tags:
 I assume there was at least one time when you wanted to add more appeal to a html input and at that moment you didn't knew how.
 We all know how boring looks an input when we use it without styling it and that's why today I will show you the way to get rid of this old-style input.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2009/10/style-button-input.png)](http://www.red-team-design.com/style-an-input-button/)
+[![](/wp-content/uploads/2009/10/style-button-input.png)](http://www.red-team-design.com/style-an-input-button/)
 
 <!-- more -->
 
@@ -46,7 +46,7 @@ Now let's add some styles for the id:
 
 The final result looks like this:
 
-![test-button-1](http://www.red-team-design.com/wp-content/uploads/2009/10/test-button-1.png)
+![test-button-1](/wp-content/uploads/2009/10/test-button-1.png)
 
 Please note that [border-radius](http://www.css3.info/preview/rounded-border/) actually is working only on Mozilla/Firefox, Google Chrome and Safari 3.
 
@@ -54,11 +54,11 @@ Please note that [border-radius](http://www.css3.info/preview/rounded-border/) a
 
 Start by creating a new .psd file with 78x28px size. From the left panel choose "Rounded Rectangle Tool" (ALT+U for Windows Users) and set a 4px radius.Fill it with #6e9e2d (green) color and apply some effects.
 
-This is my result and also this is the **[Photoshop source file](http://www.red-team-design.com/wp-content/uploads/2009/10/btn.psd)** (please use it as you wish).
+This is my result and also this is the **[Photoshop source file](/wp-content/uploads/2009/10/btn.psd)** (please use it as you wish).
 
-[Download Photoshop FREE source file](http://www.red-team-design.com/wp-content/uploads/2009/10/btn.psd)
+[Download Photoshop FREE source file](/wp-content/uploads/2009/10/btn.psd)
 
-![test-button-2](http://www.red-team-design.com/wp-content/uploads/2009/10/test-button-2.png)
+![test-button-2](/wp-content/uploads/2009/10/test-button-2.png)
 
 Now, back to our code ....this image is 78x28px and we will use it as background image for our input.Here you have the new css code for it.
 Note that this time you don't need to use the value attribute anymore.

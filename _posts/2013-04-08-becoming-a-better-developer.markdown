@@ -17,7 +17,7 @@ tags:
 
 I ask myself this question quite often. What it takes to become a better developer? Not a ninja, guru, master or whatever, but just a better developer. I'm talking about how to improve and learn more every day.
 
-![Become a better developer](http://www.red-team-design.com/wp-content/uploads/2013/04/become-a-better-developer.png)
+![Become a better developer](/wp-content/uploads/2013/04/become-a-better-developer.png)
 
 <!-- more -->
 
@@ -73,7 +73,7 @@ Although knowing bits from different languages/technologies is always a plus, it
 
 When everything fails, use the force!
 
-![Use the force!](http://www.red-team-design.com/wp-content/uploads/2013/04/use-the-force-meme.jpg)
+![Use the force!](/wp-content/uploads/2013/04/use-the-force-meme.jpg)
 
 ## Conclusion
 

@@ -1,3 +1,12 @@
+body {
+  background-color: #FFF;
+  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+a         { color: #4697D5; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline;}
+a:visited { color: #4697D5 }
+
 
 /* bquote*/
 blockquote:before, blockquote:after,

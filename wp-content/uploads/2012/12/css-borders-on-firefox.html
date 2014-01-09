@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<title>CSS borders on Firefox demo - RedTeamDesign</title>
+	<style>
+		/* Demo purposes */
+		body {
+			padding: 50px;
+			text-align: center;
+			font-family: Arial, Helvetica;
+		}
+
+		div {
+			display: inline-block;
+			*display: inline;
+			zoom: 1;
+		}
+
+		img {
+			padding: 10px;
+			border: 2px solid #ddd;
+		}
+
+		a {
+			color: #444;
+		}
+
+		/* CSS triangles */
+		.small-triangle-transparent {
+			border-top: 150px solid transparent;
+			border-left: 150px solid red;
+		}
+
+		.small-triangle-rgba {
+			border-top: 150px solid rgba(255, 0, 0, 0);
+			border-left: 150px solid red;
+		}
+
+		.block-delimiter {
+	        border-top: 70px solid rgba(0, 255, 0, 0);
+	        border-left: 600px solid green;
+		}
+
+		.block-delimiter-hack {
+	        border-top: 70px solid rgba(0, 255, 0, 0);
+	        border-left: 600px solid green;
+	        -moz-transform: scale(.9999);
+		}						
+	</style>
+</head>
+<body>
+
+	<h2>CSS triangles w/ and w/o the RGBA applied</h2>
+	<img src="/wp-content/uploads/2012/12/css-borders-firefox-transparent-rgba.png" alt="CSS borders on Firefox - transparent versus rgba" width="600" height="200">
+	<br><br><br>
+	<div class="small-triangle-rgba"></div>
+	<div class="small-triangle-transparent"></div>
+
+	<br><br><br><br><br>
+
+	<h2>CSS block delimiter w/ and w/o the CSS3 scale workaround</h2>
+	<img src="/wp-content/uploads/2012/12/css-borders-firefox-large-border.png" alt="CSS borders on Firefox - large border example" title="CSS borders on Firefox - large border example" width="600" height="200">
+	<br><br><br>
+	<div class="block-delimiter-hack"></div>
+	<br><br>
+	<div class="block-delimiter"></div>
+
+	<br><br><br><br><br>
+
+	<p id="about">Back to <a href="http://www.red-team-design.com/css-diagonal-borders-still-not-rendering-properly-on-firefox">article</a> / Follow me on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+	<!-- AdPacks.com Ad Code -->
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script>
+	(function(){
+	  var bsa = document.createElement('script');
+		 bsa.async = true;
+		 bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+	</script>
+
+</body>
+</html>

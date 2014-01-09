@@ -18,7 +18,7 @@ A while ago you've read a quick tutorial here about setting up your website with
 
 The aim of this post is to briefly round up your options when using custom fonts in web design.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2010/10/google-and-typekit-versus-font-face.png)](http://www.red-team-design.com/google-font-api-and-typekit-solutions-vs-font-face)
+[![](/wp-content/uploads/2010/10/google-and-typekit-versus-font-face.png)](http://www.red-team-design.com/google-font-api-and-typekit-solutions-vs-font-face)
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ The @font-face was first proposed for CSS2 and has been implemented in Internet 
 
 Since then, web designers began to use .ttf or .otf fonts for their websites and now this CSS property is well-known.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2010/10/css3-font-face.png)](/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
+[![](/wp-content/uploads/2010/10/css3-font-face.png)](/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
 
 ### CSS
 
@@ -60,7 +60,7 @@ h1 {
 
 To use the fonts of Google's font library, just go to [http://code.google.com/webfonts](http://code.google.com/webfonts) and select a font. If you choose "Cantarell" font for example, include the following code into your files.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2010/10/google-font-api.png)](http://code.google.com/webfonts)
+[![](/wp-content/uploads/2010/10/google-font-api.png)](http://code.google.com/webfonts)
 
 ### HTML
 
@@ -92,7 +92,7 @@ h1 {
 
 Typekit is a service launched by Small Batch, Inc. which, via JavaScript and a subscription service, allows webmasters and designers to embed non-standard, non-system-specific fonts into online documents. It uses the @font-face CSS property and is available to the public as a paid service.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2010/10/typekit.png)](http://www.typekit.com/)
+[![](/wp-content/uploads/2010/10/typekit.png)](http://www.typekit.com/)
 
 ### HTML
 

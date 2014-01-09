@@ -24,11 +24,11 @@ Notification messages are an important part of the user experience and you can't
 
 In this article, you'll learn how to create some alert messages with CSS3 and jQuery.
 
-![](http://www.red-team-design.com/wp-content/uploads/2011/07/css3-jquery-notification-messages.jpg)
+![](/wp-content/uploads/2011/07/css3-jquery-notification-messages.jpg)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/07/cool-notification-messages-with-css3-and-jquery-demo.html)
+[View demo](/wp-content/uploads/2011/07/cool-notification-messages-with-css3-and-jquery-demo.html)
 
 ## Message Types
 
@@ -43,27 +43,27 @@ Bellow is a list with common notification messages:
 
 Its purpose is to inform user regarding a relevant matter.
 
-![CSS3 info message](http://www.red-team-design.com/wp-content/uploads/2011/07/info-msg.png)
+![CSS3 info message](/wp-content/uploads/2011/07/info-msg.png)
 
 
 ### Error
 
 When an operation has failed, the user must be notified. For example: "The account couldn't be deleted." or "Your settings weren't saved" etc.
 
-![CSS3 error message](http://www.red-team-design.com/wp-content/uploads/2011/07/error-msg.png)
+![CSS3 error message](/wp-content/uploads/2011/07/error-msg.png)
 
 ### Warning
 
 
 This type of message notify the user of a condition that might cause a problem in the future.
 
-![CSS3 warning message](http://www.red-team-design.com/wp-content/uploads/2011/07/warning-msg.png)
+![CSS3 warning message](/wp-content/uploads/2011/07/warning-msg.png)
 
 ### Success
 
 The success message should be displayed after user successfully performs an action.
 
-![CSS3 success message](http://www.red-team-design.com/wp-content/uploads/2011/07/success-msg.png)
+![CSS3 success message](/wp-content/uploads/2011/07/success-msg.png)
 
 ## The HTML
 

@@ -20,11 +20,11 @@ We already know that CSS3 has the ability to create a lot of new possibilities t
 
 Knowing that, check out the below preview to see the login form we're going to create in this article:
 
-![CSS3 login form](http://www.red-team-design.com/wp-content/uploads/2011/09/login-form.png)
+![CSS3 login form](/wp-content/uploads/2011/09/login-form.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/09/slick-login-form-with-html5-css3-demo.html)
+[View demo](/wp-content/uploads/2011/09/slick-login-form-with-html5-css3-demo.html)
 
 ## Markup
 
@@ -64,7 +64,7 @@ For this article, I will not paste the whole lines here. Instead, I'll just add 
 
 [Box-shadow](/how-to-create-slick-effects-with-css3-box-shadow) will help us creating this nice effect by defining multiple shadows that actually overlap.
 
-![Paper stack effect](http://www.red-team-design.com/wp-content/uploads/2011/09/paper-stack-effect.png)
+![Paper stack effect](/wp-content/uploads/2011/09/paper-stack-effect.png)
 
 {% highlight css %}
 #login {
@@ -81,7 +81,7 @@ For this article, I will not paste the whole lines here. Instead, I'll just add 
 
 This effect is added using [pseudo-elements](/before-after-pseudo-elements). Using pseudo-elements helps you avoid extra markup and this is a perfect example: keep the markup clean and let the CSS do the magic.
 
-![Stitch effect](http://www.red-team-design.com/wp-content/uploads/2011/09/stitch-effect.png)
+![Stitch effect](/wp-content/uploads/2011/09/stitch-effect.png)
 
 {% highlight css %}
 #login {
@@ -106,7 +106,7 @@ This effect is added using [pseudo-elements](/before-after-pseudo-elements). Usi
 
 I've first seen this effect on [Gene Locklin](http://playground.genelocklin.com/gradient-hr/)'s page and I thought this is pretty cool. So, I decided to use it for highlighting the "Log in" heading. Using pseudo-elements (again) and [CSS3 gradients](/css-gradients-quick-tutorial) some cool lines are added to simulate a strikeout effect.
 
-![Gradient lines for the header](http://www.red-team-design.com/wp-content/uploads/2011/09/heading-gradient-lines.png)
+![Gradient lines for the header](/wp-content/uploads/2011/09/heading-gradient-lines.png)
 
 {% highlight css %}
 h1 {
@@ -143,14 +143,14 @@ h1:before {
 ## The final result
 Using the above techniques, here's the final result:
 
-[![Final CSS3 login form](http://www.red-team-design.com/wp-content/uploads/2011/09/login-form-final-result.png)](http://www.red-team-design.com/wp-content/uploads/2011/09/slick-login-form-with-html5-css3-demo.html)
+[![Final CSS3 login form](/wp-content/uploads/2011/09/login-form-final-result.png)](/wp-content/uploads/2011/09/slick-login-form-with-html5-css3-demo.html)
 
 
 ## Conclusion
 
 This login form looks very well also on older browsers, as you can see below:
 
-![](http://www.red-team-design.com/wp-content/uploads/2011/09/login-form-final-result-ie8.png)
+![](/wp-content/uploads/2011/09/login-form-final-result-ie8.png)
 
 _Internet Explorer 8 screenshot._
 

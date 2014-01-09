@@ -20,11 +20,11 @@ There's no need to explain what a tooltip is and you already know that using too
 
 So, today you'll learn how to create awesome CSS3 & jQuery tooltips.
 
-![CSS3 and jQuery tooltips](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-jquery-tooltips.png)
+![CSS3 and jQuery tooltips](/wp-content/uploads/2011/11/css3-jquery-tooltips.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/11/easy-css3-jquery-tooltips-demo.html)
+[View demo](/wp-content/uploads/2011/11/easy-css3-jquery-tooltips-demo.html)
 
 You may already read my previous [CSS3 tooltips](http://www.red-team-design.com/css3-tooltips) tutorial, but this time we'll use some jQuery and [HTML5](http://www.red-team-design.com/create-a-stylish-html5-template-from-scratch) data-* attributes for our tooltips. 
 
@@ -41,7 +41,7 @@ As you can see below, thanks to the new [HTML5 custom data attributes](http://ww
 <b data-tooltip="Fantasy Action Adventure">Batman: Arkham City</b>
 {% endhighlight %}
 
-![Easy CSS3 & jQuery tooltips - preview](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-jquery-tooltips-preview.png)
+![Easy CSS3 & jQuery tooltips - preview](/wp-content/uploads/2011/11/css3-jquery-tooltips-preview.png)
 
 ## The CSS
 
@@ -132,7 +132,7 @@ _[IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs) gets some ext
 
 As usual, this demo also works across all major browsers:
 
-![Internet Explorer preview](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-jquery-tooltips-ie.png) 
+![Internet Explorer preview](/wp-content/uploads/2011/11/css3-jquery-tooltips-ie.png) 
 ## That's all
 
 I hope that you enjoyed this tutorial and if you have any comments or questions feel free to add them below. Thanks for reading!

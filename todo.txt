@@ -3,14 +3,14 @@
 ------Check <mark>
 ------RSS  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/redteamdesign">
 ------Remove extra paragraph from index excerpt
+------Fix paths to relative instead of absolute and add content folder: /wp-content/uploads/
+??????Further I should check for replacing http://www.red-team-design with just /
+??????or maybe use just /uploads/
+      
 
-View demo link buttons, Check demos.
-Fix paths to relative instead of absolute, add img folder
-Check also paths like /wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html
+View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
 
 Fix jQuery-> JavaScript category replace - jQuery
-
-
 
 Figure + figcaption
 
@@ -27,5 +27,7 @@ Later
 SCSS STUFF
 
 grid http://joshnh.com/2013/12/04/creating-lightweight-grid-system/
+
 syntax
+
 rem based mixin...

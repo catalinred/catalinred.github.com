@@ -15,7 +15,7 @@ tags:
 
 When starting coding a Photoshop layout or whenever you work for something,  you should always be aware of some CSS tips that will make your life easier.
 
-[![](http://www.red-team-design.com/wp-content/uploads/2009/11/css-tips-tricks.png)](http://www.red-team-design.com/css-tips-and-tricks-you-should-always-use/)
+[![](/wp-content/uploads/2009/11/css-tips-tricks.png)](http://www.red-team-design.com/css-tips-and-tricks-you-should-always-use/)
 
 <!-- more -->
 
@@ -24,14 +24,14 @@ When starting coding a Photoshop layout or whenever you work for something,  yo
 
 When you're working with CSS code you should always use an [external file](http://www.tizag.com/cssT/external.php) to load CSS from. It's very important to have your project files well organized and this helps you doing that.
 
-![css-external-file](http://www.red-team-design.com/wp-content/uploads/2009/11/css-external-file.png)
+![css-external-file](/wp-content/uploads/2009/11/css-external-file.png)
 
 
 ### 2. Reset CSS
 
 You need to reset CSS because as you've seen, browsers assign different styles to some elements and the best approach is to clear(reset) all styles from the beginning. In this way you'll be sure you made a good start.
 
-![reset-css](http://www.red-team-design.com/wp-content/uploads/2009/11/reset-css1.png)
+![reset-css](/wp-content/uploads/2009/11/reset-css1.png)
 
 The best method I know since I work in this area is the [Eric Mayer's Css Reset method ](http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/).
 
@@ -47,14 +47,14 @@ body, div, h1,h2, h3, h4, h5, h6, p,ul
 
 ## 3. Always style inputs
 
-![style-inputs](http://www.red-team-design.com/wp-content/uploads/2009/10/style-button-input.png)
+![style-inputs](/wp-content/uploads/2009/10/style-button-input.png)
 
 There is no reason why you must use the predefined styles for the inputs, so always try to [customize the inputs](http://www.red-team-design.com/style-an-input-button). If you don't do that you will experience different looks for different browsers.
 
 ## 4. Use CSS comments
 
 
-![css-comments](http://www.red-team-design.com/wp-content/uploads/2009/11/css-comments.png)
+![css-comments](/wp-content/uploads/2009/11/css-comments.png)
 
 This is a good way to organize your code and you should do that especially when you have more than let's say 100 css lines.
 
@@ -74,7 +74,7 @@ div {
 
 ## 5. Center horizontally
 
-![center-horizontally](http://www.red-team-design.com/wp-content/uploads/2009/11/center-horizontally.png)
+![center-horizontally](/wp-content/uploads/2009/11/center-horizontally.png)
 
 Here you can see how to center horizontally an inline element:
 
@@ -103,7 +103,7 @@ text-transform: uppercase;
     
 ## 8. Background sprites
 
-[![globalnavbg](http://www.red-team-design.com/wp-content/uploads/2009/11/globalnavbg.png)](http://images.apple.com/global/nav/images/globalnavbg.png)
+[![globalnavbg](/wp-content/uploads/2009/11/globalnavbg.png)](http://images.apple.com/global/nav/images/globalnavbg.png)
 
 Using sprites avoids causing flickering when using hover effects, try using all the time this technique because it's awesome.
 Two excellent articles about CSS background sprites I'll recommend are [alistapart.com](http://www.alistapart.com/articles/sprites/) article and the [smashingmagazine.com](http://www.smashingmagazine.com/2009/04/27/the-mystery-of-css-sprites-techniques-tools-and-tutorials/) one.
@@ -130,6 +130,6 @@ font: bold 12px/20px Arial;
 You must always validate your css code to be sure that your code is [W3c](http://jigsaw.w3.org/css-validator/) valid. A valid code means a good developer.
 [](http://jigsaw.w3.org/css-validator/)
 
-[![w3c-css](http://www.red-team-design.com/wp-content/uploads/2009/11/w3c-css.png)](http://jigsaw.w3.org/css-validator/)
+[![w3c-css](/wp-content/uploads/2009/11/w3c-css.png)](http://jigsaw.w3.org/css-validator/)
 
 What other CSS  tips you are using  that are mandatory in your design/development?

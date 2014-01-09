@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Easy CSS3 & jQuery tooltips - demo</title>	
+   <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			$('[data-tooltip]').addClass('tooltip');
+			$('.tooltip').each(function() {  
+				$(this).append('<span class="tooltip-content">' + $(this).attr('data-tooltip') + '</span>');  
+			});
+			
+			if ($.browser.msie && $.browser.version.substr(0,1)<7)
+			{
+			  $('.tooltip').mouseover(function(){
+					$(this).children('.tooltip-content').css('visibility','visible');
+				  }).mouseout(function(){
+					$(this).children('.tooltip-content').css('visibility','hidden');
+				  })
+			}
+		});
+    </script>
+
+    <style>	
+	html {
+		background: #eaeaea url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAABpCAMAAAAOXP0IAAAAElBMVEXv7+/8/Pzm5uby8vL4+Pjr6+s8Y2RHAAAAiUlEQVR42u3ZMQrAMAgFUJPo/a/csQRKoRSEljc4OJhAHp8MRsQYPRVzrXlWzq3PtfW1tr6ezMZ4c9aT2b6b+l6PEydOnO6dsio7ipM8ceLE6ftOfb8GJ3nixInTH5wqszqKkzxx4sTp+059vwYneeLEiZO9hr2GPHHixMlew15Dnjhx4sTpavYAfp9zffLSX1UAAAAASUVORK5CYII=);
+	}
+	
+	body {
+		background: #eee;
+		background: rgba(0,0,0,.05);
+		border: 4px solid #fff;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;		
+		font: small 'trebuchet MS', Arial, Helvetica;
+		margin: 30px auto 0 auto;
+		padding: 20px;
+		width: 400px;
+	}	
+	
+	ol {
+		margin: 0;
+		*margin-left: 20px;
+		padding: 0;
+		list-style: decimal-leading-zero inside;
+	}
+	
+	ol li {
+		margin: 20px 0;
+	}
+    
+	.tooltip {
+		position: relative;
+		display: inline-block;
+		cursor: help;
+		white-space: nowrap;
+		border-bottom: 1px dotted #777;
+	}
+	
+    .tooltip-content {
+		opacity: 0;
+        visibility: hidden;		
+		font: 12px Arial, Helvetica;
+		text-align: center;
+        border-color: #aaa #555 #555 #aaa;
+        border-style: solid;
+        border-width: 1px;
+		width: 150px;
+        padding: 15px;
+        position: absolute;
+		bottom: 40px;
+		left: 50%;
+		margin-left: -76px;
+		
+        background-color: #fff;
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.1)), to(rgba(255,255,255,0)));
+		background-image: -webkit-linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,0));
+		background-image: -moz-linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,0));
+		background-image: -ms-linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,0));
+		background-image: -o-linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,0));
+		background-image: linear-gradient(rgba(0,0,0,.1), rgba(255,255,255,0));		
+        -moz-box-shadow: 1px 1px 0 #555,
+					2px 2px 0 #555,
+					3px 3px 1px rgba(0, 0, 0, .3),
+					0 	1px 0 	rgba(255,255,255, .5) inset;
+        -webkit-box-shadow: 1px 1px 0 #555,
+					2px 2px 0 #555,
+					3px 3px 1px rgba(0, 0, 0, .3),
+					0 	1px 0 	rgba(255,255,255, .5) inset;
+        box-shadow: 1px 1px 0 #555,
+					2px 2px 0 #555,
+					3px 3px 1px rgba(0, 0, 0, .3),
+					0 	1px 0 	rgba(255,255,255, .5) inset;					
+        -webkit-transition: bottom .2s ease, opacity .2s ease;
+        -moz-transition: bottom .2s ease, opacity .2s ease;
+        -ms-transition: bottom .2s ease, opacity .2s ease;
+        -o-transition: bottom .2s ease, opacity .2s ease;
+        transition: bottom .2s ease, opacity .2s ease;					
+        }
+        
+    .tooltip-content:after,
+    .tooltip-content:before {
+        border-right: 16px solid transparent;
+        border-top: 15px solid #fff;
+        bottom: -15px;
+        content: "";
+        position: absolute;
+        left: 50%;
+        margin-left: -10px;
+    }
+    
+    .tooltip-content:before {
+        border-right-width: 25px;
+        border-top-color: #555;
+        border-top-width: 15px;
+        bottom: -15px;
+    }
+	
+	.tooltip:hover .tooltip-content{
+		opacity: 1;
+        visibility: visible;
+		bottom: 30px;		
+	}	
+    </style>
+</head>
+
+<body>
+
+	<h2>Best Xbox 360 Games 2011 (Gamespot)</h2>
+	
+	<ol>
+		<li>
+			<b data-tooltip="Action Role-Playing">Dark Souls</b>
+		</li>
+		<li>
+			<b data-tooltip="Sci-Fi Shooter">Gears of War 3</b>
+		</li>
+		<li>
+			<b data-tooltip="Role-Playing">The Elder Scrolls V: Skyrim</b>
+		</li>
+		<li>
+			<b data-tooltip="Fantasy Action Adventure">Batman: Arkham City</b>
+		</li>
+		<li>
+			<b data-tooltip="Soccer Sim">FIFA Soccer 12</b>
+		</li>
+		<li>
+			<b data-tooltip="Rally / Offroad Racing">DiRT 3</b>
+		</li>
+		<li>
+			<b data-tooltip="Adventure">L.A. Noire</b>
+		</li>
+		<li>
+			<b data-tooltip="3D Platformer">Outland</b>
+		</li>
+		<li>
+			<b data-tooltip="Action Role-Playing">Portal 2</b>
+		</li>
+		<li>
+			<b data-tooltip="Beat-'Em-Up">The Dishwasher: Vampire Smile</b>
+		</li>			
+	</ol>
+	
+	<br>
+	<p>Back to <a href="/easy-css3-jquery-tooltips">article</a> / Follow me on <a href="http://twitter.com/catalinred">Twitter</a>!</p>		
+
+	<!-- AdPacks.com Ad Code -->
+	<script>
+	(function(){
+	  var bsa = document.createElement('script');
+		 bsa.async = true;
+		 bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+	</script>
+
+</body>
+</html>

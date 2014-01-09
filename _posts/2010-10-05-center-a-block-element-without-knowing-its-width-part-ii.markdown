@@ -18,7 +18,7 @@ You may wonder why I insist about this subject I already [wrote](/center-a-block
 
 And meanwhile doing that I found a cross-browsers solution for that.
 
-[![Center a block element without knowing its width](http://www.red-team-design.com/wp-content/uploads/2010/10/center-block-unknown-width.png)](http://www.red-team-design.com/center-a-block-element-without-knowing-its-width-part-ii/)
+[![Center a block element without knowing its width](/wp-content/uploads/2010/10/center-block-unknown-width.png)](http://www.red-team-design.com/center-a-block-element-without-knowing-its-width-part-ii/)
 
 <!-- more -->
 
@@ -26,7 +26,7 @@ Let's start with a concrete example to better understand this matter and find ou
 
 Let's say our block example who needs to be centered contains a button that uses CSS [sliding doors](http://www.alistapart.com/articles/slidingdoors/) technique. So our button will need to have variable width (given by the size of the text) and will need to be centered.
 
-[Demo example](http://www.red-team-design.com/wp-content/uploads/2010/10/center-a-block-element-without-knowing-its-width.html)
+[Demo example](/wp-content/uploads/2010/10/center-a-block-element-without-knowing-its-width.html)
 
 Supposing you're measuring the width of our button wrapper you could assign him a CSS width and you could center it simple adding **margin: 0 auto**. Further, you'll use **trebuchet MS** font for your button as I did in the example, everything is great until you test your HTML in a OS that doesn't support this font like Ubuntu Linux.
 

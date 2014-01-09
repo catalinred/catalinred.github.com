@@ -18,17 +18,17 @@ tags:
 
 In this new article, you'll learn how create a cool and usable CSS3 search box using the HTML5 `placeholder` attribute. For the browsers that don’t support this new HTML5 attribute, a fallback is created using Modernizr's feature detection.
 
-![CSS3 searchbox](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-searchbox.png)
+![CSS3 searchbox](/wp-content/uploads/2011/02/css3-searchbox.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-search-box.html)
+[View demo](/wp-content/uploads/2011/02/css3-search-box.html)
 
 ## Structure
 
 The `form` element is used as the wrapper, while the two inputs are used as search field and search button respectively.
 
-![Search box structure](http://www.red-team-design.com/wp-content/uploads/2011/02/searchbox-structure.png)
+![Search box structure](/wp-content/uploads/2011/02/searchbox-structure.png)
 
 ## The HTML code
 
@@ -64,7 +64,7 @@ The reason why there are so many id's (instead of CSS3 advanced selectors as `in
 
 Below you can see the current result:
 
-![Form wrapper styles](http://www.red-team-design.com/wp-content/uploads/2011/02/form-wrapper.png)
+![Form wrapper styles](/wp-content/uploads/2011/02/form-wrapper.png)
 
 ## Inputs styles
 
@@ -127,7 +127,7 @@ Below you can see the current result:
 
 When adding `float: left` to an element, there's no need to add also `display: block`. The last one it's [implied](http://www.w3.org/TR/CSS2/visuren.html#dis-pos-flo). 
 
-![HTML5 placeholder](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-searchbox-default-placeholder.png)
+![HTML5 placeholder](/wp-content/uploads/2011/02/css3-searchbox-default-placeholder.png)
 
 ### HTML5 placeholder attribute
 
@@ -160,7 +160,7 @@ Opera 11 supports it, but you [cannot style it](http://dev.opera.com/forums/topi
 }   
 {% endhighlight %}
 
-![CSS3 search box](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-searchbox.png)
+![CSS3 search box](/wp-content/uploads/2011/02/css3-searchbox.png)
 
 
 
@@ -208,7 +208,7 @@ $(document).ready(function() {
 
 ## Chrome's inset box-shadow bug
 
-![Chrome inset shadow bug](http://www.red-team-design.com/wp-content/uploads/2011/02/chrome-inset-box-shadow-bug.png)
+![Chrome inset shadow bug](/wp-content/uploads/2011/02/chrome-inset-box-shadow-bug.png)
 
 There is a bug on Chrome when both `border-radius` and inset `box-shadow` are used. Anyway, there is good news about that. [Paul Irish](http://paulirish.com/) announced last month that [Chrome's inset box-shadow bug is fixed](http://paulirish.com/2011/chrome-inset-box-shadow-bug-fixed/).
 

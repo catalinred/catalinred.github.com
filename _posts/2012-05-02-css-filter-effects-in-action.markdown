@@ -18,11 +18,11 @@ Ever since CSS filter effects landed in WebKit, I thought about theirs practical
 
 With so many CSS filters to choose from, it will be fun to create image galleries in the future. Further in this article we'll create a simple image gallery using CSS filters and the CSS3 `:not` selector.
 
-![CSS filters](http://www.red-team-design.com/wp-content/uploads/2012/05/css-filter-effects-in-action.png)
+![CSS filters](/wp-content/uploads/2012/05/css-filter-effects-in-action.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/05/css-filter-effects-in-action-demo.html)
+[View demo](/wp-content/uploads/2012/05/css-filter-effects-in-action-demo.html)
 
 Whilst at the beginning we had just WebKit nightlies support, now you can view the filter effects using [Chrome Canary](http://tools.google.com/dlpage/chromesxs) too. I encourage you to download it in order to view the [CSS filter effects](https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html) in action. Also, I'm pretty sure that soon we'll see filters support also in stable Chrome's releases.
 
@@ -48,7 +48,7 @@ I think it's the first time in a long time when I don't have too many CSS lines 
 
 The interesting part is related to the `.gallery:hover li:not(:hover)` selector. When you hover over the list, we'll assume you'll hover also over a list element and we'll apply some filters to the non hovered list elements.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/05/css-filter-effects-in-action-example.jpg)
+![](/wp-content/uploads/2012/05/css-filter-effects-in-action-example.jpg)
 
 _This is how the other images looks like when the tulip image is hovered._
 

@@ -17,7 +17,7 @@ Adobe Photoshop's **save for web** does a very good job when it comes about opti
 
 A smaller image means a faster web page, lower bandwidth consumption so you have a lot of reasons to optimize your images. In the following rows I'll introduce you some tools that will help you achieve this.
 
-[![Tools to optimize your images](http://www.red-team-design.com/wp-content/uploads/2010/09/riot-png-optimizer.png)](http://www.red-team-design.com/tools-to-optimize-images/) 
+[![Tools to optimize your images](/wp-content/uploads/2010/09/riot-png-optimizer.png)](http://www.red-team-design.com/tools-to-optimize-images/) 
 
 <!-- more -->
 
@@ -25,19 +25,19 @@ A smaller image means a faster web page, lower bandwidth consumption so you have
 
 PNGOUT is a tool which can optimize PNG files created by other programs. It can be run from the Windows Run dialog box or at the command prompt. 
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/pngout.png)
+![](/wp-content/uploads/2010/09/pngout.png)
 
 ### [Online Image Optimizer](http://tools.dynamicdrive.com/imageoptimizer/)
 
 Image Optimizer lets you easily optimize your gifs, animated gifs, jpgs, and pngs, so they load as fast as possible on your site. Furthermore, you can easily convert from one image type to another. 
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/online-image-optimizer.png)
+![](/wp-content/uploads/2010/09/online-image-optimizer.png)
 
 ### [Smush.it](http://developer.yahoo.com/yslow/smushit/)
 
 Smush.it uses optimization techniques specific to image format to remove unnecessary bytes from image files. Check also the existing Smush.it Wordpress plugin [WP Smush.it](http://wordpress.org/extend/plugins/wp-smushit/).
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/smush-it.png)
+![](/wp-content/uploads/2010/09/smush-it.png)
 
 ### [OptiPNG](http://optipng.sourceforge.net/)
 
@@ -47,13 +47,13 @@ OptiPNG is a PNG optimizer that recompresses image files to a smaller size, with
 
 TweakPNG is a low-level utility for examining and modifying PNG image files.
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/tweakpng.png)
+![](/wp-content/uploads/2010/09/tweakpng.png)
 
 ### [RIOT](http://luci.criosweb.ro/riot/)
 
 Radical Image Optimization Tool (RIOT for short) is a free image optimizer that will let you to visually adjust compression parameters while keeping minimum filesize.
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/riot-png-optimizer.png)
+![](/wp-content/uploads/2010/09/riot-png-optimizer.png)
 
 ### [SuperGIF](http://www.boxtopsoft.com/supergif.html)
 
@@ -63,7 +63,7 @@ SuperGIF is a free tool for Windows and Mac OS that optimizes your GIF images.
 
 SuperPNG is a free Adobe Photoshop plug-in for using PNG ("ping") files. It is faster than Adobe's own PNG plug-in and saves considerably smaller PNGs.
 
-![](http://www.red-team-design.com/wp-content/uploads/2010/09/super-png.png)
+![](/wp-content/uploads/2010/09/super-png.png)
 
 ### + [PNGCRUSH](http://pmt.sourceforge.net/pngcrush/)
 

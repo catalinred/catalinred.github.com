@@ -15,11 +15,11 @@ tags:
 
 Hey there, this is my first post on 2012 and today you'll learn how to create a simple and clean CSS3 menu in just a few steps. 
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/01/just-another-css3-menu.png)
+![](/wp-content/uploads/2012/01/just-another-css3-menu.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/01/just-another-css3-menu-demo.html)
+[View demo](/wp-content/uploads/2012/01/just-another-css3-menu-demo.html)
 
 I know, there are so many CSS3 menu tutorials in the wild (including here on RTD) but I hope you will love this one also.
 
@@ -69,7 +69,7 @@ The following lines do not contain the vendor-specific properties like `-moz-` o
 
 To be short: reset the margin and padding for the unordered list, also center align the `inline-block` list elements:
 
-![Initial menu styles](http://www.red-team-design.com/wp-content/uploads/2012/01/initial-menu-styles.png)
+![Initial menu styles](/wp-content/uploads/2012/01/initial-menu-styles.png)
 
 
 {% highlight css %}
@@ -89,7 +89,7 @@ nav ul{
 
 For the menu elements, instead using [float](http://www.red-team-design.com/clearing-floats-nowadays) I chose the `inline-block` alternative. If you want to find out more about `inline-block` pros and cons, I'd recommend Robert Nyman's article: [CSS display: inline-block: why it rocks, and why it sucks](http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/).
 
-![Inline block elements](http://www.red-team-design.com/wp-content/uploads/2012/01/inline-block-elements.png)
+![Inline block elements](/wp-content/uploads/2012/01/inline-block-elements.png)
 
 {% highlight css %}
 nav li{
@@ -105,7 +105,7 @@ nav li{
 
 Using cool CSS3 properties like [gradients](http://www.red-team-design.com/css-gradients-quick-tutorial) and [shadows](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) we're going to style the anchor elements:
 
-![CSS3 menu link styles](http://www.red-team-design.com/wp-content/uploads/2012/01/css3-menu-anchor-styles.png)
+![CSS3 menu link styles](/wp-content/uploads/2012/01/css3-menu-anchor-styles.png)
 
 {% highlight css %}
 nav a{
@@ -143,7 +143,7 @@ nav a:active{
 
 The below is the most interesting part, in my opinion. Without, adding any extra markup and using a [pseudo-element](http://www.red-team-design.com/before-after-pseudo-elements) you will be able to create a cool effect:
 
-![Menu pseudo element](http://www.red-team-design.com/wp-content/uploads/2012/01/css3-menu-before-pseudo-element.png)
+![Menu pseudo element](/wp-content/uploads/2012/01/css3-menu-before-pseudo-element.png)
 
 {% highlight css %}
 nav a::before{

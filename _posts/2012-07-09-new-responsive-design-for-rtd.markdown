@@ -18,7 +18,7 @@ tags:
 
 It's been almost a month already since I launched this new responsive design and unfortunately I didn't had much time to properly introduce it to you. This improved design is something I wanted to do for a long time and I'm glad I finally managed it. It's simpler, minimal, responsive and I like to think that now the content is much easier to read (scan).
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/07/new-responsive-design.jpg)
+![](/wp-content/uploads/2012/07/new-responsive-design.jpg)
 
 <!-- more -->
 

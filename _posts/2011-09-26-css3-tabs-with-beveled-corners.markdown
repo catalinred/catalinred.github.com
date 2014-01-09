@@ -20,7 +20,7 @@ Organizing content was always an important task for web designers. Just like [ac
 
 Along with so many rounded corners (which lately became the default), today you'll learn how to create some good looking CSS3 tabs with beveled corners. We'll do that using a clever CSS3 [gradients](/css-gradients-quick-tutorial) technique.
 
-![CSS3 and jQuery tabs with tucked corners](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs.png)
+![CSS3 and jQuery tabs with tucked corners](/wp-content/uploads/2011/09/css3-jquery-tabs.png)
 
 <!-- more -->
 
@@ -142,7 +142,7 @@ Check out the **transparent corners**! You can use the tabs with any background 
 
 Also, the left [shadow](/how-to-create-slick-effects-with-css3-box-shadow) helps creating the effect of overlapping tabs.
 
-[![Tucked corners tabs](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs-result.png)](/wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html)
+[![Tucked corners tabs](/wp-content/uploads/2011/09/css3-jquery-tabs-result.png)](/wp-content/uploads/2011/09/css3-tabs-with-beveled-corners-demo.html)
 
 ## Browser support
 
@@ -150,7 +150,7 @@ If you read my previous articles, then you already know that I like to do stuff 
 
 Having said that, this demo is working also for older browsers. Obviously, it just look slightly different, as no CSS3 support is available:
 
-![Browser support](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-jquery-tabs-browser-support.png)
+![Browser support](/wp-content/uploads/2011/09/css3-jquery-tabs-browser-support.png)
 
 _Such a gradient for Safari (lower than 5.1) would be quite complex. So, I decided to skip it (for now)._
 

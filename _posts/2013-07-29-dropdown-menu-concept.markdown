@@ -13,12 +13,12 @@ categories:
 
 I found this two years old Dribbble [shot](http://dribbble.com/shots/147738-Submenu-with-dropdown) by Ignacio Giri. Don't ask me how, I just don't remember how did I stumble upon it but one thing is clear: I bookmarked this dropdown menu concept, stared at it a bit and then I thought about making something similar with CSS.
 
-![Dropdown menu concept](http://www.red-team-design.com/wp-content/uploads/2013/07/dropdown-menu-concept.png)
+![Dropdown menu concept](/wp-content/uploads/2013/07/dropdown-menu-concept.png)
 
 <!-- more -->
 
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2013/07/dropdown-menu-concept.html)
+[View demo](/wp-content/uploads/2013/07/dropdown-menu-concept.html)
 
 
 ## The markup

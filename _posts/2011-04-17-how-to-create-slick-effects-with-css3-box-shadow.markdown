@@ -17,11 +17,11 @@ Drop shadows and inner shadows are some of the effects I learned to apply using 
 
 Nowadays, the cool thing is that you create beautiful CSS3 shadows without actually needing Photoshop anymore.
 
-![Box shadow slick effects](http://www.red-team-design.com/wp-content/uploads/2011/04/css3-box-shadow.png)
+![Box shadow slick effects](/wp-content/uploads/2011/04/css3-box-shadow.png)
 
 <!-- more --> 
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/04/css3-box-shadow.html)
+[View demo](/wp-content/uploads/2011/04/css3-box-shadow.html)
 
 ## box-shadow property
 
@@ -41,7 +41,7 @@ box-shadow: 3px 3px 10px 5px #000;
 
 This CSS declaration will generate the following shadow:
 
-![Box shadow values](http://www.red-team-design.com/wp-content/uploads/2011/04/box-shadow-values.png)
+![Box shadow values](/wp-content/uploads/2011/04/box-shadow-values.png)
    
   * A positive value for the horizontal offset draws a shadow that is offset to the right of the box, a negative
     length to the left.
@@ -72,7 +72,7 @@ Now let's see how can you take advantage of this wonderful CSS3 feature. Below I
 
 [Reference URL](http://playground.genelocklin.com/depth/)
 
-[![Box shadow depth](http://www.red-team-design.com/wp-content/uploads/2011/04/box-shadow-depth.png)](http://www.red-team-design.com/wp-content/uploads/2011/04/css3-box-shadow.html)   
+[![Box shadow depth](/wp-content/uploads/2011/04/box-shadow-depth.png)](/wp-content/uploads/2011/04/css3-box-shadow.html)   
 
 {% highlight css %}
 body:before { 
@@ -91,7 +91,7 @@ body:before {
 
 ## Drop shadows
 
-[![Drop shadow effect](http://www.red-team-design.com/wp-content/uploads/2011/04/box-shadow-drop.png)](http://www.red-team-design.com/wp-content/uploads/2011/04/css3-box-shadow.html)
+[![Drop shadow effect](/wp-content/uploads/2011/04/box-shadow-drop.png)](/wp-content/uploads/2011/04/css3-box-shadow.html)
 
 Here are the articles that inspired me, and not only:
 	

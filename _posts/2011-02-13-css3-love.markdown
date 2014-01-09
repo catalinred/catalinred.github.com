@@ -15,10 +15,10 @@ tags:
 
 I made a page with the heart shape you can make with CSS3. Just some CSS3 `text-shadow`, a HTML heart character and voila:
 
-![CSS3 love icon](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-love.jpg)
+![CSS3 love icon](/wp-content/uploads/2011/02/css3-love.jpg)
 
 <!-- more -->
 
 I wish you all a **Happy Valentine's Day**!
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/02/css3-love-demo.html)
+[View demo](/wp-content/uploads/2011/02/css3-love-demo.html)

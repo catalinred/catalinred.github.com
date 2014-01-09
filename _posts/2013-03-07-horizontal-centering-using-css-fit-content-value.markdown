@@ -19,7 +19,7 @@ The other day I read a good article on horizontal centering by [Roger Johansson]
 
 As we all know, centering this kind of stuff can be quite tricky sometimes. With this common example in mind, Roger made an awesome list with solutions you can apply in order to achieve horizontal centering.
 
-![CSS fit-content value and horizontal centering](http://www.red-team-design.com/wp-content/uploads/2013/03/css-fit-content-value.png)
+![CSS fit-content value and horizontal centering](/wp-content/uploads/2013/03/css-fit-content-value.png)
 
 <!-- more -->
 
@@ -62,7 +62,7 @@ and the following CSS lines:
 ... you just got a new experimental solution for centering horizontally a navigation bar which contains floated elements within. Pretty straightforward, huh? Don't forget to check demo's page source to see the full styles.
 
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2013/03/horizontal-centering-using-css-fit-content-value-demo.html)
+[View demo](/wp-content/uploads/2013/03/horizontal-centering-using-css-fit-content-value-demo.html)
 
 
 ## Minimal browser support, but really promising though.

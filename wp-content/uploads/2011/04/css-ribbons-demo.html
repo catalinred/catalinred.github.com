@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>CSS Ribbons demo</title>
+    <style>
+    
+    html
+    {
+        background: #ddd;
+    }
+    
+    body
+    {
+        margin: 30px auto;
+        padding: 20px;
+        width: 60%;
+        background: #fff;
+        font-family: 'trebuchet MS', Arial, helvetica;
+        
+        -moz-border-radius: 10px;
+        border-radius: 10px;        
+        -moz-box-shadow: 0 0 10px #555;
+        -webkit-box-shadow: 0 0 10px #555;
+        box-shadow: 0 0 10px #555;
+    }
+    
+    h1:after, h1:before,
+    h2:after, h2:before,
+    #twitter-follow:after, #twitter-follow:before
+    {
+        content: '';
+        position: absolute;
+    }
+    
+    /* ---------------------------------------------- */   
+    
+    h1{
+        text-align: center;
+        position: relative;
+        color: #fff;    
+        margin: 0 -30px 30px -30px;
+        padding: 10px 0; 
+        text-shadow: 0 1px rgba(0,0,0,.8);
+        background: #5c5c5c;
+        background-image: -moz-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+        background-image: -webkit-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+		background-image: -o-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+		background-image: -ms-linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+        background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0));
+        -moz-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.3);
+        box-shadow: 0 2px 0 rgba(0,0,0,.3);
+        clear: both; // Clear the Folow me on Twitter floating element
+    }
+    
+    h1:before, h1:after
+    {
+        border-style: solid;
+        border-color: transparent;
+        bottom: -10px;
+    }
+    
+    h1:before
+    {
+        border-width: 0 10px 10px 0;
+        border-right-color: #222;
+        left: 0;
+    }
+    
+    h1:after
+    {
+        border-width: 0 0 10px 10px;
+        border-left-color: #222;
+        right: 0;
+    }    
+    
+    /* ---------------------------------------------- */
+    
+    h2
+    {
+        font-size: 1em;
+        position: relative;
+        color: #222;
+        text-shadow: 0 1px rgba(255,255,255,.8);
+        background-color: #ccc;
+    }
+    
+    h2.left
+    {  
+        margin: 0 -20px 30px -26px;
+        padding: 10px 0 10px 30px; 
+        background-image: -moz-linear-gradient(left,rgba(255,255,255,0), #fff);
+        background-image: -webkit-linear-gradient(left,rgba(255,255,255,0), #fff);
+		background-image: -o-linear-gradient(left,rgba(255,255,255,0), #fff);
+		background-image: -ms-linear-gradient(left,rgba(255,255,255,0), #fff);
+        background-image: linear-gradient(left,rgba(255,255,255,0), #fff);
+    }
+    
+    h2.right
+    {
+        text-align: right; 
+        margin: 0 -26px 30px -20px;
+        padding: 10px 30px 10px 0; 
+        background-image: -moz-linear-gradient(left,#fff, rgba(255,255,255,0));
+        background-image: -webkit-linear-gradient(left,#fff, rgba(255,255,255,0));
+		background-image: -o-linear-gradient(left,#fff, rgba(255,255,255,0));
+		background-image: -ms-linear-gradient(left,#fff, rgba(255,255,255,0));
+        background-image: linear-gradient(left,#fff, rgba(255,255,255,0));
+    }    
+    
+    h2:before, h2:after
+    {
+        border-style: solid;
+        border-color: transparent;
+        bottom: -6px;
+    }
+    
+    h2.left:before
+    {
+        border-width: 0 6px 6px 0;
+        border-right-color: #555;
+        left: 0;
+    }
+    
+    h2.right:after
+    {
+        border-width: 0 0 6px 6px;
+        border-left-color: #555;
+        right: 0;
+    }     
+    
+    /* ---------------------------------------------- */    
+    
+    #twitter-follow
+    {
+        font-size: .8em;
+        font-weight: bold;
+        position: relative;
+        margin: -26px 0 40px 0;
+        float: right;
+        color: #222;    
+        padding: 10px 30px; 
+        text-shadow: 0 1px rgba(255,255,255,.8);
+        background-color: #3bbadb;
+        background-image: -moz-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+        background-image: -webkit-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+		background-image: -o-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+		background-image: -ms-linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+        background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.8));
+        -moz-box-shadow: 0 2px 2px #ccc;
+        -webkit-box-shadow: 0 2px 2px #ccc;
+        box-shadow: 0 2px 2px #ccc;
+    }
+    
+    #twitter-follow:hover
+    {
+        background-color: #81d5f0;
+    }    
+    
+    #twitter-follow:before
+    {
+        left: -6px;
+        top: 0;
+        border-color: transparent #555 #555 transparent;
+        border-style: solid;                 
+    }        
+       
+    </style>
+    
+<!-- AdPacks -->
+<style>
+#adpacks-wrapper{font-family: Arial, Helvetica;width:280px;position: fixed;_position:absolute;bottom: 0;right: 20px;z-index: 9999;background: #eaeaea;padding: 10px;-moz-box-shadow: 0 0 15px #444;-webkit-box-shadow: 0 0 15px #444;box-shadow: 0 0 15px #444;}
+body .adpacks{background:#fff;padding:15px;margin:15px 0 0;border:3px solid #eee;}
+body .one .bsa_it_ad{background:transparent;border:none;font-family:inherit;padding:0;margin:0;}
+body .one .bsa_it_ad .bsa_it_i{display:block;padding:0;float:left;margin:0 10px 0 0;}
+body .one .bsa_it_ad .bsa_it_i img{padding:0;border:none;}
+body .one .bsa_it_ad .bsa_it_t{padding: 0 0 6px 0; font-size: 11px;}
+body .one .bsa_it_p{display:none;}
+body #bsap_aplink,body #bsap_aplink:hover{display:block;font-size:9px;margin: -15px 0 0 0;text-align:right;}
+body .one .bsa_it_ad .bsa_it_d{font-size: 11px;}
+body .one{overflow: hidden}
+</style>
+    
+</head>
+
+<body>
+
+<a title="If you liked this article, follow me on Twitter!" href="http://www.twitter.com/catalinred" id="twitter-follow">Follow me on Twitter</a>
+
+<a href="http://www.red-team-design.com/css-ribbons/">Back to article...</a>
+
+<h1>CSS Ribbons</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis odio a ligula pretium dictum. In tempor elementum tortor, sed ultrices lorem euismod eu.
+Nam ultrices dui vel sem blandit sollicitudin.</p>
+<p>Suspendisse vestibulum lectus in lectus rutrum in accumsan odio ornare. Sed quis quam adipiscing diam semper pellentesque. Cras at ipsum libero. </p>
+
+<h2 class="left">This is a heading example</h2>
+
+<p>Nam et dui nec elit placerat vulputate a sed lacus. Vestibulum adipiscing neque ac est mattis at vulputate urna tristique. Quisque tincidunt tincidunt sapien at auctor.</p>
+<p>Proin pellentesque accumsan fringilla. Mauris eget dui a arcu vulputate vestibulum. Pellentesque nunc lorem, gravida at imperdiet vitae, suscipit ac orci. </p>
+
+<h2 class="right">Another heading example</h2>
+
+<p>Donec convallis turpis id mi consectetur eu tincidunt metus pulvinar. Ut rutrum accumsan purus, sed tincidunt justo laoreet ornare. Praesent sed laoreet mi. </p>
+<p>Maecenas ut ante facilisis risus scelerisque convallis in sed turpis.</p>
+
+<!-- AdPacks.com Ad Code -->
+<script type="text/javascript">
+(function(){
+  var bsa = document.createElement('script');
+     bsa.type = 'text/javascript';
+     bsa.async = true;
+     bsa.src = '//s3.buysellads.com/ac/bsa.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+
+</script>
+<!-- End AdPacks.com Ad Code -->
+<div id="adpacks-wrapper">
+	<div id="bsap_1257097" class="bsarocks bsap_a5f348233fceef06ba365ab392938d10"></div>
+	<a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
+</div>
+
+
+</body>
+</html>

@@ -17,7 +17,7 @@ tags:
 
 I've recently watched a good [video](http://vimeo.com/channels/fronteers12/52851509) presentation by [Mathias](http://mathiasbynens.be/) from Fronteers 2012 which I found both interesting and inspirational. I already had in mind some similar things, so I ended up writing this article down. It's about some random things and facts you may (not) have known about HTML & CSS.
 
-![Things you may not have known about HTML & CSS](http://www.red-team-design.com/wp-content/uploads/2013/01/things-you-may-not-have-known-about-html-css.png)
+![Things you may not have known about HTML & CSS](/wp-content/uploads/2013/01/things-you-may-not-have-known-about-html-css.png)
 
 <!-- more -->
 

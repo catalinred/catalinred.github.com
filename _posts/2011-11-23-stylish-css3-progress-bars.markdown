@@ -17,11 +17,11 @@ You've seen progress bars everywhere, they are those bars that display the curre
 
 Having said that, in this article you'll learn how to create **stylish and [animated](http://www.red-team-design.com/css3-animated-dropdown-menu) progress bars** using CSS3.
 
-![Stylish CSS3 progress bars preview](http://www.red-team-design.com/wp-content/uploads/2011/11/stylish-css3-progress-bars.png)
+![Stylish CSS3 progress bars preview](/wp-content/uploads/2011/11/stylish-css3-progress-bars.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-slick-progress-bars-demo.html)
+[View demo](/wp-content/uploads/2011/11/css3-slick-progress-bars-demo.html)
 
 ## The HTML
 
@@ -62,7 +62,7 @@ General styles for the CSS3 progress bar and filled area:
 }
 {% endhighlight %} 
 
-![Default CSS3 progress bar](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-progress-bar-default.png)
+![Default CSS3 progress bar](/wp-content/uploads/2011/11/css3-progress-bar-default.png)
 
 Let's add some color/[gradients](http://www.red-team-design.com/css-gradients-quick-tutorial):
 
@@ -101,7 +101,7 @@ You may have seen this [CSS3 technique](http://www.red-team-design.com/cool-noti
 }
 {% endhighlight %}
 
-![CSS3 background stripes](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-progress-bar-stripes.png)
+![CSS3 background stripes](/wp-content/uploads/2011/11/css3-progress-bar-stripes.png)
 
 ### Shine
 
@@ -134,7 +134,7 @@ Not sure if this is the best name I could find for this CSS3 animation, but here
 
 This CSS3 progress bar example uses an CSS3 `::after` [pseudo-element](http://www.red-team-design.com/before-after-pseudo-elements) which animates. Currently, animating generated content with CSS3 is available only on **latest Firefox browsers**. I hope that soon it will be a wider support for that.
 
-![CSS3 shine effect](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-progress-bar-shine.png)
+![CSS3 shine effect](/wp-content/uploads/2011/11/css3-progress-bar-shine.png)
 
 ### Glow
 
@@ -153,11 +153,11 @@ CSS3 keyframes animation based on [box-shadow](http://www.red-team-design.com/ho
  }
 {% endhighlight %}
 
-![CSS3 glow effect](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-progress-bar-glow.png)
+![CSS3 glow effect](/wp-content/uploads/2011/11/css3-progress-bar-glow.png)
 
 ## Hey, what about older browsers?
 
-![Graceful degradation](http://www.red-team-design.com/wp-content/uploads/2011/11/progress-bars-older-browsers.png)
+![Graceful degradation](/wp-content/uploads/2011/11/progress-bars-older-browsers.png)
 
 _The progress bars look pretty well thanks to graceful degradation._
 
@@ -170,4 +170,4 @@ I hope you liked this tutorial, please feel free to share your thoughts. Thanks 
 ## Update
 
 
-I just added some jQuery to the [demo page](http://www.red-team-design.com/wp-content/uploads/2011/11/css3-slick-progress-bars-demo.html). So, now you can also play with progress bars values. Hope you like it!
+I just added some jQuery to the [demo page](/wp-content/uploads/2011/11/css3-slick-progress-bars-demo.html). So, now you can also play with progress bars values. Hope you like it!

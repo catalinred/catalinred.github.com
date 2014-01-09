@@ -15,11 +15,11 @@ tags:
 
 Nowadays, using subtle patterns is kinda cool so I thought why not using them also on buttons? The idea was to create some nice CSS3 patterned buttons and in this article you'll see what I've been working on lately.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons.png)
+![](/wp-content/uploads/2012/09/css3-patterned-buttons.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons-demo.html)
+[View demo](/wp-content/uploads/2012/09/css3-patterned-buttons-demo.html)
 or [download](https://github.com/catalinred/css3-patterned-buttons) the .zip from GitHub
 
 This project is a bit _special_ to me as being pretty new to [GitHub](https://github.com/catalinred), my first commit there was related to these CSS3 patterned buttons.
@@ -100,7 +100,7 @@ You could also use something like `<input type="submit">` but for best cross-bro
 
 If you want to make a more prominent or a less prominent call-to-action button, you have options:
 
-![Different sizes](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons-different-sizes.png)
+![Different sizes](/wp-content/uploads/2012/09/css3-patterned-buttons-different-sizes.png)
 
 {% highlight html %}
 <button class="small button">Button</button>
@@ -136,7 +136,7 @@ or
 
 You'll need custom colors for successful actions or _negative_ ones as delete:
 
-![Various colors](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons-colored.png)
+![Various colors](/wp-content/uploads/2012/09/css3-patterned-buttons-colored.png)
 
 {% highlight html %}
 <button class="button">Button</button>
@@ -206,7 +206,7 @@ You'll need custom colors for successful actions or _negative_ ones as delete:
 
 In case you're using buttons or inputs, in some cases you'll need them to be disabled until a certain task is triggered:
 
-![Disabled buttons](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons-disabled.png)
+![Disabled buttons](/wp-content/uploads/2012/09/css3-patterned-buttons-disabled.png)
 
 
 {% highlight html %}
@@ -253,7 +253,7 @@ In case you're using buttons or inputs, in some cases you'll need them to be dis
 
 There will be cases when you'll need to group similar call-to-action buttons:
 
-![Buttons groups](http://www.red-team-design.com/wp-content/uploads/2012/09/css3-patterned-buttons-group.png)
+![Buttons groups](/wp-content/uploads/2012/09/css3-patterned-buttons-group.png)
 
 
 {% highlight html %}

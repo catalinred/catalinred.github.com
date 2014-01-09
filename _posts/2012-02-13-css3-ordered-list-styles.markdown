@@ -18,7 +18,7 @@ Styling ordered lists was always a tricky task and I'm not the only one who thin
 
 In this article you'll learn how to add some CSS3 fine tuning to your ordered lists, using a semantic approach.
 
-![CSS3 ordered list styles](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-styles.png)
+![CSS3 ordered list styles](/wp-content/uploads/2012/02/css3-ordered-list-styles.png)
 
 <!-- more -->
 
@@ -26,7 +26,7 @@ In this article you'll learn how to add some CSS3 fine tuning to your ordered li
 
 When I first read Roger Johansson's [article](http://www.456bereastreet.com/archive/201105/styling_ordered_list_numbers/) about styling ordered list numbers, I must admit I seriously felt in love with that technique. Using that technique, I will try to go a bit further and show you two different styling possibilities for ordered lists.
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-styles-demo.html)
+[View demo](/wp-content/uploads/2012/02/css3-ordered-list-styles-demo.html)
 
 ## The HTML
 
@@ -73,7 +73,7 @@ ol ol {
 
 ### Rounded-shaped numbers
 
-![Round-shaped numbers](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-rounded.png)
+![Round-shaped numbers](/wp-content/uploads/2012/02/css3-ordered-list-rounded.png)
 
 {% highlight css %}
 .rounded-list a{
@@ -120,7 +120,7 @@ ol ol {
 
 
 
-![Rectangle-shaped numbers](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-rectangle.png)
+![Rectangle-shaped numbers](/wp-content/uploads/2012/02/css3-ordered-list-rectangle.png)
 
 {% highlight css %}
 .rectangle-list a{
@@ -172,7 +172,7 @@ ol ol {
 
 ### Circle-shaped numbers
 
-![Circle-shaped numbers](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-circle.png)
+![Circle-shaped numbers](/wp-content/uploads/2012/02/css3-ordered-list-circle.png)
 
 {% highlight css %}
 .circle-list li{
@@ -224,7 +224,7 @@ Some CSS3 numbers animations are also included in this demo. Unfortunately, as f
 
 These list looks well also on older browsers, as you can see below:
 
-![Browser support](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-ordered-list-browser-support.png)
+![Browser support](/wp-content/uploads/2012/02/css3-ordered-list-browser-support.png)
 
 ## That's all!
 

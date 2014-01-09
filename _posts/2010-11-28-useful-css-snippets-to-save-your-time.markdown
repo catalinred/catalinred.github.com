@@ -18,13 +18,13 @@ Writing CSS can be a pain and can give you headaches. The truth is that CSS ain'
 
 In the following rows I'll try to present you some important snippets I often use in my project and I hope these will help you too.
 
-[![Useful CSS snippets](http://www.red-team-design.com/wp-content/uploads/2010/11/useful-css-snippets.png)](http://www.red-team-design.com/useful-css-snippets-to-save-your-time)
+[![Useful CSS snippets](/wp-content/uploads/2010/11/useful-css-snippets.png)](http://www.red-team-design.com/useful-css-snippets-to-save-your-time)
 
 <!-- more -->
 
 ### 1. CSS Reset
 
-![CSS reset](http://www.red-team-design.com/wp-content/uploads/2010/11/css-reset.png)
+![CSS reset](/wp-content/uploads/2010/11/css-reset.png)
 
 The best way to start a CSS file is to choose a CSS reset method from a various list of existing ones.
 
@@ -34,7 +34,7 @@ The best way to start a CSS file is to choose a CSS reset method from a various 
 
 ## 2. Clear floated elements without any extra markup
 
-![Clear floated elements without extra markup](http://www.red-team-design.com/wp-content/uploads/2010/11/clear-float.png)
+![Clear floated elements without extra markup](/wp-content/uploads/2010/11/clear-float.png)
 
 ### HTML:
 
@@ -97,7 +97,7 @@ transform: scale(1.1);
 {% endhighlight %}    
 
 
-[View Demo](http://www.red-team-design.com/wp-content/uploads/2010/11/css3-demo.html)
+[View Demo](/wp-content/uploads/2010/11/css3-demo.html)
 
 ## 5. Image replacement technique
 
@@ -154,7 +154,7 @@ The main advantages of this method
 
 A disadvantage would be the fact that includes extra HTML markup and you should consider that before using it.
 
-[View Demo](http://www.red-team-design.com/wp-content/uploads/2010/10/center-a-block-element-without-knowing-its-width.html)
+[View Demo](/wp-content/uploads/2010/10/center-a-block-element-without-knowing-its-width.html)
 
 ## 7. Advanced selectors
 
@@ -214,7 +214,7 @@ font: italic small-caps bold 12px/20px Arial, Helvetica;
 
 ## 11.Change text selection style
 
-![CSS3 text selection](http://www.red-team-design.com/wp-content/uploads/2010/11/text-selection.png)
+![CSS3 text selection](/wp-content/uploads/2010/11/text-selection.png)
 
 If your get tired of the default blue background selection and white text when you highlight text on a browser then you can try the following.
 
@@ -231,7 +231,7 @@ If your get tired of the default blue background selection and white text when y
 }
 {% endhighlight %} 
 
-[View Demo](http://www.red-team-design.com/wp-content/uploads/2010/11/text-selection.html)
+[View Demo](/wp-content/uploads/2010/11/text-selection.html)
 
 ## Conclusion
 

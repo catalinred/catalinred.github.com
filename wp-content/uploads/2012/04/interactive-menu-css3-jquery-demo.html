@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<title>Interactive menu with CSS3 & jQuery</title>
+	<link rel="stylesheet" href="style.css">	
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<!--[if (gte IE 6)&(lte IE 8)]> 
+		<script src="selectivizr.js"></script>
+	<![endif]-->
+	<style>
+		/* Demo page only */
+
+		#about{
+		    color: #999;
+		    text-align: center;
+		    font: 0.9em Arial, Helvetica;
+		}
+
+		#about a{
+		    color: #777;
+		}		
+	</style>
+</head>
+
+<body>
+
+  <ul class="menu">
+    <li tabindex="1">
+      <span class="title">One</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1">
+      <span class="title">Two</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1">
+      <span class="title">Three</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1">
+      <span class="title">Four</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1">
+      <span class="title">Five</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1">
+      <span class="title">Six</span> 
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1"> 
+      <span class="title">Seven</span>
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1"> 
+      <span class="title">Eight</span>
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>
+    <li tabindex="1"> 
+      <span class="title">Nine</span>
+      <div class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum dictum scelerisque. Morbi eu euismod lorem.</div>
+    </li>     
+  </ul>
+  
+  <p id="about">Back to <a href="/interactive-menu-with-css3-jquery">article</a> / Drop me a message on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+	<script>
+	  (function(){
+	  
+		// Append a close trigger for each block
+		$('.menu .content').append('<span class="close">x</span>');		
+		// Show window
+		function showContent(elem){
+			hideContent();
+			elem.find('.content').addClass('expanded');
+			elem.addClass('cover');	
+		}
+		// Reset all
+		function hideContent(){
+			$('.menu .content').removeClass('expanded');
+			$('.menu li').removeClass('cover');		
+		}
+		
+		// When a li is clicked, show its content window and position it above all
+		$('.menu li').click(function() {
+			showContent($(this));
+		});		
+		// When tabbing, show its content window using ENTER key
+		$('.menu li').keypress(function(e) {
+			if (e.keyCode == 13) { 
+				showContent($(this));
+			}
+		});
+
+		// When right upper close element is clicked  - reset all
+		$('.menu .close').click(function(e) {
+			e.stopPropagation();
+			hideContent();
+		});		
+		// Also, when ESC key is pressed - reset all
+		$(document).keyup(function(e) {
+			if (e.keyCode == 27) { 
+			  hideContent();
+			}
+		});
+		
+	  })();
+	</script>
+
+	<!-- BSA AdPacks code -->
+	<script>
+	  (function(){
+		var bsa = document.createElement('script');
+		   bsa.async = true;
+		   bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	  })();
+	</script> 
+
+</body>
+</html>

@@ -18,11 +18,11 @@ Usually, a FAQ page is that long page with lots of questions and answers, the on
 
 In this article I'll show you how to create a fancy FAQ page using CSS3 only, no JavaScript.
 
-![](http://www.red-team-design.com/wp-content/uploads/2012/02/css3-faq-page.png)
+![](/wp-content/uploads/2012/02/css3-faq-page.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2012/02/fancy-faq-page-using-css3-only-demo.html)
+[View demo](/wp-content/uploads/2012/02/fancy-faq-page-using-css3-only-demo.html)
 
 ## The idea
 
@@ -43,7 +43,7 @@ We will start as usual with the markup structure:
 </section>
 {% endhighlight %}
 
-![Faq markup](http://www.red-team-design.com/wp-content/uploads/2012/02/fancy-faq-page-using-css3-only-markup.png)
+![Faq markup](/wp-content/uploads/2012/02/fancy-faq-page-using-css3-only-markup.png)
 	
   * In the above image, the label is the proper heading of the section. But, if you want to use better semantic, you can wrap the `label` into a `h1`.
 	
@@ -168,7 +168,7 @@ Below you have the styles, I commented some lines for a better understanding:
 
 What about the older browsers? That's a normal question, and the answer is **graceful degradation**:
 
-![Graceful degradation](http://www.red-team-design.com/wp-content/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
+![Graceful degradation](/wp-content/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
 
 Using the following snippet, we're targeting browsers like [IE8 and below](http://www.red-team-design.com/how-to-solve-common-ie-bugs). So, we'll enable the HTML5 elements like `section` and then add some custom styles in order to keep the FAQ's content readable.
     

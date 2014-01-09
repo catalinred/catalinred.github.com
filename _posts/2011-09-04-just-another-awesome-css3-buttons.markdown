@@ -17,11 +17,11 @@ Whether you're designing a website or a web application, you'll need buttons for
 
 In this article you'll learn how to create some cool CSS3 buttons in just a few steps.
 
-![Some other awesome CSS3 buttons](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-buttons.png)
+![Some other awesome CSS3 buttons](/wp-content/uploads/2011/09/css3-buttons.png)
 
 <!-- more -->
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/09/awesome-css3-buttons.html)
+[View demo](/wp-content/uploads/2011/09/awesome-css3-buttons.html)
 
 While last time we've created simple [CSS3 gradient buttons](http://www.red-team-design.com/cross-browser-css-gradient-buttons), this time we'll build some nice CSS3 buttons with icons.
 
@@ -149,7 +149,7 @@ The above buttons do not use any image, automatically there's no extra HTTP imag
 
 ### Scalability
 
-![Scalable buttons ](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-buttons-scalability.png)
+![Scalable buttons ](/wp-content/uploads/2011/09/css3-buttons-scalability.png)
 
 You just need to change the font-size value from the following shorthand declaration:
 
@@ -165,11 +165,11 @@ The icons are added using the `:before` [pseudo-element](http://www.red-team-des
 
 Different operating systems and different browsers means different rendering for the HTML entities we used as icons. If you want to use another icons instead, you could try something like [Pictos](http://pictos.drewwilson.com/).
 
-![Browser support](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-buttons-across-browsers.png)
+![Browser support](/wp-content/uploads/2011/09/css3-buttons-across-browsers.png)
 
 _Screenshots made using latest versions for the modern browsers and Windows 7 as OS._
 
-![Mobile safari](http://www.red-team-design.com/wp-content/uploads/2011/09/mobile-safari.png)
+![Mobile safari](/wp-content/uploads/2011/09/mobile-safari.png)
 
 _Screenshot made using an iPhone 3GS._
 
@@ -177,7 +177,7 @@ _Screenshot made using an iPhone 3GS._
 
 You asked it and now you have it! I added support for the `button`, `input type="button"` and `input type="submit"` elements. Additionally, now they can be disabled by adding the HTML `disabled` attribute or by adding CSS `.disabled` class.
 
-![Input buttons](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-buttons-inputs.png)
+![Input buttons](/wp-content/uploads/2011/09/css3-buttons-inputs.png)
 
 _A Chrome screenshot._
 
@@ -239,9 +239,9 @@ Yet, on Opera 11.51 this worked!!! On Opera, if you use CSS generated content fo
 
 Just added some color to the buttons. To make them even more useful, I chose to create Twitter and Facebook buttons:
 
-![Social media buttons using entities](http://www.red-team-design.com/wp-content/uploads/2011/09/css3-social-media-buttons.png)
+![Social media buttons using entities](/wp-content/uploads/2011/09/css3-social-media-buttons.png)
 
-I hope you like them, the same technique as above is used. View the [demo](http://www.red-team-design.com/wp-content/uploads/2011/09/awesome-css3-buttons.html) page source for the styles.
+I hope you like them, the same technique as above is used. View the [demo](/wp-content/uploads/2011/09/awesome-css3-buttons.html) page source for the styles.
 
 ## That's all!
 

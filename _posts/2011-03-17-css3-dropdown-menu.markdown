@@ -20,12 +20,12 @@ While this is still an up-to-date version, I just wanted to let you know I made 
 
 Today you'll learn how to create your own CSS3 dropdown menu, without any additional Javascript code. There are no images used and, as usual, minimal HTML markup. Let's see how is made:
 
-![CSS3 dropdown menu](http://www.red-team-design.com/wp-content/uploads/2011/03/css-menu.png)
+![CSS3 dropdown menu](/wp-content/uploads/2011/03/css-menu.png)
 <!-- more -->
 
 If you're in a hurry, here's the result:
 
-[View demo](http://www.red-team-design.com/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
+[View demo](/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
 
 ## HTML structure
 
@@ -51,7 +51,7 @@ As you can see in the following lines, the HTML structure does not contain more 
 
 One more thing, also very important, this is [semantic HTML](http://en.wikipedia.org/wiki/Semantic_HTML). It's a logical structure and has a correct meaning, even if styling is totally missing at this point:
 
-![Semantic HTML structure](http://www.red-team-design.com/wp-content/uploads/2011/03/html-semantic-menu-structure.png)
+![Semantic HTML structure](/wp-content/uploads/2011/03/html-semantic-menu-structure.png)
 
 _Clean and accessible HTML structure_
 
@@ -199,7 +199,7 @@ _Quite long list, huh? This is it..._
 
 You may have noticed the triangle shape that appears along with the sub-menu. That's a [CSS shape](http://css-tricks.com/examples/ShapesOfCSS/) and its purpose is to increase [usability](http://www.useit.com/) for this CSS3 menu.
 
-![CSS triangle shape](http://www.red-team-design.com/wp-content/uploads/2011/03/css-triangle-shape.png)
+![CSS triangle shape](/wp-content/uploads/2011/03/css-triangle-shape.png)
 
 It's made using the `:after` [pseudo-element](http://www.w3.org/TR/CSS2/selector.html#pseudo-elements):
 
@@ -267,10 +267,10 @@ Hope you enjoyed this tutorial, don't forget to leave a comment!
 
 Just as I promised, the CSS3 dropdown menu is now a multi-level one. Please check the demo page to see the updated version:
 
-[![CSS3 multi level dropdown](http://www.red-team-design.com/wp-content/uploads/2011/03/css3-multi-level-dropdown-menu.png)](http://www.red-team-design.com/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
+[![CSS3 multi level dropdown](/wp-content/uploads/2011/03/css3-multi-level-dropdown-menu.png)](/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
 
 ### Another update
 
 I took advantage of some free time and I updated the CSS3 dropdown menu demo:
 
-[![CSS3 multi level dropdown example](http://www.red-team-design.com/wp-content/uploads/2011/03/css3-multi-level-dropdown-menu-2.png)](http://www.red-team-design.com/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
+[![CSS3 multi level dropdown example](/wp-content/uploads/2011/03/css3-multi-level-dropdown-menu-2.png)](/wp-content/uploads/2011/03/css3-dropdown-menu-demo.html)
