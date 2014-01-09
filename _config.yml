@@ -4,4 +4,5 @@ pygments: true
 permalink: /:title
 paginate: 10
 excerpt_separator: <!-- more -->
+baseurl: http://www.red-team-design.com
 exclude: [rtd.sublime-project, rtd.sublime-workspace]

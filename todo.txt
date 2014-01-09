@@ -7,6 +7,12 @@
 ??????Further I should check for replacing http://www.red-team-design with just /
 ??????or maybe use just /uploads/
 -------Fix jQuery-> JavaScript category replace - jQuery
+
+404.htm
+CNAME	
+README.md
+sitemap.xml http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
+			https://github.com/havvg/havvg.github.com/blob/master/sitemap.xml
       
 
 View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
