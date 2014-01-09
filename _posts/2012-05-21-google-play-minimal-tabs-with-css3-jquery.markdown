@@ -12,7 +12,6 @@ categories:
 - JavaScript
 tags:
 - CSS3
-- JavaScript
 - jQuery
 - usability
 - User experience

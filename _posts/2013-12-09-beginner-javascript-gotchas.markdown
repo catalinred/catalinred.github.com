@@ -8,7 +8,7 @@ title: A beginner's list of JavaScript gotchas
 description: This article contains a list of some JavaScript gotchas that every new JavaScript developer might find it useful.
 wordpress_id: 6718
 categories:
-- jQuery
+- JavaScript
 ---
 
 I consider myself a novice when it comes to coding in JavaScript but lately I played a bit more with this language and stumbled upon a few random things I thought were worth sharing. So, if you are new to JavaScript or just don't know it as well as you would like, I hope you find this article useful.

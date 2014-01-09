@@ -8,7 +8,7 @@ title: Removing an element with the plain JavaScript remove() method
 description: Remove an element with the plain JavaScript remove() method available in the current DOM4 specs along with other mutation methods like append(), prepend(), before(), after() and replace().
 wordpress_id: 6329
 categories:
-- jQuery
+- JavaScript
 ---
 
 As you might know, the DOM does not supports removing an element directly. When removing an element with JavaScript, you must go to its parent first instead. This was always odd and not so straightforward.

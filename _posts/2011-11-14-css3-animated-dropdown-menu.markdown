@@ -9,7 +9,7 @@ description: Learn how to create an awesome CSS3 animated dropdown menu. Along w
 wordpress_id: 3784
 categories:
 - CSS
-- HTML5
+- HTML
 - JavaScript
 tags:
 - CSS3

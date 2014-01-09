@@ -9,7 +9,7 @@ description: Check my top 10 HTML5 and CSS3 posts of 2011.
 wordpress_id: 4071
 categories:
 - CSS
-- HTML5
+- HTML
 - JavaScript
 tags:
 - CSS3

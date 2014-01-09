@@ -6,13 +6,12 @@
 ------Fix paths to relative instead of absolute and add content folder: /wp-content/uploads/
 ??????Further I should check for replacing http://www.red-team-design with just /
 ??????or maybe use just /uploads/
+-------Fix jQuery-> JavaScript category replace - jQuery
       
 
 View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
 
-Fix jQuery-> JavaScript category replace - jQuery
-
-Figure + figcaption
+Figure + figcaption ---later
 
 Footer: http://demo.tutorialzine.com/2013/08/slideout-footer-css/
 

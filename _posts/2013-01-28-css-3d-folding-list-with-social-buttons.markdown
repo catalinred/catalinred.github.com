@@ -9,7 +9,7 @@ description: Draw users' attention by using CSS 3D transforms in order to simula
 wordpress_id: 5898
 categories:
 - CSS
-- jQuery
+- JavaScript
 tags:
 - CSS3
 - JavaScript

@@ -10,6 +10,7 @@ wordpress_id: 3158
 categories:
 - CSS
 - JavaScript
+- HTML
 tags:
 - CSS3
 - HTML5
