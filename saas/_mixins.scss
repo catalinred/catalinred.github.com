@@ -1,0 +1,23 @@
+/*------------------------------------*\
+    Mixins
+\*------------------------------------*/
+
+/**
+ * REM font-sizes
+ */
+@mixin rem($val) {
+	font-size: ($val * 10) + px;
+	font-size: $val + rem;
+}
+
+/**
+ * Breakpoints for media queries
+ */
+@mixin breakpoint($point) {
+	@if $point == medium {
+	    @media (max-width: 48em) { @content; } //960px
+	}
+	@if $point == small {
+	    @media (max-width: 38em) { @content; } //760px
+	}
+}

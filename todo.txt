@@ -19,28 +19,20 @@ sitemap.xml http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
 			https://github.com/havvg/havvg.github.com/blob/master/sitemap.xml
 			jekyll serve -w --baseurl=
 
-404.html
-CNAME	
-README.md      
+-------404.html
+-------CNAME	
+-------README.md  
+
+-------Basic SCSS structure    
 
 View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
 
 Figure + figcaption ---later
+
+---
 
 Footer: http://demo.tutorialzine.com/2013/08/slideout-footer-css/
 
 Build the sidebar
 
 Make the contact page work.
-
----
-
-Later
-
-SCSS STUFF
-
-grid http://joshnh.com/2013/12/04/creating-lightweight-grid-system/
-
-syntax
-
-rem based mixin...

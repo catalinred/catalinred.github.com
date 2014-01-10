@@ -1,0 +1,12 @@
+// scss --watch style.scss:../css/style.css --style expanded
+// scss --watch style.scss:../css/style.css --style compressed
+
+@import
+	"vars",
+	"grid",
+	"base",
+	"mixins",
+	"buttons",
+	"pygments",
+	"typography"
+;

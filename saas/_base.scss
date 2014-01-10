@@ -1,14 +1,37 @@
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+
 body {
-  background-color: #FFF;
-  font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	color: $primary-color;
+	font: 16px $rtd-font;
 }
 
-a         { color: #4697D5; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline;}
-a:visited { color: #4697D5 }
+a { 
+	color: $rtd-color; 
+	text-decoration: none;
 
+	&:hover{
+		text-decoration: underline;
+	} 
+}
 
-/* bquote*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #dd3333;
+}
+
+::selection {
+  color: #fff;
+  background-color: #dd3333;
+}
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
@@ -43,32 +66,4 @@ blockquote cite {
   font-weight: 300;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-}
-
-/**/
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-mark{
-  border-bottom: 2px solid #333;
-  background: #555;
-}
-
-::selection{
-  color: #fff;
-  background-color: #dd3333;
-  text-shadow: none;
-}
-
-::-moz-selection{
-  color: #fff;
-  background-color: #dd3333;
-  text-shadow: none;
-}
-
-h1, h2, h3, h4, h5 {
-font-family: 'Open Sans',sans-serif;
-font-weight: 400;
 }
