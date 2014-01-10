@@ -1,19 +1,27 @@
 ------Fix the markdown files and highlighting stuff.
+
 ------Add meta description for each.
+
 ------Check <mark>
+
 ------RSS  <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/redteamdesign">
+
 ------Remove extra paragraph from index excerpt
+
 ------Fix paths to relative instead of absolute and add content folder: /wp-content/uploads/
+
 ??????Further I should check for replacing http://www.red-team-design with just /
 ??????or maybe use just /uploads/
+
 -------Fix jQuery-> JavaScript category replace - jQuery
 
-404.htm
-CNAME	
-README.md
 sitemap.xml http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
 			https://github.com/havvg/havvg.github.com/blob/master/sitemap.xml
-      
+			jekyll serve -w --baseurl=
+
+404.html
+CNAME	
+README.md      
 
 View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
 
