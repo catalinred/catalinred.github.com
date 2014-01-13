@@ -1,1 +1,542 @@
-body{background-color:#fff;color:#333;font:16px "Open Sans",Helvetica,Arial,sans-serif}a{color:#d33;text-decoration:none}a:hover{text-decoration:underline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}::-moz-selection{color:#fff;background-color:#dd3333}::selection{color:#fff;background-color:#dd3333}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}blockquote{font-family:Georgia, "Bitstream Charter", serif;font-style:italic;font-weight:normal;margin:1.5em;padding:0 1.5em;position:relative}blockquote:before{color:#ddd;content:"\201C";font:italic 100px Tahoma,Arial;left:-40px;top:-30px;position:absolute;z-index:-1}blockquote em,blockquote i,blockquote cite{font-style:normal}blockquote cite{color:#666;font:12px "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight:300;letter-spacing:0.05em;text-transform:uppercase}.btn{display:inline-block;vertical-align:middle;padding:10px;text-align:center;background-color:red;font-weight:300;border-radius:3px}.btn:hover{color:#fff;text-decoration:none}.btn--full{width:100%}.btn--large{padding:20px}.btn--secondary{background-color:#3f990f}.btn--tertiary{background-color:#9f102e}code{background:#ddd;padding:2px 4px;font-family:"Consolas", "Courier New", "Courier", "FreeMono", monospace}.highlight pre{padding:1em;overflow:auto}.highlight code{white-space:inherit;padding:0}.highlight pre,.highlight pre code{line-height:1.4em;font-size:15px;background:#111;color:#93A1A1}.highlight .hll{background-color:#49483e}.highlight{color:#f8f8f2}.highlight .c{color:#75715e}.highlight .err{color:#960050;background-color:#1e0010}.highlight .k{color:#66d9ef}.highlight .l{color:#ae81ff}.highlight .n{color:#f8f8f2}.highlight .o{color:#f92672}.highlight .p{color:#f8f8f2}.highlight .cm{color:#75715e}.highlight .cp{color:#75715e}.highlight .c1{color:#75715e}.highlight .cs{color:#75715e}.highlight .ge{font-style:italic}.highlight .gs{font-weight:bold}.highlight .kc{color:#66d9ef}.highlight .kd{color:#66d9ef}.highlight .kn{color:#f92672}.highlight .kp{color:#66d9ef}.highlight .kr{color:#66d9ef}.highlight .kt{color:#66d9ef}.highlight .ld{color:#e6db74}.highlight .m{color:#ae81ff}.highlight .s{color:#e6db74}.highlight .na{color:#a6e22e}.highlight .nb{color:#f8f8f2}.highlight .nc{color:#a6e22e}.highlight .no{color:#66d9ef}.highlight .nd{color:#a6e22e}.highlight .ni{color:#f8f8f2}.highlight .ne{color:#a6e22e}.highlight .nf{color:#a6e22e}.highlight .nl{color:#f8f8f2}.highlight .nn{color:#f8f8f2}.highlight .nx{color:#a6e22e}.highlight .py{color:#f8f8f2}.highlight .nt{color:#f92672}.highlight .nv{color:#f8f8f2}.highlight .ow{color:#f92672}.highlight .w{color:#f8f8f2}.highlight .mf{color:#ae81ff}.highlight .mh{color:#ae81ff}.highlight .mi{color:#ae81ff}.highlight .mo{color:#ae81ff}.highlight .sb{color:#e6db74}.highlight .sc{color:#e6db74}.highlight .sd{color:#e6db74}.highlight .s2{color:#e6db74}.highlight .se{color:#ae81ff}.highlight .sh{color:#e6db74}.highlight .si{color:#e6db74}.highlight .sx{color:#e6db74}.highlight .sr{color:#e6db74}.highlight .s1{color:#e6db74}.highlight .ss{color:#e6db74}.highlight .bp{color:#f8f8f2}.highlight .vc{color:#f8f8f2}.highlight .vg{color:#f8f8f2}.highlight .vi{color:#f8f8f2}.highlight .il{color:#ae81ff}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local("Open Sans"),local("OpenSans"),url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff")}h1,h2,h3,h4,h5{font-family:'Open Sans',sans-serif;font-weight:400}
+/*------------------------------------*\
+    Variables
+\*------------------------------------*/
+/**
+ * RTD stuff
+ */
+/**
+ * Other stuff
+ */
+/*------------------------------------*\
+    Mixins
+\*------------------------------------*/
+/**
+ * REM https://gist.github.com/webgefrickel/4530526
+ * @include rem(margin, 0 12px 2 1.2)
+ */
+/**
+ * Breakpoints for media queries
+ */
+/*------------------------------------*\
+    Grid
+\*------------------------------------*/
+/**
+ * Minimal grid setup.
+ * The below array will build stuff like <div class="grid__col--25">
+ */
+/**
+ * 1. 'Kung fu' method to fight with inline-block whitespace.
+ * 2. Children font size reverted to base.
+ * 3. Default vertical alignment for grid children.
+ * 4. Use 'first-child' in order to support IE8 as well. 
+ */
+@media (min-width: 768px) {
+  .grid {
+    font-size: 0;
+    /* 1 */
+  }
+
+  .grid--pad {
+    padding: 20px;
+    padding: 1.25rem;
+  }
+
+  .grid--vmiddle {
+    vertical-align: middle;
+  }
+
+  [class*="grid__col--"] {
+    display: inline-block;
+    padding-left: 20px;
+    padding-left: 1.25rem;
+    font-size: 16px;
+    font-size: 1rem;
+    /* 2 */
+    vertical-align: top;
+    /* 3 */
+  }
+  [class*="grid__col--"]:first-child {
+    padding-left: 0;
+    /* 4 */
+  }
+
+  .grid__col--25 {
+    width: 25%;
+  }
+
+  .grid__col--50 {
+    width: 50%;
+  }
+
+  .grid__col--75 {
+    width: 75%;
+  }
+
+  .grid__col--100 {
+    width: 100%;
+  }
+}
+/*------------------------------------*\
+		Typography
+\*------------------------------------*/
+/**
+ * Alter the default CSS box model 
+ */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * Custom content selection
+ */
+::-moz-selection {
+  color: #fff;
+  background-color: #dd3333;
+}
+
+::selection {
+  color: #fff;
+  background-color: #dd3333;
+}
+
+/**
+ * All the img's are responsive
+ */
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+/**
+ * Body defaults
+ */
+body {
+  margin: 0;
+  color: #333333;
+  font-size: 16px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/**
+ * The main container wrapper
+ */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-left: 1.25rem;
+  padding-right: 20px;
+  padding-right: 1.25rem;
+}
+
+/**
+ * Links
+ */
+a {
+  color: #dd3333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/**
+ * Blockquote
+ */
+blockquote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  position: relative;
+  margin: 20px;
+  margin: 1.25rem;
+  padding: 0 20px;
+  padding: 0 1.25rem;
+}
+blockquote:before {
+  color: #ddd;
+  content: "\201C";
+  font: italic 100px Tahoma,Arial;
+  left: -40px;
+  top: -30px;
+  position: absolute;
+  z-index: -1;
+}
+
+/**
+ * Code blocks
+ */
+code {
+  background: #ddd;
+  padding: 2px 4px;
+  font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
+}
+
+/*------------------------------------*\
+    Buttons
+\*------------------------------------*/
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  font-weight: 300;
+  border-radius: 3px;
+}
+.btn:hover {
+  color: #fff;
+}
+
+.btn--full {
+  width: 100%;
+}
+
+.btn--large {
+  padding: 20px;
+}
+
+.btn--secondary {
+  background-color: #3f990f;
+}
+
+.btn--tertiary {
+  background-color: #9f102e;
+}
+
+/*------------------------------------*\
+    Pygments - the Python syntax highlighter
+\*------------------------------------*/
+.highlight pre {
+  padding: 1em;
+  overflow: auto;
+}
+
+.highlight code {
+  white-space: inherit;
+  padding: 0;
+}
+
+.highlight pre, .highlight pre code {
+  line-height: 1.4em;
+  font-size: 15px;
+  background: #111;
+  color: #93A1A1;
+}
+
+.highlight .hll {
+  background-color: #49483e;
+}
+
+.highlight {
+  color: #f8f8f2;
+}
+
+.highlight .c {
+  color: #75715e;
+}
+
+/* Comment */
+.highlight .err {
+  color: #960050;
+  background-color: #1e0010;
+}
+
+/* Error */
+.highlight .k {
+  color: #66d9ef;
+}
+
+/* Keyword */
+.highlight .l {
+  color: #ae81ff;
+}
+
+/* Literal */
+.highlight .n {
+  color: #f8f8f2;
+}
+
+/* Name */
+.highlight .o {
+  color: #f92672;
+}
+
+/* Operator */
+.highlight .p {
+  color: #f8f8f2;
+}
+
+/* Punctuation */
+.highlight .cm {
+  color: #75715e;
+}
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #75715e;
+}
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #75715e;
+}
+
+/* Comment.Single */
+.highlight .cs {
+  color: #75715e;
+}
+
+/* Comment.Special */
+.highlight .ge {
+  font-style: italic;
+}
+
+/* Generic.Emph */
+.highlight .gs {
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+.highlight .kc {
+  color: #66d9ef;
+}
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: #66d9ef;
+}
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: #f92672;
+}
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: #66d9ef;
+}
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: #66d9ef;
+}
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #66d9ef;
+}
+
+/* Keyword.Type */
+.highlight .ld {
+  color: #e6db74;
+}
+
+/* Literal.Date */
+.highlight .m {
+  color: #ae81ff;
+}
+
+/* Literal.Number */
+.highlight .s {
+  color: #e6db74;
+}
+
+/* Literal.String */
+.highlight .na {
+  color: #a6e22e;
+}
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #a6e22e;
+}
+
+/* Name.Class */
+.highlight .no {
+  color: #66d9ef;
+}
+
+/* Name.Constant */
+.highlight .nd {
+  color: #a6e22e;
+}
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #f8f8f2;
+}
+
+/* Name.Entity */
+.highlight .ne {
+  color: #a6e22e;
+}
+
+/* Name.Exception */
+.highlight .nf {
+  color: #a6e22e;
+}
+
+/* Name.Function */
+.highlight .nl {
+  color: #f8f8f2;
+}
+
+/* Name.Label */
+.highlight .nn {
+  color: #f8f8f2;
+}
+
+/* Name.Namespace */
+.highlight .nx {
+  color: #a6e22e;
+}
+
+/* Name.Other */
+.highlight .py {
+  color: #f8f8f2;
+}
+
+/* Name.Property */
+.highlight .nt {
+  color: #f92672;
+}
+
+/* Name.Tag */
+.highlight .nv {
+  color: #f8f8f2;
+}
+
+/* Name.Variable */
+.highlight .ow {
+  color: #f92672;
+}
+
+/* Operator.Word */
+.highlight .w {
+  color: #f8f8f2;
+}
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #e6db74;
+}
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #e6db74;
+}
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #e6db74;
+}
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #e6db74;
+}
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #ae81ff;
+}
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #e6db74;
+}
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #e6db74;
+}
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #e6db74;
+}
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #e6db74;
+}
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #e6db74;
+}
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #e6db74;
+}
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #f8f8f2;
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #f8f8f2;
+}
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #ae81ff;
+}
+
+/* Literal.Number.Integer.Long */
+/*------------------------------------*\
+    Typography
+\*------------------------------------*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v7/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}

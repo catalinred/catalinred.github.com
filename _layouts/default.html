@@ -11,8 +11,8 @@
         <link rel="author" href="https://plus.google.com/114910105297465575018/posts"/>
         <!--[if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="respond.min.js"></script>
         <![endif]-->
-
     </head>
     <!-- 
            _        _ 
@@ -26,27 +26,30 @@
      -->
     <body>
 
+    <div class="container">
       <header role="banner">
         <h1><a href="/">{{ site.name }}</a></h1>
         <nav role="navigation">
           <li><a href="/">home</a></li>
-          <li><a href="/about/">archives</a></li>
+          <li><a href="/archive/">archive</a></li>
           <li><a href="/about/">about</a></li>
           <li><a href="/contact/">contact</a> </li>            
         </nav>
       </header>
 
-      <div role="main">
-        {{ content }}
-      </div>
-
-      <div role="complementary">
-        sidebar
+      <div class="grid">
+        <div class="grid__col--75" role="main">
+          {{ content }}
+        </div>
+        <div class="grid__col--25" role="complementary">
+          sidebar
+        </div>
       </div>
 
       <footer role="contentinfo">
         footer
       </footer>
+    </div>
 
     </body>
 </html>

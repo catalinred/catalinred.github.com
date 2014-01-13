@@ -1,12 +1,68 @@
 /*------------------------------------*\
-    Typography
+		Typography
 \*------------------------------------*/
 
-body {
-	background-color: #fff;
-	color: $primary-color;
-	font: 16px $rtd-font;
+
+/**
+ * Alter the default CSS box model 
+ */
+
+*, *:after, *:before {
+		-webkit-box-sizing: border-box;
+			 -moz-box-sizing: border-box;
+						box-sizing: border-box; 
 }
+
+/**
+ * Custom content selection
+ */
+
+::-moz-selection {
+	color: #fff;
+	background-color: $rtd-color;
+}
+
+::selection {
+	color: #fff;
+	background-color: $rtd-color;
+}
+
+/**
+ * All the img's are responsive
+ */
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; 
+}
+
+/**
+ * Body defaults
+ */
+
+body {
+	margin: 0;	
+	color: $primary-color;
+	font-size: $font-size; 
+	font-family: $rtd-font;
+}
+
+/**
+ * The main container wrapper
+ */
+
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	@include rem(padding-left, $gutter);
+	@include rem(padding-right, $gutter);	
+}
+
+/**
+ * Links
+ */
 
 a { 
 	color: $rtd-color; 
@@ -17,53 +73,33 @@ a {
 	} 
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+/**
+ * Blockquote
+ */
 
-::-moz-selection {
-  color: #fff;
-  background-color: #dd3333;
-}
-
-::selection {
-  color: #fff;
-  background-color: #dd3333;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-}
-blockquote, q {
-  quotes: "" "";
-}
 blockquote {
-  font-family: Georgia, "Bitstream Charter", serif;
-  font-style: italic;
-  font-weight: normal;
-  margin: 1.5em;
-  padding: 0 1.5em;
-  position: relative;
+	font-family: Georgia, serif;
+	font-style: italic;
+	position: relative;
+	@include rem(margin, $gutter);
+	@include rem(padding, 0 $gutter);
+
+	&:before {
+		color: #ddd;
+		content: "\201C";
+		font: italic 100px Tahoma,Arial;
+		left: -40px; top: -30px;
+		position: absolute;
+		z-index: -1;		
+	}	
 }
 
-blockquote:before {
-  color: #ddd;
-      content: "\201C";
-      font: italic 100px Tahoma,Arial;
-      left: -40px; top: -30px;
-      position: absolute;
-      z-index: -1;
-}
+/**
+ * Code blocks
+ */
 
-blockquote em, blockquote i, blockquote cite {
-  font-style: normal;
-}
-blockquote cite {
-  color: #666;
-  font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+code {
+	background: #ddd;
+	padding: 2px 4px;
+	font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }

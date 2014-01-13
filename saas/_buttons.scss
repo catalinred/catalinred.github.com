@@ -1,6 +1,9 @@
 /*------------------------------------*\
     Buttons
 \*------------------------------------*/
+
+// http://localhost:4000/css3-patterned-buttons/
+
 .btn {
     display: inline-block;
     vertical-align: middle;
@@ -12,7 +15,6 @@
     
     &:hover {
         color: #fff;
-        text-decoration: none;
     }
 
 }

@@ -2,20 +2,6 @@
     Pygments - the Python syntax highlighter
 \*------------------------------------*/
 
-/**
- * <code> by itself 
- */
-
-code {
-  background: #ddd;
-  padding: 2px 4px;
-  font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
-}
-
-/**
- * Pygments stuff 
- */
-
 .highlight pre { padding: 1em; overflow: auto;}
 .highlight code { white-space: inherit; padding: 0; }
 .highlight pre, .highlight pre code { line-height: 1.4em; font-size: 15px; background: #111; color: #93A1A1;}

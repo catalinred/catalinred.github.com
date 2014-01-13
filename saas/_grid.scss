@@ -2,4 +2,57 @@
     Grid
 \*------------------------------------*/
 
-// grid http://joshnh.com/2013/12/04/creating-lightweight-grid-system/
+/**
+ * Minimal grid setup.
+ * The below array will build stuff like <div class="grid__col--25">
+ */
+
+$columns: 25, 50, 75, 100;
+
+/**
+ * 1. 'Kung fu' method to fight with inline-block whitespace.
+ * 2. Children font size reverted to base.
+ * 3. Default vertical alignment for grid children.
+ * 4. Use 'first-child' in order to support IE8 as well. 
+ */
+
+@include breakpoint(small) {
+
+	.grid {
+		font-size: 0; /* 1 */
+	}
+
+	.grid--pad {
+		@include rem(padding, $gutter);
+	}
+
+	.grid--vmiddle {
+		vertical-align: middle;
+	}	
+
+	[class*="grid__col--"] {
+		display: inline-block;
+		@include rem(padding-left, $gutter);
+		@include rem(font-size, 1); /* 2 */
+		vertical-align: top; /* 3 */		
+
+		&:first-child {
+			padding-left: 0; /* 4 */
+		}
+	}
+	
+	@each $column in $columns {
+		.grid__col--#{$column} {
+			width: $column * 1%;
+		}
+	}
+}
+
+// <div class="grid">
+// 	<div class="grid__col--75">
+// 		...
+// 	</div>
+// 	<div class="grid__col--25">
+// 		...
+// 	</div>
+// </div>

@@ -23,9 +23,16 @@ sitemap.xml http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
 -------CNAME	
 -------README.md  
 
--------Basic SCSS structure    
+-------Basic SCSS structure
+	   Check global variables
+	   Add vertical rhythm
 
-View demo link buttons, simple h2/h3 or custom HTML class for the demo link.
+Archive posts
+	fix empty p's
+	check syntax and semantic   
+
+
+View demo link buttons / simple h2/h3 or custom HTML class for the demo link.
 
 Figure + figcaption ---later
 
