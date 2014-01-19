@@ -7,7 +7,7 @@
  * The below array will build stuff like <div class="grid__col--25">
  */
 
-$columns: 25, 50, 75, 100;
+$columns: 10, 20, 25, 30, 33, 40, 50, 60, 67, 70, 75, 80, 90, 100; 
 
 /**
  * 1. 'Kung fu' method to fight with inline-block whitespace.
@@ -15,6 +15,10 @@ $columns: 25, 50, 75, 100;
  * 3. Default vertical alignment for grid children.
  * 4. Use 'first-child' in order to support IE8 as well. 
  */
+
+[class*="grid__col--"] {
+ 	@include rem(margin-bottom, $gutter);
+ }
 
 @include breakpoint(small) {
 
@@ -32,6 +36,7 @@ $columns: 25, 50, 75, 100;
 
 	[class*="grid__col--"] {
 		display: inline-block;
+		margin: 0;
 		@include rem(padding-left, $gutter);
 		@include rem(font-size, 1); /* 2 */
 		vertical-align: top; /* 3 */		
@@ -46,13 +51,20 @@ $columns: 25, 50, 75, 100;
 			width: $column * 1%;
 		}
 	}
+
+	@each $column in $columns {
+		.grid__col--push#{$column} {
+			margin-right: $column * 1%;
+		}
+	}
+
 }
 
 // <div class="grid">
-// 	<div class="grid__col--75">
+// 	<div class="grid__col--50 grid__col--push10">
 // 		...
 // 	</div>
-// 	<div class="grid__col--25">
+// 	<div class="grid__col--40">
 // 		...
 // 	</div>
 // </div>

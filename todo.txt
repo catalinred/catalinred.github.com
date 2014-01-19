@@ -26,9 +26,9 @@
 	   Add vertical rhythm
 	   buttons partial / View demo link buttons / simple h2/h3 or custom HTML class for the demo link.
 
-Archive posts
-	fix empty p's
-	check syntax and semantic 
+-------Archive posts
+
+Previous and next blog post to the bottom
 
 Figure + figcaption ---later
 

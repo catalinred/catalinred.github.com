@@ -34,7 +34,7 @@
 img {
 	max-width: 100%;
 	height: auto;
-	width: auto\9; 
+	width: auto\9;
 }
 
 /**
@@ -44,8 +44,11 @@ img {
 body {
 	margin: 0;	
 	color: $primary-color;
-	font-size: $font-size; 
+	font-size: $font-size;
+	line-height: $line-height; 
 	font-family: $rtd-font;
+	background-image: linear-gradient(rgba(0,0,0,.02) 1px, transparent 1px);
+	background-size: 100% $line-height;	
 }
 
 /**
@@ -81,7 +84,6 @@ blockquote {
 	font-family: Georgia, serif;
 	font-style: italic;
 	position: relative;
-	@include rem(margin, $gutter);
 	@include rem(padding, 0 $gutter);
 
 	&:before {
@@ -100,6 +102,6 @@ blockquote {
 
 code {
 	background: #ddd;
-	padding: 2px 4px;
+	padding: 1px 3px;
 	font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }

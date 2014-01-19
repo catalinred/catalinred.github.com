@@ -30,6 +30,11 @@
  * 3. Default vertical alignment for grid children.
  * 4. Use 'first-child' in order to support IE8 as well. 
  */
+[class*="grid__col--"] {
+  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+}
+
 @media (min-width: 768px) {
   .grid {
     font-size: 0;
@@ -47,6 +52,7 @@
 
   [class*="grid__col--"] {
     display: inline-block;
+    margin: 0;
     padding-left: 20px;
     padding-left: 1.25rem;
     font-size: 16px;
@@ -60,20 +66,116 @@
     /* 4 */
   }
 
+  .grid__col--10 {
+    width: 10%;
+  }
+
+  .grid__col--20 {
+    width: 20%;
+  }
+
   .grid__col--25 {
     width: 25%;
+  }
+
+  .grid__col--30 {
+    width: 30%;
+  }
+
+  .grid__col--33 {
+    width: 33%;
+  }
+
+  .grid__col--40 {
+    width: 40%;
   }
 
   .grid__col--50 {
     width: 50%;
   }
 
+  .grid__col--60 {
+    width: 60%;
+  }
+
+  .grid__col--67 {
+    width: 67%;
+  }
+
+  .grid__col--70 {
+    width: 70%;
+  }
+
   .grid__col--75 {
     width: 75%;
   }
 
+  .grid__col--80 {
+    width: 80%;
+  }
+
+  .grid__col--90 {
+    width: 90%;
+  }
+
   .grid__col--100 {
     width: 100%;
+  }
+
+  .grid__col--push10 {
+    margin-right: 10%;
+  }
+
+  .grid__col--push20 {
+    margin-right: 20%;
+  }
+
+  .grid__col--push25 {
+    margin-right: 25%;
+  }
+
+  .grid__col--push30 {
+    margin-right: 30%;
+  }
+
+  .grid__col--push33 {
+    margin-right: 33%;
+  }
+
+  .grid__col--push40 {
+    margin-right: 40%;
+  }
+
+  .grid__col--push50 {
+    margin-right: 50%;
+  }
+
+  .grid__col--push60 {
+    margin-right: 60%;
+  }
+
+  .grid__col--push67 {
+    margin-right: 67%;
+  }
+
+  .grid__col--push70 {
+    margin-right: 70%;
+  }
+
+  .grid__col--push75 {
+    margin-right: 75%;
+  }
+
+  .grid__col--push80 {
+    margin-right: 80%;
+  }
+
+  .grid__col--push90 {
+    margin-right: 90%;
+  }
+
+  .grid__col--push100 {
+    margin-right: 100%;
   }
 }
 /*------------------------------------*\
@@ -117,7 +219,10 @@ body {
   margin: 0;
   color: #333333;
   font-size: 16px;
+  line-height: 24px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 100% 24px;
 }
 
 /**
@@ -151,8 +256,6 @@ blockquote {
   font-family: Georgia, serif;
   font-style: italic;
   position: relative;
-  margin: 20px;
-  margin: 1.25rem;
   padding: 0 20px;
   padding: 0 1.25rem;
 }
@@ -171,7 +274,7 @@ blockquote:before {
  */
 code {
   background: #ddd;
-  padding: 2px 4px;
+  padding: 1px 3px;
   font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }
 
@@ -183,7 +286,7 @@ code {
   vertical-align: middle;
   padding: 10px;
   text-align: center;
-  background-color: red;
+  background-color: #dd3333;
   font-weight: 300;
   border-radius: 3px;
 }
@@ -211,7 +314,8 @@ code {
     Pygments - the Python syntax highlighter
 \*------------------------------------*/
 .highlight pre {
-  padding: 1em;
+  padding: 20px;
+  padding: 1.25rem;
   overflow: auto;
 }
 
@@ -221,8 +325,8 @@ code {
 }
 
 .highlight pre, .highlight pre code {
-  line-height: 1.4em;
-  font-size: 15px;
+  font-size: 14px;
+  font-size: 0.9rem;
   background: #111;
   color: #93A1A1;
 }
@@ -539,4 +643,43 @@ code {
 h1, h2, h3, h4, h5 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
+  margin: 0 0 24px 0;
+  margin: 0 0 1.5rem 0;
+}
+
+h1, .h1 {
+  font-size: 36px;
+  font-size: 2.25rem;
+  /* 36/16 */
+  line-height: 1.33333;
+  /* 48/36 */
+}
+
+h2, .h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  /* 24/16 */
+  line-height: 1;
+  /* 24/24 */
+}
+
+h3, .h3 {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  /* 21/16 */
+  line-height: 1.15;
+  /* 24/21 */
+}
+
+h4, .h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  /* 18/16 */
+  line-height: 1.33333;
+  /* 24/18 */
+}
+
+p, ul, ol, blockquote, pre {
+  margin: 0 0 24px 0;
+  margin: 0 0 1.5rem 0;
 }
