@@ -28,7 +28,7 @@
 
 -------Archive posts
 
-Previous and next blog post to the bottom
+-------Previous and next blog post to the bottom
 
 Figure + figcaption ---later
 
