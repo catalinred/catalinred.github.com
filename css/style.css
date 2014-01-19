@@ -90,6 +90,10 @@
     width: 40%;
   }
 
+  .grid__col--45 {
+    width: 45%;
+  }
+
   .grid__col--50 {
     width: 50%;
   }
@@ -144,6 +148,10 @@
 
   .grid__col--push40 {
     margin-right: 40%;
+  }
+
+  .grid__col--push45 {
+    margin-right: 45%;
   }
 
   .grid__col--push50 {
@@ -221,7 +229,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   background-size: 100% 24px;
 }
 
