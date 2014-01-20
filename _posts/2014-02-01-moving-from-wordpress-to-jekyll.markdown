@@ -24,9 +24,9 @@ From the start, I knew what moving from WordPress to Jekyll will involve, so I m
 
 ## Running Jekyll
 
-Before going anywhere further, I'd like to point out that if you're planing to publish blog articles from your mobile, then Jekyll might not suit your needs. And that's because of its dependencies.
+Before going anywhere further, I'd like to point out that if you're planing to publish blog articles from your mobile, while on vacation, then Jekyll might not suit your needs. And that's because of its dependencies. Unless perhaps you're using something like [Prose.io](http://prose.io).
 
-I'll start with the begining, which is perhaps the ugliest part of my story: set up everything on a Windows machine. It felt just great when I got it running, but it's not that easy as on a Mac OS.
+I'll start with the beginning, which is perhaps the ugliest part of my story: set up everything on a Windows machine. It felt just great when I got it running, but it's not that easy as on a Mac OS.
 
 tutorial
 ruby install
@@ -41,7 +41,7 @@ To migrate the existing articles and pages to Jekyll, I've decided to go with [e
 Once I've set up existwp, I just ran `exitwp.py` and voila, all my posts were in Markdown format. Everthing went just fine, just some minor content adjustments were made for the resulted files.
 
 ### Custom meta description
-For SEO purposes, it's recommended to have custom descriptions for each of your pages, that's why I used the Yoast plugin on WordPress. When migrating, unfortunatelly you kinda lose every custom meta description field you filled in. Unless you want the lazy aproach - setting a single description for all your pages within `_config.yml` - you may need a coffee and some extra patience to fill meta descriptions for *each* of your markdown pages.
+For SEO purposes, it's recommended to have custom descriptions for each of your pages, that's why I used the Yoast plugin on WordPress. When migrating, unfortunatelly you kinda lose every custom meta description field you filled in. Unless you want the lazy approach - setting a single description for all your pages within `_config.yml` - you may need a coffee and some extra patience to fill meta descriptions for *each* of your markdown pages.
 
 ### Post excerpt
 One of the things I cared about was to keep the existing content excerpt format for the index page posts. Thanks to the exitwp export tool, all my resulted Markdown posts kept the `<!-- more -->` code. Having this breakpoint code already, I just needed to specify it as the `excerpt` in the `_config.yml`.
@@ -71,7 +71,7 @@ Therefore, the only logical choice was to go further with [Disqus](http://disqus
 Made everything from scratch using SASS.
 
 ## Setting up GitHub pages and deploy
-With this oportunity, I decided to try out GitHub Pages as well. deploy ...
+With this opportunity, I decided to try out GitHub Pages as well. deploy ...
 
 ## Conclusion
 When I first though about this big change, I though I'll never have enough time for that. I knew this is going to be time consuming but everything worth it. Definitely! Because in the end, the more important thing is to learn new stuff, that's part of [becoming a better developer](http://www.red-team-design.com/becoming-a-better-developer).

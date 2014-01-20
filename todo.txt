@@ -16,7 +16,7 @@
 
 -------	sitemap.xml http://vvv.tobiassjosten.net/jekyll/jekyll-sitemap-without-plugins/
 		https://github.com/havvg/havvg.github.com/blob/master/sitemap.xml
-		jekyll serve -w --baseurl=
+		jekyll serve --w --baseurl=
 
 -------	404.html
 -------	CNAME	
@@ -30,12 +30,20 @@
 
 -------Previous and next blog post to the bottom
 
-Figure + figcaption ---later
+---
+
+Header, sticky, new logo, border bottom menu uppercase slim.
+
+Footer, try svg base64 repeat patter,
+http://demo.tutorialzine.com/2013/08/slideout-footer-css/
+
+Build the sidebar, aside...
+
+Make the contact page work...
+
+Decide on a icon font.
 
 ---
 
-Footer: http://demo.tutorialzine.com/2013/08/slideout-footer-css/
-
-Build the sidebar
-
-Make the contact page work.
+Figure + figcaption ---later
+demo links
