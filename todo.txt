@@ -32,6 +32,8 @@
 
 ---
 
+Add async scripts: bsa twitter fb gplus
+
 Header, sticky, new logo, border bottom menu uppercase slim.
 
 Footer, try svg base64 repeat patter,

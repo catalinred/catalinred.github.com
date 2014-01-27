@@ -1,55 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-        <title>{{ page.title }}</title>
-        <meta name="description" content="{{ page.description }}">
-        <meta name='google-site-verification' content='C5zdBQFWWh6uslnkcC0u_F5av9GyYt90auGayV4ELbM'>
-        <link rel="stylesheet" href="/css/style.css">
-        <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/redteamdesign">
-        <link rel="author" href="https://plus.google.com/114910105297465575018/posts"/>
-        <!--[if lt IE 9]>
-          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-          <script src="/js/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <!-- 
-           _        _ 
-     _ __ | |_   __| |
-    | '__|| __| / _` |
-    | |   | |_ | (_| |
-    |_|    \__| \__,_|
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name='google-site-verification' content='C5zdBQFWWh6uslnkcC0u_F5av9GyYt90auGayV4ELbM'>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/redteamdesign">
+    <link rel="author" href="https://plus.google.com/114910105297465575018/posts"/>
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <!-- 
+         _        _ 
+   _ __ | |_   __| |
+  | '__|| __| / _` |
+  | |   | |_ | (_| |
+  |_|    \__| \__,_|
 
-    Built on Jekyll.
-                      
-     -->
-    <body>
+  Built on Jekyll.
+                    
+   -->
+  <body>
 
-    <div class="container">
-      <header role="banner">
-        <h1><a href="/">{{ site.name }}</a></h1>
-        <nav role="navigation">
-          <li><a href="/">home</a></li>
-          <li><a href="/archive/">archive</a></li>
-          <li><a href="/about/">about</a></li>
-          <li><a href="/contact/">contact</a> </li>            
-        </nav>
-      </header>
+  <div class="container">
+    <header role="banner">
+      <h1><a href="/">{{ site.name }}</a></h1>
+      <nav role="navigation">
+        <li><a href="/">home</a></li>
+        <li><a href="/archive/">archive</a></li>
+        <li><a href="/about/">about</a></li>
+        <li><a href="/contact/">contact</a> </li>            
+      </nav>
+    </header>
 
-      <div class="grid">
-        <div class="grid__col--60 grid__col--push10" role="main">
-          {{ content }}
-        </div>
-        <div class="grid__col--30" role="complementary">
-          sidebar
-        </div>
+    <div class="grid">
+      <div class="grid__col--60 grid__col--push10" role="main">
+        {{ content }}
       </div>
-
-      <footer role="contentinfo">
-        footer
-      </footer>
+      <div class="grid__col--30" role="complementary">
+        <aside>
+          <h2 class="h4">Get updates via <a href="http://feeds.feedburner.com/redteamdesign" class="rss-block">RSS</a> or email (it's free)</h3>
+          <form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=redteamdesign', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+          <input type="text" name="email" id="newsletter-text" placeholder="Your email address"/>
+          <input type="submit" value="Go" id="newsletter-submit"/>
+          <input type="hidden" value="redteamdesign" name="uri"/>
+          <input type="hidden" name="loc" value="en_US"/>
+          </form>            
+        </aside>
+        <aside>
+          <h2 class="h4"><a href="http://adpacks.com" id="bsap_aplink">&hearts; Ad Packs</a></h2>
+          <div id="bsap_1257097" class="bsarocks bsap_a5f348233fceef06ba365ab392938d10"></div>      
+        </aside>
+      </div>
     </div>
 
-    </body>
+    <footer role="contentinfo">
+      footer
+    </footer>
+  </div>
+
+  <script>
+  (function(doc, script) {
+      var js, 
+          fjs = doc.getElementsByTagName(script)[0],
+          add = function(url, id) {
+              if (doc.getElementById(id)) {return;}
+              js = doc.createElement(script);
+              js.src = url;
+              id && (js.id = id);
+              fjs.parentNode.insertBefore(js, fjs);
+          };
+
+      // Google Analytics
+      window._gaq = [['_setAccount', 'UA-5924545-2'],['_trackPageview']];
+      add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
+      // Google+ button
+      add('//apis.google.com/js/plusone.js');
+      // Facebook SDK
+      add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=292896510767559', 'facebook-jssdk');
+      // Twitter SDK
+      add('//platform.twitter.com/widgets.js', 'twitter-wjs');
+      // BSA
+      add('//s3.buysellads.com/ac/bsa.js');
+  }(document, 'script'));
+  </script>    
+
+  </body>
 </html>
