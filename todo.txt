@@ -53,3 +53,5 @@ Figure + figcaption ---later -- styles alreay added.
 demo links
 
 jekyll serve --w --baseurl=
+
+jekyll grunt

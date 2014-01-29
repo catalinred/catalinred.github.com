@@ -30,7 +30,6 @@
     left: 10px;
     right: 10px;
     transform: skewx( -3deg );
-    background: linear-gradient(red,blue);
   } 
 
 }
@@ -75,4 +74,11 @@
   &:hover {
     color: #fff;
   }
+}
+
+#bsap_1257097 .bsa_it_ad {
+  background: none;
+  border: 0;
+  font-family: inherit;
+  padding: 0;
 }
