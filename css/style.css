@@ -187,6 +187,57 @@
   }
 }
 /*------------------------------------*\
+    Helpers
+\*------------------------------------*/
+/**
+ * Clearfix
+ */
+/**
+ * Visually hidden
+ */
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/**
+ * Align inline text
+ */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/**
+ * Figure
+ */
+.figure {
+  padding: 20px 20px 0 20px;
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  background: #f5f5f5;
+  margin: 1.25 auto;
+}
+.figure figcaption {
+  padding: 10px 0;
+  padding: 0.625rem 0;
+  font-style: italic;
+  text-align: center;
+}
+
+/*------------------------------------*\
 		Typography
 \*------------------------------------*/
 /**
@@ -221,6 +272,16 @@ img {
 }
 
 /**
+ * Horizontal line
+ */
+hr {
+  margin: 20px 0;
+  margin: 1.25rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/**
  * Body defaults
  */
 body {
@@ -229,7 +290,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.04)), to(transparent));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px);
   background-image: linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  -webkit-background-size: 100% 24px;
   background-size: 100% 24px;
 }
 
@@ -698,4 +762,81 @@ h4, .h4 {
 p, ul, ol, blockquote, pre {
   margin: 0 0 24px 0;
   margin: 0 0 1.5rem 0;
+}
+
+/*------------------------------------*\
+    Sidebar
+\*------------------------------------*/
+/**
+ * The abstract-shaped modules
+ */
+.aside-module {
+  margin: 0 0 10px;
+  padding: 25px;
+  position: relative;
+}
+.aside-module:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: #EEF0F3;
+  -webkit-transform: skewx(-7deg);
+  -moz-transform: skewx(-7deg);
+}
+.aside-module:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border: 1px dashed rgba(0, 0, 0, 0.1);
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  -webkit-transform: skewx(-3deg);
+  -moz-transform: skewx(-3deg);
+}
+
+.email-form {
+  position: relative;
+}
+
+.email-form__text {
+  padding: 5px;
+  height: 40px;
+  border: 0;
+  width: 100%;
+}
+
+.email-form__text:focus + .email-form__submit,
+.email-submit:active {
+  background: #e96a19;
+}
+
+.email-form__submit {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 50px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #ddd;
+  border: 0;
+}
+
+.rss-label {
+  background: #e96a19;
+  display: inline-block;
+  padding: 2px 6px;
+  color: #fff;
+}
+.rss-label:hover {
+  color: #fff;
 }

@@ -32,14 +32,16 @@
 
 ---
 
-Add async scripts: bsa twitter fb gplus
+------- Add async scripts: bsa twitter fb gplus
+		Check bsa issues while running locally
+
+-------Add sidebar's info using aside		
 
 Header, sticky, new logo, border bottom menu uppercase slim.
 
 Footer, try svg base64 repeat patter,
 http://demo.tutorialzine.com/2013/08/slideout-footer-css/
 
-Build the sidebar, aside...
 
 Make the contact page work...
 
@@ -47,5 +49,7 @@ Decide on a icon font.
 
 ---
 
-Figure + figcaption ---later
+Figure + figcaption ---later -- styles alreay added.
 demo links
+
+jekyll serve --w --baseurl=

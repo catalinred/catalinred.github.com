@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    Sidebar
+\*------------------------------------*/
+
+/**
+ * The abstract-shaped modules
+ */
+.aside-module {
+  margin: 0 0 10px;
+  padding: 25px;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    z-index: -1;
+    background: #EEF0F3;
+    transform: skewx( -7deg );  
+  } 
+
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border: 1px dashed rgba(0,0,0,.1);
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    transform: skewx( -3deg );
+    background: linear-gradient(red,blue);
+  } 
+
+}
+
+.email-form { 
+  position: relative;
+}
+
+.email-form__text {
+  padding: 5px;
+  height: 40px;
+  border: 0;
+  width: 100%;
+}
+
+.email-form__text:focus + .email-form__submit,
+.email-submit:active {
+  background: #e96a19;
+}
+
+.email-form__submit {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 50px;
+  height: 32px;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #ddd;
+  border: 0;
+}
+
+.rss-label {
+  background: #e96a19 ;
+  display: inline-block;
+  padding: 2px 6px;  
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}

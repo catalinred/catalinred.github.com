@@ -30,32 +30,36 @@
     <header role="banner">
       <h1><a href="/">{{ site.name }}</a></h1>
       <nav role="navigation">
-        <li><a href="/">home</a></li>
-        <li><a href="/archive/">archive</a></li>
-        <li><a href="/about/">about</a></li>
-        <li><a href="/contact/">contact</a> </li>            
+        <a class="visually-hidden" href="#content">Skip to content</a>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/archive/">archive</a></li>
+          <li><a href="/about/">about</a></li>
+          <li><a href="/contact/">contact</a></li>
+        </ul>            
       </nav>
     </header>
 
     <div class="grid">
-      <div class="grid__col--60 grid__col--push10" role="main">
+      <section class="grid__col--60 grid__col--push10" role="main" id="content">
         {{ content }}
-      </div>
-      <div class="grid__col--30" role="complementary">
-        <aside>
-          <h2 class="h4">Get updates via <a href="http://feeds.feedburner.com/redteamdesign" class="rss-block">RSS</a> or email (it's free)</h3>
-          <form id="newsletter" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=redteamdesign', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-          <input type="text" name="email" id="newsletter-text" placeholder="Your email address"/>
-          <input type="submit" value="Go" id="newsletter-submit"/>
-          <input type="hidden" value="redteamdesign" name="uri"/>
-          <input type="hidden" name="loc" value="en_US"/>
+      </section>
+      <aside class="grid__col--30" role="complementary">
+        <div class="aside-module">
+          <h2 class="h4">
+            Get updates via <a href="http://feeds.feedburner.com/redteamdesign" class="rss-label">RSS</a> or email:
+          </h2>
+          <form class="email-form" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=redteamdesign', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+            <input type="text" name="email" class="email-form__text" placeholder="Your email address"/>
+            <input type="submit" value="Go" class="email-form__submit"/>
+            <input type="hidden" value="redteamdesign" name="uri"/>
+            <input type="hidden" name="loc" value="en_US"/>
           </form>            
-        </aside>
-        <aside>
-          <h2 class="h4"><a href="http://adpacks.com" id="bsap_aplink">&hearts; Ad Packs</a></h2>
+        </div>
+        <div class="aside-module">
           <div id="bsap_1257097" class="bsarocks bsap_a5f348233fceef06ba365ab392938d10"></div>      
-        </aside>
-      </div>
+        </div>
+      </aside>
     </div>
 
     <footer role="contentinfo">
@@ -87,7 +91,7 @@
       // BSA
       add('//s3.buysellads.com/ac/bsa.js');
   }(document, 'script'));
-  </script>    
+  </script>
 
   </body>
 </html>

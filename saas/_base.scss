@@ -38,6 +38,16 @@ img {
 }
 
 /**
+ * Horizontal line
+ */
+
+hr {
+	@include rem(margin, $gutter 0);
+	border: 0;
+	border-top: 1px solid #eee;
+}
+
+/**
  * Body defaults
  */
 
