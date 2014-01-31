@@ -27,19 +27,24 @@ grunt.initConfig({
       options: {
         serve: true
       }
-    }
+    }  
   },
 
   watch: {
       styles: {
-          files: ['sass/*'],
-          tasks: 'sass'
+          files: ['saas/*.scss'],
+          tasks: ['sass', 'autoprefixer', 'jekyll']
       },
       jekyll: {
-        files: ['_site/*'],
-        tasks: ['jekyll:serve']        
+        files: ['*.html', '*.md', '*.yml', 'js/**.js', '_posts/**', '_includes/**', '_layouts/**'],
+        tasks: ['sass', 'autoprefixer', 'jekyll']       
       }
-  }  
+  },
+
+  concurrent: {
+    tasks: ['clean', 'sass', 'autoprefixer', 'jekyll', 'watch'],
+    options: { logConcurrentOutput: true }      
+  }    
 
 });
 
@@ -49,15 +54,10 @@ grunt.initConfig({
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  //grunt watch --verbose
+  grunt.loadNpmTasks('grunt-concurrent');
 
   // Default task(s).
-  grunt.registerTask( 'default' , [
-      'clean',
-      'sass',
-      'autoprefixer',
-      'jekyll:serve',
-      'watch:styles',
-      'watch:jekyll'
-  ]);
+  grunt.registerTask('default', ['concurrent:tasks']);
 
 };

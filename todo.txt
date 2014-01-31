@@ -51,7 +51,3 @@ Decide on a icon font.
 
 Figure + figcaption ---later -- styles alreay added.
 demo links
-
-jekyll serve --w --baseurl=
-
-jekyll grunt, watch for sass and jekyll
