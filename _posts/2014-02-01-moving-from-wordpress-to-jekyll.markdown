@@ -24,15 +24,76 @@ From the start, I knew what moving from WordPress to Jekyll will involve, so I m
 
 ## Running Jekyll
 
-Before going anywhere further, I'd like to point out that if you're planing to publish blog articles from your mobile, while on vacation, then Jekyll might not suit your needs. And that's because of its dependencies. Unless perhaps you're using something like [Prose.io](http://prose.io).
+Before going anywhere further, I'd like to point out that if you're planing to publish blog articles from your mobile, while on vacation, then Jekyll might not suit your needs. And that's because of its dependencies. Unless perhaps you're using something like [Prose.io](http://prose.io), but that's another story.
 
-I'll start with the beginning, which is perhaps the ugliest part of my story: set up everything on a Windows machine. It felt just great when I got it running, but it's not that easy as on a Mac OS.
+I'll start with the beginning, which is perhaps the ugliest part of my story: set up everything on a Windows machine. It felt just great when I got it running, but it wasn't that easy as on a Mac OS.
 
-tutorial
-ruby install
-devkit
-python, easy install
-=====
+To be able to run Jekyll on a Windows system, you just need the Ruby environment and Jekyll of course. But if you want Pygments, the Python syntax highlighter, Python is required as well. 
+
+- [Ruby](http://www.rubyinstaller.org/downloads/) & Ruby DevKit
+- [Jekyll](http://jekyllrb.com/)
+- [Python](http://www.python.org/download/)
+- [Pygments](http://pygments.org/)
+
+###Ruby
+If you heard about Sass before then you heard about Ruby too, it's used to make Sass work and Jekyll as well. It might seem overwhelming, I had the same feeling too, but you don't actually need to know Ruby so you can run Sass and Jekyll. Trust me, I know what it feels like. :)
+
+>You don't have to know Node. Just like you don't have to know Ruby to use Sass. Or PHP to use WordPress. Or C++ to use Microsoft Word.
+
+*[Chris Coyier](http://24ways.org/2013/grunt-is-not-weird-and-hard/), on a similar matter.*
+
+To make stuff work on my Windows system, I found [this article](http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html) very helpful. So, if stuck on this step, go there and find out more.
+
+###Jekyll
+Once you have Ruby set up, installing Jekyll is pretty straightforward, just run the following lines:
+
+{% highlight ruby %}
+gem install jekyll
+jekyll new my-awesome-site
+cd my-awesome-site
+jekyll serve
+# Browse to http://localhost:4000
+{% endhighlight %}
+
+Well, that's pretty much it with the Jekyll, everything should work just fine now. Browse to `http://localhost:4000` and see your new Jekyll project in action.
+
+### Python
+Installing Python and Pygments is optional, but if you want a syntax highlighter that runs on build, then go for it. You might like it comparing to other JS solutions.
+
+### Pygments
+To get Pygments, you can use `pip` or `easy_install`. They are both Python modules that automatically download, build, install and manage Python packages. Some people prefer `pip` over `easy_install` but for me, `easy_install` worked just fine.
+
+To keep it simple, think they act just like `gem` for Ruby.
+
+To get `easy_install`, browse to [Python's packages list](https://pypi.python.org/pypi/setuptools#windows), download `ez_setup.py` and then run it:
+
+{% highlight python %}
+python distribute_setup.py
+{% endhighlight %}
+
+Now, having the `easy_install` module, you can install Pygments:
+
+{% highlight python %}
+easy_install Pygments 
+{% endhighlight %}
+
+At this step, you need to *expose* the Pygments syntax highlighter to Ruby, and to do that run the following like that will install the 0.5.0 pygments.rb version. Other versions do not behave well.
+
+{% highlight ruby %}
+gem install pygments.rb --version "=0.5.0"
+{% endhighlight %}
+
+### My current setup
+You might encounter issues when trying to set up everything, at least I did it... a lot. But it worth it, every single search on Google or StackOverflow.
+
+Here's my current setup, just in case you might be interested: 
+
+- Windows 8
+- Ruby 1.9.3p484
+- Jekyll 1.4.2
+- Python 2.7.6
+- `easy_install` distribute 0.6.49 
+- `pygments.rb` 0.5.0
 
 
 ## Migrating the existing content 
@@ -67,11 +128,32 @@ Following the research I made on porting comments further with Jekyll, *To keep,
 
 Therefore, the only logical choice was to go further with [Disqus](http://disqus.com/). I've never been a Disqus fan, but this time proved to be the best option for porting comments from a database driven blog to static.
 
-## SASS-ify
-Made everything from scratch using SASS.
+## Sass
+I was thinking to use [Compass](http://compass-style.org/) for this project, but at a second thought I've decided to skip it and go with plain SCSS and [Autoprefixer](https://github.com/ai/autoprefixer). Not that I do not like Compass, I've used it in the past, but this time I just wanted to build everything from scratch. As much as possible.
+
+The styles are split into Sass partials, later used with the `@import` directive within the `style.scss`.
+
+{% highlight html%}
+/sass/
+|--  style.scss
+|--  _base.scss
+|--  _buttons.scss
+|--  _grid.scss
+|--  _helpers.scss
+|--  _mixins.scss
+|--  _pygments.scss
+|--  _sidebar.scss
+|--  _typography.scss
+|--  _vars.scss
+{% endhighlight %}
+
+## Grunt
+Running Jekyll and Sass in separate `cmd` windows was not an option. Everybody loves automation, so do I. For this project, [Grunt](http://gruntjs.com/) was my choice.
+
+I made a Gruntfile.js and even though it's far from being perfect, it works. In the future I'll work on improving it, it's on my todo list.
 
 ## Setting up GitHub pages and deploy
-With this opportunity, I decided to try out GitHub Pages as well. deploy ...
+With this opportunity, I chose to try out GitHub Pages as well.
 
 ## Conclusion
 When I first though about this big change, I though I'll never have enough time for that. I knew this is going to be time consuming but everything worth it. Definitely! Because in the end, the more important thing is to learn new stuff, that's part of [becoming a better developer](http://www.red-team-design.com/becoming-a-better-developer).

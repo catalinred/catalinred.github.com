@@ -5,3 +5,4 @@ permalink: /:title
 paginate: 10
 excerpt_separator: <!-- more -->
 exclude: [rtd.sublime-project, rtd.sublime-workspace, CNAME, Gruntfile.js, package.json, README.md]
+abs_url: http://www.red-team-design.com

@@ -35,7 +35,10 @@
 ------- Add async scripts: bsa twitter fb gplus
 		Check bsa issues while running locally
 
--------Add sidebar's info using aside		
+-------Add sidebar's info using aside	
+
+Chose an indentation
+Improve the Gruntfile.js	
 
 Header, sticky, new logo, border bottom menu uppercase slim.
 

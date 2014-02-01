@@ -103,13 +103,14 @@ blockquote {
 	font-family: Georgia, serif;
 	font-style: italic;
 	position: relative;
-	@include rem(padding, 0 $gutter);
+	@include rem(padding, 0 $gutter 0 2*$gutter);
 
 	&:before {
 		color: #ddd;
 		content: "\201C";
 		font: italic 100px Tahoma,Arial;
-		left: -40px; top: -30px;
+		@include rem(left, -$gutter);
+		@include rem(top, -$gutter);
 		position: absolute;
 		z-index: -1;		
 	}	
