@@ -1,11 +1,12 @@
 ---
 layout: default
 title: About
+description: Find out a bit more about me. Read about who I am, what I do and what are my passions.
 permalink: /about/
 ---
 
 ## Who am I?
-Hello, my name is Catalin Rosu and I’m a web designer/developer. I'm that guy(geek?!) who loves to sit in front of his computer almost all the time. This is my personal website where I like to do stuff as writing tutorials and share front-end web development info.
+Hello, my name is Catalin Rosu and I'm a web designer/developer. I'm that guy who loves to sit in front of his computer almost all the time. This is my personal website where I like to do stuff as writing tutorials and share front-end web development info.
 
 I live in Craiova, Romania and currently work at <a href="http://www.caphyon.com/">Caphyon</a>. I have a computer science degree but most of my knowledge comes from reading, blogging, and learning from those I’ve worked with along the time.
 
