@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
 grunt.initConfig({
 
-  clean: ['_site'],  
+  clean: ['_site'],
 
   sass: {
     dist: {
@@ -21,7 +21,6 @@ grunt.initConfig({
     }
   },  
 
-  // Run Jekyll
  jekyll: { 
     serve: {
       options: {
@@ -43,7 +42,7 @@ grunt.initConfig({
 
   concurrent: {
     tasks: ['clean', 'sass', 'autoprefixer', 'jekyll', 'watch'],
-    options: { logConcurrentOutput: true }      
+    options: { logConcurrentOutput: true }
   }    
 
 });

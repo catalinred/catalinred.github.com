@@ -1,11 +1,11 @@
 ---
 author: Red
 comments: true
-date: 2014-02-01 08:00
+date: 2014-03-01 08:00
 layout: post
 slug: moving-from-wordpress-to-jekyll
 title: Moving from WordPress to Jekyll
-description: How I decided to move from WordPress to Jekyll. It was fun to build, a lot to learn and very challenging.
+description: How I decided to move from WordPress to Jekyll. It was fun to build and a lots to learn.
 categories:
 - Miscellaneous
 ---
@@ -16,7 +16,7 @@ My website was needing a fresh new look, and what better chance to learn a new a
 
 ## Still... why?
 
-I've read a lot of inspiring articles on moving from WordPress to Jekyll but the one you're reading now is a bit different, this one is merely mine. Jekyll might not be the easiest way to blog but it's one of the most challenging for sure. *Blogging Like a Hacker*, by its creator, [Tom Preston-Werner](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), might be the best title ever that describes Jekyll. Don't get me wrong, I'm not a hacker! :)
+I've read a lot of inspiring articles on moving from WordPress to Jekyll, yet the one you're reading now is a bit different, this one is merely mine. Jekyll might not be the easiest way to blog but it's one of the most challenging for sure. *Blogging Like a Hacker*, by its creator, [Tom Preston-Werner](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), might be the best title ever that describes Jekyll. However, don't get me wrong, I'm not a hacker. Not even close. :)
 
 I'm still a big fan of WordPress, I'm still using it for other projects, I'll still recommend to others. But this time I just wanted something different. Lately I thought a lot about it and this move was part of my New Year's resolutions.
 
@@ -77,7 +77,7 @@ Now, having the `easy_install` module, you can install Pygments:
 easy_install Pygments 
 {% endhighlight %}
 
-At this step, you need to *expose* the Pygments syntax highlighter to Ruby, and to do that run the following like that will install the 0.5.0 pygments.rb version. Other versions do not behave well.
+At this step, you need to *expose* the Pygments syntax highlighter to Ruby, and to do that run the following like that will install the 0.5.0 pygments.rb version. Other versions do not behave well, I found out the hard way.
 
 {% highlight ruby %}
 gem install pygments.rb --version "=0.5.0"
@@ -97,7 +97,7 @@ Here's my current setup, just in case you might be interested:
 
 
 ## Migrating the existing content 
-To migrate the existing articles and pages to Jekyll, I've decided to go with [existwp](https://github.com/thomasf/exitwp) and for that I had to install some dependencies like html2text, PyYAML and Beautiful soup. Please note that having Python installed is mandatory for this tool to work.
+To migrate the existing articles and pages to Jekyll, after I successfully failed with trying [WordPress to Jekyll Exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter), I've decided to go with [existwp](https://github.com/thomasf/exitwp) and for that I had to install some dependencies like html2text, PyYAML and Beautiful soup. Please note that having Python installed is mandatory for this tool to work.
 
 Once I've set up existwp, I just ran `exitwp.py` and voila, all my posts were in Markdown format. Everthing went just fine, just some minor content adjustments were made for the resulted files.
 
@@ -105,14 +105,14 @@ Once I've set up existwp, I just ran `exitwp.py` and voila, all my posts were in
 For SEO purposes, it's recommended to have custom descriptions for each of your pages, that's why I used the Yoast plugin on WordPress. When migrating, unfortunatelly you kinda lose every custom meta description field you filled in. Unless you want the lazy approach - setting a single description for all your pages within `_config.yml` - you may need a coffee and some extra patience to fill meta descriptions for *each* of your markdown pages.
 
 ### Post excerpt
-One of the things I cared about was to keep the existing content excerpt format for the index page posts. Thanks to the exitwp export tool, all my resulted Markdown posts kept the `<!-- more -->` code. Having this breakpoint code already, I just needed to specify it as the `excerpt` in the `_config.yml`.
+One of the things I cared about was to keep the existing content excerpt format for the index page posts. Thanks to the exitwp export tool, all my resulted Markdown posts kept the `<!-- more -->` piece of code. Having this breakpoint code already, I just needed to specify it as the `excerpt` in the `_config.yml`.
 
 {% highlight html %}
 excerpt_separator: <!-- more -->
 {% endhighlight %}
 
 ### Code syntax highlighting
-I switched from Google's JavaScript Code Prettify to [Pygments](http://pygments.org/), a Python syntax highlighter. All the code syntax highlighting is now made upon the build of HTML files. Simply place the code to wish to highlight in liquid highlight tags.
+I switched from Google's JavaScript Code Prettify to [Pygments](http://pygments.org/), a Python syntax highlighter. All the code syntax highlighting is now made upon the build of the static HTML files. Simply place the code you wish to highlight in Liquid highlight tags.
 
 {% highlight js %}
 {% raw %}
@@ -124,12 +124,12 @@ I switched from Google's JavaScript Code Prettify to [Pygments](http://pygments.
 
 
 ### Comments
-Following the research I made on porting comments further with Jekyll, *To keep, or not to keep?*, that was the question. After reading a lot of pros and cons, I chose to keep the comments because sometimes they are so valuable. Sometimes they're just spammy, but that's another story.
+Following the research I made on porting comments further with Jekyll, *To keep, or not to keep?*, that was the question. After reading a lot of pros and cons, I chose to keep the comments because sometimes they are so valuable. Also, sometimes they're just spammy.
 
 Therefore, the only logical choice was to go further with [Disqus](http://disqus.com/). I've never been a Disqus fan, but this time proved to be the best option for porting comments from a database driven blog to static.
 
 ## Sass
-I was thinking to use [Compass](http://compass-style.org/) for this project, but at a second thought I've decided to skip it and go with plain SCSS and [Autoprefixer](https://github.com/ai/autoprefixer). Not that I do not like Compass, I've used it in the past, but this time I just wanted to build everything from scratch. As much as possible.
+I was thinking to use [Compass](http://compass-style.org/) for this project, but at a second thought I've decided to skip it and go with plain SCSS along with [Autoprefixer](https://github.com/ai/autoprefixer). It's not that I do not like Compass, I've used it in the past, but this time I just wanted to build everything from scratch. As much as possible.
 
 The styles are split into Sass partials, later used with the `@import` directive within the `style.scss`.
 
@@ -148,12 +148,13 @@ The styles are split into Sass partials, later used with the `@import` directive
 {% endhighlight %}
 
 ## Grunt
-Running Jekyll and Sass in separate `cmd` windows was not an option. Everybody loves automation, so do I. For this project, [Grunt](http://gruntjs.com/) was my choice.
-
-I made a Gruntfile.js and even though it's far from being perfect, it works. In the future I'll work on improving it, it's on my todo list.
+Everybody loves automation, so do I, and for this project, [Grunt](http://gruntjs.com/) was my choice. I made a Gruntfile.js and even though it's far from being perfect, it works. Still, it definitely needs some improvements and I'm planning to do that later.
 
 ## Setting up GitHub pages and deploy
-With this opportunity, I chose to try out GitHub Pages as well.
+GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. I was already running Git locally and pushing stuff to GitHub was very simple.
+
+Set up repository
+https://help.github.com/articles/pushing-to-a-remote
 
 ## Conclusion
 When I first though about this big change, I though I'll never have enough time for that. I knew this is going to be time consuming but everything worth it. Definitely! Because in the end, the more important thing is to learn new stuff, that's part of [becoming a better developer](http://www.red-team-design.com/becoming-a-better-developer).
