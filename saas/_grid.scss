@@ -17,54 +17,54 @@ $columns: 10, 20, 25, 30, 33, 40, 45, 50, 60, 67, 70, 75, 80, 90, 100;
  */
 
 [class*="grid__col--"] {
- 	@include rem(margin-bottom, $gutter);
+  @include rem(margin-bottom, $gutter);
  }
 
 @include breakpoint(small) {
 
-	.grid {
-		font-size: 0; /* 1 */
-	}
+  .grid {
+    font-size: 0; /* 1 */
+  }
 
-	.grid--pad {
-		@include rem(padding, $gutter);
-	}
+  .grid--pad {
+    @include rem(padding, $gutter);
+  }
 
-	.grid--vmiddle {
-		vertical-align: middle;
-	}	
+  .grid--vmiddle {
+    vertical-align: middle;
+  } 
 
-	[class*="grid__col--"] {
-		display: inline-block;
-		margin: 0;
-		@include rem(padding-left, $gutter);
-		@include rem(font-size, 1); /* 2 */
-		vertical-align: top; /* 3 */		
+  [class*="grid__col--"] {
+    display: inline-block;
+    margin: 0;
+    @include rem(padding-left, $gutter);
+    @include rem(font-size, 1); /* 2 */
+    vertical-align: top; /* 3 */    
 
-		&:first-child {
-			padding-left: 0; /* 4 */
-		}
-	}
-	
-	@each $column in $columns {
-		.grid__col--#{$column} {
-			width: $column * 1%;
-		}
-	}
+    &:first-child {
+      padding-left: 0; /* 4 */
+    }
+  }
+  
+  @each $column in $columns {
+    .grid__col--#{$column} {
+      width: $column * 1%;
+    }
+  }
 
-	@each $column in $columns {
-		.grid__col--push#{$column} {
-			margin-right: $column * 1%;
-		}
-	}
+  @each $column in $columns {
+    .grid__col--push#{$column} {
+      margin-right: $column * 1%;
+    }
+  }
 
 }
 
 // <div class="grid">
-// 	<div class="grid__col--50 grid__col--push10">
-// 		...
-// 	</div>
-// 	<div class="grid__col--40">
-// 		...
-// 	</div>
+//  <div class="grid__col--50 grid__col--push10">
+//    ...
+//  </div>
+//  <div class="grid__col--40">
+//    ...
+//  </div>
 // </div>

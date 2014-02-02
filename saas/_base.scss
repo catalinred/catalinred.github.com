@@ -1,5 +1,5 @@
 /*------------------------------------*\
-		Typography
+        Typography
 \*------------------------------------*/
 
 
@@ -8,9 +8,9 @@
  */
 
 *, *:after, *:before {
-		-webkit-box-sizing: border-box;
-			 -moz-box-sizing: border-box;
-						box-sizing: border-box; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
 }
 
 /**
@@ -18,13 +18,13 @@
  */
 
 ::-moz-selection {
-	color: #fff;
-	background-color: $rtd-color;
+  color: #fff;
+  background-color: $rtd-color;
 }
 
 ::selection {
-	color: #fff;
-	background-color: $rtd-color;
+  color: #fff;
+  background-color: $rtd-color;
 }
 
 /**
@@ -32,9 +32,9 @@
  */
 
 img {
-	max-width: 100%;
-	height: auto;
-	width: auto\9;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 }
 
 /**
@@ -42,9 +42,9 @@ img {
  */
 
 hr {
-	@include rem(margin, $gutter 0);
-	border: 0;
-	border-top: 1px solid #eee;
+  @include rem(margin, $gutter 0);
+  border: 0;
+  border-top: 1px solid #eee;
 }
 
 /**
@@ -52,13 +52,13 @@ hr {
  */
 
 body {
-	margin: 0;	
-	color: $primary-color;
-	font-size: $font-size;
-	line-height: $line-height; 
-	font-family: $rtd-font;
-	background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
-	background-size: 100% $line-height;	
+  margin: 0;  
+  color: $primary-color;
+  font-size: $font-size;
+  line-height: $line-height; 
+  font-family: $rtd-font;
+  background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
+  background-size: 100% $line-height; 
 }
 
 /**
@@ -66,11 +66,11 @@ body {
  */
 
 .container {
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-	@include rem(padding-left, $gutter);
-	@include rem(padding-right, $gutter);	
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  @include rem(padding-left, $gutter);
+  @include rem(padding-right, $gutter);   
 }
 
 /**
@@ -78,21 +78,21 @@ body {
  */
 
 a { 
-	color: $rtd-color; 
-	text-decoration: none;
+  color: $rtd-color; 
+  text-decoration: none;
 
-	&:hover{
-		text-decoration: underline;
-	} 
+  &:hover{
+    text-decoration: underline;
+  } 
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a { 
-	color: $primary-color;
+  color: $primary-color;
 
-	&:hover{
-		color: $rtd-color;
-		text-decoration: none;
-	} 
+  &:hover{
+    color: $rtd-color;
+    text-decoration: none;
+  } 
 }
 
 /**
@@ -100,20 +100,20 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
  */
 
 blockquote {
-	font-family: Georgia, serif;
-	font-style: italic;
-	position: relative;
-	@include rem(padding, 0 $gutter 0 2*$gutter);
+  font-family: Georgia, serif;
+  font-style: italic;
+  position: relative;
+  @include rem(padding, 0 $gutter 0 2*$gutter);
 
-	&:before {
-		color: #ddd;
-		content: "\201C";
-		font: italic 100px Tahoma,Arial;
-		@include rem(left, -$gutter);
-		@include rem(top, -$gutter);
-		position: absolute;
-		z-index: -1;		
-	}	
+  &:before {
+    color: #ddd;
+    content: "\201C";
+    font: italic 100px Tahoma,Arial;
+    @include rem(left, -$gutter);
+    @include rem(top, -$gutter);
+    position: absolute;
+    z-index: -1;
+  }   
 }
 
 /**
@@ -121,7 +121,7 @@ blockquote {
  */
 
 code {
-	background: #ddd;
-	padding: 1px 3px;
-	font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
+  background: #ddd;
+  padding: 1px 3px;
+  font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }
