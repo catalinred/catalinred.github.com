@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Archive
+description: Browse through all the articles I've written until now.
 permalink: /archive/
 ---
 
