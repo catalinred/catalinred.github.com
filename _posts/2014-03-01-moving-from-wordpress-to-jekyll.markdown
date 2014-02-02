@@ -151,7 +151,7 @@ The styles are split into Sass partials, later used with the `@import` directive
 Everybody loves automation, so do I, and for this project, [Grunt](http://gruntjs.com/) was my choice. I made a Gruntfile.js and even though it's far from being perfect, it works. Still, it definitely needs some improvements and I'm planning to do that later.
 
 ## Setting up GitHub pages and deploy
-GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. I was already running Git locally and pushing stuff to GitHub was very simple.
+GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. This way things got easier, my website now being just a git repository built when pushing to the master branch.
 
 Set up repository
 https://help.github.com/articles/pushing-to-a-remote

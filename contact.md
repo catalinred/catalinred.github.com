@@ -1,31 +1,21 @@
 ---
 layout: default
 title: Contact
+description: Contact me if you have questions or just want to say hi.
 permalink: /contact/
 ---
 
-You can contact me using the form below. I commit to get back to you as soon as I am available and answer any questions you may have.
+I'm a pretty social person so you can find me almost everywhere in the wild. Contact me, I commit to get back to you as soon as I am available and answer any questions you may have.
 
-##Also, to save both of us some time, you should know that:
+- I tweet a lot on front-end development stuff. More or less. 
+- Sometimes I share pixels on Dribbble.
+- There's a RTD page on Facebook, feel free to like it and get in touch to me. 
+- I'm on GitHub too. Not so active as I'd like to be, but I try to do my best.
+- On Instagram, I share random pictures I take with my phone.
+- Not a big fan, still I have a LinkedIn account as well.
+- Add me on Google+, say hello and let's be friends.
 
-* Currently, I am not available for freelance projects.</li>
-* I do not publish guest posts here, unless perhaps you have a cool front-end technique you'd like to share.</li>
+##Also, you should know that:
 
-
-<form action="/sendemail.php" method="POST" onsubmit="return checkForm(this)">
-<div id="contact-form">
-	<div id="contact-inputs">
-		<div><label for="name"><b>Your name</b></label><br>
-		<input id="name" name="name" type="text" placeholder="John Doe" required></div>			
-		<div><label for="email"><b>Your email address</b></label><br>
-		<input id="email" name="email" type="email" placeholder="mail@example.com" required></div>
-                <label for="humans" class="humans">Human check: Leave this field empty</label>
-                <input type="text" name="humans" id="humans" class="humans" />       
-	</div>	
-	<div><label for="comments"><b>Comments</b></label></div>
-	<div><textarea id="comments" name="comments" rows="7" required></textarea></div>	
-	<div id="contact-submit"><input type="submit" value="Send Message"></div>
-</div>
-</form>
-
-<p id="contact-submitted">Your message has been successfully sent!</p>
+- Currently, I am not available for freelance projects.
+- I do not publish guest posts here, unless perhaps you have a cool front-end technique you'd like to share.
