@@ -1,0 +1,10 @@
+/*------------------------------------*\
+  Footer
+\*------------------------------------*/
+
+.master-footer {
+  color: #fff;
+  background-color: $color-navy;
+  @include rem(padding, $gutter 0);
+  @include rem(margin-top, 2*$gutter);
+}

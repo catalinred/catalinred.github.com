@@ -1,5 +1,5 @@
 /*------------------------------------*\
-        Typography
+  Typography
 \*------------------------------------*/
 
 
@@ -19,12 +19,12 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: $rtd-color;
+  background-color: $color-red;
 }
 
 ::selection {
   color: #fff;
-  background-color: $rtd-color;
+  background-color: $color-red;
 }
 
 /**
@@ -53,7 +53,7 @@ hr {
 
 body {
   margin: 0;  
-  color: $primary-color;
+  color: $color-black;
   font-size: $font-size;
   line-height: $line-height; 
   font-family: $rtd-font;
@@ -78,7 +78,7 @@ body {
  */
 
 a { 
-  color: $rtd-color; 
+  color: $color-red; 
   text-decoration: none;
 
   &:hover{
@@ -87,10 +87,10 @@ a {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a { 
-  color: $primary-color;
+  color: $color-black;
 
   &:hover{
-    color: $rtd-color;
+    color: $color-red;
     text-decoration: none;
   } 
 }

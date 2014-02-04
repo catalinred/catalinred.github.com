@@ -1,13 +1,13 @@
 /*------------------------------------*\
-    Sidebar
+  Sidebar
 \*------------------------------------*/
 
 /**
  * The abstract-shaped modules
  */
 .aside-module {
-  margin: 0 0 10px;
-  padding: 25px;
+  @include rem(margin, 0 0 $gutter);
+  @include rem(padding, $gutter);
   position: relative;
 
   &:before {
@@ -16,7 +16,7 @@
     top: 0; bottom: 0;
     left: 0; right: 0;
     z-index: -1;
-    background: #EEF0F3;
+    background: $color-light;
     transform: skewx( -7deg );  
   } 
 

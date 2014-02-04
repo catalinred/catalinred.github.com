@@ -21,14 +21,16 @@
   | |   | |_ | (_| |
   |_|    \__| \__,_|
 
-  Built on Jekyll.
+  Build with Jekyll & Sass. Hosted on Github. 
                     
    -->
   <body>
-
-  <div class="container">
-    <header role="banner">
-      <h1><a href="/">{{ site.name }}</a></h1>
+  
+  <header role="banner" class="top-header">
+    <div class="container">
+      <a href="/">
+        {{ site.name }}
+      </a>
       <nav role="navigation">
         <a class="visually-hidden" href="#content">Skip to content</a>
         <ul>
@@ -36,9 +38,18 @@
           <li><a href="/archive/">archive</a></li>
           <li><a href="/about/">about</a></li>
           <li><a href="/contact/">contact</a></li>
-        </ul>            
+        </ul>
       </nav>
-    </header>
+    </div>
+  </header>
+
+  <div class="master-header">
+    <div class="container">
+      <h1 class="master-head--title">{{ page.title }}</h1>
+    </div>
+  </div>    
+
+  <div class="container">
 
     <div class="grid">
       <section class="grid__col--60 grid__col--push10" role="main" id="content">
@@ -62,36 +73,17 @@
       </aside>
     </div>
 
-    <footer role="contentinfo">
-      footer
-    </footer>
   </div>
 
-  <script>
-  (function(doc, script) {
-      var js, 
-          fjs = doc.getElementsByTagName(script)[0],
-          add = function(url, id) {
-              if (doc.getElementById(id)) {return;}
-              js = doc.createElement(script);
-              js.src = url;
-              id && (js.id = id);
-              fjs.parentNode.insertBefore(js, fjs);
-          };
+  <footer role="contentinfo" class="master-footer">
+    <div class="container">
+      <div class="text-center">
+        <small>&copy; {{ site.time | date: '%Y' }} Catalin Rosu. Feel free to use the articles you may find here in your projects, with or without any attribution.</small>
+      </div>
+    </div>
+  </footer>  
 
-      // Google Analytics
-      window._gaq = [['_setAccount', 'UA-5924545-2'],['_trackPageview']];
-      add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
-      // Google+ button
-      add('//apis.google.com/js/plusone.js');
-      // Facebook SDK
-      add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=292896510767559', 'facebook-jssdk');
-      // Twitter SDK
-      add('//platform.twitter.com/widgets.js', 'twitter-wjs');
-      // BSA
-      add('//s3.buysellads.com/ac/bsa.js');
-  }(document, 'script'));
-  </script>
+  <script src="/js/common.js"></script>
 
   </body>
 </html>
