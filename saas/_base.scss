@@ -57,8 +57,8 @@ body {
   font-size: $font-size;
   line-height: $line-height; 
   font-family: $rtd-font;
-  background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
-  background-size: 100% $line-height; 
+  //background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
+  //background-size: 100% $line-height;   
 }
 
 /**
@@ -103,7 +103,7 @@ blockquote {
   font-family: Georgia, serif;
   font-style: italic;
   position: relative;
-  @include rem(padding, 0 $gutter 0 2*$gutter);
+  @include rem(padding, 0 $gutter 0 $gutter-2x);
 
   &:before {
     color: #ddd;

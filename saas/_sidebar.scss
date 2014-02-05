@@ -17,7 +17,7 @@
     left: 0; right: 0;
     z-index: -1;
     background: $color-light;
-    transform: skewx( -7deg );  
+    transform: skewx( -3deg );  
   } 
 
   &:after {
@@ -29,11 +29,13 @@
     bottom: 10px;
     left: 10px;
     right: 10px;
-    transform: skewx( -3deg );
-  } 
-
+    // transform: skewx( -3deg );
+  }
 }
 
+/**
+ * Get updates via RSS or email
+ */
 .email-form { 
   position: relative;
 }
@@ -76,9 +78,38 @@
   }
 }
 
+/**
+ * BSA
+ */
 #bsap_1257097 .bsa_it_ad {
   background: none;
   border: 0;
   font-family: inherit;
   padding: 0;
+}
+
+/**
+ * Aside list
+ */
+.aside-module--list {
+  @extend %unstyled-list;
+
+  li {
+    margin: 2px 0;
+
+    a {
+      display: inline-block;
+      width: 100%;
+      padding: 3px;
+      color: $color-black;
+      background: rgba(0, 0, 0, 0.015);
+      transition: all .1s ease-out;
+
+      &:hover {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.05);
+        transform: scale(1.05);
+      }
+    }
+  }
 }

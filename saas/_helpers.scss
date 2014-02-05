@@ -5,12 +5,21 @@
 /**
  * Clearfix
  */
-%cf { /* 1 */
+.cf { /* 1 */
   &:after {
     content: "";
     display: table;
     clear: both;
   }
+}
+
+/**
+ * Unstyled list
+ */
+%unstyled-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /**
