@@ -76,15 +76,14 @@ With all these being said, here are some quick thoughts on how I SASSified my [a
 
 ### Variables
     
-{% highlight css %}    
-$subMenuItemWidth: 175px;		// Minimum width for submenus' items
-$baseMenuBackground: #111;		// Base color theme
-$secondaryMenuBackground: #0186ba;	// Secondary color (highlights, triangles...)
-$baseMenuColor: #999;			// Proper menu items color
-$gutter: 1em;				// Base gutter
-$input: "input[type=checkbox]";  	// Checkbox hack selector
+{% highlight css %}
+$subMenuItemWidth: 175px;           // Minimum width for submenus' items
+$baseMenuBackground: #111;          // Base color theme
+$secondaryMenuBackground: #0186ba;  // Secondary color (highlights, triangles...)
+$baseMenuColor: #999;               // Proper menu items color
+$gutter: 1em;                       // Base gutter
+$input: "input[type=checkbox]";     // Checkbox hack selector
 {% endhighlight %}
-
 
 For a better look and consistency, I use `$subMenuItemWidth` as a minimum width for the dropdown lists. The reason why this value is stored into a variable is so that in the future to be easily updated without having to search for it too much.
 

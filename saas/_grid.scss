@@ -17,23 +17,28 @@ $columns: 10, 20, 25, 30, 33, 40, 45, 50, 60, 67, 70, 75, 80, 90, 100;
  * 5. Loop through the $columns array and generate the grid columns and offsets.  
  */
 
+.grid--pad {
+  @include rem(padding, $gutter);
+}
+
 [class*="grid__col--"] {
-  @include rem(margin-bottom, $gutter);
- }
+  @include rem(margin-top, $gutter);
+
+  &:first-child {
+    margin-top: 0;
+  }  
+}
 
 @include breakpoint(small) {
-
   .grid {
     font-size: 0; /* 1 */
   }
 
-  .grid--pad {
-    @include rem(padding, $gutter);
-  }
-
   .grid--vmiddle {
-    vertical-align: middle;
-  } 
+    [class*="grid__col--"] {
+      vertical-align: middle;
+    }
+  }     
 
   [class*="grid__col--"] {
     display: inline-block;
