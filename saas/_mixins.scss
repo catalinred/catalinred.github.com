@@ -43,7 +43,7 @@
  */
 
 @mixin breakpoint($point) {
-	// Large devices (large desktops, 1200px and up) */
+	// Large devices (large desktops, 1200px and up)
 	@if $point == large {
 		@media (min-width: 1200px) { @content; }
 	}

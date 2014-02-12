@@ -6,10 +6,9 @@
   color: $color-light;
   background: $color-navy 
               url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgOCAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNCwzIDAsMCA4LDAgIi8+PC9zdmc+) 
-              repeat-x top;
+              repeat-x top center;
   @include rem(padding, $gutter-2x+.5 0 $gutter-2x 0); 
-  /* + ~.5 unit because of the top triangle shape pattern */
-  @include rem(margin-top, $gutter-2x);
+  // + ~.5 unit because of the top triangle pattern
 
   hr {
     border-color: rgba(255, 255, 255, .1);
@@ -28,5 +27,18 @@
 
   [class*="fa-"] {
     @include rem(margin, 0 $gutter);
+  }
+}
+
+/**
+ * Slideout footer effect only for large displays
+ */
+
+@include breakpoint(large) {
+  .master-footer {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: -1; 
+    // lower than .master-content's value
   }
 }

@@ -5,6 +5,7 @@
 /**
  * The abstract-shaped modules
  */
+
 .aside-module {
   @include rem(margin, 0 0 $gutter);
   @include rem(padding, $gutter);
@@ -29,13 +30,13 @@
     bottom: 10px;
     left: 10px;
     right: 10px;
-    // transform: skewx( -3deg );
   }
 }
 
 /**
  * Get updates via RSS or email
  */
+
 .email-form { 
   position: relative;
 }
@@ -81,6 +82,7 @@
 /**
  * BSA
  */
+
 #bsap_1257097 .bsa_it_ad {
   background: none;
   border: 0;
@@ -91,6 +93,7 @@
 /**
  * Aside list
  */
+ 
 .aside-module--list {
   @extend %unstyled-list;
 

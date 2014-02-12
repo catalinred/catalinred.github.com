@@ -13,7 +13,8 @@ $columns: 10, 20, 25, 30, 33, 40, 45, 50, 60, 67, 70, 75, 80, 90, 100;
  * 1. 'Kung fu' method to fight with inline-block whitespace.
  * 2. Children font size reverted to base.
  * 3. Default vertical alignment for grid children.
- * 4. Use 'first-child' in order to support IE8 as well. 
+ * 4. Use 'first-child' in order to support IE8 as well.
+ * 5. Loop through the $columns array and generate the grid columns and offsets.  
  */
 
 [class*="grid__col--"] {
@@ -45,17 +46,15 @@ $columns: 10, 20, 25, 30, 33, 40, 45, 50, 60, 67, 70, 75, 80, 90, 100;
       padding-left: 0; /* 4 */
     }
   }
-  
-  @each $column in $columns {
+
+  @each $column in $columns { /* 5 */
     .grid__col--#{$column} {
       width: $column * 1%;
     }
-  }
 
-  @each $column in $columns {
     .grid__col--push#{$column} {
       margin-right: $column * 1%;
-    }
+    }    
   }
 
 }
