@@ -26,7 +26,7 @@
   }
 
   [class*="fa-"] {
-    @include rem(margin, 0 $gutter);
+    @include rem(margin, 0 1);
   }
 }
 
