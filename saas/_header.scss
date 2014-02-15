@@ -4,6 +4,20 @@
 
 .top-header {
   background-color: #fff;
+  position: relative;
+  @include rem(padding, $gutter-2x 0);
+
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 3px;
+    background: linear-gradient(-90deg, 
+                                $color-light 10%, 
+                                $color-blue 40%,
+                                $color-red 70%,
+                                $color-red 90%);
+  }  
 
   nav ul {
     @extend %unstyled-list;
@@ -12,10 +26,11 @@
 
 .master-header {
   background: $color-navy 
-              url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMTAwJScgaGVpZ2h0PSczMDAnPgoJPGRlZnM+CgkJPGcgaWQ9J2MnPgoJCQk8ZWxsaXBzZSBjeD0nLTUwJScgcng9JzE1MCUnIHJ5PSczMDAlJyBmaWxsLW9wYWNpdHk9JzAuMScgZmlsbD0nIzM1M2E0YScvPgoJCTwvZz4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9JyM3OTg0YTgnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9Jy0zMDAlJy8+Cgk8dXNlIHhsaW5rOmhyZWY9JyNjJyB5PSctMjgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTI2MCUnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9Jy0yNDAlJy8+Cgk8dXNlIHhsaW5rOmhyZWY9JyNjJyB5PSctMjIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTIwMCUnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9Jy0xODAlJy8+Cgk8dXNlIHhsaW5rOmhyZWY9JyNjJyB5PSctMTYwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTE0MCUnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9Jy0xMjAlJy8+Cgk8dXNlIHhsaW5rOmhyZWY9JyNjJyB5PSctMTAwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTYwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTQwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nLTIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMCUnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9JzIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nNDAlJy8+Cgk8dXNlIHhsaW5rOmhyZWY9JyNjJyB5PSc2MCUnLz4KCTx1c2UgeGxpbms6aHJlZj0nI2MnIHk9JzgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMTAwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMTIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMTQwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMTYwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMTgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMjAwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMjIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMjQwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMjYwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMjgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMzAwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMzIwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMzQwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMzYwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nMzgwJScvPgoJPHVzZSB4bGluazpocmVmPScjYycgeT0nNDAwJScvPgo8L3N2Zz4=')
-              fixed;
+              url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iODAwcHgiIGhlaWdodD0iNDAwcHgiIHZpZXdCb3g9IjAgMCA4MDAgNDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4MDAgNDAwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IGRpc3BsYXk9Im5vbmUiIGZpbGw9IiMzNTNBNEEiIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIi8+DQo8cG9seWdvbiBmaWxsPSIjQjhDM0U5IiBwb2ludHM9IjcxNi40MDMsMCA3ODUuMTA2LDAgODAwLDAgODAwLDQwMCAwLDQwMCAiLz4NCjxwb2x5Z29uIG9wYWNpdHk9IjAuMDUiIGZpbGw9IiMwMjAyMDIiIHBvaW50cz0iNjA0LjA4MSw0MDAgNjE4LjEyNSw0MDAgODAwLDIuMTkgIi8+DQo8cG9seWdvbiBmaWxsPSIjRUVGMEYzIiBwb2ludHM9IjgwMCwyLjE5IDgwMCw0MDAgNjE4LjEyNSw0MDAgIi8+DQo8cG9seWdvbiBmaWxsPSIjRUI1MDU1IiBwb2ludHM9IjY0Ni45MzgsOTIuMjI5IDgwMCw0MDAgMCw0MDAgIi8+DQo8cG9seWdvbiBvcGFjaXR5PSIwLjEiIGZpbGw9IiMwMjAyMDIiIHBvaW50cz0iNjQ3LjMxOSw5MS44NDggODAwLDQwMCA4MDAuMzc0LDM1MS43NzEgIi8+DQo8L3N2Zz4NCg==') 
+              no-repeat right center fixed;
+  background-size: cover;
   color: $color-light;
-  @include rem(padding, $gutter-3x 0);
+  @include rem(padding, $gutter-4x 0);
 }
 
 .master-head--title {

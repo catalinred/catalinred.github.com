@@ -7,6 +7,50 @@
 }
 
 /**
+ * Articles list
+ */
+
+.post {
+  @include rem(margin-bottom, $gutter-3x);
+  @include rem(padding-bottom, $gutter-2x);
+  border-bottom: 1px dashed #ccc;
+}
+
+// img:first-child {
+//   .post &, .single-post & {
+//     width: 100%;
+//     // because the previous post previews are narrower
+//   }
+// } 
+
+.post__time {
+  color: #ccc;
+}
+
+/**
+ * Articles list
+ */
+
+.pagination {
+  @extend %unstyled-list;
+  @include rem(margin-bottom, $gutter);
+
+  > li {
+    display: inline-block;
+  }
+}
+
+.pagination__status {
+  @include rem(margin, 0 $gutter/2);
+}
+
+@include breakpoint(small) {
+  .pagination__status {
+    @include rem(margin, 0 $gutter-2x);
+  }
+}
+
+/**
  * Slideout footer effect only for large displays
  */
 

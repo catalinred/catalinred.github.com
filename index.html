@@ -5,37 +5,37 @@ description: Articles on front-end development, CSS, HTML, JavaScript and more.
 ---
 
 {% for post in paginator.posts %}
-<article>
-    <header>
-        <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    </header>
-    <div>
-        {{ post.excerpt }}
-    </div>
+<article class="post">
+  <header>
+    <time datetime="{{ post.date }}" class="post__time">
+      <small>{{ post.date | date_to_string }}</small>
+    </time>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  </header>
+  {{ post.excerpt }}
 </article>
 {% endfor %}
 
-<ul>
-    <li>
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-            <a href="/">Previous</a>
-        {% else %}
-            <a href="/page{{paginator.previous_page}}">Previous</a>
-        {% endif %}
-        {% else %}
-            Previous
-        {% endif %}
-    </li>
-    <li>
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    </li>
-    <li>
-        {% if paginator.next_page %}
-            <a href="/page{{paginator.next_page}}">Next</a>
-        {% else %}
-            Next
-        {% endif %}
-    </li>
+<ul class="pagination text-center">
+  <li class="pagination__prev">
+    {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/" class="btn">Previous</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="btn">Previous</a>
+    {% endif %}
+    {% else %}
+      <span class="btn btn--disabled">Previous</span>
+    {% endif %}
+  </li>
+  <li class="pagination__status">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </li>
+  <li class="pagination__next">
+    {% if paginator.next_page %}
+      <a href="/page{{paginator.next_page}}" class="btn">Next</a>
+    {% else %}
+      <span class="btn btn--disabled">Next</span>
+    {% endif %}
+  </li>
 </ul>

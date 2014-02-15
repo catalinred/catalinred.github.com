@@ -2,21 +2,21 @@
   Buttons
 \*------------------------------------*/
 
-// http://localhost:4000/css3-patterned-buttons/
-
 .btn {
   display: inline-block;
   vertical-align: middle;
-  padding: 10px;
+  padding: 4px 8px;
   text-align: center;
-  background-color: $color-red;
-  font-weight: 300;
+  color: $color-black;
+  border: 2px solid $color-red;
   border-radius: 3px;
+  transition: .2s ease-out color, .2s ease-out background-color;
   
   &:hover {
     color: #fff;
+    background-color: $color-red;
+    text-decoration: none;
   }
-
 }
 
 .btn--full {
@@ -24,13 +24,22 @@
 }
 
 .btn--large {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .btn--secondary {
-  background-color: #3f990f;
+  border-color: $color-navy;
+  &:hover {  
+    background: $color-navy;
+  }
 }
 
-.btn--tertiary {
-  background-color: #9f102e;
+.btn--disabled {
+  pointer-events: none;
+  border-color: $color-light;
+  color: darken($color-light, 25%);  
+  &:hover {
+    color: darken($color-light, 25%);   
+    background: none;
+  }
 }

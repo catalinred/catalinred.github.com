@@ -5,7 +5,7 @@ date: 2014-03-01 08:00
 layout: post
 slug: moving-from-wordpress-to-jekyll
 title: Moving from WordPress to Jekyll
-description: How I decided to move from WordPress to Jekyll. It was fun to build and a lots to learn.
+description: How I decided to move from WordPress to Jekyll. It was fun to build and lots to learn.
 categories:
 - Miscellaneous
 ---
