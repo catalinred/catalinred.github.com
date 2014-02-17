@@ -67,6 +67,7 @@ If you are a Sublime Text 2 addicted and a fan of abbreviations then you may giv
 Speaking of customization, I frequently use the ANT build system and running custom build targets directly from Sublime Text 2 is super useful.
 
 Using the Command Pallete (`Ctrl+Shift+P`) you can easily run an ANT target just by typing its name.
+
 ![Custom ANT targets](/wp-content/uploads/2012/12/custom-ant-targets.png)
 
 Here's an example that contains two ANT build targets defined: 

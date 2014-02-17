@@ -4,15 +4,19 @@ layout: default
 
 <article>
   {{ content }}
-  <div class="grid">
+  <div class="grid aside-module">
     <div class="grid__col--45 grid__col--push10">
     {% if page.previous %}
-      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}">&larr; {{ page.previous.title | truncate:30 }}</a>
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="grid__col--100 text-ellipsis">
+        &larr; {{ page.previous.title }}
+      </a>
     {%endif%}
     </div>
     <div class="grid__col--45">
     {% if page.next %}
-      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}">&rarr; {{ page.next.title | truncate:30 }}</a>
+      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" class="grid__col--100 text-ellipsis">
+        &rarr; {{ page.next.title }}
+      </a>
     {%endif%}
     </div>
   </div>
