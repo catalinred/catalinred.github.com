@@ -7,7 +7,7 @@
   position: relative;
   @include rem(padding, $gutter-2x 0);
 
-  &:before{
+  &:before {
     content: '';
     position: absolute;
     left: 0; right: 0; top: 0;
@@ -36,4 +36,13 @@
 .master-head--title {
   margin: 0;
   font-weight: 300;
+
+  // comment style title
+  @include breakpoint(small) {
+    &::before {
+      content: '//';
+      margin-right: 10px;
+      opacity: .1;  
+    }
+  }
 }

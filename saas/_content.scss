@@ -11,17 +11,29 @@
  */
 
 .post {
+  position: relative;
   @include rem(margin-bottom, $gutter-3x);
   @include rem(padding-bottom, $gutter-2x);
-  border-bottom: 1px dashed #ccc;
+  
+  // index separator dots
+  &:not(:last-of-type):after {
+    content: '...';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    text-align: center;
+    color: $color-blue;
+    @include rem(letter-spacing, .5); 
+    @include rem(font-size, 3);
+    pointer-events: none;
+  }
 }
 
-// img:first-child {
-//   .post &, .single-post & {
-//     width: 100%;
-//     // because the previous post previews are narrower
-//   }
-// } 
+// because the previous post previews are narrower
+img:first-child {
+  .post &, .single-post & {
+    width: 100%;
+  }
+} 
 
 .post__time {
   color: #ccc;
@@ -33,7 +45,7 @@
 
 .pagination {
   @extend %unstyled-list;
-  @include rem(margin-bottom, $gutter);
+  @include rem(margin-bottom, $gutter-3x);
 
   > li {
     display: inline-block;
