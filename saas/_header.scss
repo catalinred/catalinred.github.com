@@ -36,6 +36,9 @@
 .master-head--title {
   margin: 0;
   font-weight: 300;
+  display: inline-block;
+  background-color: rgba(0,0,0,.05);
+  @include rem(padding, .4 .8);
 
   // comment style title
   @include breakpoint(small) {
