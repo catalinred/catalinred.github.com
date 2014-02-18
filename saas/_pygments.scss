@@ -2,10 +2,19 @@
   Pygments - the Python syntax highlighter
 \*------------------------------------*/
 
-.highlight pre { @include rem(padding, $gutter); overflow: auto;}
-.highlight code { white-space: inherit; padding: 0; }
-.highlight pre, .highlight pre code { @include rem(font-size, .9); background: #111; color: #93A1A1;}
+pre { 
+  @include rem(padding, $gutter); 
+  overflow: auto;
+}
 
+pre,
+pre code { 
+  @include rem(font-size, .9); 
+  background: #111; 
+  color: #93A1A1;
+}
+
+.highlight code { white-space: inherit; padding: 0; }
 .highlight .hll { background-color: #49483e }
 .highlight  { color: #f8f8f2 }
 .highlight .c { color: #75715e } /* Comment */
