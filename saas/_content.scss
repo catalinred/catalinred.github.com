@@ -63,6 +63,26 @@ img:first-child {
 }
 
 /**
+ * Archive list
+ */
+
+.archive-list {
+  padding: 0; 
+
+  .archive-list--heading {
+    list-style: none;
+
+    &:not(:first-child) > h2 {
+      @include rem(margin-top, 1.5);
+    }
+  }
+
+  .archive-list--item {
+    @include rem(margin-left, 1);
+  }  
+}
+
+/**
  * Slideout footer effect only for large displays
  */
 
