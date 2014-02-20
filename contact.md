@@ -5,7 +5,7 @@ description: Contact me if you have questions or just want to say hi.
 permalink: /contact/
 ---
 
-I'm a pretty social person so you can find me almost everywhere in the wild. Contact me, I commit to get back to you as soon as I am available and answer any questions you may have.
+I'm a pretty *social* person so you can find me almost everywhere in the wild. Contact me, I commit to get back to you as soon as I am available and answer any questions you may have.
 
 - I [tweet](//twitter.com/catalinred) a lot on front-end development stuff. More or less. 
 - Sometimes I share pixels on [Dribbble](//dribbble.com/catalinred).

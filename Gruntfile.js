@@ -35,7 +35,7 @@ grunt.initConfig({
           tasks: ['sass', 'autoprefixer', 'jekyll']
       },
       jekyll: {
-        files: ['*.html', '*.md', '*.yml', 'js/**.js', '_posts/**', '_includes/**', '_layouts/**'],
+        files: ['*.html', '*.md', '*.yml', '*.xml', 'js/**.js', '_posts/**', '_includes/**', '_layouts/**'],
         tasks: ['sass', 'autoprefixer', 'jekyll']       
       }
   },
