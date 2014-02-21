@@ -29,9 +29,13 @@
 }
 
 // because the previous post previews are narrower
-img:first-child {
-  .post &, .single-post & {
-    width: 100%;
+@include breakpoint(xsmall) {
+  img {
+    .post &, .single-post & {
+      width: 100%;
+      border: 8px solid #fff;
+      outline: 1px solid $color-light;
+    }
   }
 } 
 

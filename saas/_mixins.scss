@@ -55,4 +55,8 @@
 	@else if $point == small {
 		@media (min-width: 769px)  { @content; }
 	}
+  // Extra small devices
+  @else if $point == xsmall {
+    @media (min-width: 481px)  { @content; }
+  }  
 }
