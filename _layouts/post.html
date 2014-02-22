@@ -3,33 +3,46 @@ layout: default
 comments: true
 ---
 
+{% capture abs_url %}{{ site.abs_url }}{{ page.url }}{% endcapture %}
+
 <article class="single-post">
+
   {{ content }}
-  <div class="grid aside-module">
+
+  <p>
+    Share this on: 
+    <a href="//twitter.com/intent/tweet?text={{ page.title }}&url={{ abs_url }}&via=catalinred" target="_blank">Twitter</a> &bull; 
+    <a href="//plusone.google.com/_/+1/confirm?hl=en&url={{ abs_url }}" target="_blank">Google+</a> &bull; 
+    <a href="//facebook.com/sharer/sharer.php?u={{ abs_url }}" target="_blank">Facebook</a>
+  </p>
+
+  <hr class="bold">
+  <div class="grid">
     <div class="grid__col--45 grid__col--push10">
     {% if page.previous %}
-      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="grid__col--100 text-ellipsis">
-        &larr; {{ page.previous.title }}
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="btn btn--full text-ellipsis">
+        <i class="fa fa-arrow-left"></i> {{ page.previous.title }}
       </a>
     {%endif%}
     </div>
     <div class="grid__col--45">
     {% if page.next %}
-      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" class="grid__col--100 text-ellipsis">
-        &rarr; {{ page.next.title }}
+      <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" class="btn btn--full text-ellipsis">
+        <i class="fa fa-arrow-right"></i> {{ page.next.title }} 
       </a>
     {%endif%}
     </div>
   </div>
+  <hr class="bold">
 
   {% if page.comments %}
     <div id="disqus_thread"></div>
     <script>
       var disqus_shortname = 'redteamdesign',
           disqus_title = "{{ page.title }}",
-          disqus_url = "{{ site.abs_url }}{{ page.url }}";
+          disqus_url = "{{ abs_url }}";
       (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          var dsq = document.createElement('script'); dsq.async = true;
           dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
       })();

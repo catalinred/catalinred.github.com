@@ -38,13 +38,18 @@ img {
 }
 
 /**
- * Horizontal line
+ * Horizontal lines
  */
 
 hr {
   @include rem(margin, $gutter 0);
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid $color-light;
+
+  &.bold {
+    border-top-width: 8px;
+    border-style: dashed;
+  }
 }
 
 /**

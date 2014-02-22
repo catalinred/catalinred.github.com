@@ -111,3 +111,11 @@
     }
   }
 }
+
+/**
+ * Disqus
+ */
+
+#disqus_thread {
+  @include rem(margin-top, $gutter-4x);
+}

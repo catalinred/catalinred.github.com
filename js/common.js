@@ -12,12 +12,12 @@
     // Google Analytics
     window._gaq = [['_setAccount', 'UA-5924545-2'],['_trackPageview']];
     add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
-    // Google+ button
-    add('//apis.google.com/js/plusone.js');
-    // Facebook SDK
-    add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=292896510767559', 'facebook-jssdk');
-    // Twitter SDK
-    add('//platform.twitter.com/widgets.js', 'twitter-wjs');
     // BSA
-    add('//s3.buysellads.com/ac/bsa.js');
+    add('//s3.buysellads.com/ac/bsa.js');    
+    // Google+ button
+    //add('//apis.google.com/js/plusone.js');
+    // Facebook SDK
+    //add('//connect.facebook.net/en_US/all.js#xfbml=1&appId=292896510767559', 'facebook-jssdk');
+    // Twitter SDK
+    //add('//platform.twitter.com/widgets.js', 'twitter-wjs');
 }(document, 'script'));
