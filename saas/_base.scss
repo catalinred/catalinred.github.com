@@ -86,9 +86,13 @@ a {
   color: $color-red; 
   text-decoration: none;
 
-  &:hover{
+  &:hover {
     text-decoration: underline;
-  } 
+  }
+
+  img {
+    border: 0;
+  }
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a { 

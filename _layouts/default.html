@@ -1,3 +1,15 @@
+---
+navigation:
+- text: Home
+  url: /
+- text: Archive
+  url: /archive/
+- text: About
+  url: /about/
+- text: Contact
+  url: /contact/
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,18 +42,30 @@
   
   <header role="banner" class="top-header">
     <div class="container">
-      <a href="/">
-        {{ site.name }}
-      </a>
-      <nav role="navigation">
-        <a class="visually-hidden" href="#content">Skip to content</a>
-        <ul>
-          <li><a href="/">home</a></li>
-          <li><a href="/archive/">archive</a></li>
-          <li><a href="/about/">about</a></li>
-          <li><a href="/contact/">contact</a></li>
-        </ul>
-      </nav>
+      <div class="grid">
+        <div class="grid__col--30">
+          <a href="/" class="rtd-logo">
+            {{ site.name }}
+          </a>
+        </div>
+        <div class="grid__col--70">
+          <nav role="navigation" class="rtd-nav">
+            <a class="visually-hidden" href="#content">Skip to content</a>
+            <ul>
+              {% for link in page.navigation %}
+                {% assign current = nil %}
+                {% assign url = page.url|remove:'index.html' %}
+                {% if url == link.url %}
+                  {% assign current = 'current' %}
+                {% endif %}
+                <li class="{{ current }}">
+                  <a href="{{ link.url }}">{{ link.text }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
   </header>
 
