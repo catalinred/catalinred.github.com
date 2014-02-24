@@ -40,7 +40,7 @@ text-indent: -9999px;
 }
 {% endhighlight %}
 
-The reason why the outline border goes to the edge is because of the [text-indent](http://www.w3schools.com/Css/pr_text_text-indent.asp) value : -9999px. If the value is negative the text will be indented to the left and **Firefox users** will notice a **dotted border that goes to the left edge of the screen**.
+The reason why the outline border goes to the edge is because of the text-indent value: -9999px. If the value is negative the text will be indented to the left and **Firefox users** will notice a **dotted border that goes to the left edge of the screen**.
 
 There are two simple methods I know to fix this:
 

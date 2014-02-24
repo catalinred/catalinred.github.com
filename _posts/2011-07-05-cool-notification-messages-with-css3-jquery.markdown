@@ -217,6 +217,6 @@ But, the design is not everything, as functionality and interactivity have a ver
 
 ## Updates
 	
-  * Added CSS3 animation support for [Mozilla 5+](https://developer.mozilla.org/en/CSS/CSS_animations#Defining_the_animation_sequence_using_keyframes) (thanks [Magne](http://www.red-team-design.com/cool-notification-messages-with-css3-jquery/comment-page-1#comment-33703)). I also fixed the proper CSS3 animation (thanks [Glukki](http://www.red-team-design.com/cool-notification-messages-with-css3-jquery/comment-page-1#comment-33688) ) 
+  * Added CSS3 animation support for [Mozilla 5+](https://developer.mozilla.org/en/CSS/CSS_animations#Defining_the_animation_sequence_using_keyframes) (thanks Magne). I also fixed the proper CSS3 animation (thanks Glukki) ) 
 
   * [CSS3 gradients](http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/) syntax updated. Now, Safari also renders background stripes.

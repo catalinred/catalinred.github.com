@@ -80,7 +80,7 @@ Below you can find the minimal HTML:
 
 Note that the markup it's quite minimal, excepting the check and cross icons needed to point available and unavailable features.
 
-To better target the cells I used elements like [thead](http://www.w3schools.com/tags/tag_thead.asp), [tfoot](http://www.w3schools.com/tags/tag_tfoot.asp) or [tbody](http://www.w3schools.com/TAGS/tag_tbody.asp). You'll see below that's easier now to select cells, without adding different CSS classes for rows and/or cells.
+To better target the cells I used elements like thead, tfoot or tbody. You'll see below that's easier now to select cells, without adding different CSS classes for rows and/or cells.
 
 ## The CSS:
 

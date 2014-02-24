@@ -16,7 +16,7 @@ tags:
 - usability
 ---
 
-While this is still an up-to-date version, I just wanted to let you know I made an improved and [animated version](http://www.red-team-design.com/css3-animated-dropdown-menu) of this CSS3 menu. You may want to check that first.
+<ins>While this is still an up-to-date version, I just wanted to let you know I made an improved and [animated version](/css3-animated-dropdown-menu) of this CSS3 menu. You may want to check that first.</ins>
 
 Today you'll learn how to create your own CSS3 dropdown menu, without any additional Javascript code. There are no images used and, as usual, minimal HTML markup. Let's see how is made:
 

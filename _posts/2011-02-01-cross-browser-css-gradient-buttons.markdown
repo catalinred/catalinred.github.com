@@ -14,7 +14,7 @@ tags:
 - CSS3
 ---
 
-<ins>Due some performance issues, I don't recommend using these buttons anymore. You may try instead my latest [CSS3 patterned buttons](css3-patterned-buttons/).</ins>
+<ins>Due some performance issues, I don't recommend using these buttons anymore. You may try instead my latest [CSS3 patterned buttons](/css3-patterned-buttons/).</ins>
 
 Recently I talked about [CSS cross-browser gradients](http://www.red-team-design.com/css-gradients-quick-tutorial) and last week I wrote again about [CSS3 gradients](http://www.red-team-design.com/css3-webkit-gradient-support-updated). So what I'm going to do today? I will show you how to put the CSS gradient feature in practical use.
 

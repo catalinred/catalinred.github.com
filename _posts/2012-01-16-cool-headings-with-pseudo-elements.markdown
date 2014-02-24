@@ -38,7 +38,7 @@ As you can see above, there is no rocket science here. Just a simple HTML headin
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet'>
 {% endhighlight %}
 
-Also, for this demo, we'll use a [Google custom font](www.red-team-design.com/google-font-api-and-typekit-solutions-vs-font-face).
+Also, for this demo, we'll use a [Google custom font](/google-font-api-and-typekit-solutions-vs-font-face).
 
 ## The CSS
 
