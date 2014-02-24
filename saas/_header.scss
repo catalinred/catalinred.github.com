@@ -128,7 +128,6 @@
   background-position: right center;
   background-attachment: fixed;
   background-size: cover;
-  color: $color-light;
   @include rem(padding, $gutter-4x 0);
 }
 
@@ -136,15 +135,21 @@
   margin: 0;
   font-weight: 300;
   display: inline-block;
-  background-color: rgba(0,0,0,.05);
+  background-color: rgba(0,0,0,.1);
+  color: #fff;
   @include rem(padding, .4 .8);
+}
 
-  // comment style title
-  @include breakpoint(small) {
+@include breakpoint(small) {
+  .master-head--title {
+    background-color: rgba(0,0,0,.05);
+    color: $color-light;
+
+    // comment style title
     &::before {
       content: '//';
       margin-right: 10px;
       opacity: .1;  
-    }
-  }
+    }    
+  }  
 }
