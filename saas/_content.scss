@@ -23,7 +23,7 @@
     text-align: center;
     color: $color-blue;
     @include rem(letter-spacing, .5); 
-    @include rem(font-size, 3);
+    @include rem(font-size, 2);
     pointer-events: none;
   }
 }
