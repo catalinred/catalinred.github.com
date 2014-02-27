@@ -15,7 +15,7 @@ navigation:
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title | xml_escape }}</title>
     <meta name="description" content="{{ page.description }}">
     <meta name="google-site-verification" content="C5zdBQFWWh6uslnkcC0u_F5av9GyYt90auGayV4ELbM">
     <link rel="stylesheet" href="/css/style.css">
@@ -71,7 +71,7 @@ navigation:
 
   <div class="master-header">
     <div class="container">
-      <h1 class="master-head--title">{{ page.title }}</h1>
+      <h1 class="master-head--title">{{ page.title | xml_escape }}</h1>
     </div>
   </div>    
 
