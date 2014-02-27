@@ -12,7 +12,7 @@ I live in Craiova, Romania and currently work at <a href="http://www.caphyon.com
 
 When I'm not doing all of these, I play video games on my <del datetime="2011-11-28T19:02:45+00:00">PS3</del> Xbox 360 and hanging out with my friends.
 
-## Why Red?</h3>
+## Why Red?
 Because Rosu (RO) = Red (EN). That's why most of my friends call me Red. Also, this explains my twitter handle too: <a href="https://twitter.com/catalinred">@catalinred</a>
 
 ## Contact me
