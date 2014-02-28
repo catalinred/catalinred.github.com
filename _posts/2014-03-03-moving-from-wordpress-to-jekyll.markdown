@@ -10,7 +10,7 @@ categories:
 - Miscellaneous
 ---
 
-My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a pretty good question and I think the shortest answer is to learn.
+My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a pretty good question and I think the shortest answer is [to learn](http://www.red-team-design.com/becoming-a-better-developer).
 
 ![WordPress to Jekyll](/wp-content/uploads/2014/03/wordpress-to-jekyll.png)
 
@@ -44,7 +44,7 @@ If you heard about Sass before then you heard about Ruby too, it's used to make 
 
 *[Chris Coyier](http://24ways.org/2013/grunt-is-not-weird-and-hard/), on a similar matter.*
 
-To make stuff work on my Windows system, I found [this article](http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html) very helpful. So, if stuck on this step, that article might help you.
+To make Ruby stuff work on my Windows system, I found [this article](http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html) very helpful. So, if stuck on this step, that article might help you.
 
 ###Jekyll
 Once you have Ruby set up, installing Jekyll is pretty straightforward, just run the following lines:
@@ -101,10 +101,10 @@ Here's my current setup, just in case you might be interested:
 ## Migrating the existing content 
 To migrate the existing articles and pages to Jekyll, after I successfully failed with trying [WordPress to Jekyll Exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter), I've decided to go with [existwp](https://github.com/thomasf/exitwp) and for that I had to install some dependencies like html2text, PyYAML and Beautiful soup. Please note that having Python installed is mandatory for this tool to work.
 
-Once I've set up existwp, I just ran `exitwp.py` and voila, all my posts were in Markdown format. Everthing went just fine, just some minor content adjustments were made for the resulted files.
+Once I've set up existwp, I just ran `exitwp.py` and voila, all my posts were in Markdown format. Everything went just fine, just some minor content adjustments were made for the resulted files.
 
 ### Custom meta description
-For SEO purposes, it's recommended to have custom descriptions for each of your pages, that's why I used the Yoast plugin on WordPress. When migrating, unfortunatelly you kinda lose every custom meta description field you filled in. Unless you want the lazy approach - setting a single description for all your pages within `_config.yml` - you may need a coffee and some extra patience to fill meta descriptions for *each* of your markdown pages.
+For SEO purposes, it's recommended to have custom descriptions for each of your pages, that's why I used the Yoast plugin on WordPress. When migrating, unfortunately you kinda lose every custom meta description field you filled in. Unless you want the lazy approach - setting a single description for all your pages within `_config.yml` - you may need a coffee and some extra patience to fill meta descriptions for *each* of your markdown pages.
 
 Using the YAML front matter block, I added a proper description for each article:
 
@@ -189,16 +189,9 @@ Here's how my `packages.json` looks like now:
 ## Setting up GitHub pages and deploy
 GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. This way things got easier to maintain, my website now being just a Git repository built when pushing to the master branch.
 
-Pushing [everything to GitHub](//github.com/catalinred/catalinred.github.com) was piece of cake, I was more anxious about setting the A-record pointing to the GitHub IP. And that's because I had to wait for its propagation.
+Pushing [everything to GitHub](//github.com/catalinred/catalinred.github.com) was piece of cake, I was rather anxious about setting my domain name A-record pointing to GitHub's IP address - `204.232.175.78`. That's because I had to wait several hours for the full propagation.
 
-Set up repository
-https://help.github.com/articles/pushing-to-a-remote
+## That's it!
+When I first thought about this website update, I thought I'll never have enough time for it. I knew this was going to be time consuming but everything worth it. Definitely! I'm more than happy with the results and the initial feedback was just great.
 
-Don't forget about defining your URL from the CNAME file
-
-In my case, I had to change my current server nameservers and add the GitHub IP address
-
-Wait a few hours, and voila.
-
-## Conclusion
-When I first though about this big change, I though I'll never have enough time for that. I knew this is going to be time consuming but everything worth it. Definitely! Because in the end, the more important thing is to learn new stuff, that's part of [becoming a better developer](http://www.red-team-design.com/becoming-a-better-developer).
+Let me know your thoughts, I'd appreciate it!
