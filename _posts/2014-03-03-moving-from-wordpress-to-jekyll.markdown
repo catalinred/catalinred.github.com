@@ -189,7 +189,13 @@ Here's how my `packages.json` looks like now:
 ## Setting up GitHub pages and deploy
 GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. This way things got easier to maintain, my website now being just a Git repository built when pushing to the master branch.
 
-Pushing [everything to GitHub](//github.com/catalinred/catalinred.github.com) was piece of cake, I was rather anxious about setting my domain name A-record pointing to GitHub's IP address - `204.232.175.78`. That's because I had to wait several hours for the full propagation.
+Pushing [everything to GitHub](//github.com/catalinred/catalinred.github.com) was piece of cake, I was rather anxious about setting my domain name A-record pointing to GitHub's IP address. That's because I had to wait several hours for the full propagation.
+
+## Design
+
+Last but not least, on the current design, my main focus was on improving typography, especially vertical rhythm.
+
+Having already chosen the [color scheme](http://dribbble.com/shots/1407691-Just-another-color-scheme), I played a bit with Adobe's Illustrator and made the abstract-shaped header you can see above. The header and the logo are the only images used here, which, by the way, are [encoded](/data-uri-tools/). **More love, less HTTP requests.**
 
 ## That's it!
 When I first thought about this website update, I thought I'll never have enough time for it. I knew this was going to be time consuming but everything worth it. Definitely! I'm more than happy with the results and the initial feedback was just great.
