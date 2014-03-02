@@ -10,7 +10,7 @@ categories:
 - Miscellaneous
 ---
 
-My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a pretty good question and I think the shortest answer is [to learn](http://www.red-team-design.com/becoming-a-better-developer).
+My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a good question and I think the short answer is [to learn](http://www.red-team-design.com/becoming-a-better-developer).
 
 ![WordPress to Jekyll](/wp-content/uploads/2014/03/wordpress-to-jekyll.png)
 
@@ -20,7 +20,7 @@ My website was needing a fresh new look, and what better chance to learn a new a
 
 I've read a lot of inspiring articles on moving from WordPress to Jekyll, yet the one you're reading now is a bit different, this one is merely mine. Jekyll might not be the easiest way to blog but it's one of the most challenging for sure. *Blogging Like a Hacker*, by its creator, [Tom Preston-Werner](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html), might be the best title ever that describes Jekyll. However, don't get me wrong, I'm not a hacker. Not even close. :)
 
-I'm still a big fan of WordPress, I'm still using it for other projects, I'll still recommend to others. But this time I just wanted something different. Lately I thought a lot about it and this move was part of my New Year's resolutions.
+I'm still a big fan of WordPress, I'm still using it for other projects and recommend to others. But this time I just wanted something different, I thought about this move a lot it was part of my New Year's resolutions.
 
 From the start, I knew what moving from WordPress to Jekyll will involve, so I made my homeworks, some things worked as expected and some other not but in the end I made it. This article is a plain HTML file generated with Jekyll and it was written using Markdown. Phew!
 
@@ -28,7 +28,7 @@ From the start, I knew what moving from WordPress to Jekyll will involve, so I m
 
 Before going anywhere further, I'd like to point out that if you're planing to publish blog articles from your mobile, while on vacation, then Jekyll might not suit your needs. And that's because of its dependencies. Unless perhaps you're using something like [Prose.io](http://prose.io), but that's another story.
 
-I'll start with the beginning, which is perhaps the ugliest part of my story: set up everything on a Windows machine. It felt just great when I got it running, but it wasn't that easy as on a Mac OS.
+I'll start with the beginning, which is perhaps the ugliest part of my story: set up everything on a Windows machine. Not that easy but it felt just great when I got it running.
 
 To be able to run Jekyll on a Windows system, you just need the Ruby environment and Jekyll of course. But if you want Pygments, the Python syntax highlighter, Python is required as well. 
 
@@ -57,7 +57,7 @@ jekyll serve
 # Browse to http://localhost:4000
 {% endhighlight %}
 
-Well, that's pretty much it with the Jekyll, everything should work just fine now. Browse to `http://localhost:4000` and see your new Jekyll project in action.
+Well, that's pretty much it with the Jekyll install, everything should work just fine now. Browse to `http://localhost:4000` and see your new Jekyll project in action.
 
 ### Python
 Installing Python and Pygments is optional, but if you want a syntax highlighter that runs on build, then go for it. You might like it comparing to other JS solutions.
@@ -79,7 +79,7 @@ Now, having the `easy_install` module, you can install Pygments:
 easy_install Pygments 
 {% endhighlight %}
 
-At this step, you need to *expose* the Pygments syntax highlighter to Ruby, and to do that run the following line that will install the 0.5.0 pygments.rb version. Other versions do not behave well, I found out the hard way.
+At this step, you need to *expose* the Pygments syntax highlighter to Ruby, and to do so, run the following line that will install the 0.5.0 pygments.rb version. Other versions do not behave well, I found out the hard way.
 
 {% highlight ruby %}
 gem install pygments.rb --version "=0.5.0"
@@ -142,12 +142,12 @@ I switched from Google's JavaScript Code Prettify to [Pygments](http://pygments.
 
 
 ### Comments
-Following the research I made on porting comments further with Jekyll, *To keep, or not to keep?*, that was the question. After reading a lot of pros and cons, I chose to keep the comments because sometimes they are so valuable. Also, sometimes they're just spammy.
+Following the research I made on porting comments further with Jekyll, *To keep, or not to keep?*, that was the question. After reading a lot of pros and cons, I chose to keep the comments because sometimes they are so valuable. Still, sometimes they're just spammy.
 
-Therefore, the only logical choice was to go further with [Disqus](http://disqus.com/). I've never been a Disqus fan, but this time proved to be the best option for porting comments from a database driven blog to static.
+Therefore, the only logical choice was to go further with [Disqus](http://disqus.com/). I've never been a Disqus fan, but it proved to be the best option for porting comments from a database driven blog to static.
 
 ## Sass
-I was thinking to use [Compass](http://compass-style.org/) for this project, but at a second thought I've decided to skip it and go with plain SCSS along with [Autoprefixer](https://github.com/ai/autoprefixer). It's not that I do not like Compass, I've used it in the past, but this time I just wanted to build everything from scratch. As much as possible.
+I was thinking to use [Compass](http://compass-style.org/) for this project, but at a second thought I've decided to leave it aside for now and go with plain SCSS along with [Autoprefixer](https://github.com/ai/autoprefixer). It's not that I do not like Compass, I've used it in the past, but this time I just wanted to build everything from scratch. As much as possible.
 
 The styles are split into Sass partials, later used with the `@import` directive within the `style.scss`.
 
@@ -187,13 +187,13 @@ Here's how my `packages.json` looks like now:
 {%  endhighlight %}
 
 ## Setting up GitHub pages and deploy
-GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. This way things got easier to maintain, my website now being just a Git repository built when pushing to the master branch.
+GitHub Pages support Jekyll and, with this opportunity, I chose to give it a try and host everything there. This way things got easier to maintain, my website now being a Git repository built when pushing online.
 
 Pushing [everything to GitHub](//github.com/catalinred/catalinred.github.com) was piece of cake, I was rather anxious about setting my domain name A-record pointing to GitHub's IP address. That's because I had to wait several hours for the full propagation.
 
 ## Design
 
-Last but not least, on the current design, my main focus was on improving typography, especially vertical rhythm.
+Last but not least, on the current design, my main focus was on improving typography, especially vertical rhythm. My previous design was lacking this type of fine tuning and now I paid more attention to it.
 
 Having already chosen the [color scheme](http://dribbble.com/shots/1407691-Just-another-color-scheme), I played a bit with Adobe's Illustrator and made the abstract-shaped header you can see above. The header and the logo are the only images used here, which, by the way, are [encoded](/data-uri-tools/). **More love, less HTTP requests.**
 
