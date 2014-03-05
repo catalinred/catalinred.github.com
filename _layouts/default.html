@@ -90,7 +90,7 @@ navigation:
               </a> or email:
             </h2>
             <form class="email-form" action="//feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('//feedburner.google.com/fb/a/mailverify?uri=redteamdesign', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-              <input type="text" name="email" class="email-form__text" placeholder="Your email address"/>
+              <input type="email" name="email" class="email-form__text" placeholder="Your email address" required/>
               <input type="submit" value="Go" class="email-form__submit"/>
               <input type="hidden" value="redteamdesign" name="uri"/>
               <input type="hidden" name="loc" value="en_US"/>
@@ -113,14 +113,38 @@ navigation:
 
   <footer role="contentinfo" class="master-footer text-center">
     <div class="container">
-      <a href="//twitter.com/catalinred"><i class="fa fa-twitter fa-2x"></i></a>
-      <a href="//github.com/catalinred"><i class="fa fa-github fa-2x"></i></a>
-      <a href="//facebook.com/RedTeamDesign"><i class="fa fa-facebook fa-2x"></i></a>
-      <a href="//plus.google.com/u/0/114910105297465575018"><i class="fa fa-google-plus fa-2x"></i></a>
-      <a href="//feeds.feedburner.com/redteamdesign"><i class="fa fa-rss fa-2x"></i></a>
-      <a href="//dribbble.com/catalinred"><i class="fa fa-dribbble fa-2x"></i></a>
-      <a href="//instagram.com/catalinred"><i class="fa fa-instagram fa-2x"></i></a>
-      <a href="//linkedin.com/in/catalinred"><i class="fa fa-linkedin fa-2x"></i></a>
+      <a href="//twitter.com/catalinred" rel="me nofollow">
+        <i class="fa fa-twitter fa-2x"></i>
+        <span class="visually-hidden">Twitter</span>
+      </a>
+      <a href="//github.com/catalinred" rel="me nofollow">
+        <i class="fa fa-github fa-2x"></i>
+        <span class="visually-hidden">GitHub</span>
+      </a>
+      <a href="//facebook.com/RedTeamDesign" rel="me nofollow">
+        <i class="fa fa-facebook fa-2x"></i>
+        <span class="visually-hidden">Facebook</span>
+      </a>
+      <a href="//plus.google.com/u/0/114910105297465575018" rel="me nofollow">
+        <i class="fa fa-google-plus fa-2x"></i>
+        <span class="visually-hidden">Google+</span>
+      </a>
+      <a href="//feeds.feedburner.com/redteamdesign" rel="me nofollow">
+        <i class="fa fa-rss fa-2x"></i>
+        <span class="visually-hidden">RSS</span>
+      </a>
+      <a href="//dribbble.com/catalinred" rel="me nofollow">
+        <i class="fa fa-dribbble fa-2x"></i>
+        <span class="visually-hidden">Dribbble</span>
+      </a>
+      <a href="//instagram.com/catalinred" rel="me nofollow">
+        <i class="fa fa-instagram fa-2x"></i>
+        <span class="visually-hidden">Instagram</span>
+      </a>
+      <a href="//linkedin.com/in/catalinred" rel="me nofollow">
+        <i class="fa fa-linkedin fa-2x"></i>
+        <span class="visually-hidden">LinkedIn</span>
+      </a>
       <hr>
       &copy; {{ site.time | date: '%Y' }} Catalin Rosu. Feel free to use the articles you may find here in your projects, with or without any attribution.
     </div>
