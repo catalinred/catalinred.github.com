@@ -98,7 +98,7 @@
     // specify a bgcolor to cover the footer & simulate the slideout footer effect
     position: relative;
     z-index: 1;
-    // .master-content's z-index = 1 > .master-footer's z-index = -1
+    // .master-content's z-index = 1 > .master-footer's z-index = 0
 
     &::after{
       content: '';
