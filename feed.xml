@@ -9,10 +9,10 @@ permalink: /feed/
     <description>{{ site.description }}</description>
     <link>{{ site.abs_url }}</link>
     <atom:link href="{{ site.abs_url }}/feed/" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:15 %}
       <item>
         <title>{{ post.title }}</title>
-        <description>{{ post.description }}</description>
+        <description>{{ post.excerpt }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.abs_url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.abs_url }}{{ post.url }}</guid>
