@@ -17,7 +17,7 @@ Last month I wrote about my thoughts on [becoming a better developer](http://www
 
 <!-- more -->
 
-There is no contest, all you have to do is to use the comments section to show me your best work and post your Dribbble prospect acccount. I'll review all the entries and pick the two winners that will get the Dribbble invites.
+There is no contest, all you have to do is to use the comments section to show me your best work and post your Dribbble prospect account. I'll review all the entries and pick the two winners that will get the Dribbble invites.
 
 No tweets or likes are required but spreading the word is always nice. :)
 
