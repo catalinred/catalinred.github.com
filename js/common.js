@@ -12,8 +12,6 @@
     // Google Analytics
     window._gaq = [['_setAccount', 'UA-5924545-2'],['_trackPageview']];
     add(('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js', 'ga');
-    // BSA
-    add('//s3.buysellads.com/ac/bsa.js');    
     // Google+ button
     //add('//apis.google.com/js/plusone.js');
     // Facebook SDK
