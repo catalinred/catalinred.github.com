@@ -25,7 +25,8 @@ So, in this article you'll learn how to create an interactive menu using CSS3 go
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/04/interactive-menu-css3-jquery-demo.html)[Download .zip](/wp-content/uploads/2012/04/interactive-menu-css3-jquery.zip)
+[View demo](/wp-content/uploads/2012/04/interactive-menu-css3-jquery-demo.html) | 
+[Download .zip](/wp-content/uploads/2012/04/interactive-menu-css3-jquery.zip)
 
 ## The idea
 
