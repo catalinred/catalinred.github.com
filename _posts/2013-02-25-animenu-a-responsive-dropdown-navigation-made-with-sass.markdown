@@ -15,6 +15,8 @@ tags:
 - responsive
 ---
 
+<ins>Check out the [Animenu GitHub repository](https://github.com/catalinred/Animenu) for the updated version of this dropdown navigation concept.</ins>
+
 I've been pretty happy lately to see I'm still receiving a lot of positive feedback on my [animated dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu). I found that quite encouraging and I decided to start working on an improved version of it using SASS & Compass. The new version is responsive, has no JavaScript dependency and it's hosted on [GitHub](https://github.com/catalinred/Animenu) too.
 
 ![animenu-preview](/wp-content/uploads/2013/02/animenu-preview.png)
