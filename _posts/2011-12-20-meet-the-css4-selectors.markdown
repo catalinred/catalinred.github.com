@@ -14,6 +14,8 @@ tags:
 - CSS4
 ---
 
+<ins>On the "CSS4" term, you should know that [there is no such thing as CSS4](http://www.xanthir.com/b4Ko0). Also, the term "CSS3" refers to everything published after CSS 2.1.</ins>
+
 You may already know that, when speaking about web development, **CSS3** and **HTML5** are the two main buzz words. This matter might change in the future because, almost two months ago, the latest [CSS Selectors Level 4 Working Draft](http://www.w3.org/TR/2011/WD-selectors4-20110929) was released by the World Wide Web Consortium (W3C).
 
 In this article you'll find out some interesting stuff about the new CSS4 selectors.

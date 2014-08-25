@@ -95,11 +95,16 @@ a {
   }
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a { 
+h1 a {
   color: $color-black;
 
   &:hover{
     color: $color-red;
+  }   
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a { 
+  &:hover{
     text-decoration: none;
   } 
 }

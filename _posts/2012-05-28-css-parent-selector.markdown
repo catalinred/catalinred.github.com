@@ -134,3 +134,7 @@ If it would be to translate the above: if a `div` contains a `.float-left` or `.
 I'm pretty sure that, once it will be supported, a lot of clever techniques will appear in the wild. The above situations are just some ideas I had in mind and I wanted to share with you. 
 
 The cool thing is that we won't need to rely on JavaScript to select a parent element and this opens way to new opportunities.
+
+## Update
+
+As some of you pointed out in the comment section, it seems that due to performance reasons, there will be no parent selector after all. So, to accomplish that, JavaScript remains the only solution.

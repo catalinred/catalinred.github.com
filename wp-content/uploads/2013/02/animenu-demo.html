@@ -1,81 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Animenu demo - a responsive dropdown navigation made with SCSS - RedTeamDesign</title>
-	<link rel="stylesheet" href="style.css">
-	<!--[if lt IE 9]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2pre/html5shiv.js"></script>
-	<![endif]-->
-	<style>
-		/* Demo only */
-		body{
-		  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiYGBgEPr//z8DCIMBkAEWYIRywIIAAQYAPcIPFz/ScLMAAAAASUVORK5CYII=);
-		}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Animenu - a responsive dropdown navigation made with SCSS</title>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+    <script>
+      document.createElement('nav');
+    </script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  <style>
+    /* Demo only */
+    body {
+      background: #fff;
+    }
 
-		h1{
-		  font-family: Arial, Helvetica, serif;
-		  text-align: center;
-		  background: #eee;
-		  border-top: 2px dashed #fff;
-		  border-bottom: 1px solid #ddd;
-		  margin-top: 0; padding: 10px 0;
-		  text-shadow: 0 -1px 0 #fff;
-		}	
-		#about {
-		  font-family: Arial, Helvetica, serif;
-		  text-align: center;
-		  color: #444;
-		}
-		
-		#about a {
-		  color: #777;
-		}
-	</style>
+    h1 {
+      font-family: Arial, Helvetica, serif;
+      text-align: center;
+      background: #eee;
+      border-top: 2px dashed #fff;
+      border-bottom: 1px solid #ddd;
+      margin-top: 0; padding: 10px 0;
+      text-shadow: 0 -1px 0 #fff;
+    }
+
+    #about {
+      font-family: Arial, Helvetica, serif;
+      text-align: center;
+      color: #444;
+    }
+    
+    #about a {
+      color: #777;
+    }
+  </style>  
 </head>
 <body>
 
-<h1>Animenu - a responsive dropdown navigation</h1>
-<br><br><br>
-
-<nav class="animenu">	
-    <input type="checkbox" id="button">
-    <label for="button" onclick>Menu</label>
-	<ul>
-		<li>
-			<a href="#">Item 1</a>
-			<ul>
-				<li><a href="">Sub Item 1</a></li>
-				<li><a href="">Sub Item 2</a></li>
-				<li><a href="">Sub Item 3</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="#">Item 2</a>
-			<ul>
-				<li><a href="">Sub Item 1</a></li>
-				<li><a href="">Sub Item 2</a></li>
-				<li><a href="">Sub Item 3</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="#">Item 3</a>
-			<ul>
-				<li><a href="">Sub Item 1</a></li>
-				<li><a href="">Sub Item 2</a></li>
-				<li><a href="">Sub Item 3</a></li>
-			</ul>
-		</li>
-		<li>
-			<a href="#">Item 4</a>
-			<ul>
-				<li><a href="">Sub Item 1</a></li>
-				<li><a href="">Sub Item 2</a></li>
-				<li><a href="">Sub Item 3</a></li>
-			</ul>
-		</li>						
-	</ul>
+<nav class="animenu"> 
+  <button class="animenu__toggle">
+    <span class="animenu__toggle__bar"></span>
+    <span class="animenu__toggle__bar"></span>
+    <span class="animenu__toggle__bar"></span>
+  </button>
+  <ul class="animenu__nav">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#">Archive</a>
+      <ul class="animenu__nav__child">
+        <li><a href="">Sub Item 1</a></li>
+        <li><a href="">Sub Item 2</a></li>
+        <li><a href="">Sub Item 3</a></li>
+      </ul>
+    </li>     
+    <li>
+      <a href="#">Categories</a>
+      <ul class="animenu__nav__child">
+        <li><a href="">Sub Item 1</a></li>
+        <li><a href="">Sub Item 2</a></li>
+        <li><a href="">Sub Item 3</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">About</a>
+    </li>
+    <li>
+      <a href="#">Contact</a>
+    </li>                 
+  </ul>
 </nav>
 
 <br><br><br>
@@ -88,11 +86,12 @@
 <script>
 (function(){
   var bsa = document.createElement('script');
-	 bsa.async = true;
-	 bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+     bsa.async = true;
+     bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
   (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
 })();
 </script>
+<script src="animenu.js"></script>
 
 </body>
-</html>	
+</html>

@@ -46,7 +46,7 @@ Elements placed after a floated element will wrap around the floated element. To
 
 Beside the above example that requires extra HTML markup, below is a list with some clearing methods that I found very useful (and they do not require extra markup):
 
-### [Clearfix reloaded](http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified/) _by [Thierry Koblentz](http://www.tjkdesign.com/)_
+## [Clearfix reloaded](http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified/) _by [Thierry Koblentz](http://www.tjkdesign.com/)_
 
 ![Clearfix reloaded](/wp-content/uploads/2011/08/clearfix-reloaded.png)
 
@@ -64,7 +64,7 @@ Beside the above example that requires extra HTML markup, below is a list with s
 {% endhighlight %}
 
 
-### [New clearfix hack](http://perishablepress.com/press/2009/12/06/new-clearfix-hack/) _by [Jeff Starr](http://perishablepress.com/)_
+## [New clearfix hack](http://perishablepress.com/press/2009/12/06/new-clearfix-hack/) _by [Jeff Starr](http://perishablepress.com/)_
 
 ![Clearfix hack](/wp-content/uploads/2011/08/new-clearfix-hack.png)
 
@@ -83,7 +83,7 @@ Beside the above example that requires extra HTML markup, below is a list with s
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 {% endhighlight %}
 
-### [Micro clearfix hack](http://nicolasgallagher.com/micro-clearfix-hack/) _by [Nicolas Gallagher](http://nicolasgallagher.com/)_
+## [Micro clearfix hack](http://nicolasgallagher.com/micro-clearfix-hack/) _by [Nicolas Gallagher](http://nicolasgallagher.com/)_
 
 ![Micro clearfix hack](/wp-content/uploads/2011/08/micro-clearfix.png)
 
@@ -107,9 +107,20 @@ Beside the above example that requires extra HTML markup, below is a list with s
 }
 {% endhighlight %}
 
-### [CSS clearing floats with overflow](http://webdesignerwall.com/tutorials/css-clearing-floats-with-overflow) _by [Nick La](http://webdesignerwall.com/)_
+## [CSS clearing floats with overflow](http://webdesignerwall.com/tutorials/css-clearing-floats-with-overflow) _by [Nick La](http://webdesignerwall.com/)_
 
 ![CSS clearing floats with overflow](/wp-content/uploads/2011/08/clear-overflow.png)
+
+## [The shortest clearfix ever](http://www.cssmojo.com/latest_new_clearfix_so_far/)
+Considering the latest browser support trends, if you're targeting IE8 and above only - meaning excluding IE6 and IE7 -  you can now rely on a single CSS rule:
+
+{% highlight css %}
+.btcf:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+{% endhighlight %}
 
 ## That's it!
 
