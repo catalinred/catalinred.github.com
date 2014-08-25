@@ -1,7 +1,6 @@
 name: RedTeamDesign
 description: "Articles on front-end development, CSS, HTML, JavaScript and more."
 markdown: rdiscount
-pygments: true
 permalink: /:title
 paginate: 10
 excerpt_separator: <!-- more -->
