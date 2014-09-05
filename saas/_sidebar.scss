@@ -87,15 +87,31 @@
  * BSA
  */
 
-body .one .bsa_it_ad {
-  background: none;
-  border: 0;
-  font-family: inherit;
-  padding: 0;
+.adpacks-wrap {
+  display: block;
+  overflow: hidden;
 }
 
-.bsa_it_p { 
-  display: none !important;
+.adpacks-img {
+  float: left;
+  margin-right: 10px;
+  width: 130px;
+  height: 100px;
+}
+
+.adpacks-text {
+  display: block;
+  line-height: normal;
+  color: $color-black;
+  font-size: 12px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.adpacks-poweredby { 
+  display: none;
 }
 
 /**
