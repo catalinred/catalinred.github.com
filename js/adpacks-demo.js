@@ -33,17 +33,15 @@ jQuery(function($){
 	addStyle(css);
 
 	// AdPacks markup
-	$('body').append('<div id="adpacks-wrapper">\
-    	<script async src="//cdn.adpacks.com/adpacks.js?zoneid=1386&serve=C6SI42Y&placement=wwwredteamdesigncom" id="_adpacks_js"></script>\
-	</div>');
+	$('body').append('<div id="adpacks-wrapper"></div>');
 	
 	// AdPacks.com ad code
 	(function(){
 	  var bsa = document.createElement('script');
-		 bsa.type = 'text/javascript';
+		 bsa.id = '_adpacks_js';
 		 bsa.async = true;
-		 bsa.src = '//s3.buysellads.com/ac/bsa.js';
-	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+		 bsa.src = '//cdn.adpacks.com/adpacks.js?zoneid=1386&serve=C6SI42Y&placement=wwwredteamdesigncom';
+	  	 document.getElementById('adpacks-wrapper').appendChild(bsa);
 	})();
 	
 	
