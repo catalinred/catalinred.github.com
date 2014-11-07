@@ -19,7 +19,7 @@ Well, I didn't know about CSS `currentColor` keyword until a while ago. I've sta
 
 So, I thought that making some nice custom form controls with pseudo elements and currentColor might be the best possible scenario. With that in mind, I chose to style some radios and checkboxes.
 
-[View demo]() 
+[View demo](/wp-content/uploads/2014/11/custom-form-controls.html) 
 
 ## Markup
 
@@ -53,7 +53,7 @@ Further, I will try to explain a bit almost every single rule of CSS used for th
 
 The `.form-group` is applied to the HTML label that wraps both checkbox or radio and text respectively. It has a `pointer` style because you may want to add a small usability touch by showing the user that this is actionable.
 
-Also, in case you were wondering about the `user-select: none;` declaration, unfortunately that's not a standard CSS3 feature and its behavior might change in the future. For now, it's just a cool method of preventing text/element selection using CSS.
+Also, in case you were wondering about the `user-select: none;` declaration, unfortunately that's not a standard CSS3 feature and its behavior might change in the future. For now, it's just a cool method of preventing text selection using CSS.
 
 {% highlight css %}
 .form-group {
@@ -171,7 +171,7 @@ When it comes to the radio form element, we rely heavily on the border property 
 
 ## A small JS snippet
 
-To have some fun with colors, I used [PleaseJS](http://www.checkman.io/please/), a JavaScript library for creating random pleasing colors. Just make sure you keep refreshing the [demo]() in order to see some random colored form controls.
+To have some fun with colors, I used [PleaseJS](http://www.checkman.io/please/), a JavaScript library for creating random pleasing colors. Just make sure you keep refreshing the [demo](/wp-content/uploads/2014/11/custom-form-controls.html) in order to see some random colored form controls.
 
 {% highlight js %}
 var formControl       = document.querySelectorAll('.form-group'),
@@ -192,8 +192,6 @@ for (var i = 0; i < formControl.length; i++) {
 This does not work on older browsers like IE8 and below, but a decent fallback for IE8 can easily be made with a bit of effort. 
 
 Otherwise, it works just fine on other modern devices and browsers, as far as I tested. Just hit me up if you noticed something weird.
-
-Text here
 
 ## That's pretty much it
 

@@ -1,0 +1,217 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300">
+
+    <style>
+      *,
+      *:before,
+      *:after {
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+
+      .form-group {
+        cursor: pointer;
+        line-height: 1;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+            -ms-user-select: none;
+                user-select: none;            
+      }
+
+      .form-group > [type="checkbox"],
+      .form-group > [type="radio"] {
+        position: absolute; 
+        overflow: hidden; 
+        clip: rect(0 0 0 0); 
+        height: 1px; width: 1px; 
+        margin: -1px; padding: 0; border: 0; 
+      }
+
+      .form-control {
+        display: inline-block;
+        position: relative;
+        padding-left: 1.3em;
+      }
+
+      .form-control::before,
+      .form-control::after {
+        content: '';
+        position: absolute;
+        left: 0;
+      }        
+
+      .form-control::before {
+        width: 1em;
+        height: 1em;
+        border: .1em solid currentcolor;
+      }
+
+      .form-control::after {
+        top: .1em; left: .1em;
+        width: .8em; height: .8em;
+      }        
+
+      /* Checkbox */
+      .form-control.checkbox::before {
+        border-radius: .1em;
+      }
+
+      .form-control.checkbox::after {  
+        text-align: center;          
+        content: "\2714";
+        line-height: .8em;                   
+        opacity: 0;
+        -webkit-transition: -webkit-transform .1s ease;
+                transition: transform .1s ease;
+      }
+
+      .form-group > .form-control.checkbox:hover::after {
+        -webkit-transform: scale(.5);
+                transform: scale(.5);
+        opacity: .4;
+      }
+
+      .form-group > input:checked + .form-control.checkbox::after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+                transform: scale(1);       
+      }
+
+      /* Radio */
+      .form-control.radio::before,
+      .form-control.radio::after {
+        border-radius: 50%;
+      }
+
+      .form-control.radio::after {
+        background-color: currentcolor;
+        background-clip: padding-box;
+        border: .2em solid transparent;
+        opacity: 0;
+        -webkit-transition: border .1s ease;
+                transition: border .1s ease;
+      }
+
+      .form-group >.form-control.radio:hover::after {
+        opacity: .4;          
+      }            
+
+      .form-group > input:checked + .form-control.radio::after {
+        border-width: .1em;
+        opacity: 1;         
+      }
+
+      /* Demo only */
+      body {
+        margin: 50px;
+        font-size: 2em;
+        font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      }
+
+      body small {
+        opacity: .5;
+      }
+
+      #about {
+        font-size: .5em;
+      }       
+
+      #about a {
+        color: #999;
+      }  
+    </style>
+
+  </head>
+
+  <body>
+
+    <label class="form-group">
+      <input type="checkbox">
+      <span class="form-control checkbox">
+        Banana
+      </span>    
+    </label>
+
+    <br><br>
+
+    <label class="form-group">
+      <input type="checkbox">
+      <span class="form-control checkbox">
+        Orange
+      </span>
+    </label>
+
+    <br><br>
+
+    <label class="form-group">
+      <input type="checkbox">
+      <span class="form-control checkbox">
+        Apple
+      </span>
+    </label>
+
+    <br><br><br>
+
+    <label class="form-group">
+      <input type="radio" name="fruit" checked>
+      <span class="form-control radio">
+        Peach
+      </span>
+    </label>
+
+    <br><br>
+
+    <label class="form-group">
+      <input type="radio" name="fruit">
+      <span class="form-control radio">
+        Mango
+      </span>
+    </label>
+
+    <br><br>
+
+    <label class="form-group">
+      <input type="radio" name="fruit">
+      <span class="form-control radio">
+        Kiwifruit
+      </span>
+    </label> 
+
+    <br><br><br><br>
+
+    <p><small>Just keep hitting <code>Ctrl / Cmd + F5</code></small></p>
+    <p id="about">or go back to <a href="/form-controls-currentcolor-pseudo-elements/">article</a>.</p>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pleasejs/0.2.0/Please.min.js"></script>
+    <script>
+      var formControl       = document.querySelectorAll('.form-group'),
+          formControlLength = formControl.length,
+          pleaseColor       = Please.make_color({
+            colors_returned: formControlLength,
+            saturation: 1,
+            value: .9
+          });
+
+      for (var i = 0; i < formControl.length; i++) {
+        formControl[i].style.color = pleaseColor[i];
+      };
+    </script>
+
+    <!-- AdPacks.com Ad Code -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+    (function(){
+      var bsa = document.createElement('script');
+         bsa.async = true;
+         bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+      (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+    })();
+    </script>      
+   
+  </body>
+</html>
