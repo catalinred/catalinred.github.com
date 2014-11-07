@@ -11,7 +11,7 @@ categories:
 
 Because CSS currentColor value and pseudo elements make a damn good team.
 
-Well, I didn't know about CSS `currentColor` keyword until a while ago. I've started playing around with it and yeah, this is extremely powerful. Some really say that this is the first CSS variable that ever existed, it sounds pretty interesting huh?
+Well, I didn't know about CSS `currentColor` keyword until a while ago. I've started playing around with it and yeah, this is extremely powerful. Some really say that this is the first CSS variable that ever existed, sounds pretty interesting huh?
 
 ![CSS](/wp-content/uploads/2014/11/css-currentcolor.png)
 
@@ -23,7 +23,7 @@ So, I thought that making some nice custom form controls with pseudo elements an
 
 ## Markup
 
-The proper markup for a custom radio or checkbook consist of a `label` that wraps both the `input` and text. As you already know, wrapping everything together will allow us to improve the usability for this, without needing to rely on the `for` and `id` pair. Nothing amazing at this point.
+The markup for a custom radio or checkbook consist of a `label` that wraps both the `input` and the proper text. As you already know, wrapping everything together this way, will allow you to improve the usability for it, without needing to rely on the `for` and `id` pair.
 
 {% highlight html %}
 <label class="form-group">
@@ -37,7 +37,7 @@ The proper markup for a custom radio or checkbook consist of a `label` that wrap
 
 ## Styles
 
-Further, I will try to explain a bit almost every single rule of CSS used for this demo. It's not rocket science but I hope some of you will find it useful.
+Further, I will try to explain a bit almost every single rule of CSS used for this demo. It's not rocket science but I hope you will find it useful.
 
 ### General
 
@@ -51,7 +51,7 @@ Further, I will try to explain a bit almost every single rule of CSS used for th
 }
 {% endhighlight %}
 
-The `.form-group` is applied to the HTML label that wraps both checkbox or radio and text respectively. It has a `pointer` style because you may want to add a small usability touch by showing the user that this is actionable.
+The `.form-group` is applied to the HTML label that wraps both checkbox or radio and text respectively. It has a `pointer` style because you may want to add a small usability touch by showing the user that this element is actionable.
 
 Also, in case you were wondering about the `user-select: none;` declaration, unfortunately that's not a standard CSS3 feature and its behavior might change in the future. For now, it's just a cool method of preventing text selection using CSS.
 
@@ -79,9 +79,9 @@ In this case, we'll customize the radios and checkboxes appearances using pseudo
 
 Now, the following CSS rules are basically preparing the ground for what's going to happen next. The `.form-control` has a `relative` positioning because its pseudo elements will be `absolute` positioned. 
 
-You might note the `em` units too. Well, using these units allow the form controls to be scaled up and down, based on your `font-size` preferences.
+You might note the `em` units too. Well, using these units allow the form controls to be scaled up and down, based on your `font-size` preferences. And that's pretty cool.
 
-Still, the CSS *star* in here is the [`currentColor`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) keyword value, that represents the calculated value of the element's color property. We'll be using later a JavaScript snippet to randomize some colors, just for fun and to see how every form control color is randomly changing.
+Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) keyword value, that represents the calculated value of the element's color property. We'll be using later a JavaScript snippet to randomize some colors, just for fun and to see how every form control color is randomly changing.
 
 ![CSS form control with pseudo elements](/wp-content/uploads/2014/11/form-control-pseudo-elements.gif)
 
@@ -113,7 +113,7 @@ Still, the CSS *star* in here is the [`currentColor`](https://developer.mozilla.
 
 ### Checkbox
 
-The main trick here is to use the already well known "check" HTML entity, represented by Unicode `U+2714`. For the both checkboxes and radios, we're using [adjacent sibling selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) in order to get the toggling behavior.
+The main trick here is to use the already well known "check" HTML entity, represented by Unicode `U+2714`. Also, for both checkboxes and radios, we're using [adjacent sibling selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_selectors) in order to get the toggling behavior.
 
 Everything else is just CSS poetry.
 
@@ -182,7 +182,7 @@ var formControl       = document.querySelectorAll('.form-group'),
       value: .9
     });
 
-for (var i = 0; i < formControl.length; i++) {
+for (var i = 0; i < formControlLength; i++) {
   formControl[i].style.color = pleaseColor[i];
 };
 {% endhighlight %}
@@ -195,4 +195,4 @@ Otherwise, it works just fine on other modern devices and browsers, as far as I 
 
 ## That's pretty much it
 
-Let me know your thoughts and I hope you enjoyed this article. Thanks for reading!
+Let me know your thoughts, thanks for reading!
