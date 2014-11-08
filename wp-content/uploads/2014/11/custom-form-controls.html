@@ -65,13 +65,13 @@
         content: "\2714";
         line-height: .8em;                   
         opacity: 0;
+        -webkit-transform: scale(.5);
+                transform: scale(.5);        
         -webkit-transition: -webkit-transform .1s ease;
                 transition: transform .1s ease;
       }
 
       .form-group > .form-control.checkbox:hover::after {
-        -webkit-transform: scale(.5);
-                transform: scale(.5);
         opacity: .4;
       }
 
@@ -181,7 +181,7 @@
       </span>
     </label> 
 
-    <br><br><br>
+    <br><br>
 
     <p>
       <small>Just keep hitting <code>Ctrl / Cmd + F5</code></small>

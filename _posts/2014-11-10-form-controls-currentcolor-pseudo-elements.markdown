@@ -127,11 +127,11 @@ Everything else is just CSS poetry.
   content: "\2714";
   line-height: .8em;                   
   opacity: 0;
+  transform: scale(.5);
   transition: transform .1s ease;
 }
 
 .form-group > .form-control.checkbox:hover::after {
-  transform: scale(.5);
   opacity: .4;
 }
 
