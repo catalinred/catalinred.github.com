@@ -81,8 +81,6 @@ Now, the following CSS rules are basically preparing the ground for what's going
 
 You might note the `em` units too. Well, using these units allow the form controls to be scaled up and down, based on your `font-size` preferences. And that's pretty cool.
 
-Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) keyword value, that represents the calculated value of the element's color property. We'll be using later a JavaScript snippet to randomize some colors, just for fun and to see how every form control color is randomly changing.
-
 ![CSS form control with pseudo elements](/wp-content/uploads/2014/11/form-control-pseudo-elements.gif)
 
 {% highlight css %}
@@ -102,7 +100,7 @@ Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.o
 .form-control::before {
   width: 1em;
   height: 1em;
-  border: .1em solid currentColor;
+  border: .1em solid;
 }
 
 .form-control::after {
@@ -110,6 +108,10 @@ Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.o
   width: .8em; height: .8em;
 }
 {% endhighlight %}
+
+#### Update
+
+Thanks to [Thierry](https://twitter.com/thierrykoblentz/status/531853862689177601), who wrote me on Twitter about the redundant `currentColor` value in this case `border: .1em solid currentColor;`. After all, the `border-color` is inherited from the parent. Doh! :)
 
 ### Checkbox
 
@@ -144,6 +146,8 @@ Everything else is just CSS poetry.
 ### Radio
 
 When it comes to the radio form element, we rely heavily on the border property to achieve the desired effect. A bit of `border-radius` for roundness, some `background-clip` to prevent the background expanding underneath its border and we're almost there.
+
+Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword) keyword value, that represents the calculated value of the element's color property. We'll be using later a JavaScript snippet to randomize some colors, just for fun and to see how every form control color is randomly changing.
 
 {% highlight css %}
 .form-control.radio::before,
