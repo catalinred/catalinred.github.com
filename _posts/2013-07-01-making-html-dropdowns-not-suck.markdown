@@ -157,7 +157,6 @@ Check the styles below to see how everything works. The `@supports` rule does al
 
 	/* White dropdown style */
 	.custom-dropdown--white::before {
-		top: .5em; bottom: .5em;
 		background-color: #fff;
 		border-left: 1px solid rgba(0,0,0,.1);
 	}
