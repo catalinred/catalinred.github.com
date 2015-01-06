@@ -25,7 +25,7 @@ The bad news is that there's no visible progress on the above bug.
 
 ## The fix
 
-You need to properly specify `Segoe UI Symbol` font as a fallback for your unicode glyphs. This way you'll replace the user agent's default `Segoe UI Emoji` that does not allow any color alteration for its glyphs.
+You need to properly specify `Segoe UI Symbol` font as a fallback for your Unicode glyphs. This way you'll replace the user agent's default `Segoe UI Emoji` that does not allow any color alteration for its glyphs.
 
 In most cases, something like the following will be just enough:
 
