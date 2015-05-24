@@ -13,7 +13,7 @@ I've wanted to write this article for some time now, and this time I made it.
 
 It's been a while since doing web design isn't just like making stuff nice in Photoshop and then pass it to somebody else to slice it and deliver. In the meantime, designers have learned to code and nowadays, being a good web designer means to have the ability to combine your design skills with things like usability and accessibility knowledge in order to deliver the best user experience. Oh, and I almost forgot about SEO - you really need to know to handle your markup so that search engines to like you.
 
-![web design](/wp-content/uploads/2015/05/webdesign.gif)
+![web design](/wp-content/uploads/2015/05/webdesign.png)
 
 <!-- more -->
 
@@ -24,7 +24,7 @@ From sketch to the final result, when crafting an web page or an UI element you 
 ## Mobile first, right?
 The new thing you're working on it, is going to be mobile first, ain't that right? 
 
-Then you know about how to use correctly the [`viewport`](http://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972) meta tag and you're eager to use the latest [HTML5 input types](http://html5doctor.com/html5-forms-input-types/) like search, email, url etc.
+Then you know about how to use correctly the [`viewport`](http://webdesign.tutsplus.com/tutorials/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972) meta tag and you're eager to use the latest [HTML5 input types](http://html5doctor.com/html5-forms-input-types/) like search, email, URL etc.
 
 With all this mobile friendly stuff, you know you have to pass Google's latest [mobile-friendly test](https://www.google.com/webmasters/tools/mobile-friendly/), don't you? After all, we all want [better mobile rankings](http://www.advancedwebranking.com/blog/google-mobile-update-study/). 
 
@@ -53,7 +53,7 @@ If you're dealing with a menu list, then you have to choose a good and tasty ham
 
 <small>[via Luke Wroblewski](https://twitter.com/lukew/status/591296890030915585)</small>
 
-Ok, seriously now, will you stack the menu items on mobile displays or you'll hide them under a hamburger icon? Slide out/off canvas style? What will fit better for your design?
+OK, seriously now, will you stack the menu items on mobile displays or you'll hide them under a hamburger icon? Slide out/off canvas style? What will fit better for your design?
 
 ## What kind of CSS grid will  your design be based on?
 You know that floats based grid systems don't play good with centered vertical alignment. Inline blocks are great for that but do you like fighting with white space? Flexbox based grid? Or you can't afford yet because of your users?
@@ -83,4 +83,4 @@ But then I hear people around saying:
 
 Really? Are you kidding me? [*Isn't that what I am already doing*](/becoming-a-better-developer/), for f@#$s sake?
 
-Hm, maybe is just me. But I feel much better now.
+Hmm, maybe is just me. But I feel much better now.
