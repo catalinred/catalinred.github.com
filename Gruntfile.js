@@ -10,7 +10,7 @@ grunt.initConfig({
           style: 'compressed'
       },
       files: {
-          'css/style.css': 'saas/style.scss'
+          'css/style.css': 'sass/style.scss'
       }
     } 
   },
@@ -31,7 +31,7 @@ grunt.initConfig({
 
   watch: {
       styles: {
-          files: ['saas/*.scss'],
+          files: ['sass/*.scss'],
           tasks: ['sass', 'autoprefixer', 'jekyll']
       },
       jekyll: {
