@@ -11,11 +11,12 @@ categories:
 
 If you'd ask me what I've been up lately, I'd say: working, reading, learning - pretty much just like you, I guess. The thing is it's been a while since I wrote something here and my first article this year is about AWRstudyr, a Chrome extension I've been working lately and it's something I've put lots of effort into it.
 
-![AWRstudyr screenshot](https://placehold.it/700x400)
+![AWRstudyr screenshot](/wp-content/uploads/2016/01/awrstudyr.jpg)
 
 <!-- more -->
 
-If you're like me, you hit `view source` on a regular basis while browsing just every time you enjoy, dislike or when being too curious onto something. And when `view source` is not enough, you go `F12` and try to stumble upon on how things work down there.
+## What's AWRStudyr about
+If you're like me, you hit `view source` on a regular basis while browsing just every time you enjoy, dislike or when being too curious onto something. And when `view source` is not enough, you go with `F12` and try to stumble upon on how things work down there.
 
 So, I started thinking on a tool that could deliver relevant info for a web page without having to repeat the above steps every time I wanted to find out more about the tools and frameworks a page uses. Feedback was crucial and I was interested mainly if there were more people having my problem - trying to get as many data possible for an URL at first sight.
 
@@ -36,4 +37,24 @@ and more...
 - Does this URL have mixed content that can break the SSL?
 - How many times does this URL has been shared in the wild?
 
-In case the above reasons are enough for you, you can give AWRStudyr a try and [get it on Chrome Store](https://chrome.google.com/webstore/detail/awrstudyr/mbkehkfjhncahcaggkncdaacfnikmoid). I hope you'll find this useful and I'm looking forward to your feedback!
+![AWRstudyr SEOverview](/wp-content/uploads/2016/01/seoverview.png)
+![AWRstudyr Technologies](/wp-content/uploads/2016/01/tech.png)
+![AWRstudyr HTML5](/wp-content/uploads/2016/01/html5.png)
+![AWRstudyr mobile friendly](/wp-content/uploads/2016/01/mobile.png)
+![AWRstudyr PageSpeed Insights](/wp-content/uploads/2016/01/pagespeed.png)
+![AWRstudyr social shares](/wp-content/uploads/2016/01/social.png)
+
+## How it's made
+
+The cool thing is that we were able to use the latest cutting-edge technologies to build it, without having to care about cross-browser consistency or other issues.
+
+- We chose B.E.M. as a CSS methodology.
+- Sass is the preprocessor tool and Grunt does the automation.
+- On postprocessing CSS, Autoprefixer does the job.
+- We're not using any CSS framework but we tried to create ours for this, inspired by the ones available in the wild.
+- The grid system that makes everything straightforward is made using Flexbox. 
+- The JavaScript framework that made our lives easier is AngularJS.
+- Most of graphics are SVG and it's a wonderful feeling to be able to use it without any polyfills or fallbacks.
+
+## Where to get it
+You can go to [AWRstudyr](http://www.awrstudyr.com/) website or [get it on Chrome Store](https://chrome.google.com/webstore/detail/awrstudyr/mbkehkfjhncahcaggkncdaacfnikmoid) directly to give it a try. I hope you enjoy it and looking forward to your feedback!
