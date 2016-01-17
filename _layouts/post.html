@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 {% capture abs_url %}{{ site.abs_url }}{{ page.url }}{% endcapture %}
@@ -31,19 +30,4 @@ comments: true
     </div>
   </div>
   <hr class="bold">
-
-  {% if page.comments %}
-    <div id="disqus_thread"></div>
-    <script>
-      var disqus_shortname = 'redteamdesign',
-          disqus_title = "{{ page.title }}",
-          disqus_url = "{{ abs_url }}";
-      (function() {
-          var dsq = document.createElement('script'); dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>   
-  {% endif %}   
-
 </article>
