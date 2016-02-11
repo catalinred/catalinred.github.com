@@ -11,13 +11,13 @@ categories:
 
 Yeah I know the title is a cliche but I just couldn't help it. Everyone could be a little better, but the thing is that some people don't even try.
 
-![Getting better](/wp-content/uploads/2015/02/getting-better.png)
+![Getting better](/wp-content/uploads/2016/02/getting-better.png)
 
 <!-- more -->
 
 Meet John. John is one of my acquaintance, I know him for awhile and he's a fellow designer who works for a company that's developing software products.
 
-Let's say John works for more than 10 years for that company. He started as a graphic designer and he's still devoted to crafting pixels for one of the company's most successful products. He has lots to do, never gets bored, the software product he's working on is huge and he's responsible for a very large icon set used by that product.
+John works for more than 10 years for that company. He started as a graphic designer and he's still devoted to crafting pixels for one of the company's most successful products. He has lots to do, never gets bored, the software product he's working on is huge and he's responsible for a very large icon set used by that product.
 
 I know designing icons can be sometimes painful, you can't always express your thoughts using 16x16, 32x32 or 64x64 pixels. But John is giving his all for this to happen and he's succeeding most of times.
 
