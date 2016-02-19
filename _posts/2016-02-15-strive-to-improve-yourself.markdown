@@ -41,4 +41,4 @@ We changed subject but I got sad, no... I got mad. I wasn't convincing enough.
 
 I wasn't getting it for the moment, but I guess that when struggling with repetitive tasks everyday, somewhere in the process, he lost one of the most important things: the passion, the passion and the desire to improve and learn new stuff.
 
-[We should all try to be just a little better](http://red-team-design.com/becoming-a-better-developer/).
+[We should all try to be just a little better](/becoming-a-better-developer).
