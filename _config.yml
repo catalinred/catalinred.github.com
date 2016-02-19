@@ -1,7 +1,7 @@
 name: RedTeamDesign
 description: "Articles on front-end development, CSS, HTML, JavaScript and more."
 markdown: kramdown
-permalink: /:title
+permalink: /:title/
 paginate: 10
 excerpt_separator: <!-- more -->
 exclude: [rtd.sublime-project, rtd.sublime-workspace, CNAME, Gruntfile.js, package.json, README.md]
