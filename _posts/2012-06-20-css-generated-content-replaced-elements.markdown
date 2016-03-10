@@ -59,27 +59,25 @@ The question is: **Is this technically a "bug" in WebKit, or should we expect th
 For this article, I had the pleasure of getting feedback from some of the best web developers I know:
 
 ![Lea Verou](/wp-content/uploads/2012/06/lea-verou.jpg)
-### [Lea Verou](http://lea.verou.me/)
-[@leaverou](https://twitter.com/LeaVerou)
+
+###[Lea Verou](http://lea.verou.me/)
 
 > Yes, although convenient, this behavior is technically a bug in these engines. I think extending :before and :after to apply to replaced elements was discussed in the CSSWG and rejected, because it’s not consistent with the way these pseudos work for non-replaced elements (they are not treated like siblings, but like children).
 
-> The Generated & Replaced content [module](http://www.w3.org/TR/css3-content/) used to define something that would help solve this problem: an ::outside pseudo-element, that could also be combined with ::before and ::after, essentially mimicking what these engines do for replaced content. Unfortunately, there are no implementations (apparently it's hard to implement) and this draft is not actively maintained any more (last update was at 2003!) and thus, is now obsolete. I really hope someone picks it up and starts working on it, this kind of functionality is badly needed.
+>The Generated & Replaced content [module](http://www.w3.org/TR/css3-content/) used to define something that would help solve this problem: an ::outside pseudo-element, that could also be combined with ::before and ::after, essentially mimicking what these engines do for replaced content. Unfortunately, there are no implementations (apparently it's hard to implement) and this draft is not actively maintained any more (last update was at 2003!) and thus, is now obsolete. I really hope someone picks it up and starts working on it, this kind of functionality is badly needed.
 
 ![Louis Lazaris](/wp-content/uploads/2012/06/louis-lazaris.jpg)
+
 ### [Louis Lazaris](http://www.impressivewebs.com/)
-[@ImpressiveWebs](https://twitter.com/ImpressiveWebs)
 
-> That's pretty interesting. I wasn't aware that WebKit allows that to happen. My reaction to that is that it's a bug, and it shouldn't work. The spec says "This specification does not fully define the interaction of :before and :after with replaced elements." But, technically, that's not really true. The interaction (which is to say, no interaction) is defined when the spec says:
-
->"the :before and :after pseudo-elements specify the location of content before and after an element's document tree content..."
+> That's pretty interesting. I wasn't aware that WebKit allows that to happen. My reaction to that is that it's a bug, and it shouldn't work. The spec says "This specification does not fully define the interaction of :before and :after with replaced elements." But, technically, that's not really true. The interaction (which is to say, no interaction) is defined when the spec says: "the :before and :after pseudo-elements specify the location of content before and after an element's document tree content..."
 
 >A replaced element does not have any "document tree content". So according to the spec, replaced elements shouldn't allow pseudo-elements to be placed "inside" them. Also, if it works for an input element, then it should work with all input elements and also img tags. But it doesn't work with "type=submit" or images, so it seems inconsistent to me.
 
 
 ![Roger Johansson](/wp-content/uploads/2012/06/roger-johansson.jpg)
+
 ### [Roger Johansson](http://www.456bereastreet.com/)
-[@rogerjohansson](https://twitter.com/rogerjohansson)
 
 >   1. The :before and :after pseudo-elements would probably be more intuitive if they were called :prepend and :append instead, since I think that better describes what they do.
         
@@ -88,32 +86,23 @@ For this article, I had the pleasure of getting feedback from some of the best w
 >   3. It's hard to tell what other browsers will do, but it doesn't look like it's coming to Firefox at least: [https://bugzilla.mozilla.org/show_bug.cgi?id=241985](https://bugzilla.mozilla.org/show_bug.cgi?id=241985).
 
 
-
 ![Chris Coyier](/wp-content/uploads/2012/06/chris-coyier.jpg)
+
 ### [Chris Coyier](http://css-tricks.com/)
-[@chriscoyier](https://twitter.com/chriscoyier)
 
 > The way I think about it is this:
 
-> It's not "before" and "after" **the element**, it's "before" and "after" **the content inside the element**. 
+> It's not "before" and "after" **the element**, it's "before" and "after" **the content inside the element**. Pseudo elements aren't actually in the DOM, but that's how they behave. 
 
-> Pseudo elements aren't actually in the DOM, but that's how they behave. 
+> So if you think about a checkbox: `<input type="checkbox" />`, where does the content you are adding go? There isn't any "inside". As such, those elements are called "no content" elements.
 
-> So if you think about a checkbox: `<input type="checkbox" />`
+> Conceptually, it makes sense for me for pseudo elements to not be allowed on elements like that. Practically, with those awesome demos you have seen, it makes for some pretty cool possibilities. I just wish it was defined better, or there were pseudo elements like :outside and :inside that accommodated those things (there were, but they were poorly defined in the spec and removed before any browser implemented them). 
 
-> Where does the content you are adding go? There isn't any "inside". As such, those elements are called "no content" elements.
-
-> Conceptually, it makes sense for me for pseudo elements to not be allowed on elements like that. 
-
-> Practically, with those awesome demos you have seen, it makes for some pretty cool possibilities. I just wish it was defined better, or there were pseudo elements like :outside and :inside that accommodated those things (there were, but they were poorly defined in the spec and removed before any browser implemented them). 
-
-> If I could control the world, I'd make :before and :after stop working on no content elements and get the pseudo elements and shadow DOM specs moving along so we can make those demos work in a standard way.
-
-> Also, you may want to check this cool [presentation on pseudo elements](https://speakerdeck.com/u/chriscoyier/p/css-pseudo-elements-for-fun-and-profit) made by Chris.
+> If I could control the world, I'd make :before and :after stop working on no content elements and get the pseudo elements and shadow DOM specs moving along so we can make those demos work in a standard way. Also, you may want to check this cool [presentation on pseudo elements](https://speakerdeck.com/u/chriscoyier/p/css-pseudo-elements-for-fun-and-profit) made by Chris.
 
 ![simurai](/wp-content/uploads/2012/06/simurai.jpg)
+
 ### [simurai](http://simurai.com/)
-[@simurai](https://twitter.com/simurai)
 
 > Well, as far as I know... :before/:after pseudo elements were never intended to be used as layers for additional visual styling and just for adding additional text in front or after some content. So it's more of a hack. I guess the reason why lots of people ab(use) them for purely visual effects is the desire to keep the markup clean. I mean you could easily add a couple <span>'s, but that just feels unnecessary.
 
@@ -126,16 +115,16 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 
 ![Harry Roberts](/wp-content/uploads/2012/06/harry-roberts.jpg)
+
 ### [Harry Roberts](http://csswizardry.com/)
-[@csswizardry](https://twitter.com/@csswizardry)
 
 > Well the spec does say that the implementation is undefined as yet, so I don’t think it’s a bug so much as a bit over-keenness on WebKit’s part, perhaps…?
 
 > It would certainly be really cool to have a) a solid definition and b) that definition to allow for content on replaced elements.
 
 ![Thierry Koblentz](/wp-content/uploads/2012/06/thierry-koblentz.jpg)
+
 ### [Thierry Koblentz](http://tjkdesign.com/)
-[@thierrykoblentz](https://twitter.com/@thierrykoblentz)
 
 > I think it makes sense that this is not defined as
 if we look at the current specs we see that:
@@ -162,7 +151,6 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 
 ![Jeff Starr](/wp-content/uploads/2012/06/jeff-starr.jpg)
 ### [Jeff Starr](http://perishablepress.com/)
-[@perishable](https://twitter.com/@perishable)
 
 > Technically, replaced elements have no content, and so therefore :before and :after shouldn't apply in that case. But I also feel that the new possibilities afforded by the new shadow DOM hold vast potential and should be explored further.
 
@@ -170,7 +158,6 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 
 ![Faruk Ateş](/wp-content/uploads/2012/06/faruk-ates.jpg)
 ### [Faruk Ateş](http://farukat.es/)
-[@KuraFire](https://twitter.com/@KuraFire)
 
 > I think for generated content, any interaction is coincidental and problematic, because the spec is basically silent on the matter, and that always causes issues for browser vendors. The fact that the CSS3 version of the spec hasn't been touched since 2003 doesn't give me much confidence that will change anytime soon.
 
