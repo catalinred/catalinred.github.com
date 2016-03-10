@@ -60,7 +60,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 ![Lea Verou](/wp-content/uploads/2012/06/lea-verou.jpg)
 
-###[Lea Verou](http://lea.verou.me/)
+### [Lea Verou](http://lea.verou.me/)
 
 > Yes, although convenient, this behavior is technically a bug in these engines. I think extending :before and :after to apply to replaced elements was discussed in the CSSWG and rejected, because it’s not consistent with the way these pseudos work for non-replaced elements (they are not treated like siblings, but like children).
 
@@ -150,6 +150,7 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 `<element></element>`)...
 
 ![Jeff Starr](/wp-content/uploads/2012/06/jeff-starr.jpg)
+
 ### [Jeff Starr](http://perishablepress.com/)
 
 > Technically, replaced elements have no content, and so therefore :before and :after shouldn't apply in that case. But I also feel that the new possibilities afforded by the new shadow DOM hold vast potential and should be explored further.
@@ -157,6 +158,7 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 > Then again, it could well open the doors to chaos and anarchy if browsers start doing whatever they want, outside of W3C specification.
 
 ![Faruk Ateş](/wp-content/uploads/2012/06/faruk-ates.jpg)
+
 ### [Faruk Ateş](http://farukat.es/)
 
 > I think for generated content, any interaction is coincidental and problematic, because the spec is basically silent on the matter, and that always causes issues for browser vendors. The fact that the CSS3 version of the spec hasn't been touched since 2003 doesn't give me much confidence that will change anytime soon.
