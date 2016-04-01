@@ -8,7 +8,7 @@
     "scss": "node-sass --output-style compressed -o dist/css src/sass/",
     "lint": "eslint js/",
     "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -o dist/js/common.js && uglifyjs src/js/common.js -m -c -o dist/js/common.min.js",
-    "imagemin": "imagemin src/wp-content/uploads dist/img -p",
+    "imagemin": "imagemin src/uploads dist/img -p",
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run lint && npm run uglify",
     "build:all": "npm run clean && npm run build:css && npm run build:js && npm run imagemin && jekyll serve"
