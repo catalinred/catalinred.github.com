@@ -1,13 +1,28 @@
 {
   "name": "rtd",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A set of build tasks with npm scripts.",
+  "scripts": {
+    "clean": "rimraf dist/{css/*,js/*,img/*}",
+    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "scss": "node-sass --output-style compressed -o dist/css src/sass/",
+    "lint": "eslint js/",
+    "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -o dist/js/common.js && uglifyjs src/js/common.js -m -c -o dist/js/common.min.js",
+    "imagemin": "imagemin src/wp-content/uploads dist/img -p",
+    "build:css": "npm run scss && npm run autoprefixer",
+    "build:js": "npm run lint && npm run uglify",
+    "build:all": "npm run clean && npm run build:css && npm run build:js && npm run imagemin && jekyll serve"
+  },
+  
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-autoprefixer": "~0.6.5",
-    "grunt-contrib-sass": "~0.7.1",
-    "grunt-jekyll": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-concurrent": "~0.4.3"
+    "mkdirp": "latest",
+    "rimraf": "latest",  
+    "autoprefixer": "latest",
+    "browser-sync": "latest",
+    "eslint": "latest",
+    "imagemin-cli": "latest",
+    "node-sass": "latest",
+    "postcss-cli": "latest",
+    "uglify-js": "latest"
   }
 }
