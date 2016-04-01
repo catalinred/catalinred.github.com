@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 logo made with CSS3 - demo</title>
+    <link href='http://fonts.googleapis.com/css?family=Geo' rel='stylesheet' type='text/css'>  
+    <style>
+    h1
+    {
+        font: bold 160px 'Geo', serif;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    
+    p
+    {
+        text-align: center;
+    }
+    
+    /**/
+    
+    #wrapper
+    {
+        position: relative;
+        width: 340px;
+        margin: 10px auto 30px auto;
+    }
+    
+    #wrapper span
+    {
+        font: normal 475px/305px 'Geo', serif;
+        width: 340px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        z-index: 9999;
+        color: white;
+    }    
+    
+    #wrapper:before
+    {
+        content: '';
+        display: block;
+        /*340 total width */
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 345px solid #e34c26;
+        width: 280px;
+    }
+    
+    #wrapper:after
+    {
+        content: '';
+        display: block;
+        /*280 total width */        
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-top: 40px solid #e34c26;
+        width: 0;
+        margin-left: 30px;
+    }
+    
+    /**/
+    
+    .inner
+    {
+    position: absolute;
+    top: 0;
+    
+    -moz-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);	
+    }
+    
+    .inner:before
+    {
+        content: '';
+        display: block;
+        /*340 total width */
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 345px solid #f06529;
+        width: 280px;
+    }
+    
+    .inner:after
+    {
+        content: '';
+        display: block;
+        /*280 total width */        
+        border-left: 140px solid transparent;
+        border-right: 140px solid transparent;
+        border-top: 40px solid #f06529;
+        width: 0;
+        margin-left: 30px;
+        
+        position: relative;
+        top: -1px; /* Fix spacing */
+    }
+    
+    /**/
+    
+    .inner.left
+    {
+        width: 170px; /* half from the 340px total width */
+        overflow: hidden;
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);		
+        transform: scale(1);		
+    }
+    
+    .inner.left:before
+    {
+        border-top-color: #e34c26;
+    }
+    
+    .inner.left:after
+    {
+        border-top-color: #e34c26;
+    }
+    
+    /**/
+    
+    .inner.left.cover
+    {
+        z-index: 10000;
+        opacity: 0.1;
+    }
+    
+    </style>
+	
+<!-- AdPacks -->
+<style>
+#adpacks-wrapper{font-family: Arial, Helvetica;width:280px;position: fixed;_position:absolute;bottom: 0;right: 20px;z-index: 9999;background: #eaeaea;padding: 10px;-moz-box-shadow: 0 0 15px #444;-webkit-box-shadow: 0 0 15px #444;box-shadow: 0 0 15px #444;}
+body .adpacks{background:#fff;padding:15px;margin:15px 0 0;border:3px solid #eee;}
+body .one .bsa_it_ad{background:transparent;border:none;font-family:inherit;padding:0;margin:0;}
+body .one .bsa_it_ad .bsa_it_i{display:block;padding:0;float:left;margin:0 10px 0 0;}
+body .one .bsa_it_ad .bsa_it_i img{padding:0;border:none;}
+body .one .bsa_it_ad .bsa_it_t{padding: 0 0 6px 0; font-size: 11px;}
+body .one .bsa_it_p{display:none;}
+body #bsap_aplink,body #bsap_aplink:hover{display:block;font-size:9px;margin: -15px 0 0 0;text-align:right;}
+body .one .bsa_it_ad .bsa_it_d{font-size: 11px;}
+body .one{overflow: hidden}
+</style>
+	
+</head>
+<body>
+    
+<h1>HTML</h1>
+<div id="wrapper">
+    <span>5</span>
+
+    <div class="inner"></div>
+    <div class="inner left"></div>
+    <div class="inner left cover"></div>    
+</div>
+
+<p>Back to <a href="http://www.red-team-design.com/html5-logo-using-css3">article</a> / Drop me a message on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+<!-- AdPacks.com Ad Code -->
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script>
+(function(){
+  var bsa = document.createElement('script');
+     bsa.async = true;
+     bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+})();
+</script>
+
+</body>
+</html>

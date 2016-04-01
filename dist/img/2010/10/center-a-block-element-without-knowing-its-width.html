@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Center a block element without knowing its width - Red Team design</title>
+    <style>    
+/*General styles*/
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #d7d3be url(http://www.red-team-design.com/wp-content/themes/red/images/back.jpg) left top;
+	font-family: 'trebuchet MS', Verdana, Arial;
+}
+
+#main
+{
+	width: 960px;
+	margin: 160px auto 0 auto;
+	background: white;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 30px;
+	border: 1px solid #adaa9f;
+	-moz-box-shadow: 0 2px 2px #9c9c9c;
+	-webkit-box-shadow: 0 2px 2px #9c9c9c;
+}
+
+p
+{
+	margin: 0 0 10px 0;
+}
+        
+/**/
+	
+.centered-block
+{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+		
+/**/
+.button
+{
+  overflow: hidden;
+}
+
+.button a
+{
+  float: left;
+  font: bold 1em/30px 'Trebuchet MS', Arial, Helvetica;
+  height: 30px;
+  text-decoration: none;
+  color: #4e4e4e;
+  padding: 0 0 0 30px;
+}
+
+.button a:hover
+{
+  text-decoration:none;
+  color: #6c6c6c;
+}
+
+.button a span
+{
+  display: block;
+  padding: 0 30px 0 0;
+  text-shadow: 0 1px 0 white;
+}
+
+.button a,
+.button a:hover,
+.button a:active,
+.button a span,
+.button a:hover span,
+.button a:active span
+{
+  background: white url(http://www.red-team-design.com/wp-content/uploads/2010/10/button.gif) no-repeat;
+}
+
+.button a:hover
+{
+  background-position: left -30px;
+}
+
+.button a:active
+{
+  background-position: left -60px;
+}
+
+.button a span
+{
+  background-position: right top;
+}
+
+.button a:hover span
+{
+  background-position: right -30px;
+}
+
+.button a:active span
+{
+  background-position: right -60px;
+}	
+    </style>
+</head>
+<body>
+    <div id="main">
+
+	<h3>Centered blocks - no width defined and still centered</h3>
+	<p>Width can be variable for these kind of buttons, as the contained text can be shorter... or longer. <br>So don't hesitate to use this centering method when you need a cross browsers solution, as in this example:<br><br></p>
+	
+	<table class="centered-block">
+	  <tr>
+		<td>
+		  <div class="button">
+			<a href="#"><span>First Button</span></a>
+		  </div>
+		<td>
+	  </tr>
+	  </table>
+	  
+	<table class="centered-block">	  
+	  <tr>
+		<td>
+		  <div class="button">
+			<a href="#"><span>Second Button</span></a>
+		  </div>
+		<td>
+	  </tr>
+	</table>
+		
+	<table class="centered-block">		
+	  <tr>
+		<td>
+		  <div class="button">
+			<a href="#"><span>Loooooong Button example</span></a>
+		  </div>
+		<td>
+	  </tr>	  
+	</table>
+    
+    </div>
+</body>
+</html>

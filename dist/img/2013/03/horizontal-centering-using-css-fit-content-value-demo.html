@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<title>Horizontal centering using CSS fit-content value demo - RedTeamDesign</title>
+	<style>
+		/* Demo purposes */
+		body {
+			padding: 50px;
+			text-align: center;
+			font-family: Arial, Helvetica;
+		}
+
+		a {
+			color: #444;
+		}
+
+		/* Basic navigation styles */
+		.navbar {
+		    margin:20px 0;
+		}
+
+		.navbar ul {
+		    margin: 0;
+		    padding: 20px;
+		    list-style: none;
+		    border-radius: 8px;
+		    background: #eee;
+		    box-shadow: 0 0 2px rgba(0,0,0,.4) inset;
+			overflow: hidden; 
+		}
+
+		.navbar li {
+		    margin: 0 5px;
+		    float:left;		    			
+		}
+
+		.navbar a {
+		    display: block;
+		    padding: 6px 10px;
+		    border-radius: 12px;
+		    color: #111;
+		    background: #ccc;
+		    font: bold 1em/1 Arial, Helvetica, sans-serif;
+		    text-decoration: none;
+		}
+
+		.navbar a:hover,
+		.navbar a:focus {
+		    color: #fff;
+		    background: #333;
+		}
+
+		/* Horizontal centering approach */
+
+		.center ul{
+		    width: -moz-fit-content;
+		    width: -webkit-fit-content;
+		    width: fit-content;    
+		    margin: auto;   
+		}				
+	</style>
+</head>
+<body>
+
+	<h2>Menu navigation bar which contains floated elements.</h2>
+	<p>Note that floated elements have no width specified and this is what makes centering the navigation bar tricky.</p>
+	<div class="navbar">
+	    <ul>
+	        <li><a href="/">Home</a></li>
+	        <li><a href="/">About us</a></li>
+	        <li><a href="/">Our products</a></li>
+	        <li><a href="/">Customer support</a></li>
+	        <li><a href="/">Contact</a></li>
+	    </ul>
+	</div>
+	
+	<br><br><br><br><br>
+
+	<h2>Horizontal centering using CSS <code>fit-content</code> value</h2>
+	<p>Note the navigation bar is now centered, no matter the width of the contained floated elements. <br><b>Current support: Chrome and Firefox</b>.</p>
+	<div class="navbar center">
+	    <ul>
+	        <li><a href="/">Home</a></li>
+	        <li><a href="/">About us</a></li>
+	        <li><a href="/">Our products</a></li>
+	        <li><a href="/">Customer support</a></li>
+	        <li><a href="/">Contact</a></li>
+	    </ul>
+	</div>
+
+	<br><br><br><br><br>
+
+	<p id="about">Back to <a href="http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value">article</a> / Follow me on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+	<!-- AdPacks.com Ad Code -->
+	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	<script>
+	(function(){
+	  var bsa = document.createElement('script');
+		 bsa.async = true;
+		 bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+	  (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+	})();
+	</script>
+
+</body>
+</html>

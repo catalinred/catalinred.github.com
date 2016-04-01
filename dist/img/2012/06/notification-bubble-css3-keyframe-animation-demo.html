@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+	<title>Notification bubble with CSS3 keyframe animation - demo</title>
+	<style>
+		.animating{
+			-webkit-animation: animate 1s cubic-bezier(0,1,1,0);
+			-moz-animation: animate 1s cubic-bezier(0,1,1,0);
+			-ms-animation: animate 1s cubic-bezier(0,1,1,0);
+			-o-animation: animate 1s cubic-bezier(0,1,1,0);
+			animation: animate 1s cubic-bezier(0,1,1,0);			
+		}
+
+		@-webkit-keyframes animate{
+		    from {
+		        -webkit-transform: scale(1);
+		    }
+		    to {
+		       -webkit-transform: scale(1.7);
+		    }
+		}
+		
+		@-moz-keyframes animate{
+		    from {
+		        -moz-transform: scale(1);
+		    }
+		    to {
+		       -moz-transform: scale(1.7);
+		    }
+		}
+
+		@-ms-keyframes animate{
+		    from {
+		        -ms-transform: scale(1);
+		    }
+		    to {
+		       -ms-transform: scale(1.7);
+		    }
+		}
+
+		@-o-keyframes animate{
+		    from {
+		        -o-transform: scale(1);
+		    }
+		    to {
+		       -o-transform: scale(1.7);
+		    }
+		}
+
+		@keyframes animate{
+		    from {
+		        transform: scale(1);
+		    }
+		    to {
+		       transform: scale(1.7);
+		    }
+		}
+
+		/* ------------------------------------------- */
+
+		body{
+			text-align: center;
+		}
+
+		.menu{
+		  margin: 50px auto 20px;
+		  width: 800px;
+		  padding: 0;
+		  list-style: none;
+		}
+
+		.menu {
+		  border: 1px solid #111;
+		  background-color: #222;
+		  -moz-border-radius: 6px;
+		  -webkit-border-radius: 6px;
+		  border-radius: 6px;
+		  -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+		  -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+		  box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+		}
+
+		.menu:before,
+		.menu:after {
+		  content: "";
+		  display: table;
+		}
+
+		.menu:after {
+		  clear: both;
+		}
+
+		.menu {
+		  zoom:1;
+		}
+
+		.menu li {
+		  float: left;
+		  position: relative;		  
+		  border-right: 1px solid #222;
+		  -moz-box-shadow: 1px 0 0 #444;
+		  -webkit-box-shadow: 1px 0 0 #444;
+		  box-shadow: 1px 0 0 #444;
+		}
+
+		.menu a {
+		  float: left;
+		  padding: 12px 30px;
+		  color: #bbb;
+		  text-transform: uppercase;
+		  font: bold 12px Arial, Helvetica;
+		  text-decoration: none;
+		}
+
+		.menu a:hover {
+		  color: #fafafa;
+		}
+
+		.menu li:first-child a
+		{
+		  -moz-border-radius: 5px 0 0 5px;
+		  -webkit-border-radius: 5px 0 0 5px;
+		  border-radius: 5px 0 0 5px;
+		}
+
+		.menu .bubble
+		{
+		  background: #e02424;  		
+		  position: absolute;
+		  right: 5px;
+		  top: -5px;
+		  padding: 2px 6px;
+		  color: #fff;
+		  font: bold .9em Tahoma, Arial, Helvetica;
+		  -moz-border-radius: 3px;
+		  -webkit-border-radius: 3px;
+		  border-radius: 3px;
+		}
+
+	    /* Demo page only */
+
+	    #about{
+	        color: #999;
+	        text-align: center;
+	        font: 0.9em Arial, Helvetica;
+	        margin: 50px 0;
+	    }
+
+	    #about a{
+	        color: #777;
+	    }   
+	</style>
+
+</head>
+<body>
+
+<ul class="menu">
+    <li><a href="">Dashboard</a></li>
+    <li><a href="">Stats</a></li>
+    <li>
+    	<a href="">
+    		Todo list
+    		<span class="bubble">9</span>
+    	</a>
+    </li>
+    <li><a href="">Settings</a></li>
+</ul>
+
+<button id="decrement">Decrement notification</button>
+<button id="increment">Increment notification</button>
+
+<p id="about">Back to <a href="/notification-bubble-css3-keyframe-animation">article</a> / Drop me a message on <a href="http://twitter.com/catalinred">Twitter</a>!</p>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+	var counterValue = parseInt($('.bubble').html());
+	function removeAnimation(){
+		setTimeout(function() {
+			$('.bubble').removeClass('animating')
+		}, 1000);			
+	}
+
+	$('#decrement').on('click',function(){
+		counterValue--;
+		$('.bubble').html(counterValue).addClass('animating');
+		removeAnimation();
+	})
+
+	$('#increment').on('click',function(){
+		counterValue++;
+		$('.bubble').html(counterValue).addClass('animating');
+		removeAnimation();
+	})	
+</script>
+
+  <!-- BSA AdPacks code -->
+  <script>
+    (function(){
+    var bsa = document.createElement('script');
+       bsa.async = true;
+       bsa.src = 'http://www.red-team-design.com/js/adpacks-demo.js';
+    (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+    })();
+  </script> 
+
+</body>
+</html>

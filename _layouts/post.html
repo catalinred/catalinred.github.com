@@ -16,15 +16,17 @@ layout: default
   <div class="grid">
     <div class="grid__col--45 grid__col--push10">
     {% if page.previous %}
-      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="btn btn--full text-ellipsis">
-        <i class="fa fa-arrow-left"></i> {{ page.previous.title }}
+      <a href="{{ page.previous.url }}" rel="prev" title="{{ page.previous.title }}" class="btn btn--full text-ellipsis">        
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 384 448"><path d="M384 224v32q0 13.25-8.125 22.625T354.75 288h-176L252 361.5q9.5 9 9.5 22.5t-9.5 22.5l-18.75 19q-9.25 9.25-22.5 9.25-13 0-22.75-9.25l-162.75-163Q16 253.25 16 240q0-13 9.25-22.75L188 54.75q9.5-9.5 22.75-9.5 13 0 22.5 9.5L252 73.25q9.5 9.5 9.5 22.75t-9.5 22.75L178.75 192h176q13 0 21.125 9.375T384 224z"/></svg>
+        {{ page.previous.title }}
       </a>
     {%endif%}
     </div>
     <div class="grid__col--45">
     {% if page.next %}
       <a href="{{ page.next.url }}" rel="prev" title="{{ page.next.title }}" class="btn btn--full text-ellipsis">
-        <i class="fa fa-arrow-right"></i> {{ page.next.title }} 
+        <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 384 448"><path d="M368 240q0 13.5-9.25 22.75L196 425.5q-9.75 9.25-22.75 9.25-12.75 0-22.5-9.25L132 406.75q-9.5-9.5-9.5-22.75t9.5-22.75L205.25 288h-176q-13 0-21.125-9.375T0 256v-32q0-13.25 8.125-22.625T29.25 192h176L132 118.5q-9.5-9-9.5-22.5t9.5-22.5l18.75-18.75q9.5-9.5 22.5-9.5 13.25 0 22.75 9.5L358.75 217.5Q368 226.25 368 240z"/></svg>
+        {{ page.next.title }} 
       </a>
     {%endif%}
     </div>
