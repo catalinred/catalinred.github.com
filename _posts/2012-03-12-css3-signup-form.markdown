@@ -20,11 +20,11 @@ If you're about to launch a new web product or you just need to improve the user
 
 In this article you'll find out how to design a clean and attractive CSS3 signup form.
 
-![](/wp-content/uploads/2012/03/css3-signup-form.png)
+![](/dist/uploads/2012/03/css3-signup-form.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/03/css3-signup-form-demo.html)
+[View demo](/dist/uploads/2012/03/css3-signup-form-demo.html)
 
 In the past, I have designed some [sign in](http://www.red-team-design.com/slick-login-form-with-html5-css3) [forms](http://www.red-team-design.com/simple-and-effective-dropdown-login-box), but never a signup form. So, to get the job completely done, I decided to write this article.
 
@@ -57,7 +57,7 @@ As usual, I'll list below the styles used for this example. Prefixed properties 
 
 ### Form styles
 
-![base64 background image](/wp-content/uploads/2012/03/css3-signup-form-background.png)
+![base64 background image](/dist/uploads/2012/03/css3-signup-form-background.png)
 
 After I created a simple `3x4` image pattern, I converted it into a base64 string. To do that, I used this wonderful [Image to Base64 Converter tool](http://webcodertools.com/imagetobase64converter). You can see it in the styles as a background for `#signup`.
 
@@ -103,7 +103,7 @@ Regarding the [paper stack effect](http://www.red-team-design.com/slick-login-fo
 
 I tried to create a nice and abstract design for the form's heading, so here's my result:
 
-![Form heading](/wp-content/uploads/2012/03/css3-signup-form-heading.png)
+![Form heading](/dist/uploads/2012/03/css3-signup-form-heading.png)
 
 {% highlight css %}
 #signup h1 {
@@ -205,7 +205,7 @@ Not so much to say here. For the submit button, please notice the [gradient tran
 
 ## That's it!
 
-![CSS3 signup form](/wp-content/uploads/2012/03/css3-signup-form-final.png)
+![CSS3 signup form](/dist/uploads/2012/03/css3-signup-form-final.png)
 
 I'm aware that this example does not contain revolutionary techniques, but neither shouldn't. The possibilities are endless when it comes about web forms styling, as long as you follow up the best and recommended practices.
 

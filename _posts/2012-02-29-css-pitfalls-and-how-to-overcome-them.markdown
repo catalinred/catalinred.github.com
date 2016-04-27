@@ -18,7 +18,7 @@ When you write CSS, there are some problems you may run into. Then, to overcome 
 
 In this article I'll try to show you some tips and tricks that can definitely help you when writing CSS.
 
-![](/wp-content/uploads/2012/02/css-pitfalls-and-how-to-overcome-them.png)
+![](/dist/uploads/2012/02/css-pitfalls-and-how-to-overcome-them.png)
 
 <!-- more -->
 

@@ -15,7 +15,7 @@ But, I'm not making video games reviews here. The thing is that while checking t
 
 So, just in case you weren't already tired of spinners and loaders, here's another one.
 
-![Gamespot's loading hearts](/wp-content/uploads/2014/04/gamespot-loading-hearts.jpg)
+![Gamespot's loading hearts](/dist/uploads/2014/04/gamespot-loading-hearts.jpg)
 
 <!-- more -->
 

@@ -15,13 +15,13 @@ tags:
 
 You can now create stunning animations with CSS3. But, I bet you know that. The keyword when it comes about CSS3 animations is the CSS3 `@keyframes` rule and in this article you will learn how to create an awesome CSS3 animated header using it.
 
-![CSS3 animated header](/wp-content/uploads/2011/12/awesome-css3-animated-header.gif)
+![CSS3 animated header](/dist/uploads/2011/12/awesome-css3-animated-header.gif)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/12/css3-animated-header-demo.html)
+[View demo](/dist/uploads/2011/12/css3-animated-header-demo.html)
   
-... also, you can [download the .psd](/wp-content/uploads/2011/12/css3-animated-header.zip) concept.
+... also, you can [download the .psd](/dist/uploads/2011/12/css3-animated-header.zip) concept.
 
 ## The HTML
 
@@ -45,7 +45,7 @@ The markup is minimal and quite self explanatory. Please, don't blame me for _di
 
 Below, you can find the images you will use in order to create the header:
 
-![Header images](/wp-content/uploads/2011/12/css3-header-images.png)
+![Header images](/dist/uploads/2011/12/css3-header-images.png)
 
 ## The CSS
 
@@ -53,7 +53,7 @@ As you read at the beginning of this article, the [@keyframes](http://www.w3.org
 
 You can find the full CSS3 code when viewing page source for the demo.
 
-![Header background](/wp-content/uploads/2011/12/css3-header-background.png)
+![Header background](/dist/uploads/2011/12/css3-header-background.png)
 
 To achieve the snow effect, you will need to animate the `background-position` property for the first `.header` background. As a quick note, for the browsers that do not support multiple backgrounds, the snow will not be visible for this example.
 
@@ -72,7 +72,7 @@ To achieve the snow effect, you will need to animate the `background-position` p
 }
 {% endhighlight %}
 
-![Header wrapper](/wp-content/uploads/2011/12/css3-header-wrapper.png)
+![Header wrapper](/dist/uploads/2011/12/css3-header-wrapper.png)
 
 The `.wrapper` element basically holds all our Christmas trees together with the snowman. Please note the `position: relative` declaration:
     
@@ -87,7 +87,7 @@ The `.wrapper` element basically holds all our Christmas trees together with the
 }
 {% endhighlight %}
 
-![Animated header example](/wp-content/uploads/2011/12/awesome-css3-animated-header.gif)
+![Animated header example](/dist/uploads/2011/12/awesome-css3-animated-header.gif)
 
 For the Christmas trees, the `animation-duration` value was randomly changed in order to create a cool effect: 
 

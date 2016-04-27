@@ -18,7 +18,7 @@ You may already know what a ribbon is and how it looks. Nowadays, the CSS ribbon
 
 So, in this article you'll learn how to create CSS ribbons, without any images and minimal HTML markup.
 
-![CSS ribbons](/wp-content/uploads/2011/04/css-ribbons.png)
+![CSS ribbons](/dist/uploads/2011/04/css-ribbons.png)
 
 <!-- more -->
 
@@ -31,17 +31,17 @@ As a matter of fact, you could just use images for your ribbons. But, using CSS 
   * Easy to update: color, size, etc        
   * Spice up the ribbons with CSS3 and you'll love them ;)
 
-[View demo](/wp-content/uploads/2011/04/css-ribbons-demo.html)
+[View demo](/dist/uploads/2011/04/css-ribbons-demo.html)
 
 ## CSS ribbon structure
 
 Initially, let's say you have a wrapper with `padding: 20px`. What is about with this `padding`? Usually, you need a spacing for your box and you'll see below why this matters when it's about ribbons.
 
-![A html wrapper](/wp-content/uploads/2011/04/wrapper.png)
+![A html wrapper](/dist/uploads/2011/04/wrapper.png)
 
 Now let's add the element that will become our ribbon. For that, you will need just one element, like a `h1` for example:
 
-![CSS ribbon heading](/wp-content/uploads/2011/04/heading.png)
+![CSS ribbon heading](/dist/uploads/2011/04/heading.png)
 
 _H1 element with some styling_
 
@@ -54,7 +54,7 @@ h1 {
 }
 {% endhighlight %}
 
-![CSS heading expanded](/wp-content/uploads/2011/04/heading-expanded.png)
+![CSS heading expanded](/dist/uploads/2011/04/heading-expanded.png)
 
 Further, to add the corners, we'll use [CSS triangles](http://www.red-team-design.com/css3-dropdown-menu) made with  pseudo-elements.
     
@@ -97,7 +97,7 @@ h1:after {
 
 Using the above CSS, you will achieve something like this:
 
-![CSS ribbon result](/wp-content/uploads/2011/04/ribbon-result.png)
+![CSS ribbon result](/dist/uploads/2011/04/ribbon-result.png)
 
 ## Browser support
 

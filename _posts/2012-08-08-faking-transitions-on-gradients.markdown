@@ -17,7 +17,7 @@ CSS transitions do not have any effect on background gradients. As far as I know
 
 Though, there are some simple ways you can simulate smooth transitions on gradients and below you'll see how to do that.
 
-![Transitions on gradients](/wp-content/uploads/2012/08/faking-transitions-on-gradients.png)
+![Transitions on gradients](/dist/uploads/2012/08/faking-transitions-on-gradients.png)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ So, what is this about and why would you care about transitions on gradients? Th
 
 Read the workarounds described below and you'll be able to greatly improve your gradient buttons, especially their `:hover` state. 
 
-[View demo](/wp-content/uploads/2012/08/fake-transitions-on-gradients-demo.html)
+[View demo](/dist/uploads/2012/08/fake-transitions-on-gradients-demo.html)
 
 
 ## Initial styles

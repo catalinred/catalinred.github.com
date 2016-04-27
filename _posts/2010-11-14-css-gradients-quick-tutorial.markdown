@@ -20,7 +20,7 @@ However, you should know that they are available to use in Safari, Chrome (Webki
 
 With this post I will show you how to use CSS gradients for some major browsers: Firefox, Safari, Chrome and IE (surprise!).
 
-[![CSS gradients](/wp-content/uploads/2010/11/css-gradients.jpg)](http://www.red-team-design.com/css-gradients-quick-tutorial) 
+[![CSS gradients](/dist/uploads/2010/11/css-gradients.jpg)](http://www.red-team-design.com/css-gradients-quick-tutorial) 
 
 <!-- more -->
 
@@ -58,9 +58,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr
 
 But, lets see how it works. Use the following lines of code from above together and you will get a cross-browser gradient box.
 
-[![](/wp-content/uploads/2010/11/css-linear-gradient.png)](/wp-content/uploads/2010/11/css-linear-gradient.html)
+[![](/dist/uploads/2010/11/css-linear-gradient.png)](/dist/uploads/2010/11/css-linear-gradient.html)
 
-[View Demo](/wp-content/uploads/2010/11/css-linear-gradient.html)
+[View Demo](/dist/uploads/2010/11/css-linear-gradient.html)
 
 {% highlight css %}
 background: #6191bf; /* Fallback background color for non supported browsers */   
@@ -76,10 +76,10 @@ IE gradient filters doesn't support color-stop, gradient angle, and radial gradi
 
 But lets see how you can define a CSS3 radial gradient for Firefox, Safari and Chrome.
 
-[![](/wp-content/uploads/2010/11/css-radial-gradient.png)](/wp-content/uploads/2010/11/css-radial-gradient.html)
+[![](/dist/uploads/2010/11/css-radial-gradient.png)](/dist/uploads/2010/11/css-radial-gradient.html)
 
 
-[View Demo](/wp-content/uploads/2010/11/css-radial-gradient.html)
+[View Demo](/dist/uploads/2010/11/css-radial-gradient.html)
 
 {% highlight css %}
 background: #6191bf; /* Fallback background color for non supported browsers */ 

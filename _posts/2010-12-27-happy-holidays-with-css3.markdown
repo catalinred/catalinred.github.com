@@ -16,13 +16,13 @@ tags:
 
 New year is coming and I want to wish all of you Happy Holidays. For this reason, I made a little CSS3 experiment (with absolutely no images) and I hope you'll enjoy it.
 
-![Happy holidays - CSS3 experiment](http://www.red-team-design.com/wp-content/uploads/2010/12/happy-holidays.png)
+![Happy holidays - CSS3 experiment](http://www.red-team-design.com/dist/uploads/2010/12/happy-holidays.png)
 
 <!-- more -->
 
 Below you have the demonstration, you may take a look or you can follow the step-by-step tutorial:
 
-[View Demo](/wp-content/uploads/2010/12/happy-holidays-with-css3-demo.html)
+[View Demo](/dist/uploads/2010/12/happy-holidays-with-css3-demo.html)
 
 ## HTML code
 
@@ -46,7 +46,7 @@ In this case, the [background-size](http://www.w3.org/TR/css3-background/#the-ba
 
 ## Look Mom! No images!
 
-![CSS3 pattern](http://www.red-team-design.com/wp-content/uploads/2010/12/css3-pattern.png)
+![CSS3 pattern](http://www.red-team-design.com/dist/uploads/2010/12/css3-pattern.png)
 
 {% highlight css %}
 html
@@ -64,7 +64,7 @@ html
 
 Further you need to add the wrapper within which you'll _draw_ all the other elements.
 
-![Snow wrapper](http://www.red-team-design.com/wp-content/uploads/2010/12/snow-wrapper.png)
+![Snow wrapper](http://www.red-team-design.com/dist/uploads/2010/12/snow-wrapper.png)
 
 {% highlight css %}
 #wrapper {
@@ -95,7 +95,7 @@ The last rule it's for adding a snowflake to our design without extra HTML marku
 
 ## Let's add some snow
 
-![Snow](http://www.red-team-design.com/wp-content/uploads/2010/12/snow.png)
+![Snow](http://www.red-team-design.com/dist/uploads/2010/12/snow.png)
 
 Below you can see how it's made: by overlapping three huge (2000x2000 px) circles. If you'll remove `overflow: hidden` from  the `#wrapper` selector you'll see the circles full-size.
 
@@ -137,7 +137,7 @@ Below you can see how it's made: by overlapping three huge (2000x2000 px) circle
 
 There are multiple options to choose for when it's about [custom fonts for your website](/google-font-api-and-typekit-solutions-vs-font-face). For this example I choosed `Sniglet` font from [Google Font API](http://code.google.com/webfonts/preview#font-family=Sniglet).
 
-![Sniglet custom font](http://www.red-team-design.com/wp-content/uploads/2010/12/sniglet.png)
+![Sniglet custom font](http://www.red-team-design.com/dist/uploads/2010/12/sniglet.png)
 
 {% highlight css %}
 h1 {
@@ -153,13 +153,13 @@ h1 {
 }
 {% endhighlight %}
 
-![Happy Holidays custom font](http://www.red-team-design.com/wp-content/uploads/2010/12/happy-holidays-custom-font.png)
+![Happy Holidays custom font](http://www.red-team-design.com/dist/uploads/2010/12/happy-holidays-custom-font.png)
 
 ## Fir tree made with CSS triangles
 
 One more thing to add and the design it's done. Let's create the fir tree using CSS triangle shapes. This is not CSS3, but it's cool anyway :).
 
-![Fir tree made with CSS triangles](http://www.red-team-design.com/wp-content/uploads/2010/12/css-fir-tree.png)
+![Fir tree made with CSS triangles](http://www.red-team-design.com/dist/uploads/2010/12/css-fir-tree.png)
 
 {% highlight css %}
 #tree {
@@ -202,7 +202,7 @@ One more thing to add and the design it's done. Let's create the fir tree using 
 
 In order to see the demo in the right way, note please that you should use one of the following browsers: **Firefox, Chrome, Safari**. The demo looks OK on **Opera and IE9**, but without [gradients](http://www.red-team-design.com/css-gradients-quick-tutorial).
 
-![Happy holidays - CSS3 experiment](http://www.red-team-design.com/wp-content/uploads/2010/12/happy-holidays.png)
+![Happy holidays - CSS3 experiment](http://www.red-team-design.com/dist/uploads/2010/12/happy-holidays.png)
 
 ## Happy Holidays
 

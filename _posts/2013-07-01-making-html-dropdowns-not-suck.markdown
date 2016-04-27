@@ -15,12 +15,12 @@ Customizing form elements was always pretty frustrating and the select element i
 
 In this article, in order to customize the look of the native HTML dropdown select, we'll be using a different approach based on some cutting edge techniques like `@supports`, `pointer-events` and `appearance`.
 
-![Custom dropdown preview](/wp-content/uploads/2013/06/custom-dropdown-preview.png)
+![Custom dropdown preview](/dist/uploads/2013/06/custom-dropdown-preview.png)
 
 <!-- more -->
 
 
-[View demo](/wp-content/uploads/2013/06/custom-html-dropdown.html)
+[View demo](/dist/uploads/2013/06/custom-html-dropdown.html)
 
 
 ## The need for custom dropdowns
@@ -81,7 +81,7 @@ In case you noticed the namespacing, I'm using the [BEM](http://bem.info/method/
 ## The CSS
 
 
-![Custom dropdown deconstructed](/wp-content/uploads/2013/06/custom-dropdown-deconstructed.png)
+![Custom dropdown deconstructed](/dist/uploads/2013/06/custom-dropdown-deconstructed.png)
 
 Check the styles below to see how everything works. The `@supports` rule does all the the magic:
     

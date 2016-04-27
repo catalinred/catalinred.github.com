@@ -21,7 +21,7 @@ But what happens when you want the paragraph to look like a block next to the im
 
 However, with this article I will show you a quick solution for this issue. Actually, a very simple and fast trick, but very useful in these cases.
 
-[![Fix wrapping text around floated elements ](/wp-content/uploads/2010/11/remove-wrapping-text.png)](http://www.red-team-design.com/how-to-fix-wrapping-text-around-floated-elements)
+[![Fix wrapping text around floated elements ](/dist/uploads/2010/11/remove-wrapping-text.png)](http://www.red-team-design.com/how-to-fix-wrapping-text-around-floated-elements)
 
 <!-- more -->
 
@@ -61,7 +61,7 @@ You must be aware that this won't work for IE6, if you assure this won't "break"
 
 If you are still wondering how this solution can help, bellow you have a detailed demo example with it:
 
-[View Demo](/wp-content/uploads/2010/11/fix-wrapping-text.html)
+[View Demo](/dist/uploads/2010/11/fix-wrapping-text.html)
 
 ## Conclusion
 

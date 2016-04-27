@@ -13,7 +13,7 @@ categories:
 
 Last month I wrote about my thoughts on [becoming a better developer](http://www.red-team-design.com/becoming-a-better-developer) and not only. This time, to help you join the best design community, I have two [Dribbble](http://dribbble.com/catalinred) invites for you.
 
-![Dribbble invites](/wp-content/uploads/2013/05/dribbble-invites.jpg)
+![Dribbble invites](/dist/uploads/2013/05/dribbble-invites.jpg)
 
 <!-- more -->
 

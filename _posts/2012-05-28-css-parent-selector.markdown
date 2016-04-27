@@ -17,7 +17,7 @@ I wrote a while ago about the future [CSS4 Selectors](http://www.red-team-design
 
 Meanwhile, I thought a little bit about the upcoming CSS parent selector. At this time, if you ask me, I think it will be the most awesome feature and definitely is at the top of my CSS wishlist.
 
-![](/wp-content/uploads/2012/05/css-parent-selector.png)
+![](/dist/uploads/2012/05/css-parent-selector.png)
 
 <!-- more -->
 
@@ -56,7 +56,7 @@ These are the questions I'm asking myself lately about this matter so I thought 
 
 For [CSS dropdown menus](http://www.red-team-design.com/css3-animated-dropdown-menu), we would be able to style the `li` accordingly when it contains a sub menu.
 
-![](/wp-content/uploads/2012/05/css-dropdown.png)
+![](/dist/uploads/2012/05/css-dropdown.png)
 
 In this case, for the Categories section, here's how we could add an arrow to the right for the parent list element:
     
@@ -71,7 +71,7 @@ li! > ul {
 
 As I mentioned in my previous [CSS4 selectors](http://www.red-team-design.com/meet-the-css4-selectors) article, highlighting a form when an inner input is focused could be a practical example for the CSS parent selector.
 
-![Interactive form](/wp-content/uploads/2011/12/css4-selectors-fieldset.png)
+![Interactive form](/dist/uploads/2011/12/css4-selectors-fieldset.png)
 
 
 {% highlight css %}
@@ -84,7 +84,7 @@ fieldset! > input:focus {
 
 With this new powerful selector, I think we could have all the ingredients to use a new [clearing floats](http://www.red-team-design.com/clearing-floats-nowadays) method based on already existing ones.
 
-![Clearing floats](/wp-content/uploads/2011/08/clearing-floats.png)
+![Clearing floats](/dist/uploads/2011/08/clearing-floats.png)
 
 Thinking there's absolutely no situation when you wouldn't want to clear the floats within a wrapper, if having the markup below:
     

@@ -19,13 +19,13 @@ When designing a pricing table for a product or service, your job as a web desig
 
 So, in this article you'll learn how to build an awesome CSS3 pricing table, with no images and minimal HTML markup.
 
-![CSS3 pricing table](/wp-content/uploads/2011/12/css3-pricing-table.png)
+![CSS3 pricing table](/dist/uploads/2011/12/css3-pricing-table.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/12/css3-pricing-table-demo.html)
+[View demo](/dist/uploads/2011/12/css3-pricing-table-demo.html)
 
-[![](/wp-content/uploads/2011/12/css3-pricing-table-preview.png)](/wp-content/uploads/2011/12/css3-pricing-table-demo.html)
+[![](/dist/uploads/2011/12/css3-pricing-table-preview.png)](/dist/uploads/2011/12/css3-pricing-table-demo.html)
 
 _If you're in a hurry, just check the final result._
 
@@ -195,7 +195,7 @@ While its structure isn't actually based on [tables](http://www.red-team-design.
   * No images at all and CSS3 ready, so this is easy to maintain/update.    
   * Graceful degradation for older browsers. 
 
-![Internet Explorer preview](/wp-content/uploads/2011/12/css3-pricing-table-ie8.png)
+![Internet Explorer preview](/dist/uploads/2011/12/css3-pricing-table-ie8.png)
 
 _[Internet Explorer](http://www.red-team-design.com/how-to-solve-common-ie-bugs) 8 - preview_
 

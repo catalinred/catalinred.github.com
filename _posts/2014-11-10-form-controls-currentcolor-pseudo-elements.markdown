@@ -13,13 +13,13 @@ Because CSS currentColor value and pseudo elements make a damn good team.
 
 Well, I didn't know about CSS `currentColor` keyword until a while ago. I've started playing around with it and yeah, this is extremely powerful. Some really say that this is the first CSS variable that ever existed, sounds pretty interesting huh?
 
-![CSS](/wp-content/uploads/2014/11/css-currentcolor.png)
+![CSS](/dist/uploads/2014/11/css-currentcolor.png)
 
 <!-- more -->
 
 So, I thought that making some nice custom form controls with pseudo elements and currentColor might be the best possible scenario. With that in mind, I chose to style some radios and checkboxes.
 
-[View demo](/wp-content/uploads/2014/11/custom-form-controls.html) 
+[View demo](/dist/uploads/2014/11/custom-form-controls.html) 
 
 ## Markup
 
@@ -81,7 +81,7 @@ Now, the following CSS rules are basically preparing the ground for what's going
 
 You might note the `em` units too. Well, using these units allow the form controls to be scaled up and down, based on your `font-size` preferences. And that's pretty cool.
 
-![CSS form control with pseudo elements](/wp-content/uploads/2014/11/form-control-pseudo-elements.gif)
+![CSS form control with pseudo elements](/dist/uploads/2014/11/form-control-pseudo-elements.gif)
 
 {% highlight css %}
 .form-control {
@@ -175,7 +175,7 @@ Still, the CSS *VIP* in here is the [`currentColor`](https://developer.mozilla.o
 
 ## A small JS snippet
 
-To have some fun with colors, I used [PleaseJS](http://www.checkman.io/please/), a JavaScript library for creating random pleasing colors. Just make sure you keep refreshing the [demo](/wp-content/uploads/2014/11/custom-form-controls.html) in order to see some random colored form controls.
+To have some fun with colors, I used [PleaseJS](http://www.checkman.io/please/), a JavaScript library for creating random pleasing colors. Just make sure you keep refreshing the [demo](/dist/uploads/2014/11/custom-form-controls.html) in order to see some random colored form controls.
 
 {% highlight js %}
 var formControl       = document.querySelectorAll('.form-group'),

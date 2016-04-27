@@ -19,7 +19,7 @@ Using pseudo-elements like `:before` and `:after` helps you specifying which con
 
 But, there's almost always a but, it seems that you can use generated content on a number of replaced elements that varies from browser to browser. This is something that has intrigued me lately and that's why I decided to write down this article.
 
-![CSS generated content on replaced elements preview](/wp-content/uploads/2012/06/css-generated-content-replaced-elements.png)
+![CSS generated content on replaced elements preview](/dist/uploads/2012/06/css-generated-content-replaced-elements.png)
 
 <!-- more -->
 
@@ -58,7 +58,7 @@ The question is: **Is this technically a "bug" in WebKit, or should we expect th
 
 For this article, I had the pleasure of getting feedback from some of the best web developers I know:
 
-![Lea Verou](/wp-content/uploads/2012/06/lea-verou.jpg)
+![Lea Verou](/dist/uploads/2012/06/lea-verou.jpg)
 
 ### [Lea Verou](http://lea.verou.me/)
 
@@ -66,7 +66,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 >The Generated & Replaced content [module](http://www.w3.org/TR/css3-content/) used to define something that would help solve this problem: an ::outside pseudo-element, that could also be combined with ::before and ::after, essentially mimicking what these engines do for replaced content. Unfortunately, there are no implementations (apparently it's hard to implement) and this draft is not actively maintained any more (last update was at 2003!) and thus, is now obsolete. I really hope someone picks it up and starts working on it, this kind of functionality is badly needed.
 
-![Louis Lazaris](/wp-content/uploads/2012/06/louis-lazaris.jpg)
+![Louis Lazaris](/dist/uploads/2012/06/louis-lazaris.jpg)
 
 ### [Louis Lazaris](http://www.impressivewebs.com/)
 
@@ -75,7 +75,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 >A replaced element does not have any "document tree content". So according to the spec, replaced elements shouldn't allow pseudo-elements to be placed "inside" them. Also, if it works for an input element, then it should work with all input elements and also img tags. But it doesn't work with "type=submit" or images, so it seems inconsistent to me.
 
 
-![Roger Johansson](/wp-content/uploads/2012/06/roger-johansson.jpg)
+![Roger Johansson](/dist/uploads/2012/06/roger-johansson.jpg)
 
 ### [Roger Johansson](http://www.456bereastreet.com/)
 
@@ -86,7 +86,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 >   3. It's hard to tell what other browsers will do, but it doesn't look like it's coming to Firefox at least: [https://bugzilla.mozilla.org/show_bug.cgi?id=241985](https://bugzilla.mozilla.org/show_bug.cgi?id=241985).
 
 
-![Chris Coyier](/wp-content/uploads/2012/06/chris-coyier.jpg)
+![Chris Coyier](/dist/uploads/2012/06/chris-coyier.jpg)
 
 ### [Chris Coyier](http://css-tricks.com/)
 
@@ -100,7 +100,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 > If I could control the world, I'd make :before and :after stop working on no content elements and get the pseudo elements and shadow DOM specs moving along so we can make those demos work in a standard way. Also, you may want to check this cool [presentation on pseudo elements](https://speakerdeck.com/u/chriscoyier/p/css-pseudo-elements-for-fun-and-profit) made by Chris.
 
-![simurai](/wp-content/uploads/2012/06/simurai.jpg)
+![simurai](/dist/uploads/2012/06/simurai.jpg)
 
 ### [simurai](http://simurai.com/)
 
@@ -114,7 +114,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 > Maybe an alternative will be Web Components.
 
 
-![Harry Roberts](/wp-content/uploads/2012/06/harry-roberts.jpg)
+![Harry Roberts](/dist/uploads/2012/06/harry-roberts.jpg)
 
 ### [Harry Roberts](http://csswizardry.com/)
 
@@ -122,7 +122,7 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 > It would certainly be really cool to have a) a solid definition and b) that definition to allow for content on replaced elements.
 
-![Thierry Koblentz](/wp-content/uploads/2012/06/thierry-koblentz.jpg)
+![Thierry Koblentz](/dist/uploads/2012/06/thierry-koblentz.jpg)
 
 ### [Thierry Koblentz](http://tjkdesign.com/)
 
@@ -149,7 +149,7 @@ that I can't use replaced elements with pseudo-elements. As it is easier to
 conceptualize looking at the difference in syntax (`<element/>` versus
 `<element></element>`)...
 
-![Jeff Starr](/wp-content/uploads/2012/06/jeff-starr.jpg)
+![Jeff Starr](/dist/uploads/2012/06/jeff-starr.jpg)
 
 ### [Jeff Starr](http://perishablepress.com/)
 
@@ -157,7 +157,7 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 
 > Then again, it could well open the doors to chaos and anarchy if browsers start doing whatever they want, outside of W3C specification.
 
-![Faruk Ateş](/wp-content/uploads/2012/06/faruk-ates.jpg)
+![Faruk Ateş](/dist/uploads/2012/06/faruk-ates.jpg)
 
 ### [Faruk Ateş](http://farukat.es/)
 
@@ -171,7 +171,7 @@ conceptualize looking at the difference in syntax (`<element/>` versus
 
 As you already may know, the Chrome Settings area is made with pure HTML. You may find interesting the fact that their developers took this one step further, as all their checkboxes and radios are customized using this approach.
 
-![Chrome's form elements example](/wp-content/uploads/2012/06/chrome-form-elements.png)
+![Chrome's form elements example](/dist/uploads/2012/06/chrome-form-elements.png)
 
 So, it sounds to me that they are quite serious about further developing this technique.
 
@@ -181,7 +181,7 @@ While doing some research on this article, I reminded I read a while ago an arti
 
 I decided to create a rough test case for generated content on replaced elements and the  results are a totally mess if you ask me :)
 
-[View test case](/wp-content/uploads/2012/06/generated-content-on-replaced-elements-test.html)
+[View test case](/dist/uploads/2012/06/generated-content-on-replaced-elements-test.html)
 
 Also, [Divya Manian](http://nimbupani.com/) was so kind and made a more advanced [test](http://jsfiddle.net/nimbu/GvwVy/show/) for pseudos on replaced elements.
 

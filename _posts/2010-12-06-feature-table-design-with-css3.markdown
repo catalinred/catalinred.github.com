@@ -19,13 +19,13 @@ I love shadows, rounded corners, gradients and all the CSS3 features. That's why
 
 The idea of building a features table just by using CSS3 came to me a while ago and I decided to share it with you in this article.
 
-[![Feature table design with CSS3](/wp-content/uploads/2010/12/css3-feature-table.png)](/feature-table-design-with-css3)
+[![Feature table design with CSS3](/dist/uploads/2010/12/css3-feature-table.png)](/feature-table-design-with-css3)
 
 <!-- more -->
 
 You can check a preview of the result below, or view the demo and download the source files from the buttons below the image.
 
-![](/wp-content/uploads/2010/12/feature-table-preview.png)
+![](/dist/uploads/2010/12/feature-table-preview.png)
 
 ## The HTML markup
 
@@ -164,19 +164,19 @@ IE9 and Opera instead behaves nice, excepting the lack of support for [CSS gradi
 }
 {% endhighlight %}   
 
-[View Demo](/wp-content/uploads/2010/12/feature-table.html)[Download Files](/wp-content/uploads/2010/12/feature-table.zip)
+[View Demo](/dist/uploads/2010/12/feature-table.html)[Download Files](/dist/uploads/2010/12/feature-table.zip)
 
 
 ## IE Graceful Degradation
 
 Now if you want this table to degrade gracefully for IE you must add different classes for cells and skip the pseudo-selectors part. The main disadvantage is the use of extra markup.
 
-![](/wp-content/uploads/2010/12/feature-table-ie-preview.png)
+![](/dist/uploads/2010/12/feature-table-ie-preview.png)
 
 I also made an example without pseudo-selectors and bellow you can see a demo or download files.
 
-[View 2nd example Demo](/wp-content/uploads/2010/12/feature-table-ie.html)
+[View 2nd example Demo](/dist/uploads/2010/12/feature-table-ie.html)
 
-[Download 2nd example Files](/wp-content/uploads/2010/12/feature-table-ie.zip)
+[Download 2nd example Files](/dist/uploads/2010/12/feature-table-ie.zip)
 
 Hope you enjoyed this article and looking forward for your opinions regarding it!

@@ -18,7 +18,7 @@ A while ago, I wrote another article here about the [CSS3 gradients](http://www.
 **So, what's new since then?**
 The CSS3 Webkit syntax, which was quite different than Mozilla at that time, has been **updated**!
 
-![WebKit gradient syntax](/wp-content/uploads/2011/01/webkit-gradient-updated.jpg)
+![WebKit gradient syntax](/dist/uploads/2011/01/webkit-gradient-updated.jpg)
 
 <!-- more -->
 
@@ -40,7 +40,7 @@ _WebKit team assurances_
 
 ### Linear gradients
 
-![Linear gradient syntax](/wp-content/uploads/2011/01/linear-gradient.png)
+![Linear gradient syntax](/dist/uploads/2011/01/linear-gradient.png)
 
 {% highlight css %}
 background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #cde6f9),color-stop(1, #81a8cb));
@@ -59,7 +59,7 @@ background-image: -webkit-linear-gradient(#81a8cb, #cde6f9);
 ### Radial gradients
 
 
-![Radial gradient syntax](/wp-content/uploads/2011/01/radial-gradient.png)
+![Radial gradient syntax](/dist/uploads/2011/01/radial-gradient.png)
 
 {% highlight css %}
 background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,400, from(#cde6f9), to(#81a8cb));

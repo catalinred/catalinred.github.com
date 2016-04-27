@@ -19,11 +19,11 @@ tags:
 
 I've been pretty happy lately to see I'm still receiving a lot of positive feedback on my [animated dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu). I found that quite encouraging and I decided to start working on an improved version of it using SASS & Compass. The new version is responsive, has no JavaScript dependency and it's hosted on [GitHub](https://github.com/catalinred/Animenu) too.
 
-![animenu-preview](/wp-content/uploads/2013/02/animenu-preview.png)
+![animenu-preview](/dist/uploads/2013/02/animenu-preview.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2013/02/animenu-demo.html)
+[View demo](/dist/uploads/2013/02/animenu-demo.html)
 or [download](https://github.com/catalinred/Animenu) the .zip from GitHub
 
 ## Some words on this project
@@ -39,7 +39,7 @@ The browser support for this dropdown navigation is IE8+, so it uses the new box
 
 ### One dropdown level
 
-![Animenu - one dropdown level](/wp-content/uploads/2013/02/one-dropdown-level.png)
+![Animenu - one dropdown level](/dist/uploads/2013/02/one-dropdown-level.png)
 
 For a better user experience and to avoid usability issues, in my opinion one dropdown level is more than enough for a navigation menu. If you theoretically would need more levels, you may try considering another implementation of that content or/and other navigation techniques like [tabs](http://www.red-team-design.com/google-play-minimal-tabs-with-css3-jquery) and [breadcrumbs](http://www.red-team-design.com/css3-breadcrumbs).
 
@@ -96,7 +96,7 @@ The above lines contain some pretty self explanatory stuff like basic colors tha
 
 The Animenu SASS code uses functions like `darken()` and `lighten()` with the above variables as parameters so it's quite easy to customize the entire appearance by just changing the variable's values. Also, most of included CSS3 stuff like `text-shadow` and `box-shadow` is based on the above predefined variables.
 
-![Animenu customized](/wp-content/uploads/2013/02/animenu-customized.png)
+![Animenu customized](/dist/uploads/2013/02/animenu-customized.png)
 _Animenu customization example_
 
 ### Mixins and silent classes
@@ -141,7 +141,7 @@ Silent classes like the next one, differentiated by the percent sign, will not b
 {% endhighlight %}
 
 
-![Animenu - responsive ](/wp-content/uploads/2013/02/animenu-responsive.png)
+![Animenu - responsive ](/dist/uploads/2013/02/animenu-responsive.png)
 
 On iPhone, with using the checkbox hack, the whole navigation becomes stacked and is triggered once the checkbox's state is checked.
 

@@ -15,11 +15,11 @@ tags:
 
 CSS3 offers a new way to arrange text content using the [Multi-column CSS3 module](http://www.w3.org/TR/css3-multicol/). This CSS3 feature will help you fit your text into columns without extra markup like `div` floats or extra `table` markup.
 
-![Multi column text using CSS3](/wp-content/uploads/2011/01/multi-column-css3.png)
+![Multi column text using CSS3](/dist/uploads/2011/01/multi-column-css3.png)
 
 <!-- more -->
 
-[View Demo](/wp-content/uploads/2011/01/multi-column-css3.html)
+[View Demo](/dist/uploads/2011/01/multi-column-css3.html)
 
 ## Short browser history and support
 

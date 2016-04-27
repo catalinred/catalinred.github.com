@@ -21,12 +21,12 @@ I've had this example in mind for a while now and seeing something similar _in t
 
 So, in this article you'll learn how to create an interactive menu using CSS3 goodness and jQuery's power.
 
-![](/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-preview.png)
+![](/dist/uploads/2012/04/interactive-menu-with-css3-jquery-preview.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/04/interactive-menu-css3-jquery-demo.html) | 
-[Download .zip](/wp-content/uploads/2012/04/interactive-menu-css3-jquery.zip)
+[View demo](/dist/uploads/2012/04/interactive-menu-css3-jquery-demo.html) | 
+[Download .zip](/dist/uploads/2012/04/interactive-menu-css3-jquery.zip)
 
 ## The idea
 
@@ -34,7 +34,7 @@ The idea behind this example was to have some nicely arranged blocks and once yo
 
 Besides being a menu, this example can also serve as a perfect single page website. For example, just think that a block can be named "Contact" and could contain a nice contact form.
 
-![Interactive menu idea](/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-idea.png)
+![Interactive menu idea](/dist/uploads/2012/04/interactive-menu-with-css3-jquery-idea.png)
 
 ## The HTML
 
@@ -62,7 +62,7 @@ In the following rows I'll try to explain a bit the styles that were used to cre
 
 First of all we're going to add some basic styles for our list wrapper including clearing floats. Also, you may have noticed the `counter-reset: li;` declaration, you've [seen it before](http://www.red-team-design.com/css3-ordered-list-styles) and we'll use it further again to create a nice counter effect.
 
-![Unordered list styles](/wp-content/uploads/2012/04/unordered-list-styles.png)
+![Unordered list styles](/dist/uploads/2012/04/unordered-list-styles.png)
 
 {% highlight css %}
 .menu{
@@ -154,7 +154,7 @@ Above we're using `margin: 10px 0 0 10px;` to add spacing between elements, now 
 
 In this case, to colorize `.content` and `.close` for each `li`, it would have been great to just use `background: inherit;` declaration. But, due browser inconsistency we're going to use the "hard" way, as you can see below:
 
-![Tutorial progress](/wp-content/uploads/2012/04/interactive-menu-with-css3-progress.png)
+![Tutorial progress](/dist/uploads/2012/04/interactive-menu-with-css3-progress.png)
 
 {% highlight css %}
 .menu li:nth-child(1),
@@ -234,7 +234,7 @@ Regarding the styles for `.content` window:
 	
   * Please notice the comments to see how the elements in the grid "respond" once they'll be triggered. 
 
-![Final menu screenshot](/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-final.png)
+![Final menu screenshot](/dist/uploads/2012/04/interactive-menu-with-css3-jquery-final.png)
 
 _In this screenshot, you can see the fifth block hovered._
 
@@ -364,7 +364,7 @@ $(document).keyup(function(e) {
 })();
 {% endhighlight %}
 
-![Interactive expanded menu](/wp-content/uploads/2012/04/interactive-menu-with-css3-jquery-window-expanded.png)
+![Interactive expanded menu](/dist/uploads/2012/04/interactive-menu-with-css3-jquery-window-expanded.png)
 
 _Visible content window for the fifth element._
 

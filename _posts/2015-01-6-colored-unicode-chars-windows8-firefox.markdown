@@ -9,9 +9,9 @@ categories:
 - CSS
 ---
 
-You know Unicode characters, those glyphs we're inserting most of times via HTML or CSS in order to add a soft touch to our [buttons](http://red-team-design.com/wp-content/uploads/2011/09/awesome-css3-buttons.html), [form controls](http://red-team-design.com/wp-content/uploads/2014/11/custom-form-controls.html) and so on. Well, if you're using Firefox on Windows 8.1, then you should check the newly colored Unicode characters in your web pages.
+You know Unicode characters, those glyphs we're inserting most of times via HTML or CSS in order to add a soft touch to our [buttons](http://red-team-design.com/dist/uploads/2011/09/awesome-css3-buttons.html), [form controls](http://red-team-design.com/dist/uploads/2014/11/custom-form-controls.html) and so on. Well, if you're using Firefox on Windows 8.1, then you should check the newly colored Unicode characters in your web pages.
 
-![Colored Unicode characters](/wp-content/uploads/2015/01/colored-unicodes.png)
+![Colored Unicode characters](/dist/uploads/2015/01/colored-unicodes.png)
 
 <!-- more -->
 

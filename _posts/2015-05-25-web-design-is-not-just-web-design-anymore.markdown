@@ -13,7 +13,7 @@ I've wanted to write this article for some time now, and this time I made it.
 
 It's been a while since doing web design isn't just like making stuff nice in Photoshop and then pass it to somebody else to slice it and deliver. In the meantime, designers have learned to code and nowadays, being a good web designer means to have the ability to combine your design skills with things like usability and accessibility knowledge in order to deliver the best user experience. Oh, and I almost forgot about SEO - you really need to know to handle your markup so that search engines to like you.
 
-![web design](/wp-content/uploads/2015/05/webdesign.png)
+![web design](/dist/uploads/2015/05/webdesign.png)
 
 <!-- more -->
 
@@ -49,7 +49,7 @@ Don't you forget to optimize your images, it's good for your website health!
 
 If you're dealing with a menu list, then you have to choose a good and tasty hamburger from it. Or maybe a kebab?
 
-![web design](/wp-content/uploads/2015/05/mobile.png)
+![web design](/dist/uploads/2015/05/mobile.png)
 
 <small>[via Luke Wroblewski](https://twitter.com/lukew/status/591296890030915585)</small>
 
@@ -79,7 +79,7 @@ But then I hear people around saying:
 
 > You gotta think like you're the user! Stop designing stuff, make it functional first! 
 
-![Are you kidding me?](/wp-content/uploads/2015/05/really.png)
+![Are you kidding me?](/dist/uploads/2015/05/really.png)
 
 Really? Are you kidding me? [*Isn't that what I am already doing*](/becoming-a-better-developer/), for f@#$s sake?
 

@@ -20,11 +20,11 @@ Tooltips can play a big role in your web designs and that isn't new anymore. Jus
 
 We have seen before how to create some good looking [CSS3 tooltips](/css3-tooltips) and today you'll learn how to create an image map with pins and tooltips.
 
-![Image map with CSS3 and jQuery](http://www.red-team-design.com/wp-content/uploads/2011/10/image-map-with-css3-jquery-tooltips.jpg)
+![Image map with CSS3 and jQuery](http://www.red-team-design.com/dist/uploads/2011/10/image-map-with-css3-jquery-tooltips.jpg)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/10/image-map-with-css3-jquery-tooltips-demo.html)
+[View demo](/dist/uploads/2011/10/image-map-with-css3-jquery-tooltips-demo.html)
 
 ## The idea
 

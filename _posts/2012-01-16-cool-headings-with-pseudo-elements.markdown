@@ -15,11 +15,11 @@ tags:
 
 Whether you're designing a website or a web application, you'll need custom styles for headings like `h1` or `h2`. In this article you'll learn how to create some cool headings effects using CSS pseudo-elements.
 
-![](/wp-content/uploads/2012/01/cool-headings-with-pseudo-elements.jpg)
+![](/dist/uploads/2012/01/cool-headings-with-pseudo-elements.jpg)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/01/cool-headings-with-pseudo-elements-demo.html)
+[View demo](/dist/uploads/2012/01/cool-headings-with-pseudo-elements-demo.html)
 
 ## Introduction
 
@@ -66,7 +66,7 @@ h1 {
 
 Noticed the `background-clip: padding-box` declaration? This will help you achieve a cool effect: **transparent borders** for the main wrapper. Basically, the `[background-clip](https://developer.mozilla.org/en/CSS/background-clip)` CSS property specifies whether an element's background, either the color or image, extends underneath its border.
 
-![Headings with transparent border](/wp-content/uploads/2012/01/cool-headings-with-pseudo-elements-transparent-border.jpg)
+![Headings with transparent border](/dist/uploads/2012/01/cool-headings-with-pseudo-elements-transparent-border.jpg)
 
 _Browser support for background-clip: Safari 5+, Chrome 7+, Firefox 3.6+, Opera 10+, IE 9+ _
 
@@ -74,7 +74,7 @@ _Browser support for background-clip: Safari 5+, Chrome 7+, Firefox 3.6+, Opera 
 
 Below is a simple and good looking effect made using CSS `border` property:
 
-![CSS heading style 1](/wp-content/uploads/2012/01/css-heading-1.jpg)
+![CSS heading style 1](/dist/uploads/2012/01/css-heading-1.jpg)
 
 
 {% highlight css %}
@@ -90,7 +90,7 @@ Below is a simple and good looking effect made using CSS `border` property:
 ## Headline 2
 This style is made using a CSS triangle shape, you've seen this before [here](http://www.red-team-design.com/css3-animated-dropdown-menu):
 
-![CSS heading style 2](/wp-content/uploads/2012/01/css-heading-2.jpg)
+![CSS heading style 2](/dist/uploads/2012/01/css-heading-2.jpg)
 
 {% highlight css %}
 .headline2 {
@@ -122,7 +122,7 @@ This style is made using a CSS triangle shape, you've seen this before [here](ht
 
 The below HTML heading style is created using the [ribbon](http://www.red-team-design.com/css-ribbons) effect:
 
-![CSS heading style 3](/wp-content/uploads/2012/01/css-heading-3.jpg)
+![CSS heading style 3](/dist/uploads/2012/01/css-heading-3.jpg)
 
 {% highlight css %}
 .headline3 {
@@ -160,7 +160,7 @@ The below HTML heading style is created using the [ribbon](http://www.red-team-d
 
 Using `box-shadow`, you can create some [slick effects](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow):
 
-![CSS heading style 4](/wp-content/uploads/2012/01/css-heading-4.jpg)
+![CSS heading style 4](/dist/uploads/2012/01/css-heading-4.jpg)
 
 {% highlight css %}
 .headline4 {

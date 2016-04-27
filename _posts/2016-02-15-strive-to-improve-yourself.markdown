@@ -11,7 +11,7 @@ categories:
 
 Yeah I know the title is a cliche but I just couldn't help it. Everyone could be a little better, but the thing is that some people don't even try.
 
-![Getting better](/wp-content/uploads/2016/02/getting-better.png)
+![Getting better](/dist/uploads/2016/02/getting-better.png)
 
 <!-- more -->
 

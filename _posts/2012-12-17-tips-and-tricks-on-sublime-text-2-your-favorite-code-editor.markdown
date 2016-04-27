@@ -19,7 +19,7 @@ Unless you've lived under a rock lately, I'm sure you've heard of [Sublime Text 
 
 In the past I used some other [code editors](http://www.red-team-design.com/free-text-editors-tools-for-developers) like Komodo Edit or Aptana Studio, but now I use Sublime Text 2 on a daily basis and I'm pretty happy with it. It's lightweight, easy to use and has a modern UI look. But by far, the best feature is the ability to extend its functionality with plugins, a.k.a packages.
 
-![Sublime Text 2](/wp-content/uploads/2012/12/sublime-text-2.png)
+![Sublime Text 2](/dist/uploads/2012/12/sublime-text-2.png)
 
 <!-- more -->
 
@@ -43,7 +43,7 @@ If you want to dive into the world of Sublime Text 2, then you don't want to mis
 
 First of all, you should install Sublime [Package Control](http://wbond.net/sublime_packages/package_control). It helps discovering, installing, updating and removing packages for Sublime Text 2. Alternatively, you'll have to manually install the plugins you need.
 
-![Sublime packages](/wp-content/uploads/2012/12/sublime-packages.png)
+![Sublime packages](/dist/uploads/2012/12/sublime-packages.png)
 
 _List of installed packages._
 
@@ -68,7 +68,7 @@ Speaking of customization, I frequently use the ANT build system and running cus
 
 Using the Command Pallete (`Ctrl+Shift+P`) you can easily run an ANT target just by typing its name.
 
-![Custom ANT targets](/wp-content/uploads/2012/12/custom-ant-targets.png)
+![Custom ANT targets](/dist/uploads/2012/12/custom-ant-targets.png)
 
 Here's an example that contains two ANT build targets defined: 
     

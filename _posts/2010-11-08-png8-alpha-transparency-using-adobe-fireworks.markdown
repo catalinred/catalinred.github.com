@@ -19,7 +19,7 @@ I know some of you will say that this is impossible, because that was exactly wh
 
 But, Adobe Fireworks makes itself "guilty" about that and in this article I will show you how you can get a PNG-8 image with alpha transparency.
 
-[![](/wp-content/uploads/2010/10/fireworks-png.png)](http://www.red-team-design.com/png8-alpha-transparency-using-adobe-fireworks)
+[![](/dist/uploads/2010/10/fireworks-png.png)](http://www.red-team-design.com/png8-alpha-transparency-using-adobe-fireworks)
 
 <!-- more -->
 
@@ -31,28 +31,28 @@ Some time ago, [GIF](http://en.wikipedia.org/wiki/Graphics_Interchange_Format) w
 
 Because ** IE6 doesn't support alpha transparency**. So, to keep it simple...IE6 doesn't render well the transparent PNGs and more than that...all transparent pixels are transformed into light blue/gray pixels as you will see in the bellow examples.
 
-![IE6 browser and PNG transparency image](/wp-content/uploads/2010/10/ie6png.jpg)
+![IE6 browser and PNG transparency image](/dist/uploads/2010/10/ie6png.jpg)
 _Photo credit: [ablenetdesign](http://www.flickr.com/photos/ablenetdesign/)_
 
 ## How PNG-24 is rendered by IE6
 
 Let's use the following example as a PNG-24 image you want to convert it to 8-bit PNG:
 
-![Rtd wings logo image](/wp-content/uploads/2010/10/rtd-img.png)
+![Rtd wings logo image](/dist/uploads/2010/10/rtd-img.png)
 
 Let's see in the bellow image how these wings will look into different browsers, please note the strange (but well-known) transparent pixels problem for the IE6:
 
-![PNG transparency comparison for browsers image](/wp-content/uploads/2010/10/transparency-comparison.png)
+![PNG transparency comparison for browsers image](/dist/uploads/2010/10/transparency-comparison.png)
 
 ## Introducing you a solution an alternative for this problem
 
 In order to proceed please open the 24 bits PNG image using Adobe Fireworks. If the **Optimize** panel isn't visible for your workspace then toggle **F6** to see it or select **Window** -> **Optimize** from your top menu.
 
-![Fireworks settings image](/wp-content/uploads/2010/10/fireworks-settings.png)
+![Fireworks settings image](/dist/uploads/2010/10/fireworks-settings.png)
 
 With the above settings you can export now your new PNG-8 image. Let’s make a new comparison and check how IE6 renders the PNG-8 image now:
 
-![Transparency comparison for the PNG8 image](/wp-content/uploads/2010/10/transparency-comparison-png8.png)
+![Transparency comparison for the PNG8 image](/dist/uploads/2010/10/transparency-comparison-png8.png)
 
 Note the **jagged** effect that appears now when IE6 browser renders the PNG-8 image we just made. So, as a conclusion, this method can't be considered a solution 100% because has its owns issues.
 

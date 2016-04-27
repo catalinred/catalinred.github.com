@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "A set of build tasks with npm scripts.",
   "scripts": {
-    "clean": "rimraf dist/{css/*,js/*,img/*}",
+    "clean": "rimraf dist/{css/*,js/*,img/*, uploads/*}",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "scss": "node-sass --output-style compressed -o dist/css src/sass/",
     "lint": "eslint js/",
     "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -o dist/js/common.js && uglifyjs src/js/common.js -m -c -o dist/js/common.min.js",
-    "imagemin": "imagemin src/uploads dist/img -p",
+    "imagemin": "imagemin src/uploads dist/uploads -p",
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run lint && npm run uglify",
     "build:all": "npm run clean && npm run build:css && npm run build:js && npm run imagemin && jekyll serve"

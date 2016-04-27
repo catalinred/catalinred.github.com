@@ -18,11 +18,11 @@ tags:
 
 The other day, while working on a web project, I had to emphasize somehow a dynamic notification bubble. Basically, every time the notification value changes, a visual effect was needed in order to get user's attention. So I made that using CSS3 keyframe animation.
 
-![Simple notification bubble](/wp-content/uploads/2012/06/notification-bubble-animation.png)
+![Simple notification bubble](/dist/uploads/2012/06/notification-bubble-animation.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/06/notification-bubble-css3-keyframe-animation-demo.html)
+[View demo](/dist/uploads/2012/06/notification-bubble-css3-keyframe-animation-demo.html)
 
 
 ## The HTML

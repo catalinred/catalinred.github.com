@@ -21,11 +21,11 @@ CSS 3D transforms are just awesome. I've seen before some cool and inspiring imp
 
 So, what's the idea for this article? Let's say you own a blog, I was thinking about having a nice looking 3D folding list that contains the main social buttons and when people reach at the end of an article, the initial folded list would smoothly unfold. This could be helpful if you want to draw users' attention, something like: _"Hey, did you like my article? Connect with me!"_.
 
-![CSS 3D folding list with social buttons](/wp-content/uploads/2013/01/css-3d-folding-list-with-social-buttons.png)
+![CSS 3D folding list with social buttons](/dist/uploads/2013/01/css-3d-folding-list-with-social-buttons.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2013/01/css-3d-folding-list-with-social-buttons-demo.html)
+[View demo](/dist/uploads/2013/01/css-3d-folding-list-with-social-buttons-demo.html)
 
 
 ## The HTML
@@ -282,7 +282,7 @@ Think about the power of Modernizr tool translated to CSS. This is exactly what 
 
 The nice part about this CSS 3D folding list is that it degrades into a simple list [when CSS 3D transforms are not available](http://caniuse.com/transforms3d), thanks to Modernizr and its features detection.
 
-![CSS 3D folding list using graceful degradation](/wp-content/uploads/2013/01/css-3d-folding-list-graceful-degradation.png)
+![CSS 3D folding list using graceful degradation](/dist/uploads/2013/01/css-3d-folding-list-graceful-degradation.png)
 
 ### Mozilla Firefox
 

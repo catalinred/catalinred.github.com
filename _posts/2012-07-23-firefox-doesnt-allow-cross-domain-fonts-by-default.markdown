@@ -20,13 +20,13 @@ While working on [LeadConverter](http://www.lead-converter.com/), I had a situat
 
 After I've pulled out half of my hair searching for a solution, I found out that Firefox doesn't allow cross-domain fonts by default - unless you set an `Access-Control-Allow-Origin` header to the font.
 
-![Firefox does not allow cross domain fonts](/wp-content/uploads/2012/07/firefox-does-not-allow-cross-domain-fonts.png)
+![Firefox does not allow cross domain fonts](/dist/uploads/2012/07/firefox-does-not-allow-cross-domain-fonts.png)
 
 <!-- more -->
 
 ## The scenario
 
-![Scenario](/wp-content/uploads/2012/07/firefox-cross-domain-fonts.png)
+![Scenario](/dist/uploads/2012/07/firefox-cross-domain-fonts.png)
 
 In this case, using the iconic font, the `<i class="icon-user"></i>` should generate an user icon. And it does for most of browsers, excepting Mozilla.
     

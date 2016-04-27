@@ -17,7 +17,7 @@ In my previous [article](http://www.red-team-design.com/how-to-create-a-cool-and
 
 Although this bug was fixed in the latest Chrome beta releases, below you'll see the _strange_ (may I call it like that?) or should I better say _different_ behavior:
 
-![Chrome Beta version](/wp-content/uploads/2011/02/beta-chrome.png)
+![Chrome Beta version](/dist/uploads/2011/02/beta-chrome.png)
 
 <!-- more -->
 
@@ -40,7 +40,7 @@ Here's what you need to make a perfect circle:
 
 Note that you don't need `border-radius: 100px` for that, just half of it. Here's a CSS3 circle [example](http://jsfiddle.net/catalinred/MEXx2/6/") with `50px` radius.
 
-![CSS circle radius](/wp-content/uploads/2011/02/css-circle-radius.png)
+![CSS circle radius](/dist/uploads/2011/02/css-circle-radius.png)
 
 ### Bug fixed
 
@@ -55,7 +55,7 @@ Note that you don't need `border-radius: 100px` for that, just half of it. Here'
     }
 {% endhighlight %}
 
-![CSS circle radius inset shadow](/wp-content/uploads/2011/02/css-circle-radius-inset-shadow.png)
+![CSS circle radius inset shadow](/dist/uploads/2011/02/css-circle-radius-inset-shadow.png)
 
 Check also the [example](http://jsfiddle.net/catalinred/MEXx2/8/) - if you have the BETA Chrome version.
 
@@ -74,7 +74,7 @@ This happens when you use for example:
 }
 {% endhighlight %} 
 
-![Chrome beta bug](/wp-content/uploads/2011/02/beta-chrome-bug.png)
+![Chrome beta bug](/dist/uploads/2011/02/beta-chrome-bug.png)
 Here's the live [example](http://jsfiddle.net/catalinred/MEXx2/10/) - again: you must have BETA Chrome version.
 
 So, the problem (re-) appears only **when the radius value is greater than half-width or half-height**. If the box will have also some padding, plus the borders, height, width... Hm, should you always re-calculate the radius?! Do you get my point? :)

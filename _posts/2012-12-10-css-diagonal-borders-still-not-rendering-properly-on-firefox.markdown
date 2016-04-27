@@ -17,11 +17,11 @@ tags:
 
 The title pretty much says it all. These days I was working on a small web project and while creating the so well known [triangle effect](http://www.red-team-design.com/how-to-create-triangle-shapes) using CSS borders I've noticed some rendering inconsistencies on Firefox I thought they were fixed by now.
 
-![CSS borders on Firefox](/wp-content/uploads/2012/12/css-borders-firefox.jpg)
+![CSS borders on Firefox](/dist/uploads/2012/12/css-borders-firefox.jpg)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/12/css-borders-on-firefox.html)
+[View demo](/dist/uploads/2012/12/css-borders-on-firefox.html)
 
 Mozilla's Firefox is one of the browsers that use anti-aliasing for CSS diagonal borders. But, there's no problem at all with anti-aliasing for diagonal borders as long as the rendering is made accordingly. IE9 and IE10, the other browsers who use anti-aliasing, do it correctly but unfortunately at this time Firefox don't.
 
@@ -49,7 +49,7 @@ div {
 }
 {% endhighlight %}
 
-![CSS borders on Firefox - transparent versus RGBA](/wp-content/uploads/2012/12/css-borders-firefox-transparent-rgba.png)
+![CSS borders on Firefox - transparent versus RGBA](/dist/uploads/2012/12/css-borders-firefox-transparent-rgba.png)
 
 ### Workaround
 
@@ -73,7 +73,7 @@ div {
 {% endhighlight %}
 
 
-![CSS borders on Firefox - large border example](/wp-content/uploads/2012/12/css-borders-firefox-large-border.png)
+![CSS borders on Firefox - large border example](/dist/uploads/2012/12/css-borders-firefox-large-border.png)
 
 If you're using Firefox, you can notice a blurry transition on the diagonals caused by the anti-aliasing. That's quite annoying and the RGBA trick does not solve it.
 

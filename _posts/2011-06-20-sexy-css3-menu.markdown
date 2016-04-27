@@ -19,11 +19,11 @@ One of the most common elements when talking about a website or an application d
 
 In today's article, you'll learn how to create a good looking menu using some CSS3 _magic_.
 
-![Sexy CSS3 menu](/wp-content/uploads/2011/06/sexy-css3-menu.png)
+![Sexy CSS3 menu](/dist/uploads/2011/06/sexy-css3-menu.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/06/css3-menu.html)
+[View demo](/dist/uploads/2011/06/css3-menu.html)
 
 ## The idea
 
@@ -31,7 +31,7 @@ If you are a web developer you may have heard of tools called CSS pre-processors
 
 While visiting LESS's site, I noticed their download button, which is an image, and I thought to myself: I can do it using CSS only.
 
-![LESS button](/wp-content/uploads/2011/06/less-download-button.jpg)
+![LESS button](/dist/uploads/2011/06/less-download-button.jpg)
 
 _LESS download button - at this time_
 
@@ -51,7 +51,7 @@ _LESS download button - at this time_
 
 Pretty [clean](/useful-css-snippets-to-save-your-time), except for the `span` element. You'll see further why we need that `span`.
 
-![Initial menu rendering](/wp-content/uploads/2011/06/initial-menu-rendering.png)
+![Initial menu rendering](/dist/uploads/2011/06/initial-menu-rendering.png)
 
 ## The CSS
 
@@ -102,7 +102,7 @@ nav a:active {
 }
 {% endhighlight %}
 
-![CSS3 menu links](/wp-content/uploads/2011/06/css3-menu-anchor.png)
+![CSS3 menu links](/dist/uploads/2011/06/css3-menu-anchor.png)
 _Multiple CSS3 properties were used to create the above._
 
 ### Style the inner span element
@@ -123,13 +123,13 @@ nav a:hover span {
 }
 {% endhighlight %}
 
-![Style the inner span element](/wp-content/uploads/2011/06/css3-menu-span.png)
+![Style the inner span element](/dist/uploads/2011/06/css3-menu-span.png)
 
 ## Browser support
 
 If above you have seen how the menu looks in modern browsers, here's how the menu look in [older browsers](http://www.red-team-design.com/how-to-solve-common-ie-bugs):
 
-![Menu fallback](/wp-content/uploads/2011/06/css3-menu-fallback.png)
+![Menu fallback](/dist/uploads/2011/06/css3-menu-fallback.png)
 _Fallback styles for older browsers_
 
 ### Advantages

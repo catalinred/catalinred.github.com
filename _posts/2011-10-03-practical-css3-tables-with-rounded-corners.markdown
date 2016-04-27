@@ -22,11 +22,11 @@ Designing a table is a challenge - and here I'm not talking only about the way i
 
 Having said that, today we’re going to create beautiful and practical [tables](/feature-table-design-with-css3) styled using CSS3. Also, jQuery will be used to create fallbacks for older browsers.
 
-![CSS3 tables design](http://www.red-team-design.com/wp-content/uploads/2011/10/css3-tables.png)
+![CSS3 tables design](http://www.red-team-design.com/dist/uploads/2011/10/css3-tables.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/10/practical-css3-tables-with-rounded-corners-demo.html)
+[View demo](/dist/uploads/2011/10/practical-css3-tables-with-rounded-corners-demo.html)
 
 ## What's so cool about these tables?
 
@@ -129,7 +129,7 @@ Now, the above selector is a CSS3 one - so no support for older browsers. Below 
 
 The tables already degrade very nice on older browsers, so it's up to you if you want to use also the above jQuery solutions. It's all about the visitors audience you're targeting.
 
-![CSS tables browser support](http://www.red-team-design.com/wp-content/uploads/2011/10/css3-tables-browser-support.png)
+![CSS tables browser support](http://www.red-team-design.com/dist/uploads/2011/10/css3-tables-browser-support.png)
 
 ## Conclusion
 

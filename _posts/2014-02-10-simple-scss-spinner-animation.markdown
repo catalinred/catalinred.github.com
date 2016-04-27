@@ -13,7 +13,7 @@ categories:
 
 If you're using Wordpress, you surely have seen this spinner effect while performing various actions within the admin area. I liked it a lot and that's the reason I made a SCSS version of it, posted a demo on [CodePen](http://codepen.io/catalinred/pen/azAuv) and even it's not rocket science, I pushed it on [GitHub](https://github.com/catalinred/scss-spinner-animation) too.
 
-![Spinner animation](/wp-content/uploads/2014/01/spinner-preview.png)
+![Spinner animation](/dist/uploads/2014/01/spinner-preview.png)
 
 <!-- more -->
 
@@ -84,7 +84,7 @@ $rotatingCirclePosTop: $circleDiam/2 - $rotatingCircleDiam/2;
 
 The following rough sketch is meant to explain the above Sass variables and how they're computed. At least that's what it should be. :)
 
-![CSS spinner sketch](/wp-content/uploads/2014/02/spinner-sketch.png)
+![CSS spinner sketch](/dist/uploads/2014/02/spinner-sketch.png)
 
 ## That's it
 

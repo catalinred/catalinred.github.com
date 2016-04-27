@@ -4,5 +4,5 @@ markdown: kramdown
 permalink: /:title/
 paginate: 10
 excerpt_separator: <!-- more -->
-exclude: [rtd.sublime-project, rtd.sublime-workspace, src, CNAME, package.json, README.md]
+exclude: [src, CNAME, package.json, README.md]
 abs_url: http://www.red-team-design.com

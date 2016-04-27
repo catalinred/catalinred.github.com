@@ -18,11 +18,11 @@ If your icon or button has insufficient text or none at all, or it just needs so
 
 Having said that, in this article you'll learn how to create your own CSS3 tooltips: no images, no javascript.
 
-![CSS3 tooltips](/wp-content/uploads/2011/04/css3-tooltips.png)
+![CSS3 tooltips](/dist/uploads/2011/04/css3-tooltips.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/04/css3-tooltips-demo.html)
+[View demo](/dist/uploads/2011/04/css3-tooltips-demo.html)
 
 ## "Do I really need them?"
 
@@ -34,7 +34,7 @@ The method might be familiar to you, a `relative` positioned element  who wraps 
 
 Below you can see the proper structure, note the two pointers (made using `:before` and `:after` pseudo-elements ) who overlap:
 
-![Tooltip structure](/wp-content/uploads/2011/04/tooltip-structure.png)
+![Tooltip structure](/dist/uploads/2011/04/tooltip-structure.png)
 _How the "bordered" pointer is made_
 
 Here are the **ingredients **that were used to create them:	

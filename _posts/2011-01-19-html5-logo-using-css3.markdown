@@ -21,7 +21,7 @@ So, I suppose that's a good thing, that HTML5 got some branding, sounds very int
 
 While looking at it and admiring it, as I find it very nice, I thought about how can I **do it with CSS3** (typically for me). 
 
-![HTML5 logo](/wp-content/uploads/2011/01/HTML5-logo.png)
+![HTML5 logo](/dist/uploads/2011/01/HTML5-logo.png)
 <!-- more -->
 
 What about the logo? _It's A Bird... It's A Plane... _ 
@@ -64,11 +64,11 @@ For a perfect result, I guess I could have used CSS3 [skew transformation](http:
 ## My <del>initial </del> result:
 
 
-[![HTML5 logo with CSS3](/wp-content/uploads/2011/01/css3-html5-logo-initial.png)](/wp-content/uploads/2011/01/html5-css3-logo.html)
+[![HTML5 logo with CSS3](/dist/uploads/2011/01/css3-html5-logo-initial.png)](/dist/uploads/2011/01/html5-css3-logo.html)
 
 I know it's not perfect, especially the _5_ number, but I hope you will still like it! Check the below demonstration page:
 
-[View initial demo](/wp-content/uploads/2011/01/html5-css3-logo.html)
+[View initial demo](/dist/uploads/2011/01/html5-css3-logo.html)
 
 ## Updated result
 
@@ -76,9 +76,9 @@ I finally made it, I updated the initial HTML5 logo. Instead the custom font, em
 
 Now you have it! Minimal HTML markup, CSS3 transforms and pseudo-elements:
 
-[![Final HTML5 logo with CSS3 transform](/wp-content/uploads/2011/01/css3-html5-logo.png)](/wp-content/uploads/2011/01/html5-css3-logo-updated.html)
+[![Final HTML5 logo with CSS3 transform](/dist/uploads/2011/01/css3-html5-logo.png)](/dist/uploads/2011/01/html5-css3-logo-updated.html)
 
-[View final demo](/wp-content/uploads/2011/01/html5-css3-logo-updated.html)
+[View final demo](/dist/uploads/2011/01/html5-css3-logo-updated.html)
 
 ## Browser support
 

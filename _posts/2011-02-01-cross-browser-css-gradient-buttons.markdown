@@ -20,7 +20,7 @@ Recently I talked about [CSS cross-browser gradients](http://www.red-team-design
 
 In this article you will see how you can create a set of gradient buttons just with CSS **(no images)**. 
 
-![CSS3 gradient buttons](/wp-content/uploads/2011/01/css-gradient-buttons.png)
+![CSS3 gradient buttons](/dist/uploads/2011/01/css-gradient-buttons.png)
 
 <!-- more -->
 
@@ -44,7 +44,7 @@ That's what you may say but, oh yes :) ... This is another buttons set, powered 
   * Rounded corners
   * Gradient patterns _thanks to [@leaverou](http://twitter.com/leaverou) for its enlightening article about [CSS3 gradients techniques](http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/)_
 
-[View demo](/wp-content/uploads/2011/01/cross-browser-css-gradient-buttons-demo.html)
+[View demo](/dist/uploads/2011/01/cross-browser-css-gradient-buttons-demo.html)
 
 ## HTML structure
 Let's see how the HTML looks for the _blue_ button for example:
@@ -55,7 +55,7 @@ Let's see how the HTML looks for the _blue_ button for example:
 </a>
 {% endhighlight %}
 
-![CSS3 button](/wp-content/uploads/2011/01/css-button.png)
+![CSS3 button](/dist/uploads/2011/01/css-button.png)
 
 Multiple classes are used in order to have minimal HTML and CSS files.
 
@@ -139,31 +139,31 @@ And so on for the other buttons...
 
 Full support, including CSS3 gradient patterns (though I noticed some performance issues when page is rendered). 
 
-![](/wp-content/uploads/2011/01/mozilla.png)
+![](/dist/uploads/2011/01/mozilla.png)
 
 ### Webkit (Safari, Chrome)
 
 The buttons are rendered very nice on Webkit browsers.
 
-![](/wp-content/uploads/2011/01/webkit.png)
+![](/dist/uploads/2011/01/webkit.png)
 
 ### Opera 11
 
 Unfortunately, Opera lacks any support for CSS gradients, still the buttons render very nice as other CSS3 features are not missing here.
 
-![](/wp-content/uploads/2011/01/opera.png)
+![](/dist/uploads/2011/01/opera.png)
 
 ### IE6, IE7, IE8
 
 With `filters`, CSS gradients are possible also when talking about IE6 or IE7.
 
-![](/wp-content/uploads/2011/01/ie6-ie7.png)
+![](/dist/uploads/2011/01/ie6-ie7.png)
 
 ### IE9
 
 Besides the other IE browsers, IE9 supports rounded corners and box shadows, although the corners don't look perfect as you can see below.
 
-![](/wp-content/uploads/2011/01/ie9.png)
+![](/dist/uploads/2011/01/ie9.png)
 
 ## That's all!
 

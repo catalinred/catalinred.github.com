@@ -15,7 +15,7 @@ tags:
 
 Working often with CSS for my own website or for my job makes me trying always to be organized and that made me thinking about a thing. What is the best way to organize my CSS file(s)? With this article I will try to present you a short guide about CSS organizing.
 
-[![](/wp-content/uploads/2010/10/tips-to-organize-your-css.png)](/tips-to-organize-your-css)
+[![](/dist/uploads/2010/10/tips-to-organize-your-css.png)](/tips-to-organize-your-css)
 
 <!-- more -->
 
@@ -23,13 +23,13 @@ Working often with CSS for my own website or for my job makes me trying always t
 
 Beside your main CSS file you may want to use also a print CSS file or why not a CSS file for the IE6 browser. Placing them together in a folder named **css** for example will help you improve your website back-end structure.
 
-![](/wp-content/uploads/2010/10/group-css-files.png)
+![](/dist/uploads/2010/10/group-css-files.png)
 
 ## 2.Use efficient selectors
 
 A very important thing for you to know is how browsers understand and read your CSS selectors? The answer is that they read them from **right to left**. That means that for the selector **ul li a span** the first thing thing interpreted is **span**.
 
-![](/wp-content/uploads/2010/10/efficient-selectors.png)
+![](/dist/uploads/2010/10/efficient-selectors.png)
 
 The id is the selector with the greater specificity so always, instead div#header you should use just #header. This way your file will be **less redundant and smaller**. Also note that the use of [efficient CSS selectors](http://code.google.com/speed/page-speed/docs/rendering.html) is a nowadays requirement.
 
@@ -37,7 +37,7 @@ The id is the selector with the greater specificity so always, instead div#heade
 
 Generally, a CSS file contains reset styles, header, content  and footer styles and in order to easier browse your CSS rules you should choose a way to separe them. 
 
-![](/wp-content/uploads/2010/10/comment-css.png)
+![](/dist/uploads/2010/10/comment-css.png)
 
 You can choose an simple and easy to notice separator as in the following example:
 
@@ -67,7 +67,7 @@ Let's suppose you need to name your logo, menu and a tagline  that are placed in
 * **header-tag** or **h-tag**
 {% endhighlight %}
 
-![](/wp-content/uploads/2010/10/css-naming-convention.png)
+![](/dist/uploads/2010/10/css-naming-convention.png)
 
 ## 6.Create your own small CSS framework
 

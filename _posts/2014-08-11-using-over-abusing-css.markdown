@@ -11,7 +11,7 @@ categories:
 
 People usually are abusing features just because they can. It happened before, it's happening now and most likely it will happen again.
 
-![CSS](/wp-content/uploads/2014/08/css.png)
+![CSS](/dist/uploads/2014/08/css.png)
 
 
 <!-- more --> 
@@ -29,7 +29,7 @@ A while ago, I've seen this amazing CSS declaration in the wild: `z-index: 21474
 
 Anyway, found out meanwhile, that [2147483647 is the maximum value for a int32](http://stackoverflow.com/questions/94591/what-is-the-maximum-value-for-a-int32). So, those people just wanted to make sure that absolutely nothing will overcome their thing. Nothing!
 
-![Beyond max int32](/wp-content/uploads/2014/08/matrix.jpg)
+![Beyond max int32](/dist/uploads/2014/08/matrix.jpg)
 
 ## !important
 
@@ -37,7 +37,7 @@ This might not seem so *important* right now, but there was a time, not so long 
 
 Now, if you're still doing that sometimes, you are too lazy or ... just need to override some CMS styles, which is quite understandable.
 
-![All in or nothing](/wp-content/uploads/2014/08/the-most-interesting-man-in-the-world.jpg)
+![All in or nothing](/dist/uploads/2014/08/the-most-interesting-man-in-the-world.jpg)
 
 ## Animate everything
 
@@ -51,7 +51,7 @@ Along with the ability to animate all kind of stuff using `transition`, one of t
 
 Whilst it might be fun to play with it, because of the performance issues involved, this has never been a solution for production purposes. Thanks God!
 
-![Animate everything](/wp-content/uploads/2014/08/star-trek.jpg)
+![Animate everything](/dist/uploads/2014/08/star-trek.jpg)
 
 ## OOCSS, BEM, SMACSS, ETC.
 
@@ -61,13 +61,13 @@ Now, due to using the latest methodologies like OOCSS, BEM or SMACSS, it seems t
 
 So, what's next?!
 
-![What's next?](/wp-content/uploads/2014/08/ned-stark.jpg)
+![What's next?](/dist/uploads/2014/08/ned-stark.jpg)
 
 ## Over qualified selectors
 
 Processors are great, but must be used cautiously. If nesting is overused, bad things happen and you wake up having lots of over qualified selectors - a nightmare for specificity and for performance as well. Bad performance because you know, [CSS selectors are parsed from right to left](http://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left).
 
-![Over qualified selectors](/wp-content/uploads/2014/08/angry-child.jpg)
+![Over qualified selectors](/dist/uploads/2014/08/angry-child.jpg)
 
 ## will-change
 
@@ -77,7 +77,7 @@ It's a bit strange because once you set an element with `will-change` you can't 
 
 This is going to be fun!
 
-![will-change and stacking contexts](/wp-content/uploads/2014/08/xzibit.jpg)
+![will-change and stacking contexts](/dist/uploads/2014/08/xzibit.jpg)
 
 ## *
 
@@ -91,7 +91,7 @@ Still, we fell in love with the new box model that makes everything easier to wo
  }
 {% endhighlight %}
 
-![Universal selector](/wp-content/uploads/2014/08/suspicious-boy.jpg)
+![Universal selector](/dist/uploads/2014/08/suspicious-boy.jpg)
 
 ## Conclusion
 

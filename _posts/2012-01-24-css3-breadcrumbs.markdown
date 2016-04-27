@@ -18,11 +18,11 @@ A breadcrumb navigation allow users to know where they are in a hierarchical str
 
 So, to keep it simple, if you have a website with lot of pages and sub-levels, in order to increase [usability](http://www.red-team-design.com/web-usability-tips-for-your-website), you need to use breadcrumbs. Having said that, today you'll learn how to create your own cool CSS3 breadcrumbs.
 
-![](/wp-content/uploads/2012/01/css3-breadcrumbs.png)
+![](/dist/uploads/2012/01/css3-breadcrumbs.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/01/css3-breadcrumbs-demo.html)
+[View demo](/dist/uploads/2012/01/css3-breadcrumbs-demo.html)
 
 ## The HTML
 
@@ -56,7 +56,7 @@ Secondly, I'd like to add that all the breadcrumbs I made for this tutorial are 
 
 Here I used a similar technique to the one I used for creating these [CSS3 tooltips](http://www.red-team-design.com/css3-tooltips). Basically, to create a right-bordered triangle effect, the triangles created with pseudo-elements are placed one above another. The darker triangle will be shifted a bit in order to achieve the _border_.
 
-![First breadcrumbs example](/wp-content/uploads/2012/01/css3-breadcrumbs-1.png)
+![First breadcrumbs example](/dist/uploads/2012/01/css3-breadcrumbs-1.png)
 
 {% highlight css %}
 #breadcrumbs-one{
@@ -137,7 +137,7 @@ Here I used a similar technique to the one I used for creating these [CSS3 toolt
 
 The CSS shapes built with the pseudo-elements are placed before, respectively after.
 
-![Second breadcrumbs example](/wp-content/uploads/2012/01/css3-breadcrumbs-2.png)
+![Second breadcrumbs example](/dist/uploads/2012/01/css3-breadcrumbs-2.png)
 
 {% highlight css %}
 #breadcrumbs-two{
@@ -210,7 +210,7 @@ The CSS shapes built with the pseudo-elements are placed before, respectively af
 
 Using `border-radius` we will round the corners for our rectangle and square shapes. The square will be rotated, in order to achieve a rounded diamond.
 
-![Third breadcrumbs example](/wp-content/uploads/2012/01/css3-breadcrumbs-3.png)
+![Third breadcrumbs example](/dist/uploads/2012/01/css3-breadcrumbs-3.png)
 
 {% highlight css %}
 #breadcrumbs-three{
@@ -272,7 +272,7 @@ Using `border-radius` we will round the corners for our rectangle and square sha
 
 Again, with the pseudo-elements you'll add two rectangles before and after the element. Then you'll round the outer sides for each one. The rest is nothing but poetry. :)
 
-![Fourth CSS3 breadcrumbs example](/wp-content/uploads/2012/01/css3-breadcrumbs-4.png)
+![Fourth CSS3 breadcrumbs example](/dist/uploads/2012/01/css3-breadcrumbs-4.png)
 
 {% highlight css %}
 #breadcrumbs-four{

@@ -11,7 +11,7 @@ categories:
 
 If you'd ask me what I've been up lately, I'd say: working, reading, learning - pretty much just like you, I guess. The thing is it's been a while since I wrote something here and my first article this year is about AWRstudyr, a Chrome extension I've been working lately and it's something I've put lots of effort into it.
 
-![AWRstudyr screenshot](/wp-content/uploads/2016/01/awrstudyr.jpg)
+![AWRstudyr screenshot](/dist/uploads/2016/01/awrstudyr.jpg)
 
 <!-- more -->
 
@@ -37,12 +37,12 @@ and more...
 - Does this URL have mixed content that can break the SSL?
 - How many times does this URL has been shared in the wild?
 
-![AWRstudyr SEOverview](/wp-content/uploads/2016/01/seoverview.png)
-![AWRstudyr Technologies](/wp-content/uploads/2016/01/tech.png)
-![AWRstudyr HTML5](/wp-content/uploads/2016/01/html5.png)
-![AWRstudyr mobile friendly](/wp-content/uploads/2016/01/mobile.png)
-![AWRstudyr PageSpeed Insights](/wp-content/uploads/2016/01/pagespeed.png)
-![AWRstudyr social shares](/wp-content/uploads/2016/01/social.png)
+![AWRstudyr SEOverview](/dist/uploads/2016/01/seoverview.png)
+![AWRstudyr Technologies](/dist/uploads/2016/01/tech.png)
+![AWRstudyr HTML5](/dist/uploads/2016/01/html5.png)
+![AWRstudyr mobile friendly](/dist/uploads/2016/01/mobile.png)
+![AWRstudyr PageSpeed Insights](/dist/uploads/2016/01/pagespeed.png)
+![AWRstudyr social shares](/dist/uploads/2016/01/social.png)
 
 ## How it's made
 

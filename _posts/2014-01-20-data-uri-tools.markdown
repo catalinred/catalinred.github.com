@@ -13,7 +13,7 @@ categories:
 
 Nowadays, encoding stuff is not a secret anymore and we're using data URI for small images, SVG's and even custom fonts. After all, this is one of the best ways to minimize the number of HTTP requests. On this matter, I thought about making a list with some online conversion tools you can use right away.
 
-![Data URI conversion tools](/wp-content/uploads/2014/01/data-uri-tools.png)
+![Data URI conversion tools](/dist/uploads/2014/01/data-uri-tools.png)
 
 <!-- more -->
 

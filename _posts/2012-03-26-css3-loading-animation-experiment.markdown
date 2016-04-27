@@ -17,11 +17,11 @@ While playing [DIRT 3](http://www.gamespot.com/dirt-3/), I've noticed a very coo
 
 So, in this article you'll see an experiment about how to create a simple CSS3 loading animation.
 
-![CSS3 loading animation](/wp-content/uploads/2012/03/css3-loading-animation.png)
+![CSS3 loading animation](/dist/uploads/2012/03/css3-loading-animation.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/03/css3-loading-animation-experiment-demo.html)
+[View demo](/dist/uploads/2012/03/css3-loading-animation-experiment-demo.html)
 
 
 For this example, I'll be using two CSS3 animations: one that fades the color for the triangles and one animation that rotates the whole design. These two animations, synchronized, will help creating a quite nice effect.

@@ -15,7 +15,7 @@ As you might know, the DOM does not supports removing an element directly. When 
 
 According to DOM level 4 specs, which is the current version in development, there are some new handy [mutation methods](https://dvcs.w3.org/hg/domcore/raw-file/tip/Overview.html#interface-element) available: `append()`, `prepend()`, `before()`, `after()`, `replace()`, and `remove()`. In this article we'll focus a bit on one of the new kids on the block, the plain vanilla JavaScript `remove()` method.
 
-![JavaScript remove() method](/wp-content/uploads/2013/04/javascript-remove-method.png)
+![JavaScript remove() method](/dist/uploads/2013/04/javascript-remove-method.png)
 
 <!-- more -->
 

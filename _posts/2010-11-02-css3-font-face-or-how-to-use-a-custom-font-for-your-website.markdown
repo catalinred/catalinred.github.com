@@ -18,7 +18,7 @@ Web designers have been constrained to use a limited number of safe-fonts due to
 
 This article contains a simple and easy to implement tutorial  about using the @font-face property.
 
-[![](/wp-content/uploads/2010/10/css3-font-face.png)](http://www.red-team-design.com/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
+[![](/dist/uploads/2010/10/css3-font-face.png)](http://www.red-team-design.com/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
 
 <!-- more -->
 
@@ -26,11 +26,11 @@ This article contains a simple and easy to implement tutorial  about using the @
 
 Let's see now how can you take advantage of this. So, in order to be able to use this CSS3 property, you must complete the following 3 steps and you can also check the demo.
 
-[Demo page](/wp-content/uploads/2010/10/css-font-face-demo.html)
+[Demo page](/dist/uploads/2010/10/css-font-face-demo.html)
 
 For this fast example I used [3Dumb](http://www.fontsquirrel.com/fonts/3Dumb) font from [Font Squirell](http://www.fontsquirrel.com/).
 
-![](/wp-content/uploads/2010/10/font-face-example.png)
+![](/dist/uploads/2010/10/font-face-example.png)
 
 ### 1.Upload the font to your server
 

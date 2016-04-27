@@ -21,18 +21,18 @@ The tab navigation is an element you often meet in your daily browsing. There ar
 
 In this article you'll learn how to build some new CSS3 & jQuery tabs inspired by [Google Play](https://play.google.com)'s design.
 
-![](/wp-content/uploads/2012/05/minimal-tabs-css3-jquery.png)
+![](/dist/uploads/2012/05/minimal-tabs-css3-jquery.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/05/google-play-minimal-tabs-with-css3-jquery-demo.html)
+[View demo](/dist/uploads/2012/05/google-play-minimal-tabs-with-css3-jquery-demo.html)
 
 Before going further, you may want to check the other tabs tutorials I wrote:
 
-[![CSS3 tabs with beveled corners](/wp-content/uploads/2011/09/css3-jquery-tabs.png)](http://www.red-team-design.com/css3-tabs-with-beveled-corners)
+[![CSS3 tabs with beveled corners](/dist/uploads/2011/09/css3-jquery-tabs.png)](http://www.red-team-design.com/css3-tabs-with-beveled-corners)
 _[CSS3 tabs with beveled corners](http://www.red-team-design.com/css3-tabs-with-beveled-corners)_
 
-[![CSS3 & jQuery folder tabs](/wp-content/uploads/2012/01/css3-jquery-folder-tabs.png)](http://www.red-team-design.com/css3-jquery-folder-tabs)
+[![CSS3 & jQuery folder tabs](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)](http://www.red-team-design.com/css3-jquery-folder-tabs)
 _[CSS3 & jQuery folder tabs](http://www.red-team-design.com/css3-jquery-folder-tabs)_
 
 ## The HTML
@@ -123,7 +123,7 @@ Here's where the magic happens:
 }
 {% endhighlight %}
 
-![CSS border tabs technique example](/wp-content/uploads/2012/05/css-border-tabs-technique.png)
+![CSS border tabs technique example](/dist/uploads/2012/05/css-border-tabs-technique.png)
 
 ## The jQuery
 

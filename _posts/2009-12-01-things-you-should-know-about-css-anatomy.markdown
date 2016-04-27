@@ -15,7 +15,7 @@ tags:
 
 I often notice people tend to use stylesheets without knowing its structure meaning. That's why, in this tutorial I will try to present you the CSS components structure.
 
-[![CSS Structure ](/wp-content/uploads/2009/12/css-structure-anatomy.png)](http://www.red-team-design.com/things-you-should-know-about-css-anatomy)
+[![CSS Structure ](/dist/uploads/2009/12/css-structure-anatomy.png)](http://www.red-team-design.com/things-you-should-know-about-css-anatomy)
 
 <!-- more -->
 
@@ -64,7 +64,7 @@ p#colored span {
 This selector is applied to all "span" elements within the paragraph with "colored" id attribute.
 
 Result:
-![blue-css-example](/wp-content/uploads/2009/12/blue-css-example.png)
+![blue-css-example](/dist/uploads/2009/12/blue-css-example.png)
 
 ## 2.Properties
 

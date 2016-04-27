@@ -18,11 +18,11 @@ tags:
 
 A while ago, I wrote about the CSS3 `:target` pseudo-class and how can that help you achieve [cool results](http://www.red-team-design.com/get-to-know-your-css3-target-pseudo-class). Today you'll learn how to create a pretty simple animated CSS3 accordion with its help.
 
-![CSS3 accordion](/wp-content/uploads/2011/05/css3-accordion.png)
+![CSS3 accordion](/dist/uploads/2011/05/css3-accordion.png)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/05/css3-accordion.html)
+[View demo](/dist/uploads/2011/05/css3-accordion.html)
 
 ## What is an accordion
 
@@ -138,7 +138,7 @@ section {
     
  ## Result
 
-![CSS3 accordion results](/wp-content/uploads/2011/05/css3-accordion-result.png)
+![CSS3 accordion results](/dist/uploads/2011/05/css3-accordion-result.png)
 
 ## Browser support
 
@@ -151,4 +151,4 @@ So, if you want to use this for your projects, you must be aware that the above 
 
 If the above isn't a recommended solution to use for production purposes because of support lacking for older browsers, the below solution is a **cross-browser** one. 
 
-Please check the [Jquery demo](/wp-content/uploads/2011/06/css3-jquery-accordion.html), I hope it will help you!
+Please check the [Jquery demo](/dist/uploads/2011/06/css3-jquery-accordion.html), I hope it will help you!

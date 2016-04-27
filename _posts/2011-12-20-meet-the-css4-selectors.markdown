@@ -20,7 +20,7 @@ You may already know that, when speaking about web development, **CSS3** and **H
 
 In this article you'll find out some interesting stuff about the new CSS4 selectors.
 
-![CSS Level 4 Selectors](/wp-content/uploads/2011/12/css4-selectors.png)
+![CSS Level 4 Selectors](/dist/uploads/2011/12/css4-selectors.png)
 
 <!-- more -->
 
@@ -42,7 +42,7 @@ Using the above, when hovering an list element, the whole unordered list will be
 
 Another example I'm thinking about now is when using HTML forms: for example we could highlight a HTML `fieldset` when one of its inputs is focused:
 
-![Fieldset highlighting](/wp-content/uploads/2011/12/css4-selectors-fieldset.png)
+![Fieldset highlighting](/dist/uploads/2011/12/css4-selectors-fieldset.png)
 _Fieldset highlighted when an inner input is focused_
 
 {% highlight css %}

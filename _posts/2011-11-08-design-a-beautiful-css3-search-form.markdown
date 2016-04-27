@@ -19,10 +19,10 @@ One of the elements most frequently used by websites is probably the search box.
 
 So, today we're going to cover how to style a search form using the most exciting CSS3 features.
 
-![](http://www.red-team-design.com/wp-content/uploads/2011/11/beautiful-css3-search-form.png)
+![](http://www.red-team-design.com/dist/uploads/2011/11/beautiful-css3-search-form.png)
 <!-- more -->
 
-[View demo](/wp-content/uploads/2011/11/beautiful-css3-search-form.html)
+[View demo](/dist/uploads/2011/11/beautiful-css3-search-form.html)
 
 You've already seen before how to create a cool [CSS3 search box](/how-to-create-a-cool-and-usable-css3-search-box) and now you'll see how can you create the above CSS3 search form with 3D look using [CSS3 box-shadow](/how-to-create-slick-effects-with-css3-box-shadow).
 
@@ -132,7 +132,7 @@ Below you can find some screenshots with the search form. You'll notice that it 
 
 ### Modern browsers like Chrome, Firefox, Safari, Opera, IE10:
 
-![CSS3 search form](http://www.red-team-design.com/wp-content/uploads/2011/11/beautiful-css3-search-form.png)
+![CSS3 search form](http://www.red-team-design.com/dist/uploads/2011/11/beautiful-css3-search-form.png)
 
 Please note that, at this time, Opera supports the HTML5 `placeholder` attribute but is not _styleable_ for now.
 
@@ -140,7 +140,7 @@ A good news is that [Internet Explorer 10](http://msdn.microsoft.com/en-us/ie/hh
 
 ### [IE trident (IE6/IE7/IE8)](/how-to-solve-common-ie-bugs):
 
-![Internet Explorer preview](http://www.red-team-design.com/wp-content/uploads/2011/11/beautiful-css3-search-form-ie-trident.png)
+![Internet Explorer preview](http://www.red-team-design.com/dist/uploads/2011/11/beautiful-css3-search-form-ie-trident.png)
 
 ## Conclusion
 

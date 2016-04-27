@@ -17,7 +17,7 @@ One of the CSS properties people like to use nowadays is the CSS _text-shadow_
 
 The times when you had to use the CSS image replacement technique for a simple text shadow effect are gone.
 
-[![](/wp-content/uploads/2009/12/css-shadow.gif)](http://www.red-team-design.com/drop-shadow-effect-using-css/)
+[![](/dist/uploads/2009/12/css-shadow.gif)](http://www.red-team-design.com/drop-shadow-effect-using-css/)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ Accordingly, this property will work only on **Webkit (from Safari 3+), Opera 9.
 
 ## Definition of the [CSS text-shadow property](http://www.w3.org/TR/css3-text/#text-shadow):
 
-![text-shadow](/wp-content/uploads/2009/12/text-shadow.gif)
+![text-shadow](/dist/uploads/2009/12/text-shadow.gif)
 
 The first two values are the X and Y axis offsets, the third is the  blur radius value which is an optional value and the last value in our photo is the color of the shadow.
 
@@ -47,10 +47,10 @@ h1 {
 {% endhighlight %} 
 
 here is what you achieve:
-![Css drop shadow browsers compatibility](/wp-content/uploads/2009/12/browsers-compatibility.gif)
+![Css drop shadow browsers compatibility](/dist/uploads/2009/12/browsers-compatibility.gif)
 
-[![Demo drop shadows](/wp-content/uploads/2009/12/demo.gif)](/wp-content/uploads/2009/12/demo.html)
+[![Demo drop shadows](/dist/uploads/2009/12/demo.gif)](/dist/uploads/2009/12/demo.html)
 
-[View Demo](/wp-content/uploads/2009/12/demo.html)
+[View Demo](/dist/uploads/2009/12/demo.html)
 
 Thanks for reading, I hope you like this effect as much as i do...it's simple, easy to add and there are no problems with browsers that does not support CSS3.

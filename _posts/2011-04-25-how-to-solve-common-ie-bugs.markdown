@@ -19,7 +19,7 @@ You may ask me _"why this article?"_ and you have all the reasons to do that. If
 
 Modern browsers are constantly evolving and their bugs or strange behaviors are always fixed due new version releases. But what about old browsers like Internet Explorer 6/7? As they are not maintained anymore, their rendering bugs became sort of _"de facto"_.
 
-![Internet Explorer common bugs](/wp-content/uploads/2011/04/ie-common-bugs.jpg)
+![Internet Explorer common bugs](/dist/uploads/2011/04/ie-common-bugs.jpg)
 
 <!-- more -->
 
@@ -87,7 +87,7 @@ To find out more about these common problems check this amazing [resource](http:
 
 ## In the end
 
-[![IE6 countdown](/wp-content/uploads/2011/04/ie6-countdown.jpg)](http://ie6countdown.com/)
+[![IE6 countdown](/dist/uploads/2011/04/ie6-countdown.jpg)](http://ie6countdown.com/)
 
 > Its name was Internet Explorer 6. Now that we’re in 2011, in an era of modern web standards, it’s time to say goodbye.
 

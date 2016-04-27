@@ -18,7 +18,7 @@ In my previous articles, you may have noticed how often I used these pseudo-elem
 
 This article's purpose is to clarify some common misunderstandings regarding the above **pseudo-elements syntax**. 
 
-![CSS pseudo elements](/wp-content/uploads/2011/05/before-after-pseudo-elements.png)
+![CSS pseudo elements](/dist/uploads/2011/05/before-after-pseudo-elements.png)
 
 <!-- more -->
 

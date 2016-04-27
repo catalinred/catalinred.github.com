@@ -18,11 +18,11 @@ I had one of those moments this week when I remembered I saw a while ago a tucke
 
 For this alternative CSS3 tucked corners effect, I used the beveled corners technique by [Lea Verou](http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/), a technique you've seen implemented before for my [CSS3 tabs with beveled corners](http://www.red-team-design.com/css3-tabs-with-beveled-corners).
 
-![](/wp-content/uploads/2012/10/css3-tucked-corners.jpg)
+![](/dist/uploads/2012/10/css3-tucked-corners.jpg)
 
 <!-- more -->
 
-[View demo](/wp-content/uploads/2012/10/css3-tucked-corners-demo.html)
+[View demo](/dist/uploads/2012/10/css3-tucked-corners-demo.html)
 
 ## The HTML
 
@@ -108,7 +108,7 @@ The `[class*='tucked-corners-']` advanced selector will select only the elements
 
 As you already know, IE9 doesn't support CSS3 gradients but it does supports the `box-shadow` property. This caused the situation below:
 
-![](/wp-content/uploads/2012/10/css3-tucked-corners-ie9.jpg)
+![](/dist/uploads/2012/10/css3-tucked-corners-ie9.jpg)
 
 My "workaround" was to use the following IE9 CSS hack to hide the pseudos shadows. So, unfortunately you will not see any tucked corner on IE9.
     
