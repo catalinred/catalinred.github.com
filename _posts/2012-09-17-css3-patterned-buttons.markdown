@@ -26,13 +26,13 @@ This project is a bit _special_ to me as being pretty new to [GitHub](https://gi
 
 I wrote before about CSS3 buttons, so you may want to check also these articles:
 	
-  * [Just some other awesome CSS3 buttons](http://www.red-team-design.com/just-another-awesome-css3-buttons)	
-  * [Cross-browser CSS gradient buttons](http://www.red-team-design.com/cross-browser-css-gradient-buttons)
+  * [Just some other awesome CSS3 buttons](/just-another-awesome-css3-buttons)	
+  * [Cross-browser CSS gradient buttons](/cross-browser-css-gradient-buttons)
 
 ## CSS3 patterned buttons features
 	
   * Easy-to-use.	
-  * Contain the [transitions on gradients](http://www.red-team-design.com/faking-transitions-on-gradients) hack.	
+  * Contain the [transitions on gradients](/faking-transitions-on-gradients) hack.	
   * As you may have expected, no images used here. Instead, an base64 string is used to create the patterned effect.	
   * Stilish pressed behavior when grouped.
 

@@ -15,9 +15,9 @@ tags:
 
 <ins>Please keep in mind that removing the default outline styles should always be used with caution and adding an alternative styling is mandatory.</ins>
 
-When you're building web interfaces or just websites you always need to do cross-platform browser testing. As we saw, inputs inherits different styles from browsers and you need to [style them](http://www.red-team-design.com/style-an-input-button). In this article i will show you how simple is to remove Safari's glowing blue outline.
+When you're building web interfaces or just websites you always need to do cross-platform browser testing. As we saw, inputs inherits different styles from browsers and you need to [style them](/style-an-input-button). In this article i will show you how simple is to remove Safari's glowing blue outline.
 
-[![](/dist/uploads/2009/11/safari-blue-outer-glow.png)](http://www.red-team-design.com/get-rid-of-safari-blue-input-outer-glow-once-and-for-all/)
+[![](/dist/uploads/2009/11/safari-blue-outer-glow.png)](/get-rid-of-safari-blue-input-outer-glow-once-and-for-all/)
 
 <!-- more -->
 

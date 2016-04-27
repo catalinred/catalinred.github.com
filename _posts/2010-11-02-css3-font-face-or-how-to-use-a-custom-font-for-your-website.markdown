@@ -18,7 +18,7 @@ Web designers have been constrained to use a limited number of safe-fonts due to
 
 This article contains a simple and easy to implement tutorial  about using the @font-face property.
 
-[![](/dist/uploads/2010/10/css3-font-face.png)](http://www.red-team-design.com/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
+[![](/dist/uploads/2010/10/css3-font-face.png)](/css3-font-face-or-how-to-use-a-custom-font-for-your-website)
 
 <!-- more -->
 

@@ -15,7 +15,7 @@ tags:
 
 In this tutorial you will learn how to  achieve the following fancy 3D typography effect using Adobe Illustrator and Adobe Photoshop in just 7 easy steps.
 
-[![](/dist/uploads/2009/11/3d-typography-effect.png)](http://www.red-team-design.com/3d-typography-effect/)
+[![](/dist/uploads/2009/11/3d-typography-effect.png)](/3d-typography-effect/)
 
 <!-- more -->
 

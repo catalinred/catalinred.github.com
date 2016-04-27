@@ -21,7 +21,7 @@ Web users log in every day, so imagine how many times log in forms are being use
 
 In this article, you will see how to create a good looking dropdown login form using CSS3 and a bit of jQuery.
 
-![](http://www.red-team-design.com/dist/uploads/2011/10/drop-down-login.png)
+![](/dist/uploads/2011/10/drop-down-login.png)
 
 <!-- more -->
 
@@ -43,7 +43,7 @@ Also, [HTML5](/create-a-stylish-html5-template-from-scratch) new form features d
 
 Here's the markup we'll use to create our [CSS3 dropdown](/css3-dropdown-menu) log in:
 
-![Login markup](http://www.red-team-design.com/dist/uploads/2011/10/drop-down-login-html-markup.png)
+![Login markup](/dist/uploads/2011/10/drop-down-login-html-markup.png)
 
 {% highlight html %}
 <nav>

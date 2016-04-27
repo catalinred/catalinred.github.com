@@ -29,11 +29,11 @@ In this article you'll learn how to build some new CSS3 & jQuery tabs inspired b
 
 Before going further, you may want to check the other tabs tutorials I wrote:
 
-[![CSS3 tabs with beveled corners](/dist/uploads/2011/09/css3-jquery-tabs.png)](http://www.red-team-design.com/css3-tabs-with-beveled-corners)
-_[CSS3 tabs with beveled corners](http://www.red-team-design.com/css3-tabs-with-beveled-corners)_
+[![CSS3 tabs with beveled corners](/dist/uploads/2011/09/css3-jquery-tabs.png)](/css3-tabs-with-beveled-corners)
+_[CSS3 tabs with beveled corners](/css3-tabs-with-beveled-corners)_
 
-[![CSS3 & jQuery folder tabs](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)](http://www.red-team-design.com/css3-jquery-folder-tabs)
-_[CSS3 & jQuery folder tabs](http://www.red-team-design.com/css3-jquery-folder-tabs)_
+[![CSS3 & jQuery folder tabs](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)](/css3-jquery-folder-tabs)
+_[CSS3 & jQuery folder tabs](/css3-jquery-folder-tabs)_
 
 ## The HTML
 
@@ -59,7 +59,7 @@ Getting back to this tutorial, here's the markup, simple as usual. You may notic
 
 The goal here, as always, is to do it without using any images and with as little CSS as possible.
 
-That's all, this is not just a CSS piece, it's the whole CSS used to create these tabs. I think it's pretty cool, not even [pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements) were used here, just CSS borders.
+That's all, this is not just a CSS piece, it's the whole CSS used to create these tabs. I think it's pretty cool, not even [pseudo-elements](/before-after-pseudo-elements) were used here, just CSS borders.
 
 {% highlight css %}
 #tabs {

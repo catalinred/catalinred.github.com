@@ -18,7 +18,7 @@ If you are a web developer then you surely know what is an image replacement tec
 
 Although this is very used, I noticed developers tend to skip fixing Firefox appearance of a dotted border that goes to the edge of the screen. In this tutorial I will show you how this can be fixed in a simple way.
 
-[![Image replacement technique and dotted border](/dist/uploads/2010/04/image-replacement-dotted-border.png)](http://www.red-team-design.com/outline-dotted-border-and-image-replacement-technique/)
+[![Image replacement technique and dotted border](/dist/uploads/2010/04/image-replacement-dotted-border.png)](/outline-dotted-border-and-image-replacement-technique/)
 
 <!-- more -->
 

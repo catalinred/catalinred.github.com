@@ -13,7 +13,7 @@ tags:
 - CSS3
 ---
 
-In my previous [article](http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box), `border`, ` border-radius` and `box-shadow` properties were used to create a slick HTML5 search box. As you may know, when using all these together, a well-known [Chrome bug](http://code.google.com/p/chromium/issues/detail?id=25334) is triggered.
+In my previous [article](/how-to-create-a-cool-and-usable-css3-search-box), `border`, ` border-radius` and `box-shadow` properties were used to create a slick HTML5 search box. As you may know, when using all these together, a well-known [Chrome bug](http://code.google.com/p/chromium/issues/detail?id=25334) is triggered.
 
 Although this bug was fixed in the latest Chrome beta releases, below you'll see the _strange_ (may I call it like that?) or should I better say _different_ behavior:
 
@@ -21,7 +21,7 @@ Although this bug was fixed in the latest Chrome beta releases, below you'll see
 
 <!-- more -->
 
-Following [Atul](http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box/comment-page-1#comment-18245)'s comment, I made a quick "investigation" and here is what I noticed.
+Following [Atul](/how-to-create-a-cool-and-usable-css3-search-box/comment-page-1#comment-18245)'s comment, I made a quick "investigation" and here is what I noticed.
 
 After downloading the latest [Chrome beta version](http://www.google.com/landing/chrome/beta/) (10.0.648.119 in this case), I've also noticed that my search box example (now updated) doesn't looks well neither on this version (as it should look). 
 

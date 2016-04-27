@@ -27,7 +27,7 @@ The other day, while working on a web project, I had to emphasize somehow a dyna
 
 ## The HTML
 
-For this example, we'll borrow the markup structure and look from my [CSS3 dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu).    
+For this example, we'll borrow the markup structure and look from my [CSS3 dropdown menu](/css3-animated-dropdown-menu).    
 
 {% highlight html %}
 <ul class="menu">

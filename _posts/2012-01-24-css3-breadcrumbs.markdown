@@ -16,7 +16,7 @@ tags:
 
 A breadcrumb navigation allow users to know where they are in a hierarchical structure and navigate back to higher-level pages in the hierarchy. Also, the breadcrumbs can reduce the number of actions a user need to perform in order to navigate back.
 
-So, to keep it simple, if you have a website with lot of pages and sub-levels, in order to increase [usability](http://www.red-team-design.com/web-usability-tips-for-your-website), you need to use breadcrumbs. Having said that, today you'll learn how to create your own cool CSS3 breadcrumbs.
+So, to keep it simple, if you have a website with lot of pages and sub-levels, in order to increase [usability](/web-usability-tips-for-your-website), you need to use breadcrumbs. Having said that, today you'll learn how to create your own cool CSS3 breadcrumbs.
 
 ![](/dist/uploads/2012/01/css3-breadcrumbs.png)
 
@@ -40,7 +40,7 @@ Tha markup is simple and minimal, based on an unordered list.
 
 ## The CSS
 
-First, let's add a mini [CSS reset](http://www.red-team-design.com/useful-css-snippets-to-save-your-time) for our unordered lists:
+First, let's add a mini [CSS reset](/useful-css-snippets-to-save-your-time) for our unordered lists:
 
 {% highlight css %}
 ul{
@@ -50,11 +50,11 @@ ul{
 }
 {% endhighlight %}
 
-Secondly, I'd like to add that all the breadcrumbs I made for this tutorial are using [CSS pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements). I bet there's no need to specify what pseudo-elements are and [how](http://www.red-team-design.com/just-another-awesome-css3-buttons) [cool](http://www.red-team-design.com/cool-headings-with-pseudo-elements) [they](http://www.red-team-design.com/css3-dropdown-menu) [are](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow).
+Secondly, I'd like to add that all the breadcrumbs I made for this tutorial are using [CSS pseudo-elements](/before-after-pseudo-elements). I bet there's no need to specify what pseudo-elements are and [how](/just-another-awesome-css3-buttons) [cool](/cool-headings-with-pseudo-elements) [they](/css3-dropdown-menu) [are](/how-to-create-slick-effects-with-css3-box-shadow).
 
 ### First example
 
-Here I used a similar technique to the one I used for creating these [CSS3 tooltips](http://www.red-team-design.com/css3-tooltips). Basically, to create a right-bordered triangle effect, the triangles created with pseudo-elements are placed one above another. The darker triangle will be shifted a bit in order to achieve the _border_.
+Here I used a similar technique to the one I used for creating these [CSS3 tooltips](/css3-tooltips). Basically, to create a right-bordered triangle effect, the triangles created with pseudo-elements are placed one above another. The darker triangle will be shifted a bit in order to achieve the _border_.
 
 ![First breadcrumbs example](/dist/uploads/2012/01/css3-breadcrumbs-1.png)
 

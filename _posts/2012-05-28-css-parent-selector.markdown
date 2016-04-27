@@ -13,7 +13,7 @@ tags:
 - CSS4
 ---
 
-I wrote a while ago about the future [CSS4 Selectors](http://www.red-team-design.com/meet-the-css4-selectors), namely about CSS Selectors Level 4 Working Draft release. It was such a good news to see that things are continuously moving on. I'm saying that because it's a long way until CSS3 will reach final recommendation phase and yet we're seeing news about the future CSS4. Isn't that cool? 
+I wrote a while ago about the future [CSS4 Selectors](/meet-the-css4-selectors), namely about CSS Selectors Level 4 Working Draft release. It was such a good news to see that things are continuously moving on. I'm saying that because it's a long way until CSS3 will reach final recommendation phase and yet we're seeing news about the future CSS4. Isn't that cool? 
 
 Meanwhile, I thought a little bit about the upcoming CSS parent selector. At this time, if you ask me, I think it will be the most awesome feature and definitely is at the top of my CSS wishlist.
 
@@ -54,7 +54,7 @@ These are the questions I'm asking myself lately about this matter so I thought 
 
 #### Dropdown menu
 
-For [CSS dropdown menus](http://www.red-team-design.com/css3-animated-dropdown-menu), we would be able to style the `li` accordingly when it contains a sub menu.
+For [CSS dropdown menus](/css3-animated-dropdown-menu), we would be able to style the `li` accordingly when it contains a sub menu.
 
 ![](/dist/uploads/2012/05/css-dropdown.png)
 
@@ -69,7 +69,7 @@ li! > ul {
 
 #### Interactive form
 
-As I mentioned in my previous [CSS4 selectors](http://www.red-team-design.com/meet-the-css4-selectors) article, highlighting a form when an inner input is focused could be a practical example for the CSS parent selector.
+As I mentioned in my previous [CSS4 selectors](/meet-the-css4-selectors) article, highlighting a form when an inner input is focused could be a practical example for the CSS parent selector.
 
 ![Interactive form](/dist/uploads/2011/12/css4-selectors-fieldset.png)
 
@@ -82,7 +82,7 @@ fieldset! > input:focus {
 
 #### New clearing method
 
-With this new powerful selector, I think we could have all the ingredients to use a new [clearing floats](http://www.red-team-design.com/clearing-floats-nowadays) method based on already existing ones.
+With this new powerful selector, I think we could have all the ingredients to use a new [clearing floats](/clearing-floats-nowadays) method based on already existing ones.
 
 ![Clearing floats](/dist/uploads/2011/08/clearing-floats.png)
 

@@ -17,7 +17,7 @@ tags:
 I assume there was at least one time when you wanted to add more appeal to a html input and at that moment you didn't knew how.
 We all know how boring looks an input when we use it without styling it and that's why today I will show you the way to get rid of this old-style input.
 
-[![](/dist/uploads/2009/10/style-button-input.png)](http://www.red-team-design.com/style-an-input-button/)
+[![](/dist/uploads/2009/10/style-button-input.png)](/style-an-input-button/)
 
 <!-- more -->
 

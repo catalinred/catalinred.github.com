@@ -60,7 +60,7 @@ In the following rows I'll try to explain a bit the styles that were used to cre
 
 #### Wrapper
 
-First of all we're going to add some basic styles for our list wrapper including clearing floats. Also, you may have noticed the `counter-reset: li;` declaration, you've [seen it before](http://www.red-team-design.com/css3-ordered-list-styles) and we'll use it further again to create a nice counter effect.
+First of all we're going to add some basic styles for our list wrapper including clearing floats. Also, you may have noticed the `counter-reset: li;` declaration, you've [seen it before](/css3-ordered-list-styles) and we'll use it further again to create a nice counter effect.
 
 ![Unordered list styles](/dist/uploads/2012/04/unordered-list-styles.png)
 
@@ -102,7 +102,7 @@ Things to note:
 	
   * If the trigger is made through ENTER key, using `outline: 0;` declaration will help removing focus styling.
 	
-  * Numbering system, similar to [CSS3 ordered lists](http://www.red-team-design.com/css3-ordered-list-styles).
+  * Numbering system, similar to [CSS3 ordered lists](/css3-ordered-list-styles).
     
 {% highlight css %}
 .menu li {
@@ -381,7 +381,7 @@ Other existing CSS3 stuff like transitions and gradients and just play nice wher
 
 ### Selectors
 
-As you already noticed, we've used some CSS3 selectors that older browsers like [IE8 and below](http://www.red-team-design.com/how-to-solve-common-ie-bugs) do not support.
+As you already noticed, we've used some CSS3 selectors that older browsers like [IE8 and below](/how-to-solve-common-ie-bugs) do not support.
 
 So, we need a solution that fixes the example for those browsers. In my opinion, the best solution in this case is to use the [Selectivizr](http://selectivizr.com/) tool, as we've already included jQuery in our project. That's because Selectivzr requires one of those JavaScript libraries: jQuery, MooTools, Prototype etc. in order to work.
 

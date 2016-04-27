@@ -18,7 +18,7 @@ You may wonder why I insist about this subject I already [wrote](/center-a-block
 
 And meanwhile doing that I found a cross-browsers solution for that.
 
-[![Center a block element without knowing its width](/dist/uploads/2010/10/center-block-unknown-width.png)](http://www.red-team-design.com/center-a-block-element-without-knowing-its-width-part-ii/)
+[![Center a block element without knowing its width](/dist/uploads/2010/10/center-block-unknown-width.png)](/center-a-block-element-without-knowing-its-width-part-ii/)
 
 <!-- more -->
 

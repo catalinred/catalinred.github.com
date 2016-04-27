@@ -20,7 +20,7 @@ However, you should know that they are available to use in Safari, Chrome (Webki
 
 With this post I will show you how to use CSS gradients for some major browsers: Firefox, Safari, Chrome and IE (surprise!).
 
-[![CSS gradients](/dist/uploads/2010/11/css-gradients.jpg)](http://www.red-team-design.com/css-gradients-quick-tutorial) 
+[![CSS gradients](/dist/uploads/2010/11/css-gradients.jpg)](/css-gradients-quick-tutorial) 
 
 <!-- more -->
 
@@ -101,7 +101,7 @@ If you have anything to add, feel free to do it in the comments below. Let me kn
 
 ## Update
 
-Since I wrote this article, Webkit gradient syntax was [updated](http://www.red-team-design.com/css3-webkit-gradient-support-updated), [Internet Explorer](http://www.red-team-design.com/how-to-solve-common-ie-bugs) 10 Test Drive was launched (glad to see CSS3 gradients are supported) and Opera 11 also added CSS3 gradients to its features.
+Since I wrote this article, Webkit gradient syntax was [updated](/css3-webkit-gradient-support-updated), [Internet Explorer](/how-to-solve-common-ie-bugs) 10 Test Drive was launched (glad to see CSS3 gradients are supported) and Opera 11 also added CSS3 gradients to its features.
 
 So here is the latest CSS3 gradients syntax:
 

@@ -16,7 +16,7 @@ tags:
 
 <ins>Due some performance issues, I don't recommend using these buttons anymore. You may try instead my latest [CSS3 patterned buttons](/css3-patterned-buttons/).</ins>
 
-Recently I talked about [CSS cross-browser gradients](http://www.red-team-design.com/css-gradients-quick-tutorial) and last week I wrote again about [CSS3 gradients](http://www.red-team-design.com/css3-webkit-gradient-support-updated). So what I'm going to do today? I will show you how to put the CSS gradient feature in practical use.
+Recently I talked about [CSS cross-browser gradients](/css-gradients-quick-tutorial) and last week I wrote again about [CSS3 gradients](/css3-webkit-gradient-support-updated). So what I'm going to do today? I will show you how to put the CSS gradient feature in practical use.
 
 In this article you will see how you can create a set of gradient buttons just with CSS **(no images)**. 
 
@@ -40,7 +40,7 @@ That's what you may say but, oh yes :) ... This is another buttons set, powered 
 
   * RGBA color mode
   * Box shadow
-  * [Text shadow](http://www.red-team-design.com/drop-shadow-effect-using-css)
+  * [Text shadow](/drop-shadow-effect-using-css)
   * Rounded corners
   * Gradient patterns _thanks to [@leaverou](http://twitter.com/leaverou) for its enlightening article about [CSS3 gradients techniques](http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/)_
 

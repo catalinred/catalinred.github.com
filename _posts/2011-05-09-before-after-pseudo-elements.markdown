@@ -36,7 +36,7 @@ _http://www.w3.org/TR/css3-selectors/#pseudo-elements_
 
 ## Let's recap
 
-[Internet Explorer](http://www.red-team-design.com/how-to-solve-common-ie-bugs) 7 and lower do not support the above pseudo-elements. But, the surprise is that IE8 **does** and I'd say that's a very good (also the only) reason  to use the single colon syntax. 
+[Internet Explorer](/how-to-solve-common-ie-bugs) 7 and lower do not support the above pseudo-elements. But, the surprise is that IE8 **does** and I'd say that's a very good (also the only) reason  to use the single colon syntax. 
 
 ## Important!
 

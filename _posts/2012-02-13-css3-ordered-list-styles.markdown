@@ -52,7 +52,7 @@ Below you'll find nothing than simple ordered list markup:
 
 Further, I'll try to explain how this works in a few words.
 
-This technique uses [Automatic counters and numbering](http://www.w3.org/TR/CSS21/generate.html#counters). Basically it's about using two CSS 2.1 properties: `counter-reset` (this initiate a counter) and `counter-increment` (kinda self-explanatory, this increments the previous counter). As you will see below, the `counter-increment` will be used along with CSS generated content ([pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements)).
+This technique uses [Automatic counters and numbering](http://www.w3.org/TR/CSS21/generate.html#counters). Basically it's about using two CSS 2.1 properties: `counter-reset` (this initiate a counter) and `counter-increment` (kinda self-explanatory, this increments the previous counter). As you will see below, the `counter-increment` will be used along with CSS generated content ([pseudo-elements](/before-after-pseudo-elements)).
 
 {% highlight css %}
 ol {

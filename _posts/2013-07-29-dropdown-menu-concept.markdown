@@ -80,7 +80,7 @@ Because we need to clear floats:
 {% endhighlight %}
 
 
-Check the following lines for the rest of the styles, the experimental [`width: fit-content`](http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value) may be familiar to you if you read my last articles.
+Check the following lines for the rest of the styles, the experimental [`width: fit-content`](/horizontal-centering-using-css-fit-content-value) may be familiar to you if you read my last articles.
    
 {% highlight css %}
 /* Main level */
@@ -200,7 +200,7 @@ Check the following lines for the rest of the styles, the experimental [`width: 
 
 ## On RWD
 
-Don't try to resize the window, this menu demo is not responsive because that's not the point of this article and I didn't wanted to bloat the CSS for that. But I made a kinda [responsive dropdown menu](http://www.red-team-design.com/animenu-a-responsive-dropdown-navigation-made-with-sass) in the past, so feel free to check it.
+Don't try to resize the window, this menu demo is not responsive because that's not the point of this article and I didn't wanted to bloat the CSS for that. But I made a kinda [responsive dropdown menu](/animenu-a-responsive-dropdown-navigation-made-with-sass) in the past, so feel free to check it.
 
 
 ## Small bug

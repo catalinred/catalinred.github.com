@@ -16,7 +16,7 @@ tags:
 
 I had one of those moments this week when I remembered I saw a while ago a tucked corners effect made by [Joshua Hibbert](http://jsfiddle.net/joshnh/4vn6p/). That was cool. While thinking about it, one of my first thoughts was to try finding an alternative solution which can allow you use a pattern as a background for the containing block.
 
-For this alternative CSS3 tucked corners effect, I used the beveled corners technique by [Lea Verou](http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/), a technique you've seen implemented before for my [CSS3 tabs with beveled corners](http://www.red-team-design.com/css3-tabs-with-beveled-corners).
+For this alternative CSS3 tucked corners effect, I used the beveled corners technique by [Lea Verou](http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/), a technique you've seen implemented before for my [CSS3 tabs with beveled corners](/css3-tabs-with-beveled-corners).
 
 ![](/dist/uploads/2012/10/css3-tucked-corners.jpg)
 
@@ -26,7 +26,7 @@ For this alternative CSS3 tucked corners effect, I used the beveled corners tech
 
 ## The HTML
 
-The following markup is pretty similar with Joshua Hibbert’s solution. There's nothing to change or to improve here. At first sight you may think there's some extra markup in there but we'll actually need everything below in order to be able to create four corners using [CSS pseudo-elements](http://www.red-team-design.com/css-generated-content-replaced-elements).
+The following markup is pretty similar with Joshua Hibbert’s solution. There's nothing to change or to improve here. At first sight you may think there's some extra markup in there but we'll actually need everything below in order to be able to create four corners using [CSS pseudo-elements](/css-generated-content-replaced-elements).
 
 {% highlight html %}
 <div class="tucked-corners-top">

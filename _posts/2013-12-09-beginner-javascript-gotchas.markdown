@@ -101,7 +101,7 @@ You already know the _"Google is your friend"_ phrase, with that in mind I'd say
 
 I think the `console.log()` doesn't need any introduction anymore, its non-blocking behavior and nice formatting was a big plus comparing with `alert()`. The issue here is that, even though the `console.log` was implemented in IE8 and IE9, the `console` object somehow is not created until you toggle the DevTools.
 
-So, found out on my own skin that if you let any `console.log` calls in your code, it will break your code on browsers like [IE8 and IE9](http://www.red-team-design.com/how-to-solve-common-ie-bugs). After browsing for a solution, I found the following as a good and simple solution. Basically, if the `window` object does not have access to browser's debugging console, just override the `console.log` with a dummy function that does nothing at all. 
+So, found out on my own skin that if you let any `console.log` calls in your code, it will break your code on browsers like [IE8 and IE9](/how-to-solve-common-ie-bugs). After browsing for a solution, I found the following as a good and simple solution. Basically, if the `window` object does not have access to browser's debugging console, just override the `console.log` with a dummy function that does nothing at all. 
 
     
 {% highlight js %}

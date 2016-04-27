@@ -204,7 +204,7 @@ So, the temporary solution is to basically cover the native dropdown arrow for n
 ### ::before & ::after
 
 
-Having applied the above declaration which clears the default look, the dropdown triangle is made using [pseudo elements](http://www.red-team-design.com/before-after-pseudo-elements). There isn't too much to say here, you know pseudos, they are everywhere. :)
+Having applied the above declaration which clears the default look, the dropdown triangle is made using [pseudo elements](/before-after-pseudo-elements). There isn't too much to say here, you know pseudos, they are everywhere. :)
 
 
 ### pointer-events
@@ -263,7 +263,7 @@ The truth is that you may use the _CSS only_ keyword to name this styling soluti
   2. For each disabled select, go to its parent node and append the `custom-dropdown--disabled` HTML class. This way, we'll be able to use CSS in order to customize the arrow when a select is disabled.
 
 
-Of course, none of the above will be necessary if the select element, [which is a replaced element](http://www.red-team-design.com/css-generated-content-replaced-elements), would have allowed pseudo elements on it or if a [CSS parent selector](http://www.red-team-design.com/css-parent-selector) would have existed. But that's another story. :)
+Of course, none of the above will be necessary if the select element, [which is a replaced element](/css-generated-content-replaced-elements), would have allowed pseudo elements on it or if a [CSS parent selector](/css-parent-selector) would have existed. But that's another story. :)
 
 
 ## On browser support

@@ -17,7 +17,7 @@ tags:
 
 Unless you've lived under a rock lately, I'm sure you've heard of [Sublime Text 2](http://www.sublimetext.com/2) and most likely that's your favorite code editor. 
 
-In the past I used some other [code editors](http://www.red-team-design.com/free-text-editors-tools-for-developers) like Komodo Edit or Aptana Studio, but now I use Sublime Text 2 on a daily basis and I'm pretty happy with it. It's lightweight, easy to use and has a modern UI look. But by far, the best feature is the ability to extend its functionality with plugins, a.k.a packages.
+In the past I used some other [code editors](/free-text-editors-tools-for-developers) like Komodo Edit or Aptana Studio, but now I use Sublime Text 2 on a daily basis and I'm pretty happy with it. It's lightweight, easy to use and has a modern UI look. But by far, the best feature is the ability to extend its functionality with plugins, a.k.a packages.
 
 ![Sublime Text 2](/dist/uploads/2012/12/sublime-text-2.png)
 

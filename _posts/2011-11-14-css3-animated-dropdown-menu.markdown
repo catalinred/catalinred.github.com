@@ -20,7 +20,7 @@ It's a sure thing that CSS3 features like transitions, animations and transforms
 
 In this article you will see how you can build an awesome CSS3 animated dropdown menu with some of these cool features.
 
-![CSS3 animated dropdown menu](http://www.red-team-design.com/dist/uploads/2011/11/css3-animated-dropdown-menu-preview.png)
+![CSS3 animated dropdown menu](/dist/uploads/2011/11/css3-animated-dropdown-menu-preview.png)
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ In this article you will see how you can build an awesome CSS3 animated dropdown
 
 Here's a quick preview for the CSS3 animated dropdown menu that we're going to create today:
 
-[![Animated CSS3 menu](http://www.red-team-design.com/dist/uploads/2011/11/css3-menu-animation.gif)](/dist/uploads/2011/11/css3-animated-dropdown-menu-demo.html)
+[![Animated CSS3 menu](/dist/uploads/2011/11/css3-menu-animation.gif)](/dist/uploads/2011/11/css3-animated-dropdown-menu-demo.html)
 
 Remember the previous [CSS3 dropdown menu](/css3-dropdown-menu)? That menu is awesome, and thanks to you is the most popular tutorial around here (at this time). 
 
@@ -76,7 +76,7 @@ Reset the default `ul` styles.
 
 The `#menu` is basically the main `ul` for this menu. CSS3 things like [gradients](/css-gradients-quick-tutorial), [shadows](/how-to-create-slick-effects-with-css3-box-shadow) and [rounded corners](/practical-css3-tables-with-rounded-corners) help us to create the below:
 
-![CSS3 menu wrapper](http://www.red-team-design.com/dist/uploads/2011/11/css3-menu-wrapper.png)
+![CSS3 menu wrapper](/dist/uploads/2011/11/css3-menu-wrapper.png)
 
 {% highlight css %}
 #menu {
@@ -112,7 +112,7 @@ Here is [Nicolas Gallagher](http://nicolasgallagher.com/micro-clearfix-hack/)'s 
 
 ### List elements
 
-![CSS3 menu elements styles](http://www.red-team-design.com/dist/uploads/2011/11/css3-menu-elements.png)
+![CSS3 menu elements styles](/dist/uploads/2011/11/css3-menu-elements.png)
 
 Please notice the `#menu li:hover > a` [selector](/things-you-should-know-about-css-anatomy). This is perhaps the most important [CSS trick](/tips-to-organize-your-css) for this CSS3 dropdown menu. 
 
@@ -149,7 +149,7 @@ So, this is how this works: Select an "a" element that is child of a "li" ; the 
 
 With CSS3 transitons we can animate changes to CSS properties like `margin` or `opacity`. This is very cool and I've used this for animating the CSS3 sub-menus. The result is great if you ask me:
 
-![CSS3 menu animation](http://www.red-team-design.com/dist/uploads/2011/11/css3-menu-animation.gif)
+![CSS3 menu animation](/dist/uploads/2011/11/css3-menu-animation.gif)
 
 {% highlight css %}
 #menu ul {
@@ -212,7 +212,7 @@ With CSS3 transitons we can animate changes to CSS properties like `margin` or `
     
 ### First and last list elements styles
 
-![First and last menu items](http://www.red-team-design.com/dist/uploads/2011/11/css3-dropdown-first-last-items.png)
+![First and last menu items](/dist/uploads/2011/11/css3-dropdown-first-last-items.png)
 
 {% highlight css %}
 #menu ul li:first-child > a {
@@ -274,11 +274,11 @@ While the `:hover` [pseudo-class](/get-to-know-your-css3-target-pseudo-class) do
 
 ### Update: Mobile navigation support
 
-![CSS3 mobile dropdown](http://www.red-team-design.com/dist/uploads/2011/11/css3-mobile-dropdown.png)
+![CSS3 mobile dropdown](/dist/uploads/2011/11/css3-mobile-dropdown.png)
 
 This is something I wished to do for a while and I finally made it. I just added support for mobile devices and fixed the navigation for iPad.
 
-You know how much I love [CSS only](http://www.red-team-design.com/fancy-faq-page-using-css3-only) solutions, but this time we'll be using some jQuery to enhance this menu. To view the result, you can narrow your browser window or browse it with your smartphone.
+You know how much I love [CSS only](/fancy-faq-page-using-css3-only) solutions, but this time we'll be using some jQuery to enhance this menu. To view the result, you can narrow your browser window or browse it with your smartphone.
 
 ### The viewport meta tag
 

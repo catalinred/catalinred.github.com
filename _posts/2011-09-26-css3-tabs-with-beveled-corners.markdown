@@ -146,7 +146,7 @@ Also, the left [shadow](/how-to-create-slick-effects-with-css3-box-shadow) helps
 
 ## Browser support
 
-If you read my previous articles, then you already know that I like to do stuff that works (even if it just degrades gracefully) also on older browsers like the [IE (Trident)](http://www.red-team-design.com/how-to-solve-common-ie-bugs).
+If you read my previous articles, then you already know that I like to do stuff that works (even if it just degrades gracefully) also on older browsers like the [IE (Trident)](/how-to-solve-common-ie-bugs).
 
 Having said that, this demo is working also for older browsers. Obviously, it just look slightly different, as no CSS3 support is available:
 

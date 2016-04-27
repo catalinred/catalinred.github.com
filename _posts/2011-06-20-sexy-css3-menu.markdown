@@ -127,7 +127,7 @@ nav a:hover span {
 
 ## Browser support
 
-If above you have seen how the menu looks in modern browsers, here's how the menu look in [older browsers](http://www.red-team-design.com/how-to-solve-common-ie-bugs):
+If above you have seen how the menu looks in modern browsers, here's how the menu look in [older browsers](/how-to-solve-common-ie-bugs):
 
 ![Menu fallback](/dist/uploads/2011/06/css3-menu-fallback.png)
 _Fallback styles for older browsers_
@@ -148,7 +148,7 @@ font: bold 14px Arial, Helvetica;
 	
   * **No images**, so there are less HTTP image requests, also easy to maintain and update.
 
-  * You could easily transform this menu into a nice [dropdown menu](http://www.red-team-design.com/css3-dropdown-menu).
+  * You could easily transform this menu into a nice [dropdown menu](/css3-dropdown-menu).
 
 ## Conclusion
 

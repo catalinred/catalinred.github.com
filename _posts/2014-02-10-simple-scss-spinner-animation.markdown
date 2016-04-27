@@ -17,7 +17,7 @@ If you're using Wordpress, you surely have seen this spinner effect while perfor
 
 <!-- more -->
 
-People seem to love creating loading indicators and similar stuff, [I've done it before](http://www.red-team-design.com/css3-loading-animation-experiment) as well, but lately I've seen tons and tons of cool ones, hopefully this is just another one you will bookmark. :)
+People seem to love creating loading indicators and similar stuff, [I've done it before](/css3-loading-animation-experiment) as well, but lately I've seen tons and tons of cool ones, hopefully this is just another one you will bookmark. :)
 
 ## Markup
 

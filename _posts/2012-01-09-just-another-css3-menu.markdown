@@ -27,10 +27,10 @@ I know, there are so many CSS3 menu tutorials in the wild (including here on RTD
 
 Below is a list with other CSS3 menu articles you may have read here:
 	
-  * [Sexy CSS3 menu](http://www.red-team-design.com/sexy-css3-menu)	
-  * [CSS3 animated dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu)	
-  * [Cool CSS3 navigation menu](http://www.red-team-design.com/cool-css3-navigation-menu)	
-  * [Vertical dropdown menu with CSS3 and jQuery](http://www.red-team-design.com/create-a-stylish-html5-template-from-scratch)
+  * [Sexy CSS3 menu](/sexy-css3-menu)	
+  * [CSS3 animated dropdown menu](/css3-animated-dropdown-menu)	
+  * [Cool CSS3 navigation menu](/cool-css3-navigation-menu)	
+  * [Vertical dropdown menu with CSS3 and jQuery](/create-a-stylish-html5-template-from-scratch)
 
 ## The idea
 
@@ -87,7 +87,7 @@ nav ul{
 
 ### Step 2
 
-For the menu elements, instead using [float](http://www.red-team-design.com/clearing-floats-nowadays) I chose the `inline-block` alternative. If you want to find out more about `inline-block` pros and cons, I'd recommend Robert Nyman's article: [CSS display: inline-block: why it rocks, and why it sucks](http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/).
+For the menu elements, instead using [float](/clearing-floats-nowadays) I chose the `inline-block` alternative. If you want to find out more about `inline-block` pros and cons, I'd recommend Robert Nyman's article: [CSS display: inline-block: why it rocks, and why it sucks](http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/).
 
 ![Inline block elements](/dist/uploads/2012/01/inline-block-elements.png)
 
@@ -103,7 +103,7 @@ nav li{
 ### Step 3
 
 
-Using cool CSS3 properties like [gradients](http://www.red-team-design.com/css-gradients-quick-tutorial) and [shadows](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) we're going to style the anchor elements:
+Using cool CSS3 properties like [gradients](/css-gradients-quick-tutorial) and [shadows](/how-to-create-slick-effects-with-css3-box-shadow) we're going to style the anchor elements:
 
 ![CSS3 menu link styles](/dist/uploads/2012/01/css3-menu-anchor-styles.png)
 
@@ -141,7 +141,7 @@ nav a:active{
 
 ### Step 4
 
-The below is the most interesting part, in my opinion. Without, adding any extra markup and using a [pseudo-element](http://www.red-team-design.com/before-after-pseudo-elements) you will be able to create a cool effect:
+The below is the most interesting part, in my opinion. Without, adding any extra markup and using a [pseudo-element](/before-after-pseudo-elements) you will be able to create a cool effect:
 
 ![Menu pseudo element](/dist/uploads/2012/01/css3-menu-before-pseudo-element.png)
 

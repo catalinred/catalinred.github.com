@@ -26,16 +26,16 @@ So, today you'll learn how to create awesome CSS3 & jQuery tooltips.
 
 [View demo](/dist/uploads/2011/11/easy-css3-jquery-tooltips-demo.html)
 
-You may already read my previous [CSS3 tooltips](http://www.red-team-design.com/css3-tooltips) tutorial, but this time we'll use some jQuery and [HTML5](http://www.red-team-design.com/create-a-stylish-html5-template-from-scratch) data-* attributes for our tooltips. 
+You may already read my previous [CSS3 tooltips](/css3-tooltips) tutorial, but this time we'll use some jQuery and [HTML5](/create-a-stylish-html5-template-from-scratch) data-* attributes for our tooltips. 
 
 The major advantages of these tooltips are:
 	
   * the simplicity to use (as you'll see below)	
-  * they are [animated using CSS3](http://www.red-team-design.com/css3-animated-dropdown-menu)
+  * they are [animated using CSS3](/css3-animated-dropdown-menu)
 
 ## The HTML
 
-As you can see below, thanks to the new [HTML5 custom data attributes](http://www.red-team-design.com/image-map-with-css3-jquery-tooltips), our tooltip structure looks as clean as possible:    
+As you can see below, thanks to the new [HTML5 custom data attributes](/image-map-with-css3-jquery-tooltips), our tooltip structure looks as clean as possible:    
 
 {% highlight html %}
 <b data-tooltip="Fantasy Action Adventure">Batman: Arkham City</b>
@@ -126,7 +126,7 @@ $(document).ready(function(){
 });
 {% endhighlight %}
 
-_[IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs) gets some extra treatment, as you can see above._
+_[IE6](/how-to-solve-common-ie-bugs) gets some extra treatment, as you can see above._
 
 ## Browser support
 

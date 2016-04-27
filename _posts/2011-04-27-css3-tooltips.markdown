@@ -39,8 +39,8 @@ _How the "bordered" pointer is made_
 
 Here are the **ingredients **that were used to create them:	
 
-  * [Gradients](http://www.red-team-design.com/css-gradients-quick-tutorial)
-  * [Box shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow)
+  * [Gradients](/css-gradients-quick-tutorial)
+  * [Box shadow](/how-to-create-slick-effects-with-css3-box-shadow)
   * [Pseudo-elements](/before-after-pseudo-elements)
 
 ## HTML
@@ -56,7 +56,7 @@ Here are the **ingredients **that were used to create them:
 
 Just for compatibility reasons. IE6 has a problem with the `:hover` pseudo-class used with other elements than anchor.
 
-If you want to use them, and anchors are not an option for you, then you can use this to trigger the tooltips for [IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs):
+If you want to use them, and anchors are not an option for you, then you can use this to trigger the tooltips for [IE6](/how-to-solve-common-ie-bugs):
 
 {% highlight html %}
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>

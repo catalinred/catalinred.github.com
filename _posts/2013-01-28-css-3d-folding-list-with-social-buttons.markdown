@@ -219,7 +219,7 @@ For simplicity's sake, I will not include below all the vendor prefixed properti
 
 Besides the above styles, we'll need to include also the custom web font we're using it here for the social icons. Including a font for these icons might seem overwhelming, but if you're already using it in your project or website, this will come in handy.
 
-For this example, I chose to include it using [WeLoveFontIcons](http://weloveiconfonts.com/) service made by Tim Pietrusky. Also, be aware because last time I checked, Firefox [didn’t allow cross-domain fonts by default](http://www.red-team-design.com/firefox-doesnt-allow-cross-domain-fonts-by-default).
+For this example, I chose to include it using [WeLoveFontIcons](http://weloveiconfonts.com/) service made by Tim Pietrusky. Also, be aware because last time I checked, Firefox [didn’t allow cross-domain fonts by default](/firefox-doesnt-allow-cross-domain-fonts-by-default).
     
 
 {% highlight css %}   

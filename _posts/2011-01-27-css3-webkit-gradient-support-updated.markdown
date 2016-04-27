@@ -13,7 +13,7 @@ tags:
 - CSS3
 ---
 
-A while ago, I wrote another article here about the [CSS3 gradients](http://www.red-team-design.com/css-gradients-quick-tutorial). At that time, you saw the browser support, the advantages of using them and their syntax. 
+A while ago, I wrote another article here about the [CSS3 gradients](/css-gradients-quick-tutorial). At that time, you saw the browser support, the advantages of using them and their syntax. 
 
 **So, what's new since then?**
 The CSS3 Webkit syntax, which was quite different than Mozilla at that time, has been **updated**!

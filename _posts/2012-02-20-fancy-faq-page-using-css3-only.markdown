@@ -47,14 +47,14 @@ We will start as usual with the markup structure:
 	
   * In the above image, the label is the proper heading of the section. But, if you want to use better semantic, you can wrap the `label` into a `h1`.
 	
-  * Using `label::before` allow us to create the right triangle shape. On a side note, double colon for [pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements) is the CSS3 way.
+  * Using `label::before` allow us to create the right triangle shape. On a side note, double colon for [pseudo-elements](/before-after-pseudo-elements) is the CSS3 way.
 	
   * The first paragraph for each section is the intro preview for the complete answer. For this example, I used the [adjacent sibling combinator](http://www.w3.org/TR/css3-selectors/#adjacent-sibling-combinators) to target it.
 
 
 ### How it works?
 
-There's no rocket science here. The technique we will use today is called _the checkbox hack_ and it relies on the ability of [toggle-ing](http://www.red-team-design.com/web-usability-tips-for-your-website) an `<input type="checkbox" id="abc">` using the `<label for="abc">`. Also, in the same time, the checkbox input will be hidden.
+There's no rocket science here. The technique we will use today is called _the checkbox hack_ and it relies on the ability of [toggle-ing](/web-usability-tips-for-your-website) an `<input type="checkbox" id="abc">` using the `<label for="abc">`. Also, in the same time, the checkbox input will be hidden.
 
 I played before with this cool technique, but never had the opportunity to create a practical example actually. So, this is my shot! :)
 
@@ -170,7 +170,7 @@ What about the older browsers? That's a normal question, and the answer is **gra
 
 ![Graceful degradation](/dist/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
 
-Using the following snippet, we're targeting browsers like [IE8 and below](http://www.red-team-design.com/how-to-solve-common-ie-bugs). So, we'll enable the HTML5 elements like `section` and then add some custom styles in order to keep the FAQ's content readable.
+Using the following snippet, we're targeting browsers like [IE8 and below](/how-to-solve-common-ie-bugs). So, we'll enable the HTML5 elements like `section` and then add some custom styles in order to keep the FAQ's content readable.
     
 {% highlight html %}
 <!--[if lt IE 9]>

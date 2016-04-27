@@ -14,11 +14,11 @@ tags:
 - web tools
 ---
 
-A while ago you've read a quick tutorial here about setting up your website with custom fonts using [**@font-face**](http://www.red-team-design.com/css3-font-face-or-how-to-use-a-custom-font-for-your-website). Since then I've been thinking to write about these alternative solutions, pros and cons.
+A while ago you've read a quick tutorial here about setting up your website with custom fonts using [**@font-face**](/css3-font-face-or-how-to-use-a-custom-font-for-your-website). Since then I've been thinking to write about these alternative solutions, pros and cons.
 
 The aim of this post is to briefly round up your options when using custom fonts in web design.
 
-[![](/dist/uploads/2010/10/google-and-typekit-versus-font-face.png)](http://www.red-team-design.com/google-font-api-and-typekit-solutions-vs-font-face)
+[![](/dist/uploads/2010/10/google-and-typekit-versus-font-face.png)](/google-font-api-and-typekit-solutions-vs-font-face)
 
 <!-- more -->
 

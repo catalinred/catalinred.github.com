@@ -21,9 +21,9 @@ Though, there are some simple ways you can simulate smooth transitions on gradie
 
 <!-- more -->
 
-I wrote about this matter before in [one of my articles](http://www.red-team-design.com/css-pitfalls-and-how-to-overcome-them) and I was thinking this new article will hopefully be more useful to you as it contains one more extra technique that can help you faking transitions on background gradients.
+I wrote about this matter before in [one of my articles](/css-pitfalls-and-how-to-overcome-them) and I was thinking this new article will hopefully be more useful to you as it contains one more extra technique that can help you faking transitions on background gradients.
 
-So, what is this about and why would you care about transitions on gradients? The answer is very simple: just think about the situation when you're designing some [CSS3 buttons](http://www.red-team-design.com/just-another-awesome-css3-buttons). To make them look awesome, it's almost mandatory to use shadows, rounded corners and **gradients**.
+So, what is this about and why would you care about transitions on gradients? The answer is very simple: just think about the situation when you're designing some [CSS3 buttons](/just-another-awesome-css3-buttons). To make them look awesome, it's almost mandatory to use shadows, rounded corners and **gradients**.
 
 Read the workarounds described below and you'll be able to greatly improve your gradient buttons, especially their `:hover` state. 
 
@@ -77,7 +77,7 @@ background-image: linear-gradient(top, rgba(255,255,255,.5), rgba(255,255,255,0)
 
 ## 2. Box-shadow
 
-Perhaps this is a bit dirtier, but it's still a fully working technique. Instead of a semi transparent background as above, this assume using an inset [box-shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow):
+Perhaps this is a bit dirtier, but it's still a fully working technique. Instead of a semi transparent background as above, this assume using an inset [box-shadow](/how-to-create-slick-effects-with-css3-box-shadow):
 
 
 {% highlight css %}

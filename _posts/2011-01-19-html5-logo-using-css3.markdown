@@ -40,7 +40,7 @@ Getting back to our business, I thought about the _ingredients_ I'd need for thi
 
 ### CSS borders shapes
 
-As seen before, in one of my previous articles, you can achieve [angled shapes](http://www.red-team-design.com/happy-holidays-with-css3) using CSS borders. In this case, I used borders in order to recreate the shield icon.
+As seen before, in one of my previous articles, you can achieve [angled shapes](/happy-holidays-with-css3) using CSS borders. In this case, I used borders in order to recreate the shield icon.
 
 ### :before and :after pseudo-elements
 

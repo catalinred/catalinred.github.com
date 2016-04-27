@@ -60,13 +60,13 @@ _Contact form preview_
 
 The extra `form-wrapper` and `form-inner` ids are necessary for upcoming CSS styling. 
 
-Instead adding CSS classes for each form element, I could have used advanced CSS selectors like `input[type="text"]`. But, for this demo, I just wanted to look decent on [IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs). If you don't give a damn about older browsers like IE6, feel free to simplify your HTML and CSS code.
+Instead adding CSS classes for each form element, I could have used advanced CSS selectors like `input[type="text"]`. But, for this demo, I just wanted to look decent on [IE6](/how-to-solve-common-ie-bugs). If you don't give a damn about older browsers like IE6, feel free to simplify your HTML and CSS code.
 
-The `for` attribute for the HTML `label` element does not miss here. Its purpose is to increase [usability](http://www.red-team-design.com/web-usability-tips-for-your-website).
+The `for` attribute for the HTML `label` element does not miss here. Its purpose is to increase [usability](/web-usability-tips-for-your-website).
 
 ### HTML5
 
-The HTML5 feature used for this CSS3 contact form is the `placeholder` attribute. This is perhaps one of the coolest HTML5 new stuff. For browsers that do not support this new feature, check one of my previous articles to see how to create [placeholder fallback](http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box) using Jquery.
+The HTML5 feature used for this CSS3 contact form is the `placeholder` attribute. This is perhaps one of the coolest HTML5 new stuff. For browsers that do not support this new feature, check one of my previous articles to see how to create [placeholder fallback](/how-to-create-a-cool-and-usable-css3-search-box) using Jquery.
 
 > The placeholder attribute represents a short hint (a word or short phrase) intended to aid the user with data entry.
 
@@ -74,7 +74,7 @@ The HTML5 feature used for this CSS3 contact form is the `placeholder` attribute
 ### The layout
 
 
-Using cool CSS3 [box shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) and [gradient](http://www.red-team-design.com/css-gradients-quick-tutorial) effects , we'll create a contact form with envelope look. Below you can see the initial CSS styling:
+Using cool CSS3 [box shadow](/how-to-create-slick-effects-with-css3-box-shadow) and [gradient](/css-gradients-quick-tutorial) effects , we'll create a contact form with envelope look. Below you can see the initial CSS styling:
 
 ![CSS3 effects](/dist/uploads/2011/05/css-gradient-and-box-shadow.png)
 

@@ -15,7 +15,7 @@ tags:
 
 This is my first tutorial for you here at red-team-design.com. For my first tutorial I decided to show you how to create a cool neon-effect wallpaper  in just couple steps using Adobe Photoshop and a little patience.
 
-[![](/dist/uploads/2009/09/neon-wallpaper.jpg)](http://www.red-team-design.com/create-a-cool-wallpaper/)
+[![](/dist/uploads/2009/09/neon-wallpaper.jpg)](/create-a-cool-wallpaper/)
 
 <!-- more -->
 

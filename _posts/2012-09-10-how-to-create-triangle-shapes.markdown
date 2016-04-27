@@ -15,7 +15,7 @@ tags:
 - HTML
 ---
 
-You've seen triangles everywhere: on [tooltips](http://www.red-team-design.com/easy-css3-jquery-tooltips), [dropdowns](http://www.red-team-design.com/css3-animated-dropdown-menu) and even on [loading animations](http://www.red-team-design.com/css3-loading-animation-experiment). Like it or not, these small elements are quite important when trying to build some relationships between various UI elements.
+You've seen triangles everywhere: on [tooltips](/easy-css3-jquery-tooltips), [dropdowns](/css3-animated-dropdown-menu) and even on [loading animations](/css3-loading-animation-experiment). Like it or not, these small elements are quite important when trying to build some relationships between various UI elements.
 
 There are some different ways to build a triangle for your web designs and in this article you'll see how you can actually do that.
 
@@ -50,7 +50,7 @@ Assuming you already created your custom triangle image and you want to save a v
 
 ![CSS border triangle](/dist/uploads/2012/09/border-triangle.png)
 
-This is also a pretty common technique used on stuff like [tooltips](http://www.red-team-design.com/css3-tooltips) and [dropdowns](http://www.red-team-design.com/css3-dropdown-menu). Together with the above, this is one of my favorite methods for creating small and useful triangles.
+This is also a pretty common technique used on stuff like [tooltips](/css3-tooltips) and [dropdowns](/css3-dropdown-menu). Together with the above, this is one of my favorite methods for creating small and useful triangles.
 
 ### Pros
 	
@@ -69,7 +69,7 @@ This is also a pretty common technique used on stuff like [tooltips](http://www.
 
 ![HTML entity triangle](/dist/uploads/2012/09/entity-triangle.png)
 
-If you read my [previous](http://www.red-team-design.com/simple-and-effective-dropdown-login-box) [articles](http://www.red-team-design.com/just-another-awesome-css3-buttons), then you've seen how this solution works. It's based on using characters from the available [Unicode characters list](http://en.wikipedia.org/wiki/List_of_Unicode_characters).
+If you read my [previous](/simple-and-effective-dropdown-login-box) [articles](/just-another-awesome-css3-buttons), then you've seen how this solution works. It's based on using characters from the available [Unicode characters list](http://en.wikipedia.org/wiki/List_of_Unicode_characters).
 
 ### Pros
 	

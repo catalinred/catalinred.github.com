@@ -19,7 +19,7 @@ At the beginning, perhaps you were developing websites just for fun or you were 
 
 In this article we'll try to remember some basic, unwritten  web usability rules.
 
-[![Usability Tips for your website or web application](/dist/uploads/2010/07/usability-tips.png)](http://www.red-team-design.com/web-usability-tips-for-your-website)
+[![Usability Tips for your website or web application](/dist/uploads/2010/07/usability-tips.png)](/web-usability-tips-for-your-website)
 
 <!-- more -->
 

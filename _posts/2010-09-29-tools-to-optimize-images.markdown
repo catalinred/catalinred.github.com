@@ -17,7 +17,7 @@ Adobe Photoshop's **save for web** does a very good job when it comes about opti
 
 A smaller image means a faster web page, lower bandwidth consumption so you have a lot of reasons to optimize your images. In the following rows I'll introduce you some tools that will help you achieve this.
 
-[![Tools to optimize your images](/dist/uploads/2010/09/riot-png-optimizer.png)](http://www.red-team-design.com/tools-to-optimize-images/) 
+[![Tools to optimize your images](/dist/uploads/2010/09/riot-png-optimizer.png)](/tools-to-optimize-images/) 
 
 <!-- more -->
 

@@ -137,7 +137,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
     <div id="content">
         <article>
             <section>
-                <h1><a href="http://www.red-team-design.com/css3-dropdown-menu">CSS3 Dropdown menu</a></h1>
+                <h1><a href="/css3-dropdown-menu">CSS3 Dropdown menu</a></h1>
                 <figure>
                     <img src="/dist/uploads/2011/03/css-menu.png" width="600" height="200" alt="CSS3 Dropdown menu">
                     <figcaption>Contains clean and accessible HTML structure. Javascript fix only for IE6.</figcaption>
@@ -147,7 +147,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
         </article>
         <article>        
             <section>
-                <h1><a href="http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box">CSS3 search box</a></h1>
+                <h1><a href="/how-to-create-a-cool-and-usable-css3-search-box">CSS3 search box</a></h1>
                 <figure>
                     <img src="/dist/uploads/2011/02/css3-searchbox.png" width="600" height="200" alt="CSS3 search box">
                     <figcaption>Modernizr's feature detection included.</figcaption>                    
@@ -157,7 +157,7 @@ Keep in mind that now that we have these new HTML elements, we should not forget
         </article>
         <article>        
             <section>
-                <h1><a href="http://www.red-team-design.com/css3-tooltips">CSS3 tooltips</a></h1>
+                <h1><a href="/css3-tooltips">CSS3 tooltips</a></h1>
                 <figure>
                     <img src="/dist/uploads/2011/04/css3-tooltips.png" width="600" height="200" alt="CSS3 tooltips">
                     <figcaption>CSS3 gradients, box shadows, pseudo-elements.</figcaption>                    
@@ -198,7 +198,7 @@ The jQuery code who animates this menu:
 
 {% highlight html %}
 <footer>
-    Design and code by <a href="http://www.red-team-design.com/">RedTeamDesign</a>
+    Design and code by <a href="/">RedTeamDesign</a>
 </footer>
 {% endhighlight %}
 

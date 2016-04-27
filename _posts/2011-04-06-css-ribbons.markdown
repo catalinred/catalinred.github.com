@@ -56,7 +56,7 @@ h1 {
 
 ![CSS heading expanded](/dist/uploads/2011/04/heading-expanded.png)
 
-Further, to add the corners, we'll use [CSS triangles](http://www.red-team-design.com/css3-dropdown-menu) made with  pseudo-elements.
+Further, to add the corners, we'll use [CSS triangles](/css3-dropdown-menu) made with  pseudo-elements.
     
 {% highlight css %}
 h1 {

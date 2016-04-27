@@ -26,7 +26,7 @@ In this article you'll find out how to design a clean and attractive CSS3 signup
 
 [View demo](/dist/uploads/2012/03/css3-signup-form-demo.html)
 
-In the past, I have designed some [sign in](http://www.red-team-design.com/slick-login-form-with-html5-css3) [forms](http://www.red-team-design.com/simple-and-effective-dropdown-login-box), but never a signup form. So, to get the job completely done, I decided to write this article.
+In the past, I have designed some [sign in](/slick-login-form-with-html5-css3) [forms](/simple-and-effective-dropdown-login-box), but never a signup form. So, to get the job completely done, I decided to write this article.
 
 ## The HTML
 
@@ -61,7 +61,7 @@ As usual, I'll list below the styles used for this example. Prefixed properties 
 
 After I created a simple `3x4` image pattern, I converted it into a base64 string. To do that, I used this wonderful [Image to Base64 Converter tool](http://webcodertools.com/imagetobase64converter). You can see it in the styles as a background for `#signup`.
 
-Regarding the [paper stack effect](http://www.red-team-design.com/slick-login-form-with-html5-css3), this time we're using the `::before` and `::after` `pseudo-elements` to do that. [Here](http://www.red-team-design.com/just-another-css3-menu)'s one of my previous articles where I used a similar technique. 
+Regarding the [paper stack effect](/slick-login-form-with-html5-css3), this time we're using the `::before` and `::after` `pseudo-elements` to do that. [Here](/just-another-css3-menu)'s one of my previous articles where I used a similar technique. 
 
 
 {% highlight css %}
@@ -139,7 +139,7 @@ _Using pseudo-elements (again) :)_
 
 ### Form elements
 
-Not so much to say here. For the submit button, please notice the [gradient transition workaround](http://www.red-team-design.com/css-pitfalls-and-how-to-overcome-them).
+Not so much to say here. For the submit button, please notice the [gradient transition workaround](/css-pitfalls-and-how-to-overcome-them).
 
 {% highlight css %}
 ::-webkit-input-placeholder {

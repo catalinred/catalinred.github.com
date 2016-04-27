@@ -18,7 +18,7 @@ Writing CSS can be a pain and can give you headaches. The truth is that CSS ain'
 
 In the following rows I'll try to present you some important snippets I often use in my project and I hope these will help you too.
 
-[![Useful CSS snippets](/dist/uploads/2010/11/useful-css-snippets.png)](http://www.red-team-design.com/useful-css-snippets-to-save-your-time)
+[![Useful CSS snippets](/dist/uploads/2010/11/useful-css-snippets.png)](/useful-css-snippets-to-save-your-time)
 
 <!-- more -->
 
@@ -122,7 +122,7 @@ div {
 }
 {% endhighlight %}
 
-...and, as IE6 and IE7 [don't support](http://www.quirksmode.org/css/display.html) the "**display: table**" declaration you can use an alternative [method](http://www.red-team-design.com/center-a-block-element-without-knowing-its-width-part-ii) I often use:
+...and, as IE6 and IE7 [don't support](http://www.quirksmode.org/css/display.html) the "**display: table**" declaration you can use an alternative [method](/center-a-block-element-without-knowing-its-width-part-ii) I often use:
 
 {% highlight html %}
 <table class="centered-block">

@@ -18,7 +18,7 @@ We all try to be very creative when it comes to designing a website navigation. 
 
 I wrote before about how to create [different](/css3-dropdown-menu) [menus](/sexy-css3-menu) and today you'll learn how to create another stylish CSS3 navigation menu.
 
-![](http://www.red-team-design.com/dist/uploads/2011/10/cool-navigation-menu.jpg)
+![](/dist/uploads/2011/10/cool-navigation-menu.jpg)
 
 <!-- more -->
 
@@ -109,7 +109,7 @@ nav li:last-child a {
 
 
 
-[![CSS3 navigation menu](http://www.red-team-design.com/dist/uploads/2011/10/cool-navigation-menu-result.jpg)](/dist/uploads/2011/10/cool-css3-navigation-menu-demo.html)
+[![CSS3 navigation menu](/dist/uploads/2011/10/cool-navigation-menu-result.jpg)](/dist/uploads/2011/10/cool-css3-navigation-menu-demo.html)
 
 _[Gradients](/css-gradients-quick-tutorial) and [inset shadows](/how-to-create-slick-effects-with-css3-box-shadow) were used for the `:hover` and `:active` states._
 
@@ -117,7 +117,7 @@ _[Gradients](/css-gradients-quick-tutorial) and [inset shadows](/how-to-create-s
 
 I like to make things work across all browsers, degrading gracefully:
 
-![IE trident](http://www.red-team-design.com/dist/uploads/2011/10/cool-navigation-menu-ie.jpg)
+![IE trident](/dist/uploads/2011/10/cool-navigation-menu-ie.jpg)
 
 _[IE trident](/how-to-solve-common-ie-bugs) preview_
 

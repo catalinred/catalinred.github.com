@@ -189,7 +189,7 @@ Keep your CSS as simple as possible:
 
 ## So, why should I use this pricing table design?
 
-While its structure isn't actually based on [tables](http://www.red-team-design.com/practical-css3-tables-with-rounded-corners), here are some pros:
+While its structure isn't actually based on [tables](/practical-css3-tables-with-rounded-corners), here are some pros:
     
   * Minimal HTML code.    
   * No images at all and CSS3 ready, so this is easy to maintain/update.    
@@ -197,7 +197,7 @@ While its structure isn't actually based on [tables](http://www.red-team-design.
 
 ![Internet Explorer preview](/dist/uploads/2011/12/css3-pricing-table-ie8.png)
 
-_[Internet Explorer](http://www.red-team-design.com/how-to-solve-common-ie-bugs) 8 - preview_
+_[Internet Explorer](/how-to-solve-common-ie-bugs) 8 - preview_
 
 ## Conclusion
 

@@ -16,7 +16,7 @@ tags:
 - usability
 ---
 
-A while ago, I wrote about the CSS3 `:target` pseudo-class and how can that help you achieve [cool results](http://www.red-team-design.com/get-to-know-your-css3-target-pseudo-class). Today you'll learn how to create a pretty simple animated CSS3 accordion with its help.
+A while ago, I wrote about the CSS3 `:target` pseudo-class and how can that help you achieve [cool results](/get-to-know-your-css3-target-pseudo-class). Today you'll learn how to create a pretty simple animated CSS3 accordion with its help.
 
 ![CSS3 accordion](/dist/uploads/2011/05/css3-accordion.png)
 
@@ -26,7 +26,7 @@ A while ago, I wrote about the CSS3 `:target` pseudo-class and how can that help
 
 ## What is an accordion
 
-If you're designing with [usability](http://www.red-team-design.com/web-usability-tips-for-your-website) in mind, then an accordion can be very useful when willing to organize content. The main advantage is packing a lot of content in a reduced space.
+If you're designing with [usability](/web-usability-tips-for-your-website) in mind, then an accordion can be very useful when willing to organize content. The main advantage is packing a lot of content in a reduced space.
 
 ## The HTML5 part
 

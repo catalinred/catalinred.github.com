@@ -85,7 +85,7 @@ Regarding degradation, here's my method:
   
   * If the browser does not support CSS filters (currently all except Canary) but it does support the `:not`, then just decrease opacity.
   
-  * If the [browser is too old](http://www.red-team-design.com/how-to-solve-common-ie-bugs) and does not support neither opacity nor `:not` [selector](http://caniuse.com/#search=:not), then do nothing.
+  * If the [browser is too old](/how-to-solve-common-ie-bugs) and does not support neither opacity nor `:not` [selector](http://caniuse.com/#search=:not), then do nothing.
 
 
 ## Browser support
@@ -94,4 +94,4 @@ Here's the current support for the CSS filter effects: Chrome 20.0.1123.0 (curre
 
 ## Conclusion
 
-**The future sounds good**. We already have a Flexbox Module and CSS Filters, I like to think that in the near future we'll also have [variables](http://www.red-team-design.com/css-variables) and the [CSS parent selector](http://www.red-team-design.com/meet-the-css4-selectors) ready to use. Exciting times for web developers, don't you think so?
+**The future sounds good**. We already have a Flexbox Module and CSS Filters, I like to think that in the near future we'll also have [variables](/css-variables) and the [CSS parent selector](/meet-the-css4-selectors) ready to use. Exciting times for web developers, don't you think so?

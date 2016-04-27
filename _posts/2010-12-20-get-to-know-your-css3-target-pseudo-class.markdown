@@ -18,7 +18,7 @@ The `:target` pseudo-class is one of those amazing CSS3 features. It matches an 
 
 This identifier in a URI contains a "#" character followed by an identifier name that matches the value of an id attribute of an element within the document.
 
-[![CSS3 :target pseudo-class](http://www.red-team-design.com/dist/uploads/2010/12/css-target-pseudo-class.png)](/get-to-know-your-css3-target-pseudo-class)
+[![CSS3 :target pseudo-class](/dist/uploads/2010/12/css-target-pseudo-class.png)](/get-to-know-your-css3-target-pseudo-class)
 
 <!-- more -->
 
@@ -91,7 +91,7 @@ div:target {
 
 Below you can find the result, when a list element it's clicked, the corresponding block will look as active.
 
-[![CSS3 :target example](http://www.red-team-design.com/dist/uploads/2010/12/target-example.png)](http://www.red-team-design.com/dist/uploads/2010/12/css-target-pseudo-class.html)
+[![CSS3 :target example](/dist/uploads/2010/12/target-example.png)](/dist/uploads/2010/12/css-target-pseudo-class.html)
 
 ## That's all!
 

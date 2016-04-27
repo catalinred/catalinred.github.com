@@ -44,7 +44,7 @@ In this case, using the iconic font, the `<i class="icon-user"></i>` should gene
 {% endhighlight %}    
 
 
-_The style.css would contain all necessary [@font-face](http://www.red-team-design.com/css3-font-face-or-how-to-use-a-custom-font-for-your-website) declarations for the iconic font._
+_The style.css would contain all necessary [@font-face](/css3-font-face-or-how-to-use-a-custom-font-for-your-website) declarations for the iconic font._
 
 ## The problem
 
@@ -82,7 +82,7 @@ location ~* \.(eot|otf|ttf|woff)$ {
 ### Options
 	
   * Serve the fonts from another hosting service, where you can set the headers.	
-  * Embed the font in your as a [Base64](http://www.red-team-design.com/css3-signup-form) string.
+  * Embed the font in your as a [Base64](/css3-signup-form) string.
 
 ## Read more
 

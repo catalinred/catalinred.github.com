@@ -17,7 +17,7 @@ Centering an element may seem quite simple thinking that “text-align:center”
 
 In this article you'll learn how to center a block element with variable width.
 
-[![By default div has auto width](/dist/uploads/2010/01/center-block-element.png)](http://www.red-team-design.com/center-a-block-element-without-knowing-its-width/)
+[![By default div has auto width](/dist/uploads/2010/01/center-block-element.png)](/center-a-block-element-without-knowing-its-width/)
 
 <!-- more -->
 

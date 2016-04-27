@@ -15,13 +15,13 @@ tags:
 - jQuery
 ---
 
-Ever since I started working for one of my [CSS3 breadcrumbs](http://www.red-team-design.com/css3-breadcrumbs) example, I thought about writing this tutorial. In this article, I will use a similar technique in order to create some good looking CSS3 tabs.
+Ever since I started working for one of my [CSS3 breadcrumbs](/css3-breadcrumbs) example, I thought about writing this tutorial. In this article, I will use a similar technique in order to create some good looking CSS3 tabs.
 
 ![](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)
 
 <!-- more -->
 
-While in my previous [CSS3 tabs tutorial](http://www.red-team-design.com/css3-tabs-with-beveled-corners) I tried to simulate some beveled corners for the tabs, this time I will show you how to **create folder tabs** using nothing more than pure CSS3.
+While in my previous [CSS3 tabs tutorial](/css3-tabs-with-beveled-corners) I tried to simulate some beveled corners for the tabs, this time I will show you how to **create folder tabs** using nothing more than pure CSS3.
 
 [View demo](/dist/uploads/2012/01/css3-jquery-folder-tabs.html)
 

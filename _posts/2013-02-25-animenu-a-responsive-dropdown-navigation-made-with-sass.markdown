@@ -17,7 +17,7 @@ tags:
 
 <ins>Check out the [Animenu GitHub repository](https://github.com/catalinred/Animenu) for the updated version of this dropdown navigation concept.</ins>
 
-I've been pretty happy lately to see I'm still receiving a lot of positive feedback on my [animated dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu). I found that quite encouraging and I decided to start working on an improved version of it using SASS & Compass. The new version is responsive, has no JavaScript dependency and it's hosted on [GitHub](https://github.com/catalinred/Animenu) too.
+I've been pretty happy lately to see I'm still receiving a lot of positive feedback on my [animated dropdown menu](/css3-animated-dropdown-menu). I found that quite encouraging and I decided to start working on an improved version of it using SASS & Compass. The new version is responsive, has no JavaScript dependency and it's hosted on [GitHub](https://github.com/catalinred/Animenu) too.
 
 ![animenu-preview](/dist/uploads/2013/02/animenu-preview.png)
 
@@ -28,7 +28,7 @@ or [download](https://github.com/catalinred/Animenu) the .zip from GitHub
 
 ## Some words on this project
 
-Some of the decisions I had to take on this new improved dropdown navigation were on the browser support and number of levels this menu will support. All these, considering that my [previous](http://www.red-team-design.com/css3-dropdown-menu) [versions](http://www.red-team-design.com/css3-animated-dropdown-menu) support IE6 and until three levels of dropdown navigation.
+Some of the decisions I had to take on this new improved dropdown navigation were on the browser support and number of levels this menu will support. All these, considering that my [previous](/css3-dropdown-menu) [versions](/css3-animated-dropdown-menu) support IE6 and until three levels of dropdown navigation.
 
 But, this time the accent is put on responsiveness.
 
@@ -41,7 +41,7 @@ The browser support for this dropdown navigation is IE8+, so it uses the new box
 
 ![Animenu - one dropdown level](/dist/uploads/2013/02/one-dropdown-level.png)
 
-For a better user experience and to avoid usability issues, in my opinion one dropdown level is more than enough for a navigation menu. If you theoretically would need more levels, you may try considering another implementation of that content or/and other navigation techniques like [tabs](http://www.red-team-design.com/google-play-minimal-tabs-with-css3-jquery) and [breadcrumbs](http://www.red-team-design.com/css3-breadcrumbs).
+For a better user experience and to avoid usability issues, in my opinion one dropdown level is more than enough for a navigation menu. If you theoretically would need more levels, you may try considering another implementation of that content or/and other navigation techniques like [tabs](/google-play-minimal-tabs-with-css3-jquery) and [breadcrumbs](/css3-breadcrumbs).
 
 Also, an important factor on choosing just one dropdown level was the ability of using this type of navigation on touch devices like iPad, while on iPhone for example, the navigation dropdowns rearrange into a stack.
 
@@ -74,7 +74,7 @@ As you may have guessed, there's nothing complicated here. The only thing worth 
 
 I must admit at the beginning I was a bit reluctant on using SASS for writing CSS but in the end it turned out to be a real pleasure to do so. Having programming stuff like variables and functions at your reach is pretty satisfying. Also, I like how nesting rules helps you organize the code. Last but not least, I enjoy using single-line comments, just like in JavaScript or PHP. As a side note, I'm using SCSS here, which is the latest syntax of SASS.
 
-With all these being said, here are some quick thoughts on how I SASSified my [animated dropdown menu](http://www.red-team-design.com/css3-animated-dropdown-menu):
+With all these being said, here are some quick thoughts on how I SASSified my [animated dropdown menu](/css3-animated-dropdown-menu):
 
 ### Variables
     

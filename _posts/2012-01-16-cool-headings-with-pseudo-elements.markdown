@@ -23,7 +23,7 @@ Whether you're designing a website or a web application, you'll need custom styl
 
 ## Introduction
 
-So, why [pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements)? The answer is very simple: there is no need to add extra markup. This fit perfectly for the heading we're going to create here.
+So, why [pseudo-elements](/before-after-pseudo-elements)? The answer is very simple: there is no need to add extra markup. This fit perfectly for the heading we're going to create here.
 
 ## The HTML
     
@@ -88,7 +88,7 @@ Below is a simple and good looking effect made using CSS `border` property:
 {% endhighlight %}
 
 ## Headline 2
-This style is made using a CSS triangle shape, you've seen this before [here](http://www.red-team-design.com/css3-animated-dropdown-menu):
+This style is made using a CSS triangle shape, you've seen this before [here](/css3-animated-dropdown-menu):
 
 ![CSS heading style 2](/dist/uploads/2012/01/css-heading-2.jpg)
 
@@ -120,7 +120,7 @@ This style is made using a CSS triangle shape, you've seen this before [here](ht
 
 ## Headline 3
 
-The below HTML heading style is created using the [ribbon](http://www.red-team-design.com/css-ribbons) effect:
+The below HTML heading style is created using the [ribbon](/css-ribbons) effect:
 
 ![CSS heading style 3](/dist/uploads/2012/01/css-heading-3.jpg)
 
@@ -158,7 +158,7 @@ The below HTML heading style is created using the [ribbon](http://www.red-team-d
 
 ## Headline 4
 
-Using `box-shadow`, you can create some [slick effects](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow):
+Using `box-shadow`, you can create some [slick effects](/how-to-create-slick-effects-with-css3-box-shadow):
 
 ![CSS heading style 4](/dist/uploads/2012/01/css-heading-4.jpg)
 

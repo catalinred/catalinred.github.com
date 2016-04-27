@@ -15,7 +15,7 @@ tags:
 
 You've seen progress bars everywhere, they are those bars that display the current completion state for a process, such as a download or file transfer. Whether you're building a desktop or a web application, at a certain point, you may need to use this UI element.
 
-Having said that, in this article you'll learn how to create **stylish and [animated](http://www.red-team-design.com/css3-animated-dropdown-menu) progress bars** using CSS3.
+Having said that, in this article you'll learn how to create **stylish and [animated](/css3-animated-dropdown-menu) progress bars** using CSS3.
 
 ![Stylish CSS3 progress bars preview](/dist/uploads/2011/11/stylish-css3-progress-bars.png)
 
@@ -64,7 +64,7 @@ General styles for the CSS3 progress bar and filled area:
 
 ![Default CSS3 progress bar](/dist/uploads/2011/11/css3-progress-bar-default.png)
 
-Let's add some color/[gradients](http://www.red-team-design.com/css-gradients-quick-tutorial):
+Let's add some color/[gradients](/css-gradients-quick-tutorial):
 
 {% highlight css %}
 .blue span {
@@ -84,7 +84,7 @@ Let's add some color/[gradients](http://www.red-team-design.com/css-gradients-qu
 
 ### Stripes
 
-You may have seen this [CSS3 technique](http://www.red-team-design.com/cool-notification-messages-with-css3-jquery) before, I just adapted it a little for this example:
+You may have seen this [CSS3 technique](/cool-notification-messages-with-css3-jquery) before, I just adapted it a little for this example:
     
 {% highlight css %}
 .stripes span {
@@ -132,13 +132,13 @@ Not sure if this is the best name I could find for this CSS3 animation, but here
 }
 {% endhighlight %}
 
-This CSS3 progress bar example uses an CSS3 `::after` [pseudo-element](http://www.red-team-design.com/before-after-pseudo-elements) which animates. Currently, animating generated content with CSS3 is available only on **latest Firefox browsers**. I hope that soon it will be a wider support for that.
+This CSS3 progress bar example uses an CSS3 `::after` [pseudo-element](/before-after-pseudo-elements) which animates. Currently, animating generated content with CSS3 is available only on **latest Firefox browsers**. I hope that soon it will be a wider support for that.
 
 ![CSS3 shine effect](/dist/uploads/2011/11/css3-progress-bar-shine.png)
 
 ### Glow
 
-CSS3 keyframes animation based on [box-shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) property:
+CSS3 keyframes animation based on [box-shadow](/how-to-create-slick-effects-with-css3-box-shadow) property:
 
 {% highlight css %}
 .glow span {

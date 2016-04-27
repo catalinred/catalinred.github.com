@@ -15,7 +15,7 @@ tags:
 - HTML
 ---
 
-The title pretty much says it all. These days I was working on a small web project and while creating the so well known [triangle effect](http://www.red-team-design.com/how-to-create-triangle-shapes) using CSS borders I've noticed some rendering inconsistencies on Firefox I thought they were fixed by now.
+The title pretty much says it all. These days I was working on a small web project and while creating the so well known [triangle effect](/how-to-create-triangle-shapes) using CSS borders I've noticed some rendering inconsistencies on Firefox I thought they were fixed by now.
 
 ![CSS borders on Firefox](/dist/uploads/2012/12/css-borders-firefox.jpg)
 
@@ -106,4 +106,4 @@ As far as I tested, it seems that this behavior is fixed on Mozilla Firefox Nigh
 
 If you're like me and like all these CSS small thingies, then you'll enjoy this article. Don't hesitate to leave a comment and thanks for reading!
 
-P.S. Even if I wrote before that [Firefox doesn’t allow cross-domain fonts](http://www.red-team-design.com/firefox-doesnt-allow-cross-domain-fonts-by-default), I still love Firefox because it's the only one, at this time, that allows animations for CSS pseudo elements. Hopefully, the other browsers will catch up eventually.
+P.S. Even if I wrote before that [Firefox doesn’t allow cross-domain fonts](/firefox-doesnt-allow-cross-domain-fonts-by-default), I still love Firefox because it's the only one, at this time, that allows animations for CSS pseudo elements. Hopefully, the other browsers will catch up eventually.

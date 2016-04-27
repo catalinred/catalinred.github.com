@@ -17,7 +17,7 @@ One of the CSS properties people like to use nowadays is the CSS _text-shadow_
 
 The times when you had to use the CSS image replacement technique for a simple text shadow effect are gone.
 
-[![](/dist/uploads/2009/12/css-shadow.gif)](http://www.red-team-design.com/drop-shadow-effect-using-css/)
+[![](/dist/uploads/2009/12/css-shadow.gif)](/drop-shadow-effect-using-css/)
 
 <!-- more -->
 

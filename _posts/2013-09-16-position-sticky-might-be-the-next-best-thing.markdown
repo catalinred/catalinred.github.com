@@ -74,6 +74,6 @@ If you're looking for a wider cross-browser solution, there are some polyfils in
 ## It's our responsibility, isn't it?
 
 
-I'm aware that just like `width: fit-content`, which [I wrote about](http://www.red-team-design.com/horizontal-centering-using-css-fit-content-value) a while ago,  `position: sticky` has a low browser support at this time. So, you may be right to think you could "stick" with `position: fixed` and some basic JavaScript lines for now.
+I'm aware that just like `width: fit-content`, which [I wrote about](/horizontal-centering-using-css-fit-content-value) a while ago,  `position: sticky` has a low browser support at this time. So, you may be right to think you could "stick" with `position: fixed` and some basic JavaScript lines for now.
 
-But, isn't staying up-to-date with latest news and always trying cutting edge stuff makes us [better developers](http://www.red-team-design.com/becoming-a-better-developer)? Keep experimenting, and have fun with it!
+But, isn't staying up-to-date with latest news and always trying cutting edge stuff makes us [better developers](/becoming-a-better-developer)? Keep experimenting, and have fun with it!

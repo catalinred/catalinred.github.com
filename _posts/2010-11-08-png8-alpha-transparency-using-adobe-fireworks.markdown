@@ -19,7 +19,7 @@ I know some of you will say that this is impossible, because that was exactly wh
 
 But, Adobe Fireworks makes itself "guilty" about that and in this article I will show you how you can get a PNG-8 image with alpha transparency.
 
-[![](/dist/uploads/2010/10/fireworks-png.png)](http://www.red-team-design.com/png8-alpha-transparency-using-adobe-fireworks)
+[![](/dist/uploads/2010/10/fireworks-png.png)](/png8-alpha-transparency-using-adobe-fireworks)
 
 <!-- more -->
 

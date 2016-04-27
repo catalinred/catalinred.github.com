@@ -27,7 +27,7 @@ The pricing table's design also plays an important role here. So, in today's art
 [View demo](/dist/uploads/2012/07/effective-css3-pricing-table.html)
 
 
-Before going further, in case you missed it, you may want to check also my previous [CSS3 pricing table design](http://www.red-team-design.com/css3-pricing-table).
+Before going further, in case you missed it, you may want to check also my previous [CSS3 pricing table design](/css3-pricing-table).
 
 ## The HTML
 
@@ -102,7 +102,7 @@ The snippet below contains the initial styles for our pricing table layout:
 
 ![Slick drop shadow](/dist/uploads/2012/07/pricing-plan-slick-shadow.jpg)
 
-To add some depth to our pricing plans, we'll add a [cool shadow](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) for each.
+To add some depth to our pricing plans, we'll add a [cool shadow](/how-to-create-slick-effects-with-css3-box-shadow) for each.
     
 {% highlight css %}
 #pricing-table .plan:after {

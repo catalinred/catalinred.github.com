@@ -15,7 +15,7 @@ tags:
 
 When starting coding a Photoshop layout or whenever you work for something,  you should always be aware of some CSS tips that will make your life easier.
 
-[![](/dist/uploads/2009/11/css-tips-tricks.png)](http://www.red-team-design.com/css-tips-and-tricks-you-should-always-use/)
+[![](/dist/uploads/2009/11/css-tips-tricks.png)](/css-tips-and-tricks-you-should-always-use/)
 
 <!-- more -->
 
@@ -49,7 +49,7 @@ body, div, h1,h2, h3, h4, h5, h6, p,ul
 
 ![style-inputs](/dist/uploads/2009/10/style-button-input.png)
 
-There is no reason why you must use the predefined styles for the inputs, so always try to [customize the inputs](http://www.red-team-design.com/style-an-input-button). If you don't do that you will experience different looks for different browsers.
+There is no reason why you must use the predefined styles for the inputs, so always try to [customize the inputs](/style-an-input-button). If you don't do that you will experience different looks for different browsers.
 
 ## 4. Use CSS comments
 

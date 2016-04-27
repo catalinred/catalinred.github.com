@@ -20,7 +20,7 @@ I am sure you did, as I was there, too.
 
 If you are in this situation or if you are looking for alternatives then read more, because in this article I will present you some free development applications you can use to edit your files.
 
-[![Free text editors tools](/dist/uploads/2010/10/free-text-editors.png)](http://www.red-team-design.com/free-text-editors-tools-for-developers)
+[![Free text editors tools](/dist/uploads/2010/10/free-text-editors.png)](/free-text-editors-tools-for-developers)
 
 <!-- more -->
 

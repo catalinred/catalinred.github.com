@@ -23,9 +23,9 @@ In this article you'll learn how to create some cool CSS3 buttons in just a few 
 
 [View demo](/dist/uploads/2011/09/awesome-css3-buttons.html)
 
-While last time we've created simple [CSS3 gradient buttons](http://www.red-team-design.com/cross-browser-css-gradient-buttons), this time we'll build some nice CSS3 buttons with icons.
+While last time we've created simple [CSS3 gradient buttons](/cross-browser-css-gradient-buttons), this time we'll build some nice CSS3 buttons with icons.
 
-In order to create the icons, this set of CSS3 buttons uses [HTML entities](http://en.wikipedia.org/wiki/Html_entity). Also, [gradients](http://www.red-team-design.com/css-gradients-quick-tutorial), [shadows](http://www.red-team-design.com/how-to-create-slick-effects-with-css3-box-shadow) and many other CSS3 features do not miss.
+In order to create the icons, this set of CSS3 buttons uses [HTML entities](http://en.wikipedia.org/wiki/Html_entity). Also, [gradients](/css-gradients-quick-tutorial), [shadows](/how-to-create-slick-effects-with-css3-box-shadow) and many other CSS3 features do not miss.
 
 ## Minimal markup
 
@@ -161,7 +161,7 @@ There you go, you've just increased/decreased the button's size!
 
 ### Rendering & browsers support
 
-The icons are added using the `:before` [pseudo-element](http://www.red-team-design.com/before-after-pseudo-elements). Therefore, you won't see any icons in browsers like IE7 and below, but the buttons will look good yet.
+The icons are added using the `:before` [pseudo-element](/before-after-pseudo-elements). Therefore, you won't see any icons in browsers like IE7 and below, but the buttons will look good yet.
 
 Different operating systems and different browsers means different rendering for the HTML entities we used as icons. If you want to use another icons instead, you could try something like [Pictos](http://pictos.drewwilson.com/).
 

@@ -28,7 +28,7 @@ For this example, I'll be using two CSS3 animations: one that fades the color fo
 
 ## The HTML
 
-Initially, I wanted to use [pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements) in order to have less markup elements. But, the thing is that generated content can't be animated yet in other browsers than Mozilla Firefox.
+Initially, I wanted to use [pseudo-elements](/before-after-pseudo-elements) in order to have less markup elements. But, the thing is that generated content can't be animated yet in other browsers than Mozilla Firefox.
 
 Here's how the markup looks like:
     
@@ -98,6 +98,6 @@ There are some things you may find interesting here:
 
 This is an experiment and you must be aware of it. For now, I think an animated GIF will do the job better in most of cases.
 
-Also, this isn't that example that advocates for using CSS3 stuff instead images to save HTTP requests. It is not applicable here as limited browser support for [CSS3 animations](http://www.red-team-design.com/cool-notification-messages-with-css3-jquery) has something to say. Though, I hope you'll find this example useful and inspiring for your future projects. 
+Also, this isn't that example that advocates for using CSS3 stuff instead images to save HTTP requests. It is not applicable here as limited browser support for [CSS3 animations](/cool-notification-messages-with-css3-jquery) has something to say. Though, I hope you'll find this example useful and inspiring for your future projects. 
 
 Thanks for reading and I'm looking forward to read your opinions!

@@ -98,7 +98,7 @@ Until a few days ago, Firefox was the only one that supported transitions and an
 ## When you drop IE6 and IE7...
 
 
-[IE6](http://www.red-team-design.com/how-to-solve-common-ie-bugs) does not play an important role anymore, so with that in mind, now it's perfectly OK to use:
+[IE6](/how-to-solve-common-ie-bugs) does not play an important role anymore, so with that in mind, now it's perfectly OK to use:
 	
   * Multiple CSS class selectors (e.g. `.foo.bar`)	
   * Attribute selectors (e.g. `E[foo]`)	

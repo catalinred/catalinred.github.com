@@ -21,7 +21,7 @@ But what happens when you want the paragraph to look like a block next to the im
 
 However, with this article I will show you a quick solution for this issue. Actually, a very simple and fast trick, but very useful in these cases.
 
-[![Fix wrapping text around floated elements ](/dist/uploads/2010/11/remove-wrapping-text.png)](http://www.red-team-design.com/how-to-fix-wrapping-text-around-floated-elements)
+[![Fix wrapping text around floated elements ](/dist/uploads/2010/11/remove-wrapping-text.png)](/how-to-fix-wrapping-text-around-floated-elements)
 
 <!-- more -->
 

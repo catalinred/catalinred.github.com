@@ -177,7 +177,7 @@ So, it sounds to me that they are quite serious about further developing this te
 
 ## A test case
 
-While doing some research on this article, I reminded I read a while ago an article by Chris Coyier regarding [styling horizontal rules](http://css-tricks.com/simple-styles-for-horizontal-rules/). The `hr` is a replaced element, as Chris also states in that article. Now, the interesting part here is that [pseudo-elements](http://www.red-team-design.com/before-after-pseudo-elements) work on `hr` element whilst they shouldn't. And this happens on all major browsers too. So, it's pretty interesting huh?
+While doing some research on this article, I reminded I read a while ago an article by Chris Coyier regarding [styling horizontal rules](http://css-tricks.com/simple-styles-for-horizontal-rules/). The `hr` is a replaced element, as Chris also states in that article. Now, the interesting part here is that [pseudo-elements](/before-after-pseudo-elements) work on `hr` element whilst they shouldn't. And this happens on all major browsers too. So, it's pretty interesting huh?
 
 I decided to create a rough test case for generated content on replaced elements and the  results are a totally mess if you ask me :)
 

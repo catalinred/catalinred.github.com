@@ -26,7 +26,7 @@ It's been almost a month already since I launched this new responsive design and
 
 Below you can find some characteristics of the new responsive design:
 	
-  * This new [HTML5](http://www.red-team-design.com/create-a-stylish-html5-template-from-scratch) theme is based on [Twenty Eleven](http://wordpress.org/extend/themes/twentyeleven) from [WordPress](http://wordpress.org/).
+  * This new [HTML5](/create-a-stylish-html5-template-from-scratch) theme is based on [Twenty Eleven](http://wordpress.org/extend/themes/twentyeleven) from [WordPress](http://wordpress.org/).
 	
   * The search bar is now more visible and accessible, across all devices. Currently I use the default WordPress search but in the future I'm planning to use Google custom search for more accurate results.
 	
@@ -42,7 +42,7 @@ Below you can find some characteristics of the new responsive design:
 
 For sketching the layout I used the classic [Photoshop](http://www.adobe.com/products/photoshop.html) from Adobe. Also, [Adobe Shadow](http://labs.adobe.com/technologies/shadow/) is another cool tool I used for testing the new layout.
 
-When it comes about [writing code editors](http://www.red-team-design.com/free-text-editors-tools-for-developers), I think [Sublime Text 2](http://www.sublimetext.com/2) and [Notepad++](http://notepad-plus-plus.org/) are simply the best.
+When it comes about [writing code editors](/free-text-editors-tools-for-developers), I think [Sublime Text 2](http://www.sublimetext.com/2) and [Notepad++](http://notepad-plus-plus.org/) are simply the best.
 
 ## Some of my goals
 

@@ -161,7 +161,7 @@ Here's the support at this time: Firefox 5+, IE 10+, Chrome 6+, Safari 5+. For n
 
 ## Why to use animations?
 
-Simple answer: **to draw the user’s attention**. Get inspired by another example, here is one of my previous articles, where I also used CSS3 keyframes: [Cool notification messages with CSS3 & jQuery](http://www.red-team-design.com/cool-notification-messages-with-css3-jquery). 
+Simple answer: **to draw the user’s attention**. Get inspired by another example, here is one of my previous articles, where I also used CSS3 keyframes: [Cool notification messages with CSS3 & jQuery](/cool-notification-messages-with-css3-jquery). 
 
 ## Happy Holidays!
 

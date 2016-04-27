@@ -15,7 +15,7 @@ tags:
 
 I often notice people tend to use stylesheets without knowing its structure meaning. That's why, in this tutorial I will try to present you the CSS components structure.
 
-[![CSS Structure ](/dist/uploads/2009/12/css-structure-anatomy.png)](http://www.red-team-design.com/things-you-should-know-about-css-anatomy)
+[![CSS Structure ](/dist/uploads/2009/12/css-structure-anatomy.png)](/things-you-should-know-about-css-anatomy)
 
 <!-- more -->
 

@@ -41,19 +41,19 @@ I'll begin with classical HTML buttons. When trying to style buttons like `input
 
 Want to see some buttons that are using the above snippet?
 	
-  * [Just some other awesome CSS3 buttons](http://www.red-team-design.com/just-another-awesome-css3-buttons)	
-  * [Design a beautiful CSS3 search form](http://www.red-team-design.com/design-a-beautiful-css3-search-form)	
-  * [Cool CSS3 search box](http://www.red-team-design.com/how-to-create-a-cool-and-usable-css3-search-box)
+  * [Just some other awesome CSS3 buttons](/just-another-awesome-css3-buttons)	
+  * [Design a beautiful CSS3 search form](/design-a-beautiful-css3-search-form)	
+  * [Cool CSS3 search box](/how-to-create-a-cool-and-usable-css3-search-box)
 
 ## Using pseudo-elements
 
 I'm sure you already know that using pseudo-elements like `:before` and `:after` helps you specifying which content should be inserted before (or after) the content of that element. Besides that, elements like `input` or `img` have no content, therefore, the pseudo-elements will not render anything for them. An **exception** is the `hr` element, which, for some reason, allows adding pseudo-elements to it. 
 
-Also, keep in mind the [difference](http://www.red-team-design.com/before-after-pseudo-elements) between `:before` and `::before`. To summarize it, IE8 is the only reason to use the single colon syntax. 
+Also, keep in mind the [difference](/before-after-pseudo-elements) between `:before` and `::before`. To summarize it, IE8 is the only reason to use the single colon syntax. 
 
 ## Gradient background for whole body
 
-If you tried before to add a [CSS3 gradient](http://www.red-team-design.com/css-gradients-quick-tutorial) for your `body`, then you noticed that it will not stretch and it will repeat instead. To fix that, just add the following lines:    
+If you tried before to add a [CSS3 gradient](/css-gradients-quick-tutorial) for your `body`, then you noticed that it will not stretch and it will repeat instead. To fix that, just add the following lines:    
     
 {% highlight css %}
 html, body {
@@ -157,7 +157,7 @@ and
 }
 {% endhighlight %}
 
-In the above example, the green colored `#child`, using `height: 100%`, will stretch and fill the whole `400px` vertical space. Also, you can check my [CSS3 progress bars](http://www.red-team-design.com/stylish-css3-progress-bars) for a live example of the above trick.
+In the above example, the green colored `#child`, using `height: 100%`, will stretch and fill the whole `400px` vertical space. Also, you can check my [CSS3 progress bars](/stylish-css3-progress-bars) for a live example of the above trick.
 
 
 ## Rounded corners for tables
@@ -173,7 +173,7 @@ table {
 }
 {% endhighlight %}
 
-Check my [CSS3 tables with rounded corners](http://www.red-team-design.com/practical-css3-tables-with-rounded-corners) article to read more about it.
+Check my [CSS3 tables with rounded corners](/practical-css3-tables-with-rounded-corners) article to read more about it.
 
 ## Inputs box model
 

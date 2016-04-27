@@ -10,7 +10,7 @@ categories:
 - Miscellaneous
 ---
 
-My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a good question and I think the short answer is [to learn](http://www.red-team-design.com/becoming-a-better-developer).
+My website was needing a fresh new look, and what better chance to learn a new approach than this? You may ask why would you want to move from WordPress to Jekyll when everything works just fine? That's a good question and I think the short answer is [to learn](/becoming-a-better-developer).
 
 ![WordPress to Jekyll](/dist/uploads/2014/03/wordpress-to-jekyll.png)
 

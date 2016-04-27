@@ -15,7 +15,7 @@ tags:
 
 These days I tested what's happening if you have a form and instead a submit input you choose to submit the form using an anchor. If you do that, you will notice that the form won't submit on ENTER key. So how can we submit a form on enter key using anchor?
 
-[![](/dist/uploads/2010/02/html-form-example.png)](http://www.red-team-design.com/submit-form-on-enter-key-using-anchor/)
+[![](/dist/uploads/2010/02/html-form-example.png)](/submit-form-on-enter-key-using-anchor/)
 
 <!-- more -->
 

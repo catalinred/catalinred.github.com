@@ -15,7 +15,7 @@ tags:
 
 In this tutorial you'll learn how to create a love themed wallpaper using Photoshop's Stroke path and Pen tool.
 
-[![](/dist/uploads/2009/12/background-sweet-love.png)](http://www.red-team-design.com/design-love-heart-wallpaper/)
+[![](/dist/uploads/2009/12/background-sweet-love.png)](/design-love-heart-wallpaper/)
 
 <!-- more -->
 
