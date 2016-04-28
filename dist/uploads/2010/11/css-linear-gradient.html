@@ -1,1 +1,52 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <html lang="en"> <head>     <title>CSS linear gradient - Red Team design</title>     <style>        /*General styles*/        body        {            margin: 0;            padding: 0;            background: #d7d3be url(http://www.red-team-design.com/wp-content/themes/redv2/images/back.jpg) left top;        }                #main        {            width: 960px;            margin: 160px auto 0 auto;            background: white;            -moz-border-radius: 8px;            -webkit-border-radius: 8px;            padding: 30px;            border: 1px solid #adaa9f;            -moz-box-shadow: 0 2px 2px #9c9c9c;            -webkit-box-shadow: 0 2px 2px #9c9c9c;        }            /* Gradient styles*/		#gradient-linear {		height: 200px;		width: 500px;		margin: 0 auto;		line-height: 200px;		text-align: center;		 background-color: #6191bf; /* Fallback background color for non supported browsers */  background-image: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#cde6f9));  background-image: -webkit-linear-gradient(top, #81a8cb, #cde6f9);  background-image: -moz-linear-gradient(top, #81a8cb, #cde6f9);  background-image: -ms-linear-gradient(top, #81a8cb, #cde6f9);  background-image: -o-linear-gradient(top, #81a8cb, #cde6f9);  background-image: linear-gradient(top, #81a8cb, #cde6f9);  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#81a8cb', EndColorStr='#cde6f9'); /* IE6–IE9 */         </style>     </head> <body>     <div id="main">         		<div id="gradient-linear">linear gradient box</div> 		<br><br>		<p style="text-align: center; ">Back to <a href="http://www.red-team-design.com/css-gradients-quick-tutorial">article</a> / Drop me a message on <a href="http://twitter.com/catalinred">Twitter</a>!</p>		    </div>  </body> </html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS linear gradient - Red Team design</title>
+    <style>
+    /*General styles*/ 
+    body {
+    margin: 0;
+    padding: 0;
+    background: #d7d3be;
+    }
+
+    #main {
+    width: 960px;
+    margin: 160px auto 0;
+    background: #fff;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 30px;
+    border: 1px solid #adaa9f;
+    -moz-box-shadow: 0 2px 2px #9c9c9c;
+    -webkit-box-shadow: 0 2px 2px #9c9c9c;
+    }
+
+    /* Gradient styles*/
+    #gradient-linear {
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 200px;
+    text-align: center;
+    background-color: #6191bf;
+    /* Fallback background color for non supported browsers */
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#81a8cb),to(#cde6f9));
+    background-image: -webkit-linear-gradient(top,#81a8cb,#cde6f9);
+    background-image: -moz-linear-gradient(top,#81a8cb,#cde6f9);
+    background-image: -ms-linear-gradient(top,#81a8cb,#cde6f9);
+    background-image: -o-linear-gradient(top,#81a8cb,#cde6f9);
+    background-image: linear-gradient(top,#81a8cb,#cde6f9);
+	}
+    </style>
+</head>
+<body>
+    <div id="gradient-linear">
+        linear gradient box
+    </div><br>
+    <br>
+    <p style="text-align: center;">Back to <a href=
+    "/css-gradients-quick-tutorial">article</a> / Drop me a message on <a href=
+    "http://twitter.com/catalinred">Twitter</a>!</p>;
+</body>
+</html>
