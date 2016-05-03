@@ -80,11 +80,14 @@ navigation:
             <h2 class="h4">
               Get updates via 
               <a href="//feeds.feedburner.com/redteamdesign" class="rss-label">
-                <i class="fa fa-rss"></i> RSS
+                RSS
               </a> or email:
             </h2>
             <form class="email-form" action="//feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('//feedburner.google.com/fb/a/mailverify?uri=redteamdesign', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-              <input type="email" name="email" class="email-form__text" placeholder="Your email address" required/>
+              <label>
+                <span class="visually-hidden">Email</span>
+                <input type="email" name="email" class="email-form__text" placeholder="Add email address" required/>
+              </label>
               <input type="submit" value="Go" class="email-form__submit"/>
               <input type="hidden" value="redteamdesign" name="uri"/>
               <input type="hidden" name="loc" value="en_US"/>

@@ -27,7 +27,7 @@
   }
 
   .svg-icon {
-    @include rem(margin, 0 1);
+    @include rem(margin, 1);
   }
 }
 
@@ -41,5 +41,9 @@
     bottom: 0; left: 0; right: 0;
     z-index: 0; 
     // lower than .master-content's value
-  }
+
+    .svg-icon {
+      @include rem(margin, 0 1);
+    } 
+  } 
 }
