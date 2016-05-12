@@ -6,3 +6,15 @@ paginate: 10
 excerpt_separator: <!-- more -->
 exclude: [src, node_modules, CNAME, package.json, README.md]
 abs_url: http://www.red-team-design.com
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+navigation:
+  - text: Home
+    url: /
+  - text: Archive
+    url: /archive/
+  - text: About
+    url: /about/
+  - text: Contact
+    url: /contact/

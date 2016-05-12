@@ -1,15 +1,3 @@
----
-navigation:
-- text: Home
-  url: /
-- text: Archive
-  url: /archive/
-- text: About
-  url: /about/
-- text: Contact
-  url: /contact/
----
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -46,7 +34,7 @@ navigation:
           <nav role="navigation" class="rtd-nav">
             <a class="visually-hidden" href="#content">Skip to content</a>
             <ul>
-              {% for link in page.navigation %}
+              {% for link in site.navigation %}
                 {% assign current = nil %}
                 {% assign url = page.url|remove:'index.html' %}
                 {% if url == link.url %}
