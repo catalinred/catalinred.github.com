@@ -4,8 +4,15 @@ markdown: kramdown
 permalink: /:title/
 paginate: 10
 excerpt_separator: <!-- more -->
-exclude: [src, node_modules, CNAME, package.json, README.md]
 abs_url: http://www.red-team-design.com
+exclude: 
+  - src
+  - node_modules
+  - CNAME
+  - package.json
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 gems:
   - jekyll-sitemap
   - jekyll-paginate

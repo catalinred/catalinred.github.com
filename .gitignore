@@ -2,4 +2,4 @@
 Thumbs.db
 _site
 node_modules
-rtd.sublime*
+Gemfile.lock
