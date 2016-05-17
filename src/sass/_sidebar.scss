@@ -86,28 +86,41 @@
 /**
  * BSA
  */
-
-.adpacks-wrap {
-  display: block;
+ 
+#carbonads {
   overflow: hidden;
+  line-height: 1.5;
+  font-size: .8em;
+  
+  span {
+    display: block;
+    overflow: hidden;
+  }  
 }
 
-.adpacks-img {
-  float: left;
-  margin-right: 10px;
-  width: 130px;
-  height: 100px;
-}
-
-.adpacks-text {
-  display: block;
-  line-height: normal;
+.carbon-text {
+  max-width: 50%;
+  text-align: left;
   color: $color-black;
-  font-size: 12px;
-
+	
   &:hover {
     text-decoration: none;
   }
+}
+
+.carbon-img {
+  float: left;
+  margin-right: 15px;
+  
+  img {
+    width: 130px;
+	height: 100px;
+  }
+}
+
+.carbon-poweredby {
+  display: block;
+  text-align: right;
 }
 
 /**

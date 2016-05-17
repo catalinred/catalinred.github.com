@@ -18,7 +18,6 @@
     "mkdirp": "latest",
     "rimraf": "latest",  
     "autoprefixer": "latest",
-    "browser-sync": "latest",
     "eslint": "latest",
     "imagemin-cli": "latest",
     "node-sass": "latest",
