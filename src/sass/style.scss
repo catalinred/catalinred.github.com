@@ -1,5 +1,5 @@
-// scss --watch style.scss:../css/style.css --style expanded
-// scss --watch style.scss:../css/style.css --style compressed
+// scss --sourcemap=none --watch style.scss:../css/style.css --style expanded
+// scss --sourcemap=none --watch style.scss:../css/style.css --style compressed
 
 @import
   "vars",
