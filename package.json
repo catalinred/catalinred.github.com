@@ -1,6 +1,6 @@
 {
   "name": "rtd",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A set of build tasks with npm scripts.",
   "scripts": {
     "clean": "rimraf dist && mkdirp dist",
