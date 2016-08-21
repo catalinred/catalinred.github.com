@@ -16,8 +16,3 @@ I'm a pretty *social* person so you can find me almost everywhere in the wild. C
 - Not a big fan, yet I have a [LinkedIn](//linkedin.com/in/catalinred) account as well.
 
 If none of the above works for you, just send me an email to **red at red-team-design.com**.
-
-##Also, you should know that:
-
-- Currently, I am not available for freelance projects. Not enough time.
-- I do not publish guest posts here, unless perhaps you have a cool front-end technique you'd like to share.
