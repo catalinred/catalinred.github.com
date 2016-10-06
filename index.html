@@ -10,7 +10,13 @@ description: Articles on front-end development, CSS, HTML, JavaScript and more.
     <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post__time">
       <small>{{ post.date | date_to_string }}</small>
     </time>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <h1>
+	  {% if post.external %}
+	    <a href="{{ post.external }}">{{ post.title }}</a>
+	  {% else %}
+	    <a href="{{ post.url }}">{{ post.title }}</a>
+	  {% endif %}
+    </h1>
   </header>
   {{ post.excerpt }}
 </article>

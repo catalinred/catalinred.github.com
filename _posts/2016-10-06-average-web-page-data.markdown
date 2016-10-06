@@ -4,7 +4,7 @@ comments: true
 date: 2016-10-06 08:00
 layout: post
 title: The average web page (data from analyzing 8 million websites)
-url: https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/
+external: https://css-tricks.com/average-web-page-data-analyzing-8-million-websites/
 description: I wrote a guest post for CSS-Tricks about how the average web page looks like, after analyzing 8 million websites.
 categories:
 - CSS
