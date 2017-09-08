@@ -3,25 +3,23 @@
   "version": "0.1.0",
   "description": "A set of build tasks with npm scripts.",
   "scripts": {
-    "clean": "rimraf dist && mkdirp dist",
     "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
     "scss": "node-sass --output-style compressed -o dist/css/ src/sass/",
-    "lint": "eslint src/js/",
     "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -c -o dist/js/common.js",
-    "imagemin": "imagemin src/uploads dist/uploads -p && imagemin src/img/ dist/img -p",
+    "imagemin": "imagemin src/img/* --out-dir=dist/img",
+
     "build:css": "npm run scss && npm run autoprefixer",
-    "build:js": "npm run lint && npm run uglify",
-    "build:all": "npm run clean && npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve --force_polling"
+    "build:js": "npm run uglify",
+
+    "build:all": "npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve --force_polling"
   },
-  
   "devDependencies": {
-    "mkdirp": "latest",
-    "rimraf": "latest",  
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "imagemin-cli": "latest",
-    "node-sass": "latest",
-    "postcss-cli": "latest",
-    "uglify-js": "latest"
+    "autoprefixer": "^7.1.4",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^4.1.1",
+
+    "uglify-js": "^3.0.28",
+
+    "imagemin-cli": "^3.0.0"
   }
 }
