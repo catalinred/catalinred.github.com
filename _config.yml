@@ -4,7 +4,7 @@ markdown: kramdown
 permalink: /:title/
 paginate: 10
 excerpt_separator: <!-- more -->
-abs_url: http://www.red-team-design.com
+abs_url: https://www.catalin.red
 exclude: 
   - src
   - node_modules

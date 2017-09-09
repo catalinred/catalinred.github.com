@@ -15,4 +15,4 @@ I'm a pretty *social* person so you can find me almost everywhere in the wild. C
 - Follow me on [Instagram](//instagram.com/catalinred), I share random pictures I take with my phone.
 - Not a big fan, yet I have a [LinkedIn](//linkedin.com/in/catalinred) account as well.
 
-If none of the above works for you, just send me an email to **red at red-team-design.com**.
+If none of the above works for you, just send me an email to **me@catalin.red**.
