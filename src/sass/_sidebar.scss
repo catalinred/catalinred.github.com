@@ -52,8 +52,7 @@
   width: 100%;
 }
 
-.email-form__text:focus + .email-form__submit,
-.email-submit:active {
+.email-form__text:not(:placeholder-shown) + .email-form__submit {
   background: #e96a19;
 }
 
