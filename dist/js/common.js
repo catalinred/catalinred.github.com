@@ -1,1 +1,0 @@
-!function(e,t){var o,c=e.getElementsByTagName("script")[0];window._gaq=[["_setAccount","UA-5924545-2"],["_trackPageview"]],function(t,n){e.getElementById(n)||((o=e.createElement("script")).src=t,n&&(o.id=n),c.parentNode.insertBefore(o,c))}(("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js","ga")}(document);

@@ -1,10 +1,11 @@
 name: Catalin Red
-description: "Articles on front-end development, CSS, HTML, JavaScript and more."
+description: Articles on front-end development, CSS, HTML, JavaScript and more.
 markdown: kramdown
 permalink: /:title/
 paginate: 10
 excerpt_separator: <!-- more -->
-abs_url: https://www.catalin.red
+abs_url: https://catalin.red
+img: /dist/img/social.png
 exclude: 
   - src
   - node_modules
