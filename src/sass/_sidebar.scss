@@ -52,7 +52,7 @@
   }
   
   &__text:not(:placeholder-shown) + &__submit {
-    background: #e96a19;
+    background: $color-red;
   }
 
   &__submit {
@@ -84,17 +84,6 @@
       color: #D11717;
       background-color: #ffd3d3;
     }        
-  }
-}
-
-.rss-label {
-  background: #e96a19 ;
-  display: inline-block;
-  padding: 2px 6px;  
-  color: #fff;
-
-  &:hover {
-    color: #fff;
   }
 }
 
