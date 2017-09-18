@@ -43,32 +43,48 @@
 
 .email-form { 
   position: relative;
-}
 
-.email-form__text {
-  padding: 5px;
-  height: 40px;
-  border: 0;
-  width: 100%;
-}
+  &__text {
+    padding: 5px;
+    height: 40px;
+    border: 0;
+    width: 100%;
+  }
+  
+  &__text:not(:placeholder-shown) + &__submit {
+    background: #e96a19;
+  }
 
-.email-form__text:not(:placeholder-shown) + .email-form__submit {
-  background: #e96a19;
-}
+  &__submit {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 50px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #aaa;
+    border: 0;
+  }  
 
-.email-form__submit {
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  width: 50px;
-  height: 32px;
-  padding: 0;
-  margin: 0;
-  color: #fff;
-  cursor: pointer;
-  text-transform: uppercase;
-  background: #ddd;
-  border: 0;
+  &__message {
+    font-size: .9rem;
+    padding: .3rem;
+    margin-top: .3rem;
+
+    &--success {
+      color: #137a46;
+      background-color: #aaedb0;
+    }
+    
+    &--error {
+      color: #D11717;
+      background-color: #ffd3d3;
+    }        
+  }
 }
 
 .rss-label {

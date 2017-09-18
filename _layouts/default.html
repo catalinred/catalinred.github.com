@@ -115,18 +115,16 @@
                 RSS
               </a> or email:
             </h2>
-            <form class="email-form" action="//feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('//feedburner.google.com/fb/a/mailverify?uri=catalinred', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+            <form class="email-form">
               <label>
                 <span class="visually-hidden">Email</span>
-              </label>
-              <input type="email" name="email" class="email-form__text" placeholder="Add email address" required/>
-              <input type="submit" value="Go" class="email-form__submit"/>
-              <input type="hidden" value="catalinred" name="uri"/>
-              <input type="hidden" name="loc" value="en_US"/>
-            </form>
+              </label>              
+              <input class="email-form__text" placeholder="Enter your email" type="email" required>
+              <button type="submit" class="email-form__submit">Go</button>
+            </form>            
           </div>
           <div class="aside-module">
-            <script async src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=wwwredteamdesigncom" id="_carbonads_js"></script>
+            <script src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=wwwredteamdesigncom" id="_carbonads_js"></script>
           </div>
         </aside>
       </div>
@@ -155,6 +153,7 @@
       &copy; {{ site.time | date: '%Y' }} Catalin Rosu. Feel free to use the articles you may find here in your projects, with or without any attribution.
     </div>
   </footer>
-
+  <script src="//cdn.elevatrapp.com/elevatr-v1.min.js"></script>   
+  <script src="/dist/js/common.js"></script>
   </body>
 </html>
