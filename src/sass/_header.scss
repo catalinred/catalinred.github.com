@@ -53,6 +53,7 @@
 .rtd-nav { 
   ul {
     @extend %unstyled-list;
+    @include rem(font-size, 1.1);
   }
 
   li {

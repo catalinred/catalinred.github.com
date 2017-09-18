@@ -6,7 +6,10 @@
  * RTD stuff
  */
 
-$rtd-font:      'Open Sans', Helvetica, Arial, sans-serif;
+// Native font stack
+// https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+// https://v4-alpha.getbootstrap.com/content/reboot/#native-font-stack
+$rtd-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 /**
  * Other stuff
