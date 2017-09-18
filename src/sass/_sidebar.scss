@@ -97,7 +97,6 @@
   font-size: .8em;
   
   span {
-    display: block;
     overflow: hidden;
   }  
 }
@@ -124,7 +123,7 @@
 
 .carbon-poweredby {
   display: block;
-  text-align: right;
+  color: #777;
 }
 
 /**
