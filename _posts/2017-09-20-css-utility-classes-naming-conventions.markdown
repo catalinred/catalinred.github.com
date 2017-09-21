@@ -251,6 +251,12 @@ Instead, they seem to use the following convention in their style sheets.
 
 The [GitHub's Primer](https://github.com/primer/primer-css/blob/master/modules/primer-marketing-type/lib/typography.scss) repository shows the following naming convention, which appears to be used across most of Github's website pages. And yes... I kinda manually checked several pages to make sure this info is correct.
 
+Their live documentation is outdated but it looks like things are work in progress.
+
+> We turned Primer CSS into a monorepo and improved our build process, and we've been building a new documentation website that we'll make public in fall, 2017.
+>
+> *[primercss.io](http://primercss.io/)*
+
 {% highlight css %}
   .alt-h0 { ... }
   .alt-h1 { ... }
