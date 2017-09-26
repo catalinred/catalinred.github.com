@@ -26,7 +26,7 @@ form.onsubmit = function (e) {
         if(document.querySelector(".email-form__message")) {
           document.querySelector(".email-form__message").remove();
         }
-        form.insertAdjacentHTML('afterend', '<div class="email-form__message email-form__message--error">Uh, oh. Something happened!</div>');
+        form.insertAdjacentHTML('afterend', '<div class="email-form__message email-form__message--error">Uh, oh. Something went wrong!</div>');
       }		  
     }	
   };  
