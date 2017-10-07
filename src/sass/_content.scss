@@ -113,9 +113,9 @@
 }
 
 /**
- * Disqus
+ * CodePen
  */
 
-#disqus_thread {
-  @include rem(margin-top, $gutter-4x);
+.cp_embed_wrapper {
+  @include rem(margin-bottom, 1.5);
 }
