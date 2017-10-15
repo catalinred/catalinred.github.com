@@ -12,7 +12,7 @@ categories:
 
 While working on this site, I tried to improve my email subscription box a little bit. The idea was to *enable* the action button only when the user is typing something in the email input. So I found a way to use `:placeholder-shown` CSS pseudo-class in an attempt to visually validate an input before form submission.
 
-![Simple form with an email input and a subscribe button](/dist/uploads/2017/09/placeholder-shown.png)
+![Simple form with an email input and a subscribe button](/dist/uploads/2017/10/placeholder-shown.png)
 
 <!-- more -->
 
@@ -27,7 +27,7 @@ The `:placeholder-shown` CSS pseudo-class helps to make the distinction between 
 
 ## The clean HTML version
 
-![Clean HTML form](/dist/uploads/2017/09/clean-html.gif)
+![Clean HTML form](/dist/uploads/2017/10/clean-html.gif)
 
 I did use [Tachyons](http://tachyons.io/) for the CodePen demo, but that is completely optional. You can merely use the following markup:
 
@@ -54,18 +54,18 @@ To summarize, the next CSS selector says (from right to left): **select the `#su
 
 This CSS rule makes the submit button to look like a *disabled* one until the required email input is filled. Basically, the disabled state is visually faked with CSS rather than using native HTML `disabled` attribute.
 
-![Disabled submit button](/dist/uploads/2017/09/disabled-submit.gif)
+![Disabled submit button](/dist/uploads/2017/10/disabled-submit.gif)
 
 When it comes to keyboard tabbing, this trick might not be that effective so we avoid faking the disabled state when the `#submit` element is focused. This is basically what `:not(:focus)` is used for in the above selector.
 
-![Keyboard tabbing](/dist/uploads/2017/09/keyboard-tabs.gif)
+![Keyboard tabbing](/dist/uploads/2017/10/keyboard-tabs.gif)
 
 ### `:focus-within`
 While playing with the current demo, I thought about how the `:focus-within` can improve the form. In case you missed it, the `:focus-within` pseudo-class selects an element that has received focus or contains an element that has received focus.
 
 It looks a bit like the [CSS parent selector](https://drafts.csswg.org/selectors-4/#relational) because it selects a parent element based on a child element, in this case the focused input.
 
-![Focus within the form](/dist/uploads/2017/09/focus-within.gif)
+![Focus within the form](/dist/uploads/2017/10/focus-within.gif)
 
 {% highlight css %}
   #form:focus-within {
