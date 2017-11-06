@@ -9,7 +9,7 @@
     "imagemin": "imagemin src/img/* --out-dir=dist/img",
     "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run uglify",
-    "build:all": "npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve --force_polling"
+    "build:all": "npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.4",
