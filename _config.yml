@@ -11,6 +11,7 @@ exclude:
   - node_modules
   - CNAME
   - package.json
+  - package-lock.json
   - README.md
   - Gemfile
   - Gemfile.lock
