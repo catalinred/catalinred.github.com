@@ -37,7 +37,7 @@ To be able to run Jekyll on a Windows system, you just need the Ruby environment
 - [Python](http://www.python.org/download/)
 - [Pygments](http://pygments.org/)
 
-###Ruby
+### Ruby
 If you heard about Sass before then you heard about Ruby too, it's used to make Sass work and Jekyll as well. It might seem overwhelming, I had the same feeling too, but you don't actually need to know Ruby so you can run Sass and Jekyll. Trust me, I know what it feels like. :)
 
 >You don't have to know Node. Just like you don't have to know Ruby to use Sass. Or PHP to use WordPress. Or C++ to use Microsoft Word.
@@ -46,7 +46,7 @@ If you heard about Sass before then you heard about Ruby too, it's used to make 
 
 To make Ruby stuff work on my Windows system, I found [this article](http://www.madhur.co.in/blog/2011/09/01/runningjekyllwindows.html) very helpful. So, if stuck on this step, that article might help you.
 
-###Jekyll
+### Jekyll
 Once you have Ruby set up, installing Jekyll is pretty straightforward, just run the following lines:
 
 {% highlight ruby %}
