@@ -29,26 +29,26 @@
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-WN65C3J');
-    </script>    
+    </script>
   </head>
-  <!-- 
-              _        _ _                      _ 
+  <!--
+              _        _ _                      _
               | |      | (_)                    | |
       ___ __ _| |_ __ _| |_ _ __    _ __ ___  __| |
     / __/ _` | __/ _` | | | '_ \  | '__/ _ \/ _` |
     | (_| (_| | || (_| | | | | | |_| | |  __/ (_| |
     \___\__,_|\__\__,_|_|_|_| |_(_)_|  \___|\__,_|
-                                                  
+
       Formerly red-team-design.com
       Built with Jekyll, Sass & more. Hosted on Github.
-                    
+
    -->
   <body>
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WN65C3J"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>    
-  
+  </noscript>
+
   <header role="banner" class="top-header">
     <div class="container">
       <div class="grid">
@@ -89,7 +89,7 @@
     <div class="container">
       <h1 class="master-head--title">{{ page.title | xml_escape }}</h1>
     </div>
-  </div>    
+  </div>
 
   <div class="master-content">
     <div class="container">
@@ -100,15 +100,12 @@
         <aside class="grid__col--30" role="complementary">
           <div class="aside-module">
             <h2 class="h4">
-              Get the newsletter
+              <label for="email-address">Get the newsletter</label>
             </h2>
             <form class="email-form">
-              <label>
-                <span class="visually-hidden">Email</span>
-              </label>              
-              <input class="email-form__text" placeholder="Enter your email" type="email" required>
+              <input id="email-address" class="email-form__text" placeholder="Enter your email" type="email" required>
               <button type="submit" class="email-form__submit">Go</button>
-            </form>            
+            </form>
           </div>
           <div class="aside-module">
             <script src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=catalinred" id="_carbonads_js"></script>
@@ -120,7 +117,7 @@
 
   <footer role="contentinfo" class="master-footer text-center">
     <div class="container">
-      <a href="//twitter.com/catalinred" rel="me nofollow">        
+      <a href="//twitter.com/catalinred" rel="me nofollow">
         <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 416 448"><path d="M405 102q-16.75 24.5-40.5 41.75.25 3.5.25 10.5 0 32.5-9.5 64.875t-28.875 62.125-46.125 52.625-64.5 36.5T135 384q-67.75 0-124-36.25 8.75 1 19.5 1 56.25 0 100.25-34.5-26.25-.5-47-16.125t-28.5-39.875q8.25 1.25 15.25 1.25 10.75 0 21.25-2.75-28-5.75-46.375-27.875T27 177.5v-1q17 9.5 36.5 10.25-16.5-11-26.25-28.75t-9.75-38.5q0-22 11-40.75 30.25 37.25 73.625 59.625T205 163.25q-2-9.5-2-18.5 0-33.5 23.625-57.125T283.75 64q35 0 59 25.5Q370 84.25 394 70q-9.25 28.75-35.5 44.5Q381.75 112 405 102z"/></svg>
         <span class="visually-hidden">Twitter</span>
       </a>
@@ -140,7 +137,7 @@
       &copy; {{ site.time | date: '%Y' }} Catalin Rosu. Feel free to use the articles you may find here in your projects, with or without any attribution.
     </div>
   </footer>
-  <script src="//cdn.elevatrapp.com/elevatr-v1.min.js"></script>   
+  <script src="//cdn.elevatrapp.com/elevatr-v1.min.js"></script>
   <script src="/dist/js/common.js"></script>
   </body>
 </html>
