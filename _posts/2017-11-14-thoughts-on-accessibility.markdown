@@ -39,7 +39,7 @@ A while ago, I wrote some [thoughts on becoming a better developer](https://cata
 
 - I try to make sure that every piece of HTML code I write is semantically correct. I even searched for [A11Y issues within 8 million pages](https://css-tricks.com/random-interesting-facts-htmlsvg-usage/#article-header-id-22), for an article I wrote for CSS-Tricks a while back.
 
-- I like to dig into frameworks like [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/accessibility/) to try tp understand the efforts that the contributors are putting into making all the dynamic components to be fully accessible.
+- I like to dig into frameworks like [Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/accessibility/) to try to understand the efforts that the contributors are putting into making all the dynamic components to be fully accessible.
 
 - I always check good resources on accessibility when in doubt, my favorites:
   - [https://inclusive-components.design/](https://inclusive-components.design/)
