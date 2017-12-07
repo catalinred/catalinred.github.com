@@ -88,6 +88,10 @@ body {
 a { 
   color: $color-red; 
   text-decoration: none;
+  
+  // text-decoration-skip-ink: auto;
+  // https://twitter.com/abrax5/status/928272986108583936
+  text-decoration-skip: ink;
 
   &:hover {
     text-decoration: underline;
