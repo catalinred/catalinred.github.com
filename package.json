@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A set of build tasks with npm scripts.",
   "scripts": {
-    "autoprefixer": "postcss -u autoprefixer -r dist/css/*",
+    "autoprefixer": "postcss -u -x autoprefixer -r dist/css/*",
     "scss": "node-sass --output-style compressed -o dist/css/ src/sass/",
     "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -c -o dist/js/common.js",
     "imagemin": "imagemin src/img/* --out-dir=dist/img",

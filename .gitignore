@@ -1,6 +1,14 @@
+# SCSS / Autoprefixer -x
 .sass-cache
+style.autoprefixer
+
+# Windows / Mac OS trash
 Thumbs.db
 .DS_Store
+
+# Jekyll
 _site
-node_modules
 Gemfile.lock
+
+# Node
+node_modules
