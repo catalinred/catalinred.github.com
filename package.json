@@ -12,10 +12,10 @@
     "build:all": "npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.4",
-    "node-sass": "^4.5.3",
-    "postcss-cli": "^4.1.1",
-    "uglify-js": "^3.0.28",
+    "autoprefixer": "^8.6.3",
+    "node-sass": "^4.9.0",
+    "postcss-cli": "^5.0.1",
+    "uglify-js": "^3.4.2",
     "imagemin-cli": "^3.0.0"
   }
 }
