@@ -22,7 +22,7 @@ Now getting back to the talk, that was lightning ⚡️ fast and it didn't cover
 
 On the clickbait talk title, that's actually a true story. Last time I mentioned the *hoisting* term into [an article of mine](/beginner-javascript-gotchas/), I remember that a friend read it and told me I had a typo in the article.
 
-So what's hoisting?
+So what's hoisting in JavaScript? The short answer is that, conceptually, variable and function declarations are moved/hoisted to the top of their scope before code execution.
 
 ## Variable declaration
 
