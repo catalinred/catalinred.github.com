@@ -10,17 +10,19 @@ categories:
 - JS
 ---
 
-Two weeks ago I gave a lightning talk at Caphyon on hoisting in JavaScript. Putting aside all the common jokes about the JS language, people really seemed to like it. It was kind of a challenge to talk about JS while having an audiene of C++ and Java collegues.
+Two weeks ago I gave a lightning talk at Caphyon on hoisting in JavaScript. Putting aside all the common jokes about the JS language, people really seemed to like it. It was kind of a challenge to talk about JS while having an audience of C++ and Java colleagues.
 
-Now getting back to the talk, that was lighning ⚡️ fast and it didn't covered that much as I would've liked to. So I'll try to write a bit more on JavaScript scoping and hoisting bellow.
+Now getting back to the talk, that was lightning ⚡️ fast and it didn't covered that much as I would've liked to. So I'll try to write a bit more on JavaScript scoping and hoisting bellow.
 
-![JS the good parts vs the definitive guide](/dist/uploads/2018/07/js-good-parts-vs-definitive-guide.jpg)
+![JS the good parts vs the definitive guide](/dist/uploads/2018/07/hoisting-in-javascript.png)
 
 <!-- more -->
 
 ## ~~Hosting~~ Hoisting
 
-On the clickbait title, that's actually a true story. Last time I mentioned the *hoisting* term into [an article of mine](/beginner-javascript-gotchas/), I remember that a friend read it and told me I had a typo in the article. So that's it.
+On the clickbait talk title, that's actually a true story. Last time I mentioned the *hoisting* term into [an article of mine](/beginner-javascript-gotchas/), I remember that a friend read it and told me I had a typo in the article.
+
+So what's hoisting?
 
 ## Variable declaration
 
