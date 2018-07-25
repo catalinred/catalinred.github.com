@@ -5,7 +5,7 @@ date: 2018-07-25 10:10:00
 layout: post
 slug: hoisting-in-javascript
 title: Hoisting in JavaScript
-description: Hoisting in JavaScript when it comes to variable and function declarations, anonymous function and named function expressions.
+description: Hoisting in JavaScript when it comes to variables, function declarations and function expressions.
 categories:
 - JS
 ---
