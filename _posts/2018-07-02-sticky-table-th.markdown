@@ -10,7 +10,7 @@ categories:
 - CSS
 ---
 
-This is not new anymore, nowadays it became so easy to have a piece of content stuck while you're scrolling. No JS, no hassle just some CSS `position: sticky` magic. But the real thing is dealing with tabular sticky info.
+This is not new anymore, nowadays it became so easy to have a piece of content stuck while you're scrolling. No JS, no hassle just some CSS [`position: sticky`](/position-sticky-might-be-the-next-best-thing) magic. But the real thing is dealing with tabular sticky info.
 
 Remember the last web app you're working on it that had a large table with lots of data rows? Feels like yesterday, no? Well, having this scenario, in terms of UX, it's almost mandatory to have `thead`'s or `tr`'s stuck while browsing the tabular data.
 
