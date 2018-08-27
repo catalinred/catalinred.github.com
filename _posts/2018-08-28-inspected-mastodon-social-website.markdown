@@ -169,6 +169,6 @@ For everything else, there's the `Unfollow` button.
 
 ## Why Mastodon
 
-I like to [dig into web page sources](https://catalin.red/awrstudyr-chrome-extension/) from time to time to see how others are writing markup and stuff. I'm a bit like *Everyday I'm hustl... inspectin'*.
+I like to [dig into web page sources](/awrstudyr-chrome-extension/) from time to time to see how others are writing markup and stuff. I'm a bit like *Everyday I'm hustl... inspectin'*.
 
 Mastodon was the choice for this article as *the new guy* in town always gets all the attention. And because I've seen @kizmarh's [tweet](https://twitter.com/kizmarh/status/1032700826400317440) of course 🙂
