@@ -6,7 +6,7 @@ paginate: 10
 excerpt_separator: <!-- more -->
 abs_url: https://catalin.red
 img: /dist/img/social.png
-exclude: 
+exclude:
   - src
   - node_modules
   - CNAME
@@ -23,7 +23,5 @@ navigation:
     url: /
   - text: Archive
     url: /archive/
-  - text: About
-    url: /about/
   - text: Contact
     url: /contact/
