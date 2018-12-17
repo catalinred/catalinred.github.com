@@ -18,6 +18,7 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 navigation:
   - text: Home
     url: /
