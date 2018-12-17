@@ -1,4 +1,4 @@
-name: Catalin Red
+title: Catalin Red
 description: Articles on front-end development, CSS, HTML, JavaScript and more.
 markdown: kramdown
 permalink: /:title/
