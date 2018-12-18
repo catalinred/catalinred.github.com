@@ -68,12 +68,7 @@
             <a class="visually-hidden" href="#content">Skip to content</a>
             <ul>
               {% for link in site.navigation %}
-                {% assign current = nil %}
-                {% assign url = page.url|remove:'index.html' %}
-                {% if url == link.url %}
-                  {% assign current = 'current' %}
-                {% endif %}
-                <li class="{{ current }}">
+                <li class="{% if link.url == page.url %}current{% endif %}">
                   <a href="{{ link.url }}">{{ link.text }}</a>
                 </li>
               {% endfor %}
