@@ -40,7 +40,28 @@
 }
 
 .post__time {
-  color: #aaa;
+  color: #999;
+}
+
+@include breakpoint(large) {
+  @supports (writing-mode: vertical-lr) {
+    .post__time--vertical  {
+      writing-mode: vertical-lr;
+      float: left;
+      margin-left: -1.5rem;
+      white-space: nowrap;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 1ch;
+        height: 2.5rem;
+        margin: 10px 0;
+        background: linear-gradient(currentColor, currentColor)
+                    no-repeat center / 1px 100%;
+      }
+    }
+  }
 }
 
 /**
