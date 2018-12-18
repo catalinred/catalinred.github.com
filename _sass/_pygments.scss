@@ -2,15 +2,15 @@
   Pygments - the Python syntax highlighter
 \*------------------------------------*/
 
-pre { 
-  @include rem(padding, $gutter); 
+pre {
+  padding: $gutter;
   overflow: auto;
 }
 
 pre,
-pre code { 
-  @include rem(font-size, .9); 
-  background: #111; 
+pre code {
+  font-size: .9rem;
+  background: #111;
   color: #93A1A1;
 }
 

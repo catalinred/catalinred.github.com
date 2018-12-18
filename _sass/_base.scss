@@ -4,13 +4,13 @@
 
 
 /**
- * Alter the default CSS box model 
+ * Alter the default CSS box model
  */
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box; 
+          box-sizing: border-box;
 }
 
 /**
@@ -42,7 +42,7 @@ img {
  */
 
 hr {
-  @include rem(margin, $gutter 0);
+  margin: $gutter 0;
   border: 0;
   border-top: 1px solid $color-light;
 
@@ -61,12 +61,12 @@ hr {
  }
 
 body {
-  margin: 0;  
+  margin: 0;
   color: $color-black;
-  line-height: $line-height; 
+  line-height: $line-height;
   font-family: $rtd-font;
   //background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
-  //background-size: 100% $line-height;   
+  //background-size: 100% $line-height;
 }
 
 /**
@@ -77,18 +77,18 @@ body {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  @include rem(padding-left, $gutter);
-  @include rem(padding-right, $gutter);   
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 /**
  * Links
  */
 
-a { 
-  color: $color-red; 
+a {
+  color: $color-red;
   text-decoration: none;
-  
+
   // text-decoration-skip-ink: auto;
   // https://twitter.com/abrax5/status/928272986108583936
   text-decoration-skip: ink;
@@ -107,13 +107,13 @@ h1 a {
 
   &:hover{
     color: $color-red;
-  }   
+  }
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a { 
+h1 a, h2 a, h3 a, h4 a, h5 a {
   &:hover{
     text-decoration: none;
-  } 
+  }
 }
 
 /**
@@ -122,19 +122,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 
 blockquote {
   position: relative;
-  @include rem(padding, $gutter/2 $gutter $gutter/2 $gutter-3x);
+  padding: $gutter/2 $gutter $gutter/2 $gutter-3x;
   border-left: 2px solid #ccc;
-  background: #f3f3f3;  
+  background: #f3f3f3;
 
   &:before {
     color: #ddd;
     content: "\201C";
     font: italic 100px Tahoma,Arial;
-    @include rem(left, -$gutter/2);
-    @include rem(top, -$gutter/2);
+    left: -$gutter/2;
+    top: -$gutter/2;
     position: absolute;
   }
-  
+
   p {
     &:only-child,
     &:last-child {

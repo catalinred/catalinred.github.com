@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .master-content {
-  @include rem(padding, $gutter-2x 0); 
+  padding: $gutter-2x 0;
 }
 
 /**
@@ -12,9 +12,9 @@
 
 .post {
   position: relative;
-  @include rem(margin-bottom, $gutter-3x);
-  @include rem(padding-bottom, $gutter-2x);
-  
+  margin-bottom: $gutter-3x;
+  padding-bottom: $gutter-2x;
+
   // index separator dots
   &:not(:last-of-type):after {
     content: '...';
@@ -22,8 +22,8 @@
     bottom: 0; left: 0; right: 0;
     text-align: center;
     color: $color-blue;
-    @include rem(letter-spacing, .5); 
-    @include rem(font-size, 2.5);
+    letter-spacing: .5rem;
+    font-size: 2.5rem;
     pointer-events: none;
   }
 }
@@ -37,7 +37,7 @@
       outline: 1px solid $color-light;
     }
   }
-} 
+}
 
 .post__time {
   color: #aaa;
@@ -49,7 +49,7 @@
 
 .pagination {
   @extend %unstyled-list;
-  @include rem(margin-bottom, $gutter-3x);
+  margin-bottom: $gutter-3x;
 
   > li {
     display: inline-block;
@@ -57,12 +57,12 @@
 }
 
 .pagination__status {
-  @include rem(margin, 0 $gutter/2);
+  margin: 0 $gutter/2;
 }
 
 @include breakpoint(small) {
   .pagination__status {
-    @include rem(margin, 0 $gutter-2x);
+    margin: 0 $gutter-2x;
   }
 }
 
@@ -78,13 +78,13 @@
   list-style: none;
 
   &:not(:first-child) > h2 {
-    @include rem(margin-top, 1.5);
+    margin-top: 1.5rem;
   }
 }
 
 .archive-list--item {
-  @include rem(margin-left, 1);
-}  
+  margin-left: 1rem;
+}
 
 /**
  * Slideout footer effect only for large displays
@@ -105,7 +105,7 @@
       position: absolute;
       left: 0; right: 0; bottom: -3px;
       height: 3px;
-      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgOCAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNCwzIDAsMCA4LDAgIi8+PC9zdmc+) 
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI4cHgiIGhlaWdodD0iM3B4IiB2aWV3Qm94PSIwIDAgOCAzIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA4IDMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNCwzIDAsMCA4LDAgIi8+PC9zdmc+)
                   repeat-x center;
       // the repeating SVG triangle pattern will blend with .master-footer's similar one
     }
@@ -117,5 +117,5 @@
  */
 
 .cp_embed_wrapper {
-  @include rem(margin-bottom, 1.5);
+  margin-bottom: 1.5rem;
 }

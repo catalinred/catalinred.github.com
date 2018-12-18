@@ -1,0 +1,26 @@
+/*------------------------------------*\
+  Mixins
+\*------------------------------------*/
+
+/**
+ * Breakpoints for media queries
+ */
+
+@mixin breakpoint($point) {
+	// Large devices (large desktops, 1200px and up)
+	@if $point == large {
+		@media (min-width: 1200px) { @content; }
+	}
+	// Medium devices
+	@else if $point == medium {
+		@media (min-width: 992px) { @content; }
+	}
+	// Small devices
+	@else if $point == small {
+		@media (min-width: 769px)  { @content; }
+	}
+  // Extra small devices
+  @else if $point == xsmall {
+    @media (min-width: 481px)  { @content; }
+  }
+}

@@ -7,8 +7,8 @@
  */
 
 .aside-module {
-  @include rem(margin, 0 0 $gutter);
-  @include rem(padding, $gutter);
+  margin: 0 0 $gutter;
+  padding: $gutter;
   position: relative;
 
   &:last-child {
@@ -22,8 +22,8 @@
     left: 0; right: 0;
     z-index: -1;
     background: $color-light;
-    transform: skewx( -3deg );  
-  } 
+    transform: skewx( -3deg );
+  }
 
   &:after {
     content: '';
@@ -41,7 +41,7 @@
  * Get updates via RSS or email
  */
 
-.email-form { 
+.email-form {
   position: relative;
 
   &__text {
@@ -50,7 +50,7 @@
     border: 0;
     width: 100%;
   }
-  
+
   &__text:not(:placeholder-shown) + &__submit {
     background: $color-red;
   }
@@ -68,7 +68,7 @@
     text-transform: uppercase;
     background: #aaa;
     border: 0;
-  }  
+  }
 
   &__message {
     font-size: .9rem;
@@ -79,33 +79,33 @@
       color: #137a46;
       background-color: #aaedb0;
     }
-    
+
     &--error {
       color: #D11717;
       background-color: #ffd3d3;
-    }        
+    }
   }
 }
 
 /**
  * BSA
  */
- 
+
 #carbonads {
   overflow: hidden;
   line-height: 1.5;
   font-size: .8em;
-  
+
   span {
     overflow: hidden;
-  }  
+  }
 }
 
 .carbon-text {
   max-width: 50%;
   text-align: left;
   color: $color-black;
-	
+
   &:hover {
     text-decoration: none;
   }
@@ -114,7 +114,7 @@
 .carbon-img {
   float: left;
   margin-right: 15px;
-  
+
   img {
     width: 130px;
 	height: 100px;
@@ -129,7 +129,7 @@
 /**
  * Aside list
  */
- 
+
 .aside-module--list {
   @extend %unstyled-list;
 

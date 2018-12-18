@@ -25,3 +25,5 @@ navigation:
     url: /archive/
   - text: Contact
     url: /contact/
+sass:
+    style: compressed
