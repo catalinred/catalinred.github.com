@@ -7,6 +7,7 @@
  */
 
 .aside-module {
+  background: $color-light;
   margin: 0 0 $gutter;
   padding: $gutter;
   position: relative;
@@ -15,21 +16,10 @@
     margin-bottom: 0;
   }
 
-  &:before {
+  &::before {
     content: '';
     position: absolute;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
-    z-index: -1;
-    background: $color-light;
-    transform: skewx( -3deg );
-  }
-
-  &:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    border: 1px dashed rgba(0,0,0,.1);
+    border: 1px dashed rgba(0,0,0,.2);
     top: 10px;
     bottom: 10px;
     left: 10px;

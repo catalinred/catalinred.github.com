@@ -74,7 +74,7 @@ body {
  */
 
 .container {
-  max-width: 1200px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
   padding-left: $gutter;
@@ -85,25 +85,28 @@ body {
  * Links
  */
 
-a {
+ a {
   color: $color-red;
   text-decoration: none;
 
-  // text-decoration-skip-ink: auto;
-  // https://twitter.com/abrax5/status/928272986108583936
-  text-decoration-skip: ink;
-
-  &:hover {
-    text-decoration: underline;
-  }
-
   img {
     border: 0;
+  }
+ }
+
+.site-main a {
+  padding-bottom: 2px;
+  border-bottom: 1px solid  currentColor;
+
+  &:hover {
+    background-color:  $color-red;
+    color: #fff;
   }
 }
 
 h1 a {
   color: $color-black;
+  border: 0 !important;
 
   &:hover{
     color: $color-red;
@@ -148,15 +151,12 @@ blockquote {
  */
 
 code {
-  background: #eee;
-  padding: 1px 2px;
   font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }
 
 /**
  * SVG icons
  */
-
 
 .svg-icon {
   fill: currentColor;
