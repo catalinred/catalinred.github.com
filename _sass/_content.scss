@@ -158,6 +158,11 @@
 
     .site-widget {
       grid-area: widget;
+      margin-top: -3rem;
+
+      h3, p {
+        margin-bottom: 0;
+      }
     }
 
     .site-footer {
