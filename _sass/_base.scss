@@ -19,12 +19,12 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: $color-red;
+  background-color: $color-secondary;
 }
 
 ::selection {
   color: #fff;
-  background-color: $color-red;
+  background-color: $color-secondary;
 }
 
 /**
@@ -84,7 +84,7 @@ body {
  */
 
 a {
-  color: $color-red;
+  color: $color-primary;
   text-decoration: none;
 
   img {
@@ -96,10 +96,10 @@ a {
 .site-widget {
   a {
     padding-bottom: 2px;
-    border-bottom: 1px solid  currentColor;
+    border-bottom: 2px solid  currentColor;
 
     &:hover {
-      background-color:  $color-red;
+      background-color:  $color-primary;
       color: #fff;
     }
   }
@@ -110,7 +110,7 @@ h1 a {
   border: 0 !important;
 
   &:hover{
-    color: $color-red;
+    color: $color-primary;
   }
 }
 

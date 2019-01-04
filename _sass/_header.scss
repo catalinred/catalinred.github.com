@@ -59,7 +59,7 @@
 
   .current {
     a {
-      background-color: $color-red;
+      background-color: $color-primary;
       color: #fff;
     }
   }
@@ -87,15 +87,14 @@
         position: relative;
         display: inline-block;
         padding: 0;
-        line-height: 50px;
-        // 60px is the logo's height
+        line-height: 35px;
 
         &:after {
           content: '';
           position: absolute;
-          height: 2px; width: 100%;
+          height: 4px; width: 100%;
           left: 0; bottom: 0;
-          background-color: $color-red;
+          background: linear-gradient(to right, $color-primary, $color-secondary);
 
           visibility: hidden;
           transform: scaleX(0);
@@ -124,7 +123,8 @@
 }
 
 .master-header {
-  background-color: $color-navy ;
+  background-color: $color-dark;
+  background-image:  radial-gradient(top, #3c3b52 0%, #252233 80%);
   padding: $gutter-6x 0;
 
   // full width
@@ -142,8 +142,7 @@
   font-size: 3rem;
   display: inline-block;
   color: #fff;
-
-  background: linear-gradient(to right, #30CFD0, #fd3f4f);
+  background: linear-gradient(to right, $color-primary, $color-secondary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
