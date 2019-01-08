@@ -3,8 +3,8 @@ author: Red
 comments: true
 date: 2019-01-10 10:00:00
 layout: post
-slug: es6-const-is-not-constant
-title: ES6 const is not constant
+slug: es6-const-is-not-constant-immutable
+title: ES6 const is not constant or immutable
 description: ES6 const is not meant to be constant or immutable.
 categories:
 - JS
