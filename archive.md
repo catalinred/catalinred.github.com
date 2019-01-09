@@ -21,8 +21,8 @@ permalink: /archive/
   {% endif %}
 {% endunless %}
 <li class="archive-list--item">
-  <a href="{{ post.url }}">{{ post.title | xml_escape }}</a> 
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="post__time">
+  <a href="{{ post.url }}">{{ post.title | xml_escape }}</a>
+  <time datetime="{{ post.date | date: '%Y-%m-%d' }}" class="post__time">
     <small>{{ post.date | date_to_string }}</small>
   </time>
 </li>

@@ -4,13 +4,13 @@
 
 
 /**
- * Alter the default CSS box model 
+ * Alter the default CSS box model
  */
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
-          box-sizing: border-box; 
+          box-sizing: border-box;
 }
 
 /**
@@ -19,12 +19,12 @@
 
 ::-moz-selection {
   color: #fff;
-  background-color: $color-red;
+  background-color: $color-secondary;
 }
 
 ::selection {
   color: #fff;
-  background-color: $color-red;
+  background-color: $color-secondary;
 }
 
 /**
@@ -42,7 +42,7 @@ img {
  */
 
 hr {
-  @include rem(margin, $gutter 0);
+  margin: $gutter 0;
   border: 0;
   border-top: 1px solid $color-light;
 
@@ -61,12 +61,10 @@ hr {
  }
 
 body {
-  margin: 0;  
+  margin: 0;
   color: $color-black;
-  line-height: $line-height; 
+  line-height: $line-height;
   font-family: $rtd-font;
-  //background-image: linear-gradient(rgba(0,0,0,.04) 1px, transparent 1px);
-  //background-size: 100% $line-height;   
 }
 
 /**
@@ -74,46 +72,52 @@ body {
  */
 
 .container {
-  max-width: 1200px;
+  max-width: 1120px;
   margin-left: auto;
   margin-right: auto;
-  @include rem(padding-left, $gutter);
-  @include rem(padding-right, $gutter);   
+  padding-left: $gutter;
+  padding-right: $gutter;
 }
 
 /**
  * Links
  */
 
-a { 
-  color: $color-red; 
+a {
+  color: $color-primary;
   text-decoration: none;
-  
-  // text-decoration-skip-ink: auto;
-  // https://twitter.com/abrax5/status/928272986108583936
-  text-decoration-skip: ink;
-
-  &:hover {
-    text-decoration: underline;
-  }
 
   img {
     border: 0;
   }
 }
 
-h1 a {
-  color: $color-black;
+.site-main,
+.site-widget {
+  a {
+    padding-bottom: 2px;
+    border-bottom: 2px solid  currentColor;
 
-  &:hover{
-    color: $color-red;
-  }   
+    &:hover {
+      background-color:  $color-primary;
+      color: #fff;
+    }
+  }
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a { 
+h1 a {
+  color: $color-black;
+  border: 0 !important;
+
+  &:hover{
+    color: $color-primary;
+  }
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
   &:hover{
     text-decoration: none;
-  } 
+  }
 }
 
 /**
@@ -122,19 +126,19 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 
 blockquote {
   position: relative;
-  @include rem(padding, $gutter/2 $gutter $gutter/2 $gutter-3x);
+  padding: $gutter/2 $gutter $gutter/2 $gutter-3x;
   border-left: 2px solid #ccc;
-  background: #f3f3f3;  
+  background: #f3f3f3;
 
   &:before {
     color: #ddd;
     content: "\201C";
     font: italic 100px Tahoma,Arial;
-    @include rem(left, -$gutter/2);
-    @include rem(top, -$gutter/2);
+    left: -$gutter/2;
+    top: -$gutter/2;
     position: absolute;
   }
-  
+
   p {
     &:only-child,
     &:last-child {
@@ -148,8 +152,6 @@ blockquote {
  */
 
 code {
-  background: #eee;
-  padding: 1px 2px;
   font-family: "Consolas", "Courier New", "Courier", "FreeMono", monospace;
 }
 
@@ -157,7 +159,13 @@ code {
  * SVG icons
  */
 
-
 .svg-icon {
   fill: currentColor;
+}
+
+/**
+ * Mark
+ */
+mark {
+  background-color: #fbf7d7;
 }

@@ -1,0 +1,172 @@
+/*------------------------------------*\
+  Content
+\*------------------------------------*/
+
+.master-content {
+  padding: $gutter-2x 0;
+}
+
+/**
+ * Articles list
+ */
+
+.post {
+  position: relative;
+  margin-bottom: $gutter-3x;
+  padding-bottom: $gutter-2x;
+
+  // index separator dots
+  &:not(:last-of-type):after {
+    content: '...';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    text-align: center;
+    color: $color-black;
+    letter-spacing: .5rem;
+    font-size: 2.5rem;
+    pointer-events: none;
+  }
+}
+
+// because the previous post previews are narrower
+@include breakpoint(xsmall) {
+  img {
+    .post &, .single-post & {
+      //width: 100%;
+      border: 8px solid #fff;
+      outline: 1px solid $color-light;
+    }
+  }
+}
+
+.post__time {
+  color: #999;
+}
+
+@include breakpoint(large) {
+  @supports (writing-mode: vertical-lr) {
+    .post__time--vertical  {
+      writing-mode: vertical-lr;
+      float: left;
+      margin-left: -2rem;
+      white-space: nowrap;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 1ch;
+        height: 2.5rem;
+        margin: 10px 0;
+        background: linear-gradient(currentColor, currentColor)
+                    no-repeat center / 1px 100%;
+      }
+    }
+  }
+}
+
+/**
+ * Articles list
+ */
+
+.pagination {
+  @extend %unstyled-list;
+  margin-bottom: $gutter-3x;
+
+  > li {
+    display: inline-block;
+  }
+}
+
+.pagination__status {
+  margin: 0 $gutter/2;
+}
+
+@include breakpoint(small) {
+  .pagination__status {
+    margin: 0 $gutter-2x;
+  }
+}
+
+/**
+ * Archive list
+ */
+
+.archive-list {
+  padding: 0;
+}
+
+.archive-list--heading {
+  list-style: none;
+
+  &:not(:first-child) > h2 {
+    margin-top: 1.5rem;
+  }
+}
+
+.archive-list--item {
+  margin-left: 1rem;
+}
+
+/**
+ * CodePen
+ */
+
+.cp_embed_wrapper {
+  margin-bottom: 1.5rem;
+}
+
+/**
+ * Grid
+ */
+
+@supports (grid-area: auto) {
+  @media screen and (min-width: 768px) {
+    .site {
+      display: grid;
+      grid-gap: 0 1.5em;
+      grid-template-rows: auto
+                          1fr
+                          auto
+                          auto;
+      grid-template-columns:  auto
+                              minmax(min-content, 750px)
+                              minmax(200px, 300px)
+                              auto;
+      grid-template-areas:  ". header header ."
+                            ". main sidebar ."
+                            "footer footer footer footer";
+
+      &--post {
+        grid-template-areas:  ". header header ."
+                              ". main sidebar ."
+                              ". widget sidebar ."
+                              "footer footer footer footer";
+      }
+    }
+
+    .site-header {
+      grid-area: header;
+    }
+
+    .site-main {
+      grid-area: main;
+    }
+
+    .site-sidebar {
+      grid-area: sidebar;
+    }
+
+    .site-widget {
+      grid-area: widget;
+      margin-top: -3rem;
+
+      h3, p {
+        margin-bottom: 0;
+      }
+    }
+
+    .site-footer {
+      grid-area: footer;
+    }
+  }
+}
