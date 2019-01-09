@@ -1,0 +1,158 @@
+/*------------------------------------*\
+  Header
+\*------------------------------------*/
+
+.top-header {
+  background-color: #fff;
+  padding: $gutter 0;
+  text-align: center;
+}
+
+.red-logo {
+  overflow: hidden;
+  width: 115px;
+  height: 50px;
+  display: inline-block;
+
+  .svg-path {
+    fill:none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: .1s stroke-width;
+  }
+
+  polyline {
+    stroke:#353a4a;
+  }
+
+  line {
+    stroke:#eb5055;
+  }
+
+  &:hover .svg-path {
+    stroke-width: 14;
+  }
+}
+
+.red-nav {
+  ul {
+    @extend %unstyled-list;
+    font-size: 1.1rem;
+  }
+
+  li {
+    display: block;
+
+    > a {
+      display: block;
+      color: $color-black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 10px 0;
+
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+
+  .current {
+    a {
+      background-color: $color-primary;
+      color: #fff;
+    }
+  }
+}
+
+@include breakpoint(small) {
+  .red-logo {
+    display: block;
+  }
+
+  .red-nav {
+    text-align: right;
+  }
+}
+
+@include breakpoint(xsmall) {
+
+  .red-nav {
+
+    li {
+      display: inline-block;
+      margin-left: 2rem;
+
+      > a {
+        position: relative;
+        display: inline-block;
+        padding: 0;
+        line-height: 35px;
+
+        &:after {
+          content: '';
+          position: absolute;
+          height: 4px; width: 100%;
+          left: 0; bottom: 0;
+          background: linear-gradient(to right, $color-primary, $color-secondary);
+
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all .1s ease;
+        }
+
+        &:hover:after {
+          visibility: visible;
+          transform: scaleX(1);
+        }
+      }
+    }
+
+    .current a {
+      background: none;
+      color: $color-black;
+      pointer-events: none;
+
+      &:after {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+    }
+  }
+
+}
+
+.master-header {
+  background-color: $color-dark;
+  background-image:  radial-gradient(top, #3c3b52 0%, #252233 80%);
+  padding: $gutter-6x 0;
+
+  // full width
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.master-head--title {
+  margin: 0;
+  font-weight: 200;
+  font-size: 3rem;
+  display: inline-block;
+  color: #fff;
+  background: linear-gradient(to right, $color-primary, $color-secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@include breakpoint(small) {
+  .master-head--title {
+    // comment style title
+    &::before {
+      content: '//';
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,5 +1,4 @@
-name: Catalin Red
-description: Articles on front-end development, CSS, HTML, JavaScript and more.
+title: Catalin Red
 markdown: kramdown
 permalink: /:title/
 paginate: 10
@@ -18,6 +17,7 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 navigation:
   - text: Home
     url: /
@@ -25,3 +25,5 @@ navigation:
     url: /archive/
   - text: Contact
     url: /contact/
+sass:
+    style: compressed

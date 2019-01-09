@@ -8,13 +8,13 @@
   padding: 4px 8px;
   text-align: center;
   color: $color-black;
-  border: 2px solid $color-red;
+  border: 2px solid $color-primary;
   border-radius: 3px;
   transition: .2s ease-out color, .2s ease-out background-color;
-  
+
   &:hover {
     color: #fff;
-    background-color: $color-red;
+    background-color: $color-primary;
     text-decoration: none;
   }
 }
@@ -28,18 +28,18 @@
 }
 
 .btn--secondary {
-  border-color: $color-navy;
-  &:hover {  
-    background: $color-navy;
+  border-color: $color-dark;
+  &:hover {
+    background: $color-dark;
   }
 }
 
 .btn--disabled {
   pointer-events: none;
   border-color: $color-light;
-  color: darken($color-light, 25%);  
+  color: darken($color-light, 25%);
   &:hover {
-    color: darken($color-light, 25%);   
+    color: darken($color-light, 25%);
     background: none;
   }
 }

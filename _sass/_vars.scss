@@ -15,7 +15,7 @@ $rtd-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neu
  * Other stuff
  */
 
-$gutter:        1.25; // 1.25 * 16 = 20
+$gutter:        1.25rem; // 1.25 * 16 = 20
 $gutter-2x:     2*$gutter;
 $gutter-3x:     3*$gutter;
 $gutter-4x:     4*$gutter;
@@ -28,7 +28,7 @@ $line-height:   27px;
  */
 
 $color-black:       #333;
-$color-navy:        #353a4a;
-$color-blue:        #b8c3e9;
-$color-light:       #eef0f3;
-$color-red:         #eb5055;
+$color-dark:        #222831;
+$color-light:       #eee;
+$color-primary:     #00adb5;
+$color-secondary:   #fd3f4f;

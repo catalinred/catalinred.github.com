@@ -1,0 +1,30 @@
+/*------------------------------------*\
+  Footer
+\*------------------------------------*/
+
+.master-footer {
+  color: $color-light;
+  background: $color-dark;
+  padding: $gutter-2x+.5 0 $gutter-2x 0;
+  // + ~.5 unit because of the top triangle pattern
+
+  hr {
+    border-color: rgba(255, 255, 255, .1);
+    border-style: dashed;
+    margin: $gutter-2x 0;
+  }
+
+  a {
+    color: $color-light;
+    opacity: .8;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
+
+  .svg-icon {
+    margin: 1rem;
+  }
+}

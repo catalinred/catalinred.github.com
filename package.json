@@ -3,18 +3,12 @@
   "version": "1.0.0",
   "description": "A set of build tasks with npm scripts.",
   "scripts": {
-    "autoprefixer": "postcss -u -x autoprefixer -r dist/css/*",
-    "scss": "node-sass --output-style compressed -o dist/css/ src/sass/",
     "uglify": "mkdirp dist/js && uglifyjs src/js/common.js -m -c -o dist/js/common.js",
     "imagemin": "imagemin src/img/* --out-dir=dist/img",
-    "build:css": "npm run scss && npm run autoprefixer",
     "build:js": "npm run uglify",
-    "build:all": "npm run build:css && npm run build:js && npm run imagemin && bundle exec jekyll serve"
+    "build:all": "npm run build:js && npm run imagemin && bundle exec jekyll serve"
   },
   "devDependencies": {
-    "autoprefixer": "^8.6.3",
-    "node-sass": "^4.9.0",
-    "postcss-cli": "^5.0.1",
     "uglify-js": "^3.4.2",
     "imagemin-cli": "^3.0.0"
   }

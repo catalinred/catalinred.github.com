@@ -2,16 +2,21 @@
   Pygments - the Python syntax highlighter
 \*------------------------------------*/
 
-pre { 
-  @include rem(padding, $gutter); 
+pre {
+  padding: $gutter;
   overflow: auto;
+  max-width: 750px;
 }
 
 pre,
-pre code { 
-  @include rem(font-size, .9); 
-  background: #111; 
+pre code {
+  font-size: .9rem;
+  background: #111;
   color: #93A1A1;
+}
+
+figure.highlight {
+  margin: 0;
 }
 
 .highlight code { white-space: inherit; padding: 0; }
