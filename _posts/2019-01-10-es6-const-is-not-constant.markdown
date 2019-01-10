@@ -48,15 +48,15 @@ The value of a constant cannot change through reassignment, but any object or ar
 *[same MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)*
 
 {% highlight js %}
-  const arr = [1,2];
-  Object.freeze(arr);
+  const arr = ["one","two"];
 
   // Array mutation is ok
-  arr.push(3);
+  // ["one", "two", "three"]
+  arr.push("three");
 
   Object.freeze(arr);
-  // Uncaught TypeError: Cannot add property 4, object is not extensible
-  arr.push(4);
+  // Uncaught TypeError: Cannot add property 3, object is not extensible
+  arr.push("new");
 {% endhighlight %}
 
 ## Conclusion
