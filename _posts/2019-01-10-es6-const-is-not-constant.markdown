@@ -31,6 +31,7 @@ In reality, `const` is not really a constant and it's not immutable.
   };
 
   // Object mutation is ok
+  // {one: 1, two: 2, three: 3}
   obj.three = 3;
 
   // Reassignment doesn't work
