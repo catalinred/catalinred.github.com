@@ -11,6 +11,7 @@
   margin: 0 0 $gutter;
   padding: $gutter;
   position: relative;
+  z-index: 1;
 
   &:last-child {
     margin-bottom: 0;
@@ -19,6 +20,7 @@
   &::before {
     content: '';
     position: absolute;
+    z-index: -1;
     border: 1px dashed rgba(0,0,0,.2);
     top: 10px;
     bottom: 10px;
@@ -84,7 +86,7 @@
 
 #carbonads {
   overflow: hidden;
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: .8em;
 
   span {
