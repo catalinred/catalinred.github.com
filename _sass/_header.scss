@@ -124,7 +124,7 @@
 
 .master-header {
   background-color: $color-dark;
-  background-image:  radial-gradient(top, #3c3b52 0%, #252233 80%);
+  background-image:  linear-gradient(to left, lighten($color-dark, 10%), $color-dark);
   padding: $gutter-6x 0;
 
   // full width
