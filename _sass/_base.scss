@@ -65,6 +65,9 @@ body {
   color: $color-black;
   line-height: $line-height;
   font-family: $rtd-font;
+  // A bit of kung fu to overcome .master-header full width style
+  // from  _header.scss
+  overflow-x: hidden;
 }
 
 /**
