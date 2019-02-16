@@ -26,12 +26,9 @@ The meeting was cool, a success, not the first I was attending, but one question
 
 ## OK 😑
 
-Well, hearing this *3-in-1* wording was weird, at least, especially when having [this](https://twitter.com/jakevdp/status/1062342018758696960) in mind, or [this](https://twitter.com/holtbt/status/977419276251430912).
+Well, hearing this *3-in-1* wording was weird, at least, especially when having [this](https://twitter.com/jakevdp/status/1062342018758696960) in mind, or [this](https://twitter.com/holtbt/status/977419276251430912). But what do I know, I'm a front-end developer, sorry, web developer... I mean I sometimes do websites, when I'm not ranting.
 
-But what do I know, I'm a front-end developer, sorry, web developer... I mean I sometimes do websites, when I'm not ranting.
-
-## I had to write this down
-But there are some good articles on this matter in the wild and I strongly advise to go read them:
+I felt like I had to write this happening down but there are some good articles on this matter in the wild and I strongly advise to go read them:
 
 - [Full-stack developers](http://bradfrost.com/blog/post/full-stack-developers/) by Brad Frost
 - [The problem with full-stack](http://www.heydonworks.com/article/reluctant-gatekeeping-the-problem-with-full-stack) by Heydon Pickering
