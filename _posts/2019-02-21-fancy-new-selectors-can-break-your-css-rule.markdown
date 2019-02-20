@@ -35,4 +35,4 @@ Here's the GitHub [commit](https://github.com/catalinred/animenu/commit/ede5f8bf
 
 ## The fix
 
-I learned the lesson, [fixed the CSS selectors](https://github.com/catalinred/animenu/commit/21b7ae23efeec6cba1ec8aeae495e206b58b529f) and wrote this down. Also, you might like the article I wrote on [how to visually validate an input field](https://catalin.red/visually-validate-input-using-css/) using `:placeholder-shown` and `:focus-within`.
+I learned the lesson, [fixed the CSS selectors](https://github.com/catalinred/animenu/commit/21b7ae23efeec6cba1ec8aeae495e206b58b529f) and wrote this down. Also, you might like the article I wrote on [how to visually validate an input field](/visually-validate-input-using-css/) using `:placeholder-shown` and `:focus-within`.
