@@ -31,9 +31,7 @@ Here's the GitHub [commit](https://github.com/catalinred/animenu/commit/ede5f8bf
 }
 {% endhighlight %}
 
-![W3C specifications on grouping selectors](/dist/uploads/2019/02/specs-screenshot.jpg)
-
-*from the W3C [specs](https://www.w3.org/TR/2018/REC-selectors-3-20181106/#grouping)*
+> If just one of these selectors were invalid, the entire group of selectors would be invalid.
 
 ## The fix
 
