@@ -28,6 +28,7 @@ The `:placeholder-shown` CSS pseudo-class helps to make the distinction between 
 ## The clean HTML version
 
 ![Clean HTML form](/dist/uploads/2017/10/clean-html.gif)
+
 *The submit button is enabled as you start typing within the text input.*
 
 I did use [Tachyons](http://tachyons.io/) for the CodePen demo, but that is completely optional. You can merely use the following markup:
@@ -56,11 +57,13 @@ To summarize, the next CSS selector says (from right to left): **select the `#su
 This CSS rule makes the submit button to look like a *disabled* one until the required email input is filled. Basically, the disabled state is visually faked with CSS rather than using native HTML `disabled` attribute.
 
 ![Disabled submit button](/dist/uploads/2017/10/disabled-submit.gif)
+
 *Style the submit button to simulate the disabled state.*
 
 When it comes to keyboard tabbing, this trick might not be that effective so we avoid faking the disabled state when the `#submit` element is focused. This is basically what `:not(:focus)` is used for in the above selector.
 
 ![Keyboard tabbing](/dist/uploads/2017/10/keyboard-tabs.gif)
+
 *Prevent any keyboard tabbing inconsistency.*
 
 ### `:focus-within`
@@ -69,6 +72,7 @@ While playing with the current demo, I thought about how the `:focus-within` can
 It looks a bit like the [CSS parent selector](https://drafts.csswg.org/selectors-4/#relational) because it selects a parent element based on a child element, in this case the focused input.
 
 ![Focus within the form](/dist/uploads/2017/10/focus-within.gif)
+
 *Simple form drop shadow effect.*
 
 {% highlight css %}
@@ -84,5 +88,5 @@ This solution doesn't break the native form elements behavior of any kind, so I 
 
 Feel free to play with the **[demo on CodePen](https://codepen.io/catalinred/pen/OxRzjP)** and make sure you check the browser support too.
 
-- [http://caniuse.com/#feat=css-placeholder-shown](http://caniuse.com/#feat=css-placeholder-shown) 
+- [http://caniuse.com/#feat=css-placeholder-shown](http://caniuse.com/#feat=css-placeholder-shown)
 - [http://caniuse.com/#feat=css-focus-within](http://caniuse.com/#feat=css-focus-within)
