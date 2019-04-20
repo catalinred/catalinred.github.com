@@ -58,6 +58,7 @@ I guess I was too ignorant about this SEO title matter, but learned lots of thin
 
 In the end, having all my [website's code on Github](https://github.com/catalinred/catalinred.github.com/), I was able to go back in time and build a sort of commits timeline related to this website name story of mine. Here's a rough timeline attempt below, just in case:
 
+### Initial commit
 This is [the first GitHub commit](https://github.com/catalinred/catalinred.github.com/commit/5222844d8b39a5c13254b32804c8a406f0a81e7f#diff-aeb42283af8ef8e9da40ededd3ae2ab2R1) with my website name stored in a [YAML](https://yaml.org/) config file, back in 2014.
 
 {% highlight yaml %}
@@ -74,6 +75,8 @@ So that's [what I did at that time](https://github.com/catalinred/catalinred.git
 
 ---
 
+### Logo with CSS image replacement
+
 After the initial init, [I added a custom logo](https://github.com/catalinred/catalinred.github.com/commit/ac3faeddc92a663d0d0fd1d483d3321d35e69b76#diff-2c19d9859b055d0302043d0fa2833e3fR47) using the CSS image replacement technique. But I guess at that time Google already had the website name stored from within the h1, as in the initial above commit.
 
 {% highlight html %}
@@ -83,6 +86,8 @@ After the initial init, [I added a custom logo](https://github.com/catalinred/ca
 {% endhighlight %}
 
 ---
+
+### SVG logo
 
 In autumn 2017, I replaced the `site.name` [with Catalin Red](https://github.com/catalinred/catalinred.github.com/commit/c044a6028fbf4b4854cc318a7b1b53a35a28ca92#diff-aeb42283af8ef8e9da40ededd3ae2ab2) and I also [updated the logo](https://github.com/catalinred/catalinred.github.com/commit/b36becb4997be428bbf7ede475035104fcaa4a51?diff=unified#diff-2c19d9859b055d0302043d0fa2833e3fL29) from using the CSS image replacement technique to an inline SVG with an `aria-label` attribute.
 
@@ -94,4 +99,14 @@ In autumn 2017, I replaced the `site.name` [with Catalin Red](https://github.com
     <polyline points="..."/>
   </svg>
 </a>
+{% endhighlight %}
+
+---
+
+### The end of the story 💥
+
+One year later, in 2018, [I added the website name](https://github.com/catalinred/catalinred.github.com/commit/77b4f5e17146abd5931e52b2d7afd7b061717d89#diff-2c19d9859b055d0302043d0fa2833e3fR6) to the `title` tag and that did the trick. End of story.
+
+{% highlight html %}
+ <title>{% raw %}{{ page.title | xml_escape }} - {{ site.title }}{% endraw %}</title>
 {% endhighlight %}
