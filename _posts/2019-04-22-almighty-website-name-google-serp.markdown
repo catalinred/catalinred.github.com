@@ -3,9 +3,9 @@ author: Red
 comments: true
 date: 2019-04-22 10:00:00
 layout: post
-slug: almighty-website-name-google-serp
-title: An SEO story on the almighty website name from within the Google SERP title
-description: I didn't add a website name within the title tag for my website, then I switched the domain and Google was showing my old website name references in the SERP for my new domain queries.
+slug: website-name-google-serp
+title: An SEO story on the website name from the Google SERP
+description: I didn't add a website name within the title tag for my website, then I switched to a new domain and Google was showing my old website name references in the SERP.
 categories:
 - SEO
 - HTML
@@ -14,9 +14,15 @@ categories:
 
 Or what happens when you don't specify a website name within the `title` tag, then Google grabs one for you from your `h1`, later on you switch to a new domain and get stuck with the old website name. Oh and that's because you didn't add a website name this time either.
 
-![Website name within Google SERP](/dist/uploads/2019/04/website-name-google-serp.png)
+![Website name within the Google SERP](/dist/uploads/2019/04/website-name-google-serp.png)
 
 <!-- more -->
+
+## What is SERP when it comes to SEO?
+
+A Search Engine Results Page (SERP) is the list of results returned by a search engine as a response to a user's query. For the sake of brevity, the term SERP is often used by the people in the SEO industry.
+
+Also, the upper part of the first page of SERP is where your website pages have to be in order to receive higher traffic from a search engine.
 
 ## Google chooses which titles to display in search results
 
@@ -105,7 +111,7 @@ In autumn 2017, I replaced the `site.name` [with Catalin Red](https://github.com
 
 ### The end of the story 💥
 
-One year later, in 2018, [I added the website name](https://github.com/catalinred/catalinred.github.com/commit/77b4f5e17146abd5931e52b2d7afd7b061717d89#diff-2c19d9859b055d0302043d0fa2833e3fR6) to the `title` tag and that did the trick. End of story.
+One year later, in 2018, [I added the website name](https://github.com/catalinred/catalinred.github.com/commit/77b4f5e17146abd5931e52b2d7afd7b061717d89#diff-2c19d9859b055d0302043d0fa2833e3fR6) to the `title` tag and that did the trick and that's the end of story.
 
 {% highlight html %}
  <title>{% raw %}{{ page.title | xml_escape }} - {{ site.title }}{% endraw %}</title>
