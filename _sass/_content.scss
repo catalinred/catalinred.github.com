@@ -34,7 +34,7 @@
     .post &, .single-post & {
       //width: 100%;
       border: 8px solid #fff;
-      outline: 1px solid $color-light;
+      outline: 2px solid darken($color-light, 5%);
     }
   }
 }
