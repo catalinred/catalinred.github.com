@@ -4,17 +4,17 @@ comments: false
 date: 2019-12-16 10:00:00
 layout: post
 slug: css-resize-none-is-bad-for-ux
-title: CSS resize none is bad for UX
+title: CSS resize none on textarea is bad for UX
 description: Some people decide to remove the textarea resize handle using the CSS resize none declaration and that is a bad thing for UX.
 categories:
 - HTML
-- JS
+- UX
 - CSS
 ---
 
 For whatever reason, people seem to be passionate about removing the `textarea` resize handle using the CSS `resize: none` declaration. Also, GitHub says there are [more than 3 million code results](https://github.com/search?q=%22resize%3Anone%22+textarea&type=Code) in the wild for `textarea` with CSS `resize:none` applied.
 
-![The CSS resize none on textarea is bad for UX](/dist/uploads/2019/12/css-resize-none-textarea-bad-ux.png)
+![A resizable textarea element](/dist/uploads/2019/12/css-resize-none-textarea-bad-ux.png)
 
 <!-- more -->
 
@@ -26,11 +26,19 @@ I'm not a Stack Overflow power user but back in 2011, I did post an [answer on S
 
 Never start an answer with *just* and never recommend other people to use CSS `resize: none` in their stylesheets. You can do better than me!
 
+## CSS `resize:none` on `textarea` is bad UX
+
+I think using the CSS `resize:none` declaration on a `textarea` is a bad decision when it comes to the user experience (UX) overall.
+
+Very often, the `textarea` is limited to a number of rows and columns or it has fixed `width` and `height` defined via CSS. Based solely on my own experience, while answering to forums, writing contact forms on websites, filling live chat *popups* or even private messaging on Twitter this is very frustrating.
+
+Sometimes you need to type a long reply that consists of many paragraphs and wrapping that text within a tiny textarea box makes it hard to understand and to follow as you type. There were many times when I had to write that text within Notepad++ for example and then just paste the whole reply in that small textarea. I admit I also opened the DevTools to override the `resize: none` declaration but that's not really a productive way to do things.
+
 ## The CSS resize
 
-According to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/resize), the resize CSS property sets whether an element is resizable, and if so, in which directions.
+According to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/resize), the resize CSS property sets whether an element is resizable, and if so, in which directions. Also, it's important to keep in mind that the `resize` property does not apply to the inline elements and block elements for which the overflow property is set to `visible`.
 
-Also, it's important to keep in mind that the `resize` property does not apply to the inline elements and block elements for which the overflow property is set to `visible`.
+The CSS `resize` property is ofter applied to `textarea` in order to disable its resizability and this is what this article is about. I felt like an inner contradiction considering the amount of reputation I keep getting on my above Stack Overflow answer while finding on my own this bad UX. Besides that, it looks like the number of GitHub code results on this matter is growing, from 2 millions in 2017 as found by [@humphd](https://twitter.com/humphd/status/911287694550028288) to more than 3 millions two years later.
 
 ## Auto height `textarea`s
 
