@@ -18,9 +18,7 @@ For whatever reason, people seem to be passionate about removing the `textarea` 
 
 <!-- more -->
 
-[I'm on Stack Overflow](https://stackoverflow.com/users/596644/red) and feel kind of embarrassed about building reputation on recommending other people in the past to use CSS `resize: none` on `textarea`s.
-
-I'm not a Stack Overflow power user but back in 2011, I did post an [answer on Stack Overflow](https://stackoverflow.com/questions/6340545/how-to-remove-dots-present-at-the-right-bottom-corner-of-the-textarea-html/6340594#6340594) on removing the *bottom-right corner dots* in a `textarea`. Also, the thing is that I still keep getting Stack Overflow reputation on that answer.
+I'm on Stack Overflow and feel kind of embarrassed about building reputation on recommending other people in the past to use CSS `resize: none` on `textarea`s. I'm not a power user but back in 2011, I did post an [answer on Stack Overflow](https://stackoverflow.com/questions/6340545/how-to-remove-dots-present-at-the-right-bottom-corner-of-the-textarea-html/6340594#6340594) on removing the *bottom-right corner dots* in a `textarea`. Also, the thing is that I still keep getting Stack Overflow reputation on that answer.
 
 ![Stack Overflow reputation on CSS resize none](/dist/uploads/2019/12/stackoverflow-reputation-css-resize-none.png)
 
