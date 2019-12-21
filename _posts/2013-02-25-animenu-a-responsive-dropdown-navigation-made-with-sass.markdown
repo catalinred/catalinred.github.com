@@ -34,7 +34,7 @@ But, this time the accent is put on responsiveness.
 
 ### Browser support
 
-The browser support for this dropdown navigation is IE8+, so it uses the new box model triggered by `box-sizing: border-box` and [the shortest clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php) ever. With less effort, I know this could be updated to work on IE7 too, but at this time I think that if you still need support for IE7 and below, you should try my previous versions.
+The browser support for this dropdown navigation is IE8+, so it uses the new box model triggered by `box-sizing: border-box` and a minimal clearfix method. With less effort, I know this could be updated to work on IE7 too, but at this time I think that if you still need support for IE7 and below, you should try my previous versions.
 
 
 ### One dropdown level
