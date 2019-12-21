@@ -60,7 +60,13 @@ While most live chat apps use the classic HTML `textarea` element, the implement
 
 ![Help Scout uses CSS resize none for the chat widget textarea](/dist/uploads/2019/12/helpscout-textarea-resize-none.png)
 
-So, why `resize: none` is so popular in this case? To answer myself here, maybe if I'd have to write code for a popular live chat app, I wouldn't want a resize handle to ruin my beautiful component design freshly imported from Figma. But maybe I'd stick at least with `resize: vertical` only.
+So, why `resize: none` is so popular in this case?
+
+To answer myself here, maybe if I'd have to write code for a popular live chat app, I wouldn't want a textarea resize handle to ruin my beautiful component design freshly imported from Figma. Would I?
+
+I guess I'd stick with `resize: vertical` at the least, instead of ruining everything with `resize: none`.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&lt;textarea&gt; resize: vertical seems robust enough, and it’s cross browser <a href="https://t.co/fxuPg7RGjb">https://t.co/fxuPg7RGjb</a> <a href="https://t.co/aip8Dr4CHb">pic.twitter.com/aip8Dr4CHb</a></p>&mdash; Šime Vidas (@simevidas) <a href="https://twitter.com/simevidas/status/1208477788686241798?ref_src=twsrc%5Etfw">December 21, 2019</a></blockquote>
 
 ## Conclusion
 
