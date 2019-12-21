@@ -39,10 +39,6 @@
   }
 }
 
-.post__time {
-  color: #999;
-}
-
 @include breakpoint(large) {
   @supports (writing-mode: vertical-lr) {
     .post__time--vertical  {
