@@ -26,7 +26,7 @@ Below you have the demonstration, you may take a look or you can follow the step
 
 ## HTML code
 
-The HTML is quite minimal, we have a div that wraps all the elements. 
+The HTML is quite minimal, we have a div that wraps all the elements.
 
 Further you'll see that this experiment it's based on [pseudo-elements](http://www.w3.org/TR/CSS2/selector.html#pseudo-elements) as-well. This is very helpful when you want less HTML code for your website/web application.
 
@@ -36,11 +36,11 @@ Further you'll see that this experiment it's based on [pseudo-elements](http://w
     <div id="tree"></div>
     <h1>Happy Holidays</h1>
 </div>
-{% endhighlight %} 
+{% endhighlight %}
 
 ## The Background
 
-As you notice if you're using Firefox or Chrome, the background it's a pattern made with [gradients](/css-gradients-quick-tutorial). The new stuff is `background-size` property (with its prefixes for various browsers) when defining CSS gradients. 
+As you notice if you're using Firefox or Chrome, the background it's a pattern made with [gradients](/css-gradients-quick-tutorial). The new stuff is `background-size` property (with its prefixes for various browsers) when defining CSS gradients.
 
 In this case, the [background-size](http://www.w3.org/TR/css3-background/#the-background-size) adjust the size of the stripes.
 
@@ -55,7 +55,7 @@ html
     background-color: #869EA3;
     background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
                         transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
-                        transparent 75%, transparent);    
+                        transparent 75%, transparent);
     background-size: 400px 400px;
 }
 {% endhighlight %}
@@ -74,10 +74,10 @@ Further you need to add the wrapper within which you'll _draw_ all the other ele
     top: 50%;
     left: 50%;
     margin: -250px 0 0 -400px;
-    overflow: hidden;  
+    overflow: hidden;
     background: #0093d8;
     background: linear-gradient(top, #0093d8, #fff);
-    box-shadow: 0 10px 10px rgba(0,0,0,0.5);    
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 
 #wrapper:before {
@@ -128,14 +128,14 @@ Below you can see how it's made: by overlapping three huge (2000x2000 px) circle
     right: 400px;
     height: 2000px;
     width: 2000px;
-    background: #eaeaea;    
-    border-radius: 2000px; 
+    background: #eaeaea;
+    border-radius: 2000px;
 }
 {% endhighlight %}
 
 ## Use custom font
 
-There are multiple options to choose for when it's about [custom fonts for your website](/google-font-api-and-typekit-solutions-vs-font-face). For this example I choosed `Sniglet` font from [Google Font API](http://code.google.com/webfonts/preview#font-family=Sniglet).
+There are multiple options to choose for when it's about [custom fonts for your website](/google-font-api-and-typekit-solutions-vs-font-face). For this example I choosed `Sniglet` font from [Google Font API](https://fonts.google.com/specimen/Sniglet).
 
 ![Sniglet custom font](/dist/uploads/2010/12/sniglet.png)
 
@@ -145,7 +145,7 @@ h1 {
     color: #fafafa;
     text-transform: uppercase;
     margin: 0;
-    text-shadow: 0 1px 0 rgba(0,0,0,0.15), 
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15),
                  0 10px 0 #cfeaed, -5px -5px 10px #4ea5b1;
     position: absolute;
     bottom: 80px;
@@ -196,7 +196,7 @@ One more thing to add and the design it's done. Let's create the fir tree using 
     left: -120px;
     top: 60px;
 }
-{% endhighlight %}  
+{% endhighlight %}
 
 ## Final result
 

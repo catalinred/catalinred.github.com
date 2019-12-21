@@ -13,7 +13,7 @@ tags:
 - CSS3
 ---
 
-CSS3 has brought some amazing new features and continues to do that. One of the most interesting and attractive feature is the CSS animation. Below is a CSS3 animation round-up that shows you the _mighty_ power of CSS and what you can achieve with its help. 
+CSS3 has brought some amazing new features and continues to do that. One of the most interesting and attractive feature is the CSS animation. Below is a CSS3 animation round-up that shows you the _mighty_ power of CSS and what you can achieve with its help.
 
 These animations aren't available to use for all browsers. So, in order to enjoy these effects, you should have **WebKit** browsers like Safari and Chrome.
 
@@ -29,13 +29,6 @@ These animations aren't available to use for all browsers. So, in order to enjoy
 
 [![CSS3 Clock](/dist/uploads/2010/12/css3clock.png)](http://css-tricks.com/examples/CSS3Clock/)
 
-### [Future of web design](http://futureofwebdesign.com/404/)
-
-[![Future of web design](/dist/uploads/2010/12/futureofwebdesign.png)](http://futureofwebdesign.com/404/)
-
-### [Matrix style animation](http://girliemac.com/sandbox/matrix.html)
-
-[![CSS3 Matrix](/dist/uploads/2010/12/matrix.png)](http://girliemac.com/sandbox/matrix.html)
 
 ### [Space](http://media.24ways.org/2009/15/space.html)
 
@@ -52,14 +45,6 @@ These animations aren't available to use for all browsers. So, in order to enjoy
 ### [Polaroids](http://www.zurb.com/playground/css3-polaroids)
 
 [![Polaroids](/dist/uploads/2010/12/polaroids.png)](http://www.zurb.com/playground/css3-polaroids)
-
-### [Canny Bill pricing table](http://stuffandnonsense.co.uk/content/demo/cannybill/21-10-2009/pricing.html)
-
-[![Pricing table](/dist/uploads/2010/12/pricing-table.png)](http://stuffandnonsense.co.uk/content/demo/cannybill/21-10-2009/pricing.html)
-
-### [AT-AT Walker](http://anthonycalzadilla.com/css3-ATAT/index-bones.html)
-
-[![AT-AT walker](/dist/uploads/2010/12/at-at-walker.png)](http://anthonycalzadilla.com/css3-ATAT/index-bones.html)
 
 ## Conclusion
 

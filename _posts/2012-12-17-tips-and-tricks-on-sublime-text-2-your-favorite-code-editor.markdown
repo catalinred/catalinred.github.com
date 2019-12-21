@@ -15,7 +15,7 @@ tags:
 - JavaScript
 ---
 
-Unless you've lived under a rock lately, I'm sure you've heard of [Sublime Text 2](http://www.sublimetext.com/2) and most likely that's your favorite code editor. 
+Unless you've lived under a rock lately, I'm sure you've heard of [Sublime Text 2](http://www.sublimetext.com/2) and most likely that's your favorite code editor.
 
 In the past I used some other [code editors](/free-text-editors-tools-for-developers) like Komodo Edit or Aptana Studio, but now I use Sublime Text 2 on a daily basis and I'm pretty happy with it. It's lightweight, easy to use and has a modern UI look. But by far, the best feature is the ability to extend its functionality with plugins, a.k.a packages.
 
@@ -24,15 +24,15 @@ In the past I used some other [code editors](/free-text-editors-tools-for-develo
 <!-- more -->
 
 ## Top things people love about Sublime
-	
+
   * The Goto Anything ability (`Ctrl+P`) is a time saver as you can quickly jump between files. Also, the Command Pallete (`Ctrl+Shift+P`) is very useful when trying to switch file's syntax for example or search/change preferences.
-	
+
   * I do enjoy the Distraction Free Mode feature (`Shift+F11`) whenever I want to focus even more on writing code.
-	
+
   * Sublime Text 2 it's extremely customizable. That's right, you can customize almost anything like menus, snippets and completions.
-	
+
   * The community is awesome, there are a lot of free plugins in the wild, ready to fit your needs.
-	
+
   * Great user interface with some great predefined color schemes. I am a big fan of the _Monokai_ default.
 
 ## Perfect Workflow in Sublime Text 2
@@ -49,11 +49,11 @@ _List of installed packages._
 
 Here are some packages I'm currently using:
 
-	
-  * [ColorPicker](https://github.com/weslly/ColorPicker) - A color picker right in your Sublime editor.	
-  * [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Contains linting tools for various coding languages.	
-  * [Prefixr](http://wbond.net/sublime_packages/prefixr) - No need to worry about browsers prefixing anymore.	
-  * [LiveReload](https://github.com/dz0ny/LiveReload-sublimetext2) - Spare your F5 key a little more.
+
+  * [ColorPicker](https://github.com/weslly/ColorPicker) - A color picker right in your Sublime editor.
+  * [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter) - Contains linting tools for various coding languages.
+  * [Prefixr](https://packagecontrol.io/packages/Prefixr) - No need to worry about browsers prefixing anymore.
+  * [LiveReload](https://packagecontrol.io/packages/LiveReload) - Spare your F5 key a little more.
 
 ## Emmet & Hayaku
 
@@ -70,8 +70,8 @@ Using the Command Pallete (`Ctrl+Shift+P`) you can easily run an ANT target just
 
 ![Custom ANT targets](/dist/uploads/2012/12/custom-ant-targets.png)
 
-Here's an example that contains two ANT build targets defined: 
-    
+Here's an example that contains two ANT build targets defined:
+
 {% highlight js %}
 {
     "selector": "source.java",
@@ -93,6 +93,6 @@ Here's an example that contains two ANT build targets defined:
 
 ## Conclusion
 
-Don't forget to browse the whole list of published packages. You'll always find something useful there. My latest discovered package that I want to give it a try soon is [Sublime SVN](http://wbond.net/sublime_packages/svn). Also, if you want an even cooler icon for Sublime, you have some options. Check [this resource](https://github.com/dmatarazzo/Sublime-Text-2-Icon) out!
+Don't forget to browse the whole list of published packages. You'll always find something useful there. My latest discovered package that I want to give it a try soon is [Sublime SVN](http://wbond.net/sublime_packages/svn).
 
-Good luck with coding! 
+Good luck with coding!

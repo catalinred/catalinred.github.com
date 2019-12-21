@@ -39,4 +39,3 @@ For now, sticky positioning for `th`'s seems to be the only workaround and it wo
 - [https://caniuse.com/#search=sticky](https://caniuse.com/#search=sticky)
 - [https://bugzilla.mozilla.org/show_bug.cgi?id=975644#c42](https://bugzilla.mozilla.org/show_bug.cgi?id=975644#c42)
 - [https://bugs.chromium.org/p/chromium/issues/detail?id=702927](https://bugs.chromium.org/p/chromium/issues/detail?id=702927)
-- [https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/16765952/](https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/16765952/)

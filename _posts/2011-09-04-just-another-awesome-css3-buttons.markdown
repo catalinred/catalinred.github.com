@@ -46,7 +46,7 @@ _Note the `add` class who adds the plus icon._
 Below you can find the styles used to create the buttons and icons:
 
 {% highlight css %}
-.button {        
+.button {
     display: inline-block;
     white-space: nowrap;
     background-color: #ccc;
@@ -64,9 +64,9 @@ Below you can find the styles used to create the buttons and icons:
 }
 
 .button:hover {
-    background-color: #ddd;        
+    background-color: #ddd;
     background-image: linear-gradient(top, #fafafa, #ddd);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');        
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#fafafa', EndColorStr='#dddddd');
 }
 
 .button:active {
@@ -78,12 +78,12 @@ Below you can find the styles used to create the buttons and icons:
 .button:focus {
     outline: 0;
     background: #fafafa;
-}    
+}
 
 .button:before {
     background: #ccc;
     background: rgba(0,0,0,.1);
-    float: left;        
+    float: left;
     width: 1em;
     text-align: center;
     font-size: 1.5em;
@@ -91,7 +91,7 @@ Below you can find the styles used to create the buttons and icons:
     padding: 0 .2em;
     box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
     border-radius: .15em 0 0 .15em;
-    pointer-events: none;        
+    pointer-events: none;
 }
 
 /* Hexadecimal entities for the icons */
@@ -101,23 +101,23 @@ Below you can find the styles used to create the buttons and icons:
 }
 
 .edit:before {
-    content: "\270E";        
+    content: "\270E";
 }
 
 .delete:before {
-    content: "\2718";        
+    content: "\2718";
 }
 
 .save:before {
-    content: "\2714";        
+    content: "\2714";
 }
 
 .email:before {
-    content: "\2709";        
+    content: "\2709";
 }
 
 .like:before {
-    content: "\2764";        
+    content: "\2764";
 }
 
 .next:before {
@@ -139,13 +139,13 @@ Below you can find the styles used to create the buttons and icons:
 
 ## Why use entities rather than images?
 
-  * Faster loading, because we're talking about text here.	
-  * Scalable, depending on font size.        
+  * Faster loading, because we're talking about text here.
+  * Scalable, depending on font size.
   * Styles as color and background are easy to update via CSS.
 
 ### Speed
 
-The above buttons do not use any image, automatically there's no extra HTTP image request. No image to load means faster rendering. 
+The above buttons do not use any image, automatically there's no extra HTTP image request. No image to load means faster rendering.
 
 ### Scalability
 
@@ -163,7 +163,7 @@ There you go, you've just increased/decreased the button's size!
 
 The icons are added using the `:before` [pseudo-element](/before-after-pseudo-elements). Therefore, you won't see any icons in browsers like IE7 and below, but the buttons will look good yet.
 
-Different operating systems and different browsers means different rendering for the HTML entities we used as icons. If you want to use another icons instead, you could try something like [Pictos](http://pictos.drewwilson.com/).
+Different operating systems and different browsers means different rendering for the HTML entities we used as icons.
 
 ![Browser support](/dist/uploads/2011/09/css3-buttons-across-browsers.png)
 
@@ -183,8 +183,8 @@ _A Chrome screenshot._
 
 {% highlight css %}
 /* Buttons and inputs */
-button.button, 
-input.button { 
+button.button,
+input.button {
     cursor: pointer;
     overflow: visible; /* removes extra side spacing in IE */
 }
@@ -201,9 +201,9 @@ button::-moz-focus-inner {
 }
 
 /* The disabled styles */
-.button[disabled], 
-.button[disabled]:hover, 
-.button.disabled, 
+.button[disabled],
+.button[disabled]:hover,
+.button.disabled,
 .button.disabled:hover {
     background: #eee;
     color: #aaa;
@@ -211,7 +211,7 @@ button::-moz-focus-inner {
     cursor: default;
     text-shadow: none;
     position: static;
-    box-shadow: none;       
+    box-shadow: none;
 }
 {% endhighlight %}
 
@@ -223,9 +223,9 @@ Firefox has taken a decision to limit `line-height` on buttons as they have defi
 line-height: normal !important;
 {% endhighlight %}
 
-Also, Opera does exactly the same thing. The thing is that browser-defined `!important` rules cannot be over-ruled by author-defined `!important` rules. Automatically there's nothing we can do about `line-height`. 
+Also, Opera does exactly the same thing. The thing is that browser-defined `!important` rules cannot be over-ruled by author-defined `!important` rules. Automatically there's nothing we can do about `line-height`.
 
-So, the solution I found is to use some `padding` for Mozilla Firefox specifically and just leave Opera alone for now. Apparently, the inputs and buttons look as they should only for versions **greater than Firefox 5**. 
+So, the solution I found is to use some `padding` for Mozilla Firefox specifically and just leave Opera alone for now. Apparently, the inputs and buttons look as they should only for versions **greater than Firefox 5**.
 
 Also, Roger Johansson has a potential [solution](http://www.456bereastreet.com/archive/201108/line-height_in_input_fields/) for this matter, but does not quite match for our example.
 

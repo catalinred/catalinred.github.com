@@ -37,9 +37,9 @@ The `form` element is used as the wrapper, while the two inputs are used as sear
     <input id="search" type="text" placeholder="Type here">
     <input id="submit" type="submit" value="Search">
 </form>
-{% endhighlight %} 
+{% endhighlight %}
 
-You may notice the `placeholder` attribute, but just ignore it for now, as we will talk later about it. 
+You may notice the `placeholder` attribute, but just ignore it for now, as we will talk later about it.
 
 The reason why there are so many id's (instead of CSS3 advanced selectors as `input[type="text"]` or `input[type="submit"]`) is because I wanted this to degrade gracefully for older browsers.
 
@@ -50,17 +50,17 @@ The reason why there are so many id's (instead of CSS3 advanced selectors as `in
 {
     background-color: #eaf8fc;
     background-image: linear-gradient(#fff, #d4e8ec);
-    border-radius: 35px;    
+    border-radius: 35px;
     border-width: 1px;
     border-style: solid;
-    border-color: #c4d9df #a4c3ca #83afb7;            
+    border-color: #c4d9df #a4c3ca #83afb7;
     width: 500px;
     height: 35px;
     padding: 10px;
     margin: 100px auto 50px;
     overflow: hidden; /* Clear floats */
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 Below you can see the current result:
 
@@ -69,7 +69,7 @@ Below you can see the current result:
 ## Inputs styles
 
 {% highlight css %}
-#search, 
+#search,
 #submit {
     float: left;
 }
@@ -82,20 +82,20 @@ Below you can see the current result:
     font: normal 13px 'trebuchet MS', arial, helvetica;
     background: #f1f1f1;
     border-radius: 50px 3px 3px 50px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
 }
 
 /* ----------------------- */
 
 #submit
-{       
+{
     background-color: #6cbb6b;
     background-image: linear-gradient(#95d788, #6cbb6b);
-    border-radius: 3px 50px 50px 3px;    
+    border-radius: 3px 50px 50px 3px;
     border-width: 1px;
     border-style: solid;
     border-color: #7eba7c #578e57 #447d43;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3),
                 0 1px 0 rgba(255, 255, 255, 0.3) inset;
     height: 35px;
     margin: 0 0 0 10px;
@@ -103,29 +103,29 @@ Below you can see the current result:
     width: 90px;
     cursor: pointer;
     font: bold 14px Arial, Helvetica;
-    color: #23441e;    
+    color: #23441e;
     text-shadow: 0 1px 0 rgba(255,255,255,0.5);
 }
 
-#submit:hover {       
+#submit:hover {
     background-color: #95d788;
     background-image: linear-gradient(#6cbb6b, #95d788);
-}   
+}
 
-#submit:active {       
+#submit:active {
     background: #95d788;
     outline: none;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
 #submit::-moz-focus-inner {
        border: 0;  /* Small centering fix for Firefox */
 }
-{% endhighlight %}    
+{% endhighlight %}
 
 ### Quick tip:
 
-When adding `float: left` to an element, there's no need to add also `display: block`. The last one it's [implied](http://www.w3.org/TR/CSS2/visuren.html#dis-pos-flo). 
+When adding `float: left` to an element, there's no need to add also `display: block`. The last one it's [implied](http://www.w3.org/TR/CSS2/visuren.html#dis-pos-flo).
 
 ![HTML5 placeholder](/dist/uploads/2011/02/css3-searchbox-default-placeholder.png)
 
@@ -134,15 +134,13 @@ When adding `float: left` to an element, there's no need to add also `display: b
  This new HTML5 attribute shows a text in a field as long as the field is empty and not focused, then hides the text. You surely have seen this technique before with JavaScript!
 
 Browser support:
-	
-  * Firefox 3.7+	
-  * Safari 4.0+	
-  * Chrome 4.0+	
-  * Opera 11+        
+
+  * Firefox 3.7+
+  * Safari 4.0+
+  * Chrome 4.0+
+  * Opera 11+
   * IE10+
 
-Opera 11 supports it, but you [cannot style it](http://dev.opera.com/forums/topic/841252?t=1296553904&page=1#comment8072202) (yet). As for the others above, here's how you can style it:
-    
 {% highlight css %}
 #search::-webkit-input-placeholder {
    color: #9c9c9c;
@@ -152,12 +150,12 @@ Opera 11 supports it, but you [cannot style it](http://dev.opera.com/forums/topi
 #search:-moz-placeholder {
    color: #9c9c9c;
    font-style: italic;
-}  
+}
 
 #search:-ms-placeholder {
    color: #9c9c9c;
    font-style: italic;
-}   
+}
 {% endhighlight %}
 
 ![CSS3 search box](/dist/uploads/2011/02/css3-searchbox.png)
@@ -169,39 +167,39 @@ Opera 11 supports it, but you [cannot style it](http://dev.opera.com/forums/topi
 For web browsers that are not supporting the this new HTML5 attribute, I made a fallback.
 
 I used [Modernizr](http://www.modernizr.com/) to detect native support for the HTML5 placeholder attribute. Even if this could have been done by writing a short function, I love Modernizr as it also enables you to use more semantic elements from the HTML5 specs.
-    
+
 {% highlight css %}
 #search.placeholder {
    color: #9c9c9c !important;
    font-style: italic;
-} 
+}
 {% endhighlight %}
 
 {% highlight js %}
-$(document).ready(function() {           
+$(document).ready(function() {
     if (!Modernizr.input.placeholder)
-    {       
+    {
         var placeholderText = $('#search').attr('placeholder');
-        
+
         $('#search').attr('value',placeholderText);
         $('#search').addClass('placeholder');
-        
-        $('#search').focus(function() {             
+
+        $('#search').focus(function() {
             if( ($('#search').val() == placeholderText) )
             {
                 $('#search').attr('value','');
                 $('#search').removeClass('placeholder');
             }
         });
-        
-        $('#search').blur(function() {              
-            if ( ($('#search').val() == placeholderText) || (($('#search').val() == '')) )                      
-            {   
-                $('#search').addClass('placeholder');                     
+
+        $('#search').blur(function() {
+            if ( ($('#search').val() == placeholderText) || (($('#search').val() == '')) )
+            {
+                $('#search').addClass('placeholder');
                 $('#search').attr('value',placeholderText);
             }
         });
-    }                
+    }
 });
 {% endhighlight %}
 
@@ -214,7 +212,7 @@ There is a bug on Chrome when both `border-radius` and inset `box-shadow` are us
 
 ### Later update
 
-The demo was updated, thanks for pointing this out Atul. 
+The demo was updated, thanks for pointing this out Atul.
 
 So, if you're using [Chrome beta 10.0.648.119](http://www.google.com/landing/chrome/beta/) or a greater version, this should work just **perfect**!
 

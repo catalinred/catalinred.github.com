@@ -23,19 +23,19 @@ The New Year is coming and I have wrote this short post to **thank you all** sin
 
 
 ## 2012 and me
-	
+
   * I turned 27 years old. Still young and restless.
-	
+
   * I celebrated 2 years since I got married to my beautiful wife Larisa.
-	
+
   * I managed to [redesign my website](/new-responsive-design-for-rtd). Nothing too fancy, but I finally made it!
-	
-  * It has been 4 years since I work at [Caphyon](http://www.caphyon.com/). Still love it. They even put my "mug shot" [here](http://www.advancedwebranking.com/team/).
-	
+
+  * It has been 4 years since I work at [Caphyon](http://www.caphyon.com/). Still love it. They even put my "mug shot" [on the about page](https://www.advancedwebranking.com/about.html).
+
   * I wrote about 25 articles on RedTeamDesign... in a year. Less is more :) Yeah right! Actually I have to improve my ninja skills to beat procrastination.
-	
+
   * My only guest post this year was published on [Speckyboy](http://speckyboy.com/2012/02/15/how-to-build-a-stylish-css3-search-box/). Procrastination striked... again.
-	
+
   * I did a lot of small, insignificant things...
 
 P.S. How did you spent the end of the world? I was working.
@@ -86,11 +86,11 @@ Since we're still here, as the end of the world is postponed, check the below li
 
 ## New Year's resolutions
 
-	
+
   * I've always been crazy about soccer, big fan and amateur player. In 2013 I will try to do sport more often than I do now.
-	
+
   * When I started as a freelancer years ago, I met Photoshop and it was my first love. Then I discovered that CSS is definitely one of my passions too. Next year, I will give my best to learn more about JavaScript.
-	
+
   * I must admit I never read to much, other than technical books. So, in the future I want to improve that and read more.
-	
+
   * Least but not last, I wish to be healthy and get rich and famous! :)

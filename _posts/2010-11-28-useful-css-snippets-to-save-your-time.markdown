@@ -28,8 +28,7 @@ In the following rows I'll try to present you some important snippets I often us
 
 The best way to start a CSS file is to choose a CSS reset method from a various list of existing ones.
 
-  * [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)	
-  * [Yahoo Reset CSS](http://developer.yahoo.com/yui/reset/)	
+  * [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
   * [Siolon Browser CSS Reset](http://www.siolon.com/blog/browser-reset-css/)
 
 ## 2. Clear floated elements without any extra markup
@@ -43,7 +42,7 @@ The best way to start a CSS file is to choose a CSS reset method from a various 
   <li>First floated element</li>
   <li>Second one</li>
 <ul>
-{% endhighlight %} 
+{% endhighlight %}
 
 ## CSS
 
@@ -72,7 +71,7 @@ border-radius: 10px; /* Chrome, Safari, Opera ... */
 Define complex **box shadow** declarations so you can tune up your website:
 
 {% highlight css %}
-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2),
             0 1px 0 rgba(255, 255, 255, 0.8) inset;
 {% endhighlight %}
 
@@ -80,21 +79,21 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2),
 
 {% highlight css %}
 text-shadow: 0 1px 0 white, 0 -1px 0 white;
-{% endhighlight %}    
+{% endhighlight %}
 
 Nice **[gradients](/css-gradients-quick-tutorial)** using CSS:
 
 {% highlight css %}
 background-color: #eaeaea; /* Fallback background */
 background-image: linear-gradient(#fafafa,#eaeaea);
-{% endhighlight %}    
+{% endhighlight %}
 
 
 Use **CSS transform** for hover effects:
 
 {% highlight css %}
 transform: scale(1.1);
-{% endhighlight %}    
+{% endhighlight %}
 
 
 [View Demo](/dist/uploads/2010/11/css3-demo.html)
@@ -146,8 +145,8 @@ Here's the simple CSS for that:
 ### Pros
 
 The main advantages of this method
-	
-  * It's valid	
+
+  * It's valid
   * and it's also a **cross-browser** solution
 
 ### Cons
@@ -169,7 +168,7 @@ input[type="text"] {
 a[href$=".pdf"] {
    background: url(pdf-icon.png) no-repeat left center;
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 ## 8. Min-height
 
@@ -181,7 +180,7 @@ div {
   height: auto !important;
   height: 500px;
 }
-{% endhighlight %}    
+{% endhighlight %}
 
 
 
@@ -199,7 +198,7 @@ ul li {
   _display: inline; /*Target IE6 and bellow*/
 }
 /* This example fixes the double right margin bug */
-{% endhighlight %} 
+{% endhighlight %}
 
 Note that you can use these IE6/7 hacks or you can use [conditional comments](http://www.quirksmode.org/css/condcom.html).
 
@@ -229,7 +228,7 @@ If your get tired of the default blue background selection and white text when y
   color: white;
   background-color: red;
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 [View Demo](/dist/uploads/2010/11/text-selection.html)
 

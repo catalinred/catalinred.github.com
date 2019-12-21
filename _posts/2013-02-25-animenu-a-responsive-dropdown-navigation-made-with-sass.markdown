@@ -47,10 +47,10 @@ Also, an important factor on choosing just one dropdown level was the ability of
 
 ## The markup
 
-As you may have guessed, there's nothing complicated here. The only thing worth mentioning is the [advanced checkbox hack](http://timpietrusky.com/advanced-checkbox-hack), which is used to simulate the toggle effect.
-    
+As you may have guessed, there's nothing complicated here. The only thing worth mentioning is the advanced checkbox hack by Tim Pietrusky, which is used to simulate the toggle effect.
+
 {% highlight css %}
-<nav class="animenu">   
+<nav class="animenu">
     <input type="checkbox" id="button">
     <label for="button" onclick>Menu</label>
     <ul>
@@ -67,7 +67,7 @@ As you may have guessed, there's nothing complicated here. The only thing worth 
         <li> ... </li>
     </ul>
 </nav>
-{% endhighlight %}   
+{% endhighlight %}
 
 
 ## SASS and Compass
@@ -77,7 +77,7 @@ I must admit at the beginning I was a bit reluctant on using SASS for writing CS
 With all these being said, here are some quick thoughts on how I SASSified my [animated dropdown menu](/css3-animated-dropdown-menu):
 
 ### Variables
-    
+
 {% highlight css %}
 $subMenuItemWidth: 175px;           // Minimum width for submenus' items
 $baseMenuBackground: #111;          // Base color theme
@@ -106,7 +106,7 @@ Beside the above variables, I'm using helpers like mixins and silent classes as 
 
 In the following mixin, when `$menu-gradient` argument value is equal to false, the background will contain no gradient. This is helpful when defining both main menu and dropdowns backgrounds using the `$baseMenuBackground` as parameter.
 
-    
+
 {% highlight css %}
 @mixin menu-background($color, $menu-gradient: true) {
     background-color: $color;
@@ -116,10 +116,10 @@ In the following mixin, when `$menu-gradient` argument value is equal to false, 
     }
     @else {
         background-image: none;
-    }   
+    }
 }
-{% endhighlight %}    
-  
+{% endhighlight %}
+
 
 Silent classes like the next one, differentiated by the percent sign, will not be generated in the resulted CSS output. Their purpose is to be used with `@extend` whenever needed.
 
@@ -128,10 +128,10 @@ Silent classes like the next one, differentiated by the percent sign, will not b
 %cf:after {
     content:"";
     display:table;
-    clear:both;     
+    clear:both;
 }
 {% endhighlight %}
-    
+
 
 ## Animenu breakpoint
 {% highlight css %}

@@ -14,9 +14,9 @@ tags:
 - HTML5
 ---
 
-HTML5 is being developed as the next major revision of HTML, the core markup language of the World Wide Web. Besides new elements like `header`, `section`, `footer`, etc., the HTML5 brings you the `canvas` element. 
+HTML5 is being developed as the next major revision of HTML, the core markup language of the World Wide Web. Besides new elements like `header`, `section`, `footer`, etc., the HTML5 brings you the `canvas` element.
 
-The canvas is a rectangular area within you can use Javascript to draw graphics or other visual images on a web page. Although HTML5 is not a W3C recommendation yet, people already started to play with it, and when I say _play_, I mean it. 
+The canvas is a rectangular area within you can use Javascript to draw graphics or other visual images on a web page. Although HTML5 is not a W3C recommendation yet, people already started to play with it, and when I say _play_, I mean it.
 
 Today I'll share with you some awesome HTML5 games demos that show the HTML5 canvas potential.
 
@@ -24,17 +24,9 @@ Today I'll share with you some awesome HTML5 games demos that show the HTML5 can
 
 <!-- more -->
 
-### [Agent 008 Ball](http://agent8ball.com/)
-
-[![](/dist/uploads/2011/01/8ball.jpg)](http://agent8ball.com/)
-
 ### [Z-Type](http://www.phoboslab.org/ztype/)
 
 [![](/dist/uploads/2011/01/z-type.jpg)](http://www.phoboslab.org/ztype/)
-
-### [RGB Invaders](http://10k.aneventapart.com/Uploads/392/)
-
-[![](/dist/uploads/2011/01/rgb-invaders.jpg)](http://10k.aneventapart.com/Uploads/392/)
 
 ### [Pacman](http://arandomurl.com/2010/07/25/html5-pacman.html)
 
@@ -48,10 +40,6 @@ Today I'll share with you some awesome HTML5 games demos that show the HTML5 can
 
 [![](/dist/uploads/2011/01/biolab-disaster.jpg)](http://playbiolab.com/)
 
-### [Wolfenstein 3D](http://www.nihilogic.dk/labs/wolf/)
-
-[![](/dist/uploads/2011/01/wolf.jpg)](http://www.nihilogic.dk/labs/wolf/)
-
 ### [Fred Jones in Adventureland](http://www.watersheep.org/~markh/html_canvas/game.html)
 
 [![](/dist/uploads/2011/01/fred-jones-in-adventureland.jpg)](http://www.watersheep.org/~markh/html_canvas/game.html)
@@ -63,10 +51,6 @@ Today I'll share with you some awesome HTML5 games demos that show the HTML5 can
 ### [Crystal Galaxy](http://www.effectgames.com/effect/games/crystalgalaxy/)
 
 [![](/dist/uploads/2011/01/crystal-galaxy.jpg)](http://www.effectgames.com/effect/games/crystalgalaxy/)
-
-### [Same Game](http://grenlibre.fr/demo/same/)
-
-[![](/dist/uploads/2011/01/same-game.jpg)](http://grenlibre.fr/demo/same/)
 
 ## Final words
 

@@ -28,7 +28,7 @@ Originally, the CSS em unit was derived from the width of the capital letter M, 
 
 ## HTML5 tags
 
-The HTML5 structural elements are a practical implementation of naming searches among CSS [class](https://developers.google.com/webmasters/state-of-the-web/2005/classes) and [id](http://devfiles.myopera.com/articles/572/idlist-url.htm) selectors found in the wild at that time. I first read about how the currently HTML5 tags were born while digging into [Introducing HTML5](http://introducinghtml5.com/) By Bruce Lawson and Remy Sharp.
+The HTML5 structural elements are a practical implementation of naming searches among CSS class and id selectors found in the wild at that time. I first read about how the currently HTML5 tags were born while digging into [Introducing HTML5](http://introducinghtml5.com/) By Bruce Lawson and Remy Sharp.
 
 ## Minimal valid web page
 
@@ -56,13 +56,13 @@ Read the [Stack Overflow](http://stackoverflow.com/questions/8318911/why-does-ht
 ## CSS can be #funny
 
 Check the following CSS lines to put a smile on your face:
-    
+
 {% highlight css %}
 #universe:before { content: ""; }
 .ninja { visibility: hidden; }
 .kids-these-days { -webkit-perspective: none; }
 .work:after{ content:"Beer!"; }
-{% endhighlight %} 
+{% endhighlight %}
 
 Also, you may want to check [CSSHumor](https://twitter.com/CSSHumor) on Twitter for more.
 
@@ -72,14 +72,14 @@ The “px” unit in CSS doesn't really have anything to do with screen pixels, 
 
 ## No (more) CSS4
 
-It seems that there is no such thing as CSS4 after all. Also, CSS3 is everything after CSS2.1, it's all about modules. [Tab Atkins](http://www.xanthir.com/b4Ko0) wrote in detail about why there is no such thing as CSS4. 
+It seems that there is no such thing as CSS4 after all. Also, CSS3 is everything after CSS2.1, it's all about modules. [Tab Atkins](http://www.xanthir.com/b4Ko0) wrote in detail about why there is no such thing as CSS4.
 
 
 ## How to tell if a site's using HTML5 #funny
-	
-  * Try it on Internet Explorer.	
-  * Did it work?	
-  * No?	
+
+  * Try it on Internet Explorer.
+  * Did it work?
+  * No?
   * It's HTML5.
 
 ## HTTP request
@@ -99,25 +99,23 @@ Until a few days ago, Firefox was the only one that supported transitions and an
 
 
 [IE6](/how-to-solve-common-ie-bugs) does not play an important role anymore, so with that in mind, now it's perfectly OK to use:
-	
-  * Multiple CSS class selectors (e.g. `.foo.bar`)	
-  * Attribute selectors (e.g. `E[foo]`)	
-  * Fixed positioning	
+
+  * Multiple CSS class selectors (e.g. `.foo.bar`)
+  * Attribute selectors (e.g. `E[foo]`)
+  * Fixed positioning
   * Immediate child selector (e.g. `.foo > .bar`)
 
-Read more about this matter [here](http://www.bennadel.com/blog/2306-What-CSS-Properties-Are-Supported-When-You-Drop-IE6-Support.htm) and if IE7 isn't on your supported browsers list as well, you may want to use [the shortest clearfix ever](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php).
+Read more about what CSS properties are supported when you [drop IE6 support](https://www.bennadel.com/blog/2306-what-css-properties-are-supported-when-you-drop-ie6-support.htm).
 
 ## Costly CSS properties
 Usually, CSS properties aren't expensive at all, but when it comes about browser painting, you should be aware that some of the following can affect the way your page renders:
-	
-  * position:fixed	
-  * background-position: fixed	
-  * border-radius	
-  * background-size	
-  * box-shadow	
-  * gradients
 
-Check the [Better CSS Performance With Tools](http://dl.dropbox.com/u/39519/talks/cssperf-cssdevconf/index.html) slides by Paul Irish to find out more.
+  * position:fixed
+  * background-position: fixed
+  * border-radius
+  * background-size
+  * box-shadow
+  * gradients
 
 ## That's it!
 Do you know more interesting stuff that worths sharing? Please feel free to do it in the comments section below. Thanks for reading this article and I'm looking forward to read your thoughts about it.

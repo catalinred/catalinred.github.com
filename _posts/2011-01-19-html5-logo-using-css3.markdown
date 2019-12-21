@@ -15,16 +15,16 @@ tags:
 - HTML5
 ---
 
-As you probably found out, yesterday, the The World-Wide Web Consortium (W3C) has unveiled the [HTML5 Logo](http://www.w3.org/html/logo/). They launched more than a logo as they got also a full branding, including badges, t-shirts and stickers. 
+As you probably found out, yesterday, the The World-Wide Web Consortium (W3C) has unveiled the [HTML5 Logo](http://www.w3.org/html/logo/). They launched more than a logo as they got also a full branding, including badges, t-shirts and stickers.
 
-So, I suppose that's a good thing, that HTML5 got some branding, sounds very interesting! 
+So, I suppose that's a good thing, that HTML5 got some branding, sounds very interesting!
 
-While looking at it and admiring it, as I find it very nice, I thought about how can I **do it with CSS3** (typically for me). 
+While looking at it and admiring it, as I find it very nice, I thought about how can I **do it with CSS3** (typically for me).
 
 ![HTML5 logo](/dist/uploads/2011/01/HTML5-logo.png)
 <!-- more -->
 
-What about the logo? _It's A Bird... It's A Plane... _ 
+What about the logo? _It's A Bird... It's A Plane... _
 
 No, it's the new HTML5 logo and in this article I'll design it **using only CSS**!
 
@@ -35,7 +35,7 @@ Getting back to our business, I thought about the _ingredients_ I'd need for thi
   * CSS borders shapes
   * `:before` and `:after` pseudo-elements
   * CSS3 properties that I used: `opacity` and `transform`
-  * [Geo](http://code.google.com/webfonts/preview#font-family=Geo) font via Google font API
+  * [Geo](https://fonts.google.com/specimen/Geo) font via Google font API
   * Some empty divs to build the five number_(later edit)_
 
 ### CSS borders shapes
@@ -52,7 +52,7 @@ Even if the article's name says : "HTML5 Logo made with CSS3", this isn't mainly
 
 ### Custom font
 
-The method I'll use to display the _5_ number is to include  the [Geo](http://code.google.com/webfonts/preview#font-family=Geo) font via [Google Font API](http://code.google.com/apis/webfonts/). 
+The method I'll use to display the _5_ number is to include  the [Geo](https://fonts.google.com/specimen/Geo) font via [Google Font API](https://fonts.google.com/).
 
 I know it's not identical, but, at the time I wrote this article, I found it quite similar. Instead, I'd appreciate if you could suggest me a better font to use for the number.
 
@@ -72,7 +72,7 @@ I know it's not perfect, especially the _5_ number, but I hope you will still li
 
 ## Updated result
 
-I finally made it, I updated the initial HTML5 logo. Instead the custom font, empty divs were used in order to replicate the logo. 
+I finally made it, I updated the initial HTML5 logo. Instead the custom font, empty divs were used in order to replicate the logo.
 
 Now you have it! Minimal HTML markup, CSS3 transforms and pseudo-elements:
 

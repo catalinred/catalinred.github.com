@@ -46,7 +46,7 @@ h1 {
 
 ### Pros
 
-  * A lot of available fonts you can choose from. Check this [detailed](http://webfonts.info/wiki/index.php?title=Fonts_available_for_@font-face_embedding) list.
+  * A lot of available fonts you can choose from.
   * It works for all browsers.
   * It has no JavaScript dependency.
 
@@ -58,15 +58,15 @@ h1 {
 
 ### Google Font API
 
-To use the fonts of Google's font library, just go to [http://code.google.com/webfonts](http://code.google.com/webfonts) and select a font. If you choose "Cantarell" font for example, include the following code into your files.
+To use the fonts of Google's font library, just go to [https://fonts.google.com/](https://fonts.google.com/) and select a font. If you choose "Cantarell" font for example, include the following code into your files.
 
-[![](/dist/uploads/2010/10/google-font-api.png)](http://code.google.com/webfonts)
+[![](/dist/uploads/2010/10/google-font-api.png)](https://fonts.google.com/)
 
 ### HTML
 
 {% highlight html %}
 <link href="http://fonts.googleapis.com/css?family=Cantarell&subset=latin" rel="stylesheet" type="text/css">
-{% endhighlight %} 
+{% endhighlight %}
 
 ### CSS
 {% highlight css %}
@@ -99,7 +99,7 @@ Typekit is a service launched by Small Batch, Inc. which, via JavaScript and a s
 {% highlight html %}
 <script type="text/javascript" src="http://use.typekit.com/typekitid.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-{% endhighlight %}    
+{% endhighlight %}
 
 ### CSS
 
@@ -123,13 +123,8 @@ h1 {
 
 ### Other web fonts solutions
 
-  * [FontDeck](http://fontdeck.com/)
-  * [Kernest](http://kernest.com/)
   * [Typotheque](http://www.typotheque.com/webfonts)
   * [sIFR](http://www.mikeindustries.com/blog/sifr/)
-  * [Typeface](http://typeface.neocracy.org/)
-  * [Cufón](http://chrisjennings.com/2009/02/introducing-cufon-sifr-alternative/)
-
 
 ## Conclusion
 Now that you found out all the pros and cons, it's up to you to choose the method that best suits your needs. Let me know in the comments the solution you like most!

@@ -25,17 +25,17 @@ It's been almost a month already since I launched this new responsive design and
 ## Characteristics
 
 Below you can find some characteristics of the new responsive design:
-	
+
   * This new [HTML5](/create-a-stylish-html5-template-from-scratch) theme is based on [Twenty Eleven](http://wordpress.org/extend/themes/twentyeleven) from [WordPress](http://wordpress.org/).
-	
+
   * The search bar is now more visible and accessible, across all devices. Currently I use the default WordPress search but in the future I'm planning to use Google custom search for more accurate results.
-	
+
   * In the upper right corner you can now find some social stuff. It's kinda easier now for you to follow me on Twitter, like my Facebook page or +1 on Google+. For these, I'd recommend you [Optimised async loading of cross-domain scripts](https://gist.github.com/1025811).
-	
+
   * I finally added a "phat" footer here which contains info about the articles and tutorials you may find here. Also, there's a short list with places where you can find me on the web.
-	
-  * For the headings font, I'm using "PT Sans Narrow" from [Google Web Fonts](http://www.google.com/webfonts/specimen/PT+Sans+Narrow).
-	
+
+  * For the headings font, I'm using "PT Sans Narrow" from [Google Web Fonts](https://fonts.google.com/specimen/PT+Sans+Narrow).
+
   * Last but not least, if you're using Wordpress too, you should check [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/). It does miracles.
 
 ## Development tools

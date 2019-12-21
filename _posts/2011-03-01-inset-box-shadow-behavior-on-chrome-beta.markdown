@@ -21,9 +21,9 @@ Although this bug was fixed in the latest Chrome beta releases, below you'll see
 
 <!-- more -->
 
-Following [Atul](/how-to-create-a-cool-and-usable-css3-search-box/comment-page-1#comment-18245)'s comment, I made a quick "investigation" and here is what I noticed.
+Following one of my reader's comment on [how to create a CSS3 search box](/how-to-create-a-cool-and-usable-css3-search-box/), I made a quick investigation and here is what I noticed.
 
-After downloading the latest [Chrome beta version](http://www.google.com/landing/chrome/beta/) (10.0.648.119 in this case), I've also noticed that my search box example (now updated) doesn't looks well neither on this version (as it should look). 
+After downloading the latest [Chrome beta version](http://www.google.com/landing/chrome/beta/) (10.0.648.119 in this case), I've also noticed that my search box example (now updated) doesn't looks well neither on this version (as it should look).
 
 ## The normal behavior
 
@@ -38,7 +38,7 @@ Here's what you need to make a perfect circle:
 }
 {% endhighlight %}
 
-Note that you don't need `border-radius: 100px` for that, just half of it. Here's a CSS3 circle [example](http://jsfiddle.net/catalinred/MEXx2/6/") with `50px` radius.
+Note that you don't need `border-radius: 100px` for that, just half of it. Here's a CSS3 circle [example](http://jsfiddle.net/catalinred/MEXx2/6/) with `50px` radius.
 
 ![CSS circle radius](/dist/uploads/2011/02/css-circle-radius.png)
 
@@ -48,9 +48,9 @@ Note that you don't need `border-radius: 100px` for that, just half of it. Here'
     #circle {
         width: 100px;
         height: 100px;
-        background: #999;    
-        border: 2px solid red; 
-        border-radius: 52px;       
+        background: #999;
+        border: 2px solid red;
+        border-radius: 52px;
         box-shadow: 0 10px 10px #000 inset;
     }
 {% endhighlight %}
@@ -67,12 +67,12 @@ This happens when you use for example:
 #circle {
     width: 100px;
     height: 100px;
-    background: #999;    
-    border: 2px solid red; 
-    border-radius: 100px;     
+    background: #999;
+    border: 2px solid red;
+    border-radius: 100px;
     box-shadow: 0 10px 10px #000 inset;
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 ![Chrome beta bug](/dist/uploads/2011/02/beta-chrome-bug.png)
 Here's the live [example](http://jsfiddle.net/catalinred/MEXx2/10/) - again: you must have BETA Chrome version.

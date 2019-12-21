@@ -37,18 +37,18 @@ We will start as usual with the markup structure:
 {% highlight html %}
 <section class="faq-section">
     <input type="checkbox" id="q1">
-    <label for="q1">Question?</label>           
+    <label for="q1">Question?</label>
     <p>... The intro paragraph that will be clipped ...</p>
-    <p>... Extra and optional paragraph ...</p>   
+    <p>... Extra and optional paragraph ...</p>
 </section>
 {% endhighlight %}
 
 ![Faq markup](/dist/uploads/2012/02/fancy-faq-page-using-css3-only-markup.png)
-	
+
   * In the above image, the label is the proper heading of the section. But, if you want to use better semantic, you can wrap the `label` into a `h1`.
-	
+
   * Using `label::before` allow us to create the right triangle shape. On a side note, double colon for [pseudo-elements](/before-after-pseudo-elements) is the CSS3 way.
-	
+
   * The first paragraph for each section is the intro preview for the complete answer. For this example, I used the [adjacent sibling combinator](http://www.w3.org/TR/css3-selectors/#adjacent-sibling-combinators) to target it.
 
 
@@ -74,30 +74,30 @@ Below you have the styles, I commented some lines for a better understanding:
 /*Hide the paragraphs*/
 .faq-section p{
     display: none;
-}   
+}
 
 /*Hide the checkboxes */
 .faq-section input{
     position: absolute;
     z-index: 2;
     cursor: pointer;
-    opacity: 0;         
+    opacity: 0;
     display: none\9; /* IE8 and below */
-    margin: 0;          
+    margin: 0;
     width: 100%;
     height: 36px;
 }
 
 /*Show only the clipped intro */
 .faq-section label+p{
-    display: block; 
+    display: block;
     color: #999;
     font-size: .85em;
     transition: all .15s ease-out;
     /* Clipping text */
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;                       
+    overflow: hidden;
 }
 
 /*If the checkbox is checked, show all paragraphs*/
@@ -106,9 +106,9 @@ Below you have the styles, I commented some lines for a better understanding:
     color: #444;
     font-size: 1em;
     /* restore clipping defaults */
-    text-overflow: clip; 
+    text-overflow: clip;
     white-space: normal;
-    overflow: visible;  
+    overflow: visible;
 }
 
 /*Style the label*/
@@ -123,7 +123,7 @@ Below you have the styles, I commented some lines for a better understanding:
     border: 1px solid #ddd;
     border-left: 3px solid #888;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
-    transition: all .15s ease-out;          
+    transition: all .15s ease-out;
 }
 
 /*Remove text selection when toggle-ing*/
@@ -137,10 +137,10 @@ Below you have the styles, I commented some lines for a better understanding:
 
 /*If the checkbox is checked, style the label accordingly*/
 .faq-section input[type=checkbox]:checked~label{
-    border-color: #ff7f50;          
+    border-color: #ff7f50;
     background: #f5deb4;
     background-image: linear-gradient(to bottom, #fff, #f5deb4);
-    box-shadow: 0 0 1px rgba(0,0,0,.4);             
+    box-shadow: 0 0 1px rgba(0,0,0,.4);
 }
 
 /*Label's arrow - default state */
@@ -151,7 +151,7 @@ Below you have the styles, I commented some lines for a better understanding:
     top: 50%;
     margin-top: -6px;
     border: 6px solid transparent;
-    border-left-color: inherit; 
+    border-left-color: inherit;
 }
 
 /*Update the right arrow*/
@@ -159,9 +159,9 @@ Below you have the styles, I commented some lines for a better understanding:
     border: 6px solid transparent;
     border-top-color: inherit;
     margin-top: -3px;
-    right: 10px;    
+    right: 10px;
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 
 ## Browser support
@@ -171,7 +171,7 @@ What about the older browsers? That's a normal question, and the answer is **gra
 ![Graceful degradation](/dist/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
 
 Using the following snippet, we're targeting browsers like [IE8 and below](/how-to-solve-common-ie-bugs). So, we'll enable the HTML5 elements like `section` and then add some custom styles in order to keep the FAQ's content readable.
-    
+
 {% highlight html %}
 <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -180,17 +180,17 @@ Using the following snippet, we're targeting browsers like [IE8 and below](/how-
         .faq-section label:hover{
             cursor: default;
             background: #eee;
-        }        
+        }
         body .faq-section p{ /* Increase specificity */
             display: block;
             color: #444;
             font-size: 1em;
-            text-overflow: clip; 
+            text-overflow: clip;
             white-space: normal;
-            overflow: visible;              
+            overflow: visible;
         }
     </style>
-<![endif]--> 
+<![endif]-->
 {% endhighlight %}
 
 ## Update: i0S support
@@ -201,27 +201,27 @@ Here's my fix, **tested on iPhone and iPad** using the **latest iOS versions**:
 
 {% highlight css %}
 .faq-section input{
-    position: absolute; 
+    position: absolute;
     z-index: 2;
     cursor: pointer;
-    opacity: 0;         
+    opacity: 0;
     display: none\9; /* IE8 and below */
-    margin: 0;          
+    margin: 0;
     width: 100%;
     height: 36px;
 }
 {% endhighlight %}
-	
+
   * `position: absolute` - While `.faq-section` wrapper is relative positioned, we'll need this to visually place our checkbox above the label.
-	
+
   * `z-index: 2` - Make sure it will be above section content, including label.
-	
+
   * `cursor: pointer` - Optionally, this will add a pointer cursor when you hover on it.
-	
+
   * `opacity: 0` and `display: none\9` - Visually hide the checbox, while on browsers like Internet Explorer 8 and below will be hidden.
-	
+
   * `margin: 0` - Remove default margin.
-	
+
   * `width: 100%` and `height: 36px` - The checkbox height value matches the height of the label. Also, using 100% for the width will expand the checbox in order to fully cover the label.
 
 
@@ -229,3 +229,7 @@ Here's my fix, **tested on iPhone and iPad** using the **latest iOS versions**:
 
 
 That's all, I hope you liked this article. Please feel free to comment and share your thoughts/ideas about the result.
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary
+https://caniuse.com/#search=summary

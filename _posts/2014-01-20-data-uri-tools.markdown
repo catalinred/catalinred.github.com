@@ -31,22 +31,22 @@ So, here's how an inline, small and encoded SVG image looks like:
 
 {% highlight html %}
 <img src="data:image/svg+xml;base64,PD94bWwgd..." >
-{% endhighlight %}   
+{% endhighlight %}
 
 and if we deconstruct it:
-	
+
   * `data` - the name of the scheme
 
-	
+
   * `image/svg+xml` - the content type
 
-	
+
   * `base64` - the type of encoding
 
-	
+
   * `PD94bWwgd...` - the encoded data
 
-	
+
   * `data` - name of the scheme
 
 ## Some base64 encoding tools
@@ -64,8 +64,6 @@ Anyway, I'm not going to explain Data URI here, others did it before and did it 
 
   * [Image2Base64](http://image2base64.wemakesites.net/)
 
-  * [duri.me](http://duri.me)
-
   * [dataurl.net](http://dataurl.net/#dataurlmaker)
 
 
@@ -78,12 +76,12 @@ In case you haven't used Grunt before, be sure to check out the [Getting Started
 
 {% highlight html %}
 <img src="data:image/svg+xml;base64,PD94bWwgd..." >
-{% endhighlight %}    
-    
-    npm install grunt-plugin-name 
+{% endhighlight %}
+
+    npm install grunt-plugin-name
 
 Next, add the following line to your project's grunt file and once you're done with configuring stuff, you're ready to go.
-    
+
     grunt.loadNpmTasks("grunt-plugin-name");
 
 ## What about you?

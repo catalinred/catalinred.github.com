@@ -21,7 +21,7 @@ I ask myself this question quite often. What it takes to become a better develop
 
 <!-- more -->
 
-So, it's about the diversity of knowledge you have, it's about staying up-to-date with latest technologies and standards? Or maybe just sticking at what you're doing best and keep practicing makes you call yourself a good developer. 
+So, it's about the diversity of knowledge you have, it's about staying up-to-date with latest technologies and standards? Or maybe just sticking at what you're doing best and keep practicing makes you call yourself a good developer.
 
 **Disclaimer.** I know everybody has an opinion on how to become a better developer or designer. This article contains some of my personal thoughts, things that worked for me and I hope you'll find them useful as well.
 
@@ -29,7 +29,7 @@ So, it's about the diversity of knowledge you have, it's about staying up-to-dat
 
 Couple of months ago, Louis Lazaris wrote [a good article](http://www.impressivewebs.com/web-design-tech-newsletters/) on staying up-to-date with latest development and tech news. There are some good resources there, you may want to check if you missed something to subscribe to. ;)
 
-Also, I'm sure this comprehensive [resources list](http://www.elijahmanor.com/2013/01/beginner-html5-javascript-jquery.html) made by Elijah Manor will definitely help you add more bookmarks.
+Also, I'm sure this comprehensive [resources list](https://elijahmanor.com/beginner-html5-javascript-jquery-backbone-and-css3-resources/) made by Elijah Manor will definitely help you add more bookmarks.
 
 
 ## Get motivated
@@ -40,13 +40,13 @@ Also, I'm sure this comprehensive [resources list](http://www.elijahmanor.com/20
 A friend asked me a while ago what motivates me to write articles here. My reply was simple: because I enjoy it. I don't write on rocket science here, but I do like to learn stuff by teaching it and that's a pretty darn good motivation for me.
 
 ## Be part of the community
-	
+
   * Are you a designer? You must be on [Dribbble](http://dribbble.com/catalinred). It's amazing what people can share there and it's a great place to learn from the best.
-	
+
   * Are you a developer? Then you must try [GitHub](https://github.com/catalinred), there are so many great projects you can fork and contribute to.
-	
+
   * Need answers to your development questions? [Stack Overflow](http://stackoverflow.com/) is the place where all your questions get answered. Go further and answer to questions people ask, it's a great way to learn stuff.
-	
+
   * Are you even a human being? Then [Twitter](https://twitter.com/catalinred) is the place where you can interact with all your favorite devs.
 
 ## Google is your friend
@@ -77,7 +77,7 @@ When everything fails, use the force!
 
 ## Conclusion
 
-The reason I wrote all of these is because lately I find myself a bit overwhelmed on the amount of the new stuff which is found in the wild every day. I'm amazed by the tutorials I found about on Twitter and I feel like I'm quite obsolete sometimes :) 
+The reason I wrote all of these is because lately I find myself a bit overwhelmed on the amount of the new stuff which is found in the wild every day. I'm amazed by the tutorials I found about on Twitter and I feel like I'm quite obsolete sometimes :)
 
 Also, while I try to learn something new every day, I have a strange feeling like I'm not doing enough, I'm not dedicating enough time for improving my skills. Do you feel the same, or am I the only one crazy here? :)
 

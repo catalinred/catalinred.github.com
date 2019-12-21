@@ -31,26 +31,26 @@ But, there's almost always a but, it seems that you can use generated content on
 This is an excerpt from the [specifications](http://www.w3.org/TR/CSS21/conform.html), but to keep it simple, just remember that a replaced element is any element whose appearance and dimensions are predefined without any use of CSS.
 
 ### Some replaced elements:
-	
-  * `<img>`	
-  * `<input>`	
-  * `<select>`	
-  * `<textarea>`	
-  * `<object>`	
-  * `<br>`	
+
+  * `<img>`
+  * `<input>`
+  * `<select>`
+  * `<textarea>`
+  * `<object>`
+  * `<br>`
   * `<hr>`
 
 ## Getting back to our topic
 
-I've seen a lot of cool demos like [this](http://jsfiddle.net/joshnh/evePU/), [this](http://lab.simurai.com/umbrui/) or [this one](http://ericbidelman.tumblr.com/post/23615290220/data-binding-using-data-attributes) that work only on Chrome (at this time) whilst according to [specs](http://www.w3.org/TR/CSS2/generate.html#before-after-content), the interaction of `:before` and `:after` with "replaced elements" is not defined.
+I've seen a lot of cool demos like [this](http://jsfiddle.net/joshnh/evePU/), [this](https://github.com/simurai/umbrUI) or [this one](http://ericbidelman.tumblr.com/post/23615290220/data-binding-using-data-attributes) that work only on Chrome (at this time) whilst according to [specs](http://www.w3.org/TR/CSS2/generate.html#before-after-content), the interaction of `:before` and `:after` with "replaced elements" is not defined.
 
 More than that, it seems that all these Chrome examples have something to do with using Shadow DOM.
 
 ### Shadow DOM
 
-[What the Heck is Shadow DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/). That's exactly my first question that came up in my head when I first heard about this. All the above examples I mentioned about are based on this WebKit only ability to control a shadow DOM subtree of an element. 
+[What the Heck is Shadow DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/). That's exactly my first question that came up in my head when I first heard about this. All the above examples I mentioned about are based on this WebKit only ability to control a shadow DOM subtree of an element.
 
-I agree it might sound a little overwhelming, and that's why I recommend you to read [Dimitri Glazkov](http://glazkov.com/)'s article. 
+I agree it might sound a little overwhelming, and that's why I recommend you to read [Dimitri Glazkov](http://glazkov.com/)'s article.
 
 ## What people say
 
@@ -80,9 +80,9 @@ For this article, I had the pleasure of getting feedback from some of the best w
 ### [Roger Johansson](http://www.456bereastreet.com/)
 
 >   1. The :before and :after pseudo-elements would probably be more intuitive if they were called :prepend and :append instead, since I think that better describes what they do.
->        
+>
 >   2. I don't use Chrome much, so I wasn't aware that it allowed generated content on replaced elements. Other Webkit browsers don't so it's a bit strange that it does.
->	
+>
 >   3. It's hard to tell what other browsers will do, but it doesn't look like it's coming to Firefox at least: [https://bugzilla.mozilla.org/show_bug.cgi?id=241985](https://bugzilla.mozilla.org/show_bug.cgi?id=241985).
 
 
@@ -92,11 +92,11 @@ For this article, I had the pleasure of getting feedback from some of the best w
 
 > The way I think about it is this:
 >
-> It's not "before" and "after" **the element**, it's "before" and "after" **the content inside the element**. Pseudo elements aren't actually in the DOM, but that's how they behave. 
+> It's not "before" and "after" **the element**, it's "before" and "after" **the content inside the element**. Pseudo elements aren't actually in the DOM, but that's how they behave.
 >
 > So if you think about a checkbox: `<input type="checkbox" />`, where does the content you are adding go? There isn't any "inside". As such, those elements are called "no content" elements.
 >
-> Conceptually, it makes sense for me for pseudo elements to not be allowed on elements like that. Practically, with those awesome demos you have seen, it makes for some pretty cool possibilities. I just wish it was defined better, or there were pseudo elements like :outside and :inside that accommodated those things (there were, but they were poorly defined in the spec and removed before any browser implemented them). 
+> Conceptually, it makes sense for me for pseudo elements to not be allowed on elements like that. Practically, with those awesome demos you have seen, it makes for some pretty cool possibilities. I just wish it was defined better, or there were pseudo elements like :outside and :inside that accommodated those things (there were, but they were poorly defined in the spec and removed before any browser implemented them).
 >
 > If I could control the world, I'd make :before and :after stop working on no content elements and get the pseudo elements and shadow DOM specs moving along so we can make those demos work in a standard way. Also, you may want to check this cool [presentation on pseudo elements](https://speakerdeck.com/u/chriscoyier/p/css-pseudo-elements-for-fun-and-profit) made by Chris.
 
@@ -130,12 +130,12 @@ For this article, I had the pleasure of getting feedback from some of the best w
 if we look at the current specs we see that:
 >
 >   1. The :before and :after pseudo-elements specify the location of content
-before and after an element's document tree content.  
+before and after an element's document tree content.
 [http://www.w3.org/[..]before-after-content](http://www.w3.org/TR/CSS2/generate.html#before-after-content)
->	
+>
 >   2. A replaced element is an element whose content is outside the scope of
 the CSS formatting model [...] The content of replaced elements is not
-considered in the CSS rendering model.  
+considered in the CSS rendering model.
 [http://www.w3.org/TR/CSS21/conform.html](http://www.w3.org/TR/CSS21/conform.html)
 >
 > I think we could argue that #2 does not say for sure that pseudo-elements

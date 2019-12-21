@@ -29,7 +29,7 @@ After I've pulled out half of my hair searching for a solution, I found out that
 ![Scenario](/dist/uploads/2012/07/firefox-cross-domain-fonts.png)
 
 In this case, using the iconic font, the `<i class="icon-user"></i>` should generate an user icon. And it does for most of browsers, excepting Mozilla.
-    
+
 {% highlight html %}
 <!doctype html>
 <html>
@@ -41,7 +41,7 @@ In this case, using the iconic font, the `<i class="icon-user"></i>` should gene
   <i class="icon-user"></i>
 </body>
 </html>
-{% endhighlight %}    
+{% endhighlight %}
 
 
 _The style.css would contain all necessary [@font-face](/css3-font-face-or-how-to-use-a-custom-font-for-your-website) declarations for the iconic font._
@@ -55,7 +55,7 @@ It seems that, for security reasons, Firefox simply don't allow you to use by de
 After some investigations, I found out the workaround: set a `Access-Control-Allow-Origin` header to the font.
 
 
-    
+
 {% highlight html %}
 <FilesMatch "\.(ttf|otf|eot|woff)$">
   <IfModule mod_headers.c>
@@ -80,13 +80,12 @@ location ~* \.(eot|otf|ttf|woff)$ {
 **Worst-case scenario:** you're using Amazon Web Services. In this case, you should know that, at this time, you're not allowed to specify the `Access-Control-Allow-Origin` header for your files. Read more about this subject on their [forums](https://forums.aws.amazon.com/message.jspa?messageID=160131).
 
 ### Options
-	
-  * Serve the fonts from another hosting service, where you can set the headers.	
+
+  * Serve the fonts from another hosting service, where you can set the headers.
   * Embed the font in your as a [Base64](/css3-signup-form) string.
 
 ## Read more
 
-Of course, in the end I managed to solve my problem. In case you want to read more about this, here are other two interesting articles on this topic:
-	
-  * [Cross domain workaround for @font-face and Firefox](http://geoff.evason.name/2010/05/03/cross-domain-workaround-for-font-face-and-firefox/)	
-  * [Serving Cross-Domain Fonts](http://www.bryandragon.com/articles/rails-asset-pipeline-cdns-and-serving-cross-domain-fonts)
+Of course, in the end I managed to solve my problem. In case you want to read more about this, here's another interesting article on this topic:
+
+  * [Cross domain workaround for @font-face and Firefox](http://geoff.evason.name/2010/05/03/cross-domain-workaround-for-font-face-and-firefox/)

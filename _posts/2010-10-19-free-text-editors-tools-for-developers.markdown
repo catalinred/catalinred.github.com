@@ -41,22 +41,6 @@ Komodo Edit is a free and open-source code editor and it has a big brother named
 
 [![](/dist/uploads/2010/10/komodo.png)](http://www.activestate.com/komodo-edit)
 
-### [Aptana Studio 2](http://www.aptana.com/products/studio2)
-
-_Windows, Mac, Linux_
-
-Aptana Studio includes extensive capabilities to build web applications using HTML, CSS and JavaScript and much more.
-
-[![](/dist/uploads/2010/10/aptana.png)](http://www.aptana.com/products/studio2/)
-
-### [Web Tide](http://www.webtide.eu/)
-
-_Windows, Mac, Linux_
-
-WebTide HTML editor is a new free HTML editor and it is also a programmer text editor. It contains [code completion](http://en.wikipedia.org/wiki/Autocomplete) for PHP, HTML, CSS, Javascript, XML.
-
-[![](/dist/uploads/2010/10/webtide.png)](http://www.webtide.eu/)
-
 
 ### [gedit](http://projects.gnome.org/gedit/)
 

@@ -13,9 +13,9 @@ tags:
 - design
 ---
 
-PNG-8 with alpha transparency? 
+PNG-8 with alpha transparency?
 
-I know some of you will say that this is impossible, because that was exactly what I was saying when I found out about it. 
+I know some of you will say that this is impossible, because that was exactly what I was saying when I found out about it.
 
 But, Adobe Fireworks makes itself "guilty" about that and in this article I will show you how you can get a PNG-8 image with alpha transparency.
 
@@ -71,8 +71,3 @@ If you don't like complicated things and you just want a quick and effective way
   * [24 Ways](http://24ways.org/2007/supersleight-transparent-png-in-ie6)
   * [DD Belated PNG](http://dillerdesign.com/experiment/DD_belatedPNG/)
   * [Dean Edwards solution](http://dean.edwards.name/weblog/2008/01/ie7-2/)
-
-## Further Resources
-
-  * [Sitepoint - PNG8 the clear winner](http://blogs.sitepoint.com/2007/09/18/png8-the-clear-winner/)
-  * [Brenelz - PNG8 alpha transparency screencast](http://brenelz.com/blog/png-8-alpha-transparency-screencast/)

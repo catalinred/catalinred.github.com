@@ -17,7 +17,7 @@ It happens pretty often to encounter situations when you don't like a default st
 <!-- more -->
 
 ## CSS utility classes
-The utility classes, sometimes called helpers, are simple and reusable CSS class selectors that apply a certain and clear rule in your design system. 
+The utility classes, sometimes called helpers, are simple and reusable CSS class selectors that apply a certain and clear rule in your design system.
 
 For example you may think about the well known `.float-right`, `.list-unstyled`, `.clearfix` or `.visually-hidden` utilities.
 
@@ -33,7 +33,7 @@ I remember I had an Aha! moment first time I ever saw the above naming conventio
   <h2 class="h1">
     Keep semantics but alter the visual appearance.
   </h2>
-{% endhighlight %}  
+{% endhighlight %}
 
 
 In other words, this translates to: I want a larger font size for the `h2`, please make it look like an `h1`. That's actually a fair compromise between semantics, thus SEO and visual appearance requirements.
@@ -42,7 +42,7 @@ In other words, this translates to: I want a larger font size for the `h2`, plea
 
 While trying to beat procrastination and start writing this article down, I was curious to find out the above naming convention origins.
 
-The truth is I didn't know for sure who came up first with this naming convention idea. So [I asked on Twitter](https://twitter.com/catalinred/status/898508568445542402). This almost never disappoints. [Sven](https://twitter.com/maddesigns) correctly pointed out that it was [OOCSS](https://github.com/stubbornella/oocss/wiki). 
+The truth is I didn't know for sure who came up first with this naming convention idea. So [I asked on Twitter](https://twitter.com/catalinred/status/898508568445542402). This almost never disappoints. [Sven](https://twitter.com/maddesigns) correctly pointed out that it was [OOCSS](https://github.com/stubbornella/oocss/wiki).
 
 How did I not know or guessed that? Of course, it had to be OOCSS!
 
@@ -75,7 +75,7 @@ At the moment of this writing, many frameworks and design guides are using it:
 - [Code for America](http://style.codeforamerica.org/#headings)
 - [Disqus](https://disqus.com/pages/style-guide/#typography)
 - [Buffer](https://buffer.com/style-guide#typography)
-- [turretcss](http://turretcss.com/docs/utilities/#headings)
+- [turretcss](https://turretcss.com/typography/headings/)
 
 Let's go further and see other approaches (in random order) when it comes to typography and heading utilities.
 
@@ -88,7 +88,7 @@ Let's go further and see other approaches (in random order) when it comes to typ
   h4, .delta { ... }
   h5, .epsilon { ... }
   h6, .zeta { ... }
-{% endhighlight %}  
+{% endhighlight %}
 
 > I’m not such a fan of the `.hN` notation, I much prefer a solution that I believe to have been suggested by Mr Jeremy Keith, and that is to use abstract classes made up of the first six letters of the Greek alphabet
 >
@@ -222,14 +222,14 @@ While doing some research on this article, I stumbled upon some misleading or no
 
 ### MailChimp
 
-The MailChimp website headings and utilities seem to have nothing to do with [their own typography style guide](https://ux.mailchimp.com/patterns/typography). 
+The MailChimp website headings and utilities seem to have nothing to do with [their own typography style guide](https://ux.mailchimp.com/patterns/typography).
 
 Instead, they seem to use the following convention in their style sheets.
 
 {% highlight css %}
   .super_title { ... }
 
-  .title, 
+  .title,
   .normalize h1,
   .normalize .title,
   .page-title { ... }
@@ -249,13 +249,7 @@ Instead, they seem to use the following convention in their style sheets.
 
 ### GitHub's Primer
 
-The [GitHub's Primer](https://github.com/primer/primer-css/blob/master/modules/primer-marketing-type/lib/typography.scss) repository shows the following naming convention, which appears to be used across most of Github's website pages. And yes... I kinda manually checked several pages to make sure this info is correct.
-
-Their live documentation is outdated but it looks like things are work in progress.
-
-> We turned Primer CSS into a monorepo and improved our build process, and we've been building a new documentation website that we'll make public in fall, 2017.
->
-> *[primercss.io](http://primercss.io/)*
+The [GitHub's Primer](https://primer.style/css/) repository shows the following naming convention, which appears to be used across most of Github's website pages. And yes... I kinda manually checked several pages to make sure this info is correct.
 
 {% highlight css %}
   .alt-h0 { ... }

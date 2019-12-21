@@ -30,7 +30,7 @@ If you're in a hurry, here's the result:
 ## HTML structure
 
 As you can see in the following lines, the HTML structure does not contain more than we need, it's a minimal one and easy to understand.
-    
+
 {% highlight html %}
 <ul id="menu">
     <li><a href="#">Home</a></li>
@@ -47,7 +47,7 @@ As you can see in the following lines, the HTML structure does not contain more 
     <li><a href="#">About</a></li>
     <li><a href="#">Contact</a></li>
 </ul>
-{% endhighlight %} 
+{% endhighlight %}
 
 One more thing, also very important, this is [semantic HTML](http://en.wikipedia.org/wiki/Semantic_HTML). It's a logical structure and has a correct meaning, even if styling is totally missing at this point:
 
@@ -65,7 +65,7 @@ In my example, the "Categories" section is the only one who contains a sub-list,
     width: 100%;
     margin: 0;
     padding: 10px 0 0 0;
-    list-style: none;  
+    list-style: none;
     background-color: #111;
     background-image: linear-gradient(#444, #111);
     border-radius: 50px;
@@ -105,14 +105,14 @@ In my example, the "Categories" section is the only one who contains a sub-list,
 #menu ul {
     list-style: none;
     margin: 0;
-    padding: 0;    
+    padding: 0;
     display: none;
     position: absolute;
     top: 35px;
     left: 0;
-    z-index: 99999;    
-    background-color: #444;   
-    background-image: linear-gradient(#444, #111);    
+    z-index: 99999;
+    background-color: #444;
+    background-image: linear-gradient(#444, #111);
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
@@ -121,16 +121,16 @@ In my example, the "Categories" section is the only one who contains a sub-list,
     float: none;
     margin: 0;
     padding: 0;
-    display: block;  
-    box-shadow: 0 1px 0 #111111, 
+    display: block;
+    box-shadow: 0 1px 0 #111111,
                 0 2px 0 #777777;
 }
 
-#menu ul li:last-child { 
-    box-shadow: none;    
+#menu ul li:last-child {
+    box-shadow: none;
 }
 
-#menu ul a {    
+#menu ul a {
     padding: 10px;
     height: auto;
     line-height: 1;
@@ -140,12 +140,12 @@ In my example, the "Categories" section is the only one who contains a sub-list,
     text-transform: none;
 }
 
-*html #menu ul a { /* IE6 */   
+*html #menu ul a { /* IE6 */
     height: 10px;
     width: 150px;
 }
 
-*:first-child+html #menu ul a { /* IE7 */    
+*:first-child+html #menu ul a { /* IE7 */
     height: 10px;
     width: 150px;
 }
@@ -172,7 +172,7 @@ In my example, the "Categories" section is the only one who contains a sub-list,
 }
 
 #menu ul li:first-child a:hover:after {
-    border-bottom-color: #04acec; 
+    border-bottom-color: #04acec;
 }
 
 #menu ul li:last-child a {
@@ -217,13 +217,13 @@ It's made using the `:after` [pseudo-element](http://www.w3.org/TR/CSS2/selector
 }
 
 #menu ul li:first-child a:hover:after {
-    border-bottom-color: #04acec; 
+    border-bottom-color: #04acec;
 }
 {% endhighlight %}
 
 ### [Taming the IE6 "beast"](http://sixrevisions.com/web-development/definitive-guide-to-taming-the-ie6-beast/)
 
-The sub-menu is displayed when hovering on a `li` element. As you already know, IE6 doesn't support hovering on a non-anchor element. 
+The sub-menu is displayed when hovering on a `li` element. As you already know, IE6 doesn't support hovering on a non-anchor element.
 
 Although, at the beginning of this article I said "without any Javascript", in order maintain accessibility also for IE6, please allow me to add some scripting code:
 
@@ -239,12 +239,10 @@ Although, at the beginning of this article I said "without any Javascript", in o
             $(this).children('ul').hide();
             })
       }
-    });        
+    });
 </script>
 
 {% endhighlight %}
-
-_You may skip that, as IE6 is going down. The final [countdown ](http://ie6countdown.com/)began!_
 
 The above solution requires Jquery. Also, I think this shouldn't be a problem at all, while, nowadays Jquery is almost "a default" when talking about modern websites.
 
@@ -255,7 +253,7 @@ Besides this Jquery fallback, the above CSS includes some lines specifically for
 {% highlight css %}
 * html #menu             { zoom: 1; } /* IE6 */
 *:first-child+html #menu { zoom: 1; } /* IE7 */
-{% endhighlight %}  
+{% endhighlight %}
 
 There are also other IE hacks that won't pass CSS file validation... If you don't like it this way, just use conditional comments!
 

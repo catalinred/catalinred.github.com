@@ -35,13 +35,13 @@ For this fast example I used [3Dumb](http://www.fontsquirrel.com/fonts/3Dumb) fo
 ### 1.Upload the font to your server
 
 Just open your FTP tool and upload the font to your server and note the location. If you don't have a cool font to use for your website then you could try:
-	
-  * [Dafont](http://www.dafont.com/)	
-  * [Fontsquirrel](http://www.fontsquirrel.com/)	
+
+  * [Dafont](http://www.dafont.com/)
+  * [Fontsquirrel](http://www.fontsquirrel.com/)
   * [Urbanfonts](http://www.urbanfonts.com/)
 
 ### 2.Define it in your CSS file
-    
+
 {% highlight css %}
 @font-face {
   font-family: '3DumbRegular';
@@ -54,9 +54,9 @@ Just make sure that you change "your-path" with the exact location of your font.
 
 Thanks to [Paul Irish](http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/), we can use this cross browser font-face solution. As you notice there are multiple font sources defined, as ttf, eot and svg.
 
-  * **TTF** - Works in most browsers except IE and iPhone.	
-  * **EOT** - IE only.	
-  * **WOFF** - Compressed, emerging standard.	
+  * **TTF** - Works in most browsers except IE and iPhone.
+  * **EOT** - IE only.
+  * **WOFF** - Compressed, emerging standard.
   * **SVG** - iPhone/iPad.
 
 ### 3.Properly use it
@@ -65,11 +65,11 @@ Thanks to [Paul Irish](http://paulirish.com/2009/bulletproof-font-face-implement
 h1 {
   font-family: '3DumbRegular', Arial, sans-serif
 }
-{% endhighlight %}      
+{% endhighlight %}
 
 ## On Copyright
 
-I'd recommend always make sure you check the used font license before you use it in commercial/personal purposes. Use free fonts or check the [fonts available for @font-face embedding](http://webfonts.info/wiki/index.php?title=Fonts_available_for_@font-face_embedding) list.
+I'd recommend always make sure you check the used font license before you use it in commercial/personal purposes. Use free fonts or check for fonts available for @font-face embedding.
 
 ## That's all folks!
 

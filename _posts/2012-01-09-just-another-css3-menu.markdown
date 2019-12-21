@@ -13,7 +13,7 @@ tags:
 - CSS3
 ---
 
-Hey there, this is my first post on 2012 and today you'll learn how to create a simple and clean CSS3 menu in just a few steps. 
+Hey there, this is my first post on 2012 and today you'll learn how to create a simple and clean CSS3 menu in just a few steps.
 
 ![](/dist/uploads/2012/01/just-another-css3-menu.png)
 
@@ -26,28 +26,28 @@ I know, there are so many CSS3 menu tutorials in the wild (including here on RTD
 ## CSS3 menu tutorials
 
 Below is a list with other CSS3 menu articles you may have read here:
-	
-  * [Sexy CSS3 menu](/sexy-css3-menu)	
-  * [CSS3 animated dropdown menu](/css3-animated-dropdown-menu)	
-  * [Cool CSS3 navigation menu](/cool-css3-navigation-menu)	
+
+  * [Sexy CSS3 menu](/sexy-css3-menu)
+  * [CSS3 animated dropdown menu](/css3-animated-dropdown-menu)
+  * [Cool CSS3 navigation menu](/cool-css3-navigation-menu)
   * [Vertical dropdown menu with CSS3 and jQuery](/create-a-stylish-html5-template-from-scratch)
 
 ## The idea
 
-The idea for this CSS3 navigation menu came to me while watching this button on [UI Parade](http://www.uiparade.com/portfolio/ultra-clean-home-button/). Usually, when I see design stuff on the internet, I try to image how can I make it using CSS3. I think this a professional habit.
+The idea for this CSS3 navigation menu came to me while seeing a similar button styling in the wild. Usually, when I see design stuff on the internet, I try to image how can I make it using CSS3. I think this a professional habit.
 
 ## The HTML
 
 Check the markup below, simple and effective:
-    
+
 {% highlight html %}
 <nav>
     <ul>
         <li><a href="">Home</a></li>
         <li><a href="">Categories</a></li>
-        <li><a href="">About</a></li>               
+        <li><a href="">About</a></li>
         <li><a href="">Portfolio</a></li>
-        <li><a href="">Contact</a></li>     
+        <li><a href="">Contact</a></li>
     </ul>
 </nav>
 {% endhighlight %}
@@ -127,8 +127,8 @@ nav a{
 
 nav a:hover{
     background-color: #eee;
-    background-image: linear-gradient(top, #eee, #fff);     
-}   
+    background-image: linear-gradient(top, #eee, #fff);
+}
 
 nav a:active{
         top: 1px; /* Simulate the push button effect */
@@ -157,7 +157,7 @@ nav a::before{
     background-color: #e3e3e3;
     background-image: linear-gradient(top, #e3e3e3, #f7f7f7);
     border-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0,0,0,.05) inset;        
+    box-shadow: 0 1px 1px rgba(0,0,0,.05) inset;
 }
 
 nav a:active::before{
