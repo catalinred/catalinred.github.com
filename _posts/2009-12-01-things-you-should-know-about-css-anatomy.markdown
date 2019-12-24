@@ -10,7 +10,9 @@ categories:
 - CSS
 ---
 
-<ins>Last updated on <time datetime="2019-12-23">2019, December 23</time></ins>
+<ins>
+  Last updated on <time datetime="2019-12-23">2019, December 23</time>
+</ins>
 
 People are writing CSS without knowing its structure meaning or being aware of its cascading and inheritance behavior. In this article, we'll take a closer look at how CSS is structured, its anatomy including rulesets or rules, selectors, declarations, properties, values and units.
 
