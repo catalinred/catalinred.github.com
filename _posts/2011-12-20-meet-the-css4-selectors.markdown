@@ -16,7 +16,7 @@ tags:
 
 <ins>On the "CSS4" term, you should know that [there is no such thing as CSS4](http://www.xanthir.com/b4Ko0). Also, the term "CSS3" refers to everything published after CSS 2.1.</ins>
 
-You may already know that, when speaking about web development, **CSS3** and **HTML5** are the two main buzz words. This matter might change in the future because, almost two months ago, the latest [CSS Selectors Level 4 Working Draft](http://www.w3.org/TR/2011/WD-selectors4-20110929) was released by the World Wide Web Consortium (W3C).
+You may already know that, when speaking about web development, **CSS3** and **HTML5** are the two main buzz words. This matter might change in the future because, almost two months ago, the latest [CSS Selectors Level 4 Working Draft](https://www.w3.org/TR/selectors-4/) was released by the World Wide Web Consortium (W3C).
 
 In this article you'll find out some interesting stuff about the new CSS4 selectors.
 
@@ -38,7 +38,7 @@ $ul li:hover{
 }
 {% endhighlight %}
 
-Using the above, when hovering an list element, the whole unordered list will be somehow highlighted by adding a white background to it. 
+Using the above, when hovering an list element, the whole unordered list will be somehow highlighted by adding a white background to it.
 
 Another example I'm thinking about now is when using HTML forms: for example we could highlight a HTML `fieldset` when one of its inputs is focused:
 
@@ -53,7 +53,7 @@ $fieldset input:focus{
 
 ## Matches-Any Pseudo-class
 
-The `:matches()` CSS4 selector is the standardized version of Mozilla’s [`:-moz-any()`](https://developer.mozilla.org/en/CSS/%3A-moz-any) pseudo class. This new proposal can simplify the process of writing complex CSS. 
+The `:matches()` CSS4 selector is the standardized version of Mozilla’s [`:-moz-any()`](https://developer.mozilla.org/en/CSS/%3A-moz-any) pseudo class. This new proposal can simplify the process of writing complex CSS.
 
 Here's a quick example:
 
@@ -63,7 +63,7 @@ Here's a quick example:
 }
 {% endhighlight %}
 
-as an abbreviation for: 
+as an abbreviation for:
 
 {% highlight css %}
 section h1, article h1, aside h1 {
@@ -73,7 +73,7 @@ section h1, article h1, aside h1 {
 
 ## Other CSS4 pseudo-class selectors
 
-The `:indeterminate` pseudo-class applies to UI elements whose value is in an indeterminate state. For example, radio and checkbox elements can be toggled between checked and unchecked states, but are sometimes in an indeterminate state, neither checked nor unchecked. Similarly a progress meter can be in an indeterminate state when the percent completion is unknown. 
+The `:indeterminate` pseudo-class applies to UI elements whose value is in an indeterminate state. For example, radio and checkbox elements can be toggled between checked and unchecked states, but are sometimes in an indeterminate state, neither checked nor unchecked. Similarly a progress meter can be in an indeterminate state when the percent completion is unknown.
 
 The `:nth-match(an+b of selector-list)` pseudo-class notation represents an element that has a parent and has `an+b-1` siblings that match the given selector-list before it in the document tree, for any zero or positive integer value of n.
 
@@ -82,6 +82,6 @@ The `:nth-match(an+b of selector-list)` pseudo-class notation represents an elem
 We never get bored when it comes about new web technologies. I remember somebody said something like: We (developers) are living in exciting times. True.
 
 Also, I'd strongly recommend you to read more about CSS4 selectors here:
-	
-  * [W3C Working Draft 29 September 2011](http://www.w3.org/TR/2011/WD-selectors4-20110929/)	
+
+  * [W3C Working Draft 29 September 2011](http://www.w3.org/TR/2011/WD-selectors4-20110929/)
   * [What’s slated for CSS4 Selectors?](http://generatedcontent.org/post/10865123182/selectors4)
