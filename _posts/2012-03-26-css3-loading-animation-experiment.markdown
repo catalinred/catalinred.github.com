@@ -92,6 +92,6 @@ There are some things you may find interesting here:
 
 ## Conclusion
 
-This is an experiment and you must be aware of it. For now, I think an animated GIF will do the job better in most of cases.
+This is an experiment and you must be aware of it. For now, I think an animated GIF will do the job better in most cases.
 
-Also, this isn't that example that advocates for using CSS3 stuff instead images to save HTTP requests. It is not applicable here as limited browser support for [CSS3 animations](/cool-notification-messages-with-css3-jquery) has something to say. Though, I hope you'll find this example useful and inspiring for your future projects.
+Also, this isn't that example that advocates for using CSS3 stuff instead of images to save HTTP requests. It is not applicable here as limited browser support for [CSS3 animations](/cool-notification-messages-with-css3-jquery) has something to say. Though, I hope you'll find this example useful and inspiring for your future projects.
