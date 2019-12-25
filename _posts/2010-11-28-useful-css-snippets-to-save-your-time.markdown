@@ -6,10 +6,7 @@ layout: post
 slug: useful-css-snippets-to-save-your-time
 title: 11 useful CSS snippets to save your time
 description: Check some useful CSS snippets to save your time.
-wordpress_id: 1245
 categories:
-- CSS
-tags:
 - CSS
 - HTML
 ---
@@ -18,7 +15,7 @@ Writing CSS can be a pain and can give you headaches. The truth is that CSS ain'
 
 In the following rows I'll try to present you some important snippets I often use in my project and I hope these will help you too.
 
-[![Useful CSS snippets](/dist/uploads/2010/11/useful-css-snippets.png)](/useful-css-snippets-to-save-your-time)
+![Useful CSS snippets](/dist/uploads/2010/11/useful-css-snippets.png)
 
 <!-- more -->
 
@@ -121,7 +118,7 @@ div {
 }
 {% endhighlight %}
 
-...and, as IE6 and IE7 [don't support](http://www.quirksmode.org/css/display.html) the "**display: table**" declaration you can use an alternative [method](/center-a-block-element-without-knowing-its-width-part-ii) I often use:
+...and, as IE6 and IE7 [don't support](http://www.quirksmode.org/css/display.html) the "**display: table**" declaration you can use an alternative [method](/center-a-block-element-without-knowing-its-width/) I often use:
 
 {% highlight html %}
 <table class="centered-block">
@@ -153,8 +150,6 @@ The main advantages of this method
 
 A disadvantage would be the fact that includes extra HTML markup and you should consider that before using it.
 
-[View Demo](/dist/uploads/2010/10/center-a-block-element-without-knowing-its-width.html)
-
 ## 7. Advanced selectors
 
 You may use these selectors to target easier your elements like text inputs or to style links to pdf files for example:
@@ -181,10 +176,6 @@ div {
   height: 500px;
 }
 {% endhighlight %}
-
-
-
-
 
 ## 9. Fix IE6/7 double margin/padding bug
 
