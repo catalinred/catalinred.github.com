@@ -5,12 +5,12 @@ date: 2012-03-26 05:00:18+00:00
 layout: post
 slug: css3-loading-animation-experiment
 title: CSS3 loading animation experiment
-description: An experiment on how to create a simple CSS3 loading animation inspired by DIRT 3 -  the video game.
+description: An experiment on how to create a simple CSS3 loading animation inspired by DIRT 3 - the video game.
 categories:
 - CSS
 ---
 
-While playing [DIRT 3](http://www.gamespot.com/dirt-3/), I've noticed a very cool triangle animation as part of their UI. Almost immediately, I thought about how to build a similar version of it using CSS3.
+While playing DIRT 3 - the video game, I've noticed a very cool triangle animation as part of their UI. Almost immediately, I thought about how to build a similar version of it using CSS3.
 
 So, in this article, you'll see an experiment about how to create a simple CSS3 loading animation.
 
@@ -18,7 +18,7 @@ So, in this article, you'll see an experiment about how to create a simple CSS3 
 
 <!-- more -->
 
-For this example, I'll be using two CSS3 animations: one that fades the color for the triangles and one animation that rotates the whole design. These two animations, synchronized, will help creating a quite nice effect.
+For this example, I'll be using two CSS3 animations: one that fades the color for the triangles and one animation that rotates the whole design. These two animations, synchronized, will help to create a quite nice effect.
 
 ## The HTML
 

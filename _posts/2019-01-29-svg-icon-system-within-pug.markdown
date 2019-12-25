@@ -17,7 +17,7 @@ I'm working on a project that uses Node.js and Pug, formerly Jade, to generate a
 
 Still, one thing was bothering me for some time, and namely how to efficiently include a minified, production-ready SVG icon system, using `symbol`s within the Pug pages.
 
-![Pug and SVGs ](/dist/uploads/2019/01/pug-include-svg.png)
+![The Pug templating engine logo and a code snippet containing a SVG icon system with symbols](/dist/uploads/2019/01/pug-include-svg.png)
 
 <!-- more -->
 
@@ -48,7 +48,7 @@ body
 
 All good except the fact that if you choose to minify the Pug files output, e.g. when in `production`, if your included non-Pug files aren't minified/uglified already, you'll end up with some mixed output in your final HTML source file.
 
-![Mixed HTML code](/dist/uploads/2019/01/mixed-source-code.png)
+![Mixed HTML due to non-minified SVG code include](/dist/uploads/2019/01/mixed-source-code.png)
 
 *Mixed HTML code output, both minified and non-minified*
 
@@ -145,7 +145,7 @@ Finally, I'll be able to include the minified result in a partial Pug file using
 
 ## That's it!
 
-![Minified HTML code](/dist/uploads/2019/01/minified-source-code.png)
+![Minified HTML containing minified SVG code](/dist/uploads/2019/01/minified-source-code.png)
 
 *Better, beautiful & minified HTML output*
 

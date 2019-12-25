@@ -14,13 +14,13 @@ This is not new anymore, nowadays it became so easy to have a piece of content s
 
 Remember the last web app you're working on it that had a large table with lots of data rows? Feels like yesterday, no? Well, having this scenario, in terms of UX, it's almost mandatory to have `thead`'s or `tr`'s stuck while browsing the tabular data.
 
-![CSS writing mode experiment](/dist/uploads/2018/07/sticky-table-th.png)
+![Position sticky table support](/dist/uploads/2018/07/sticky-table-th.png)
 
 <!-- more -->
 
-### Sounds easy, but ...
+## `thead`'s or `tr`'s do not support sticky positioning
 
-Sticky `thead`'s or `tr`'s: not going to happen anytime soon.
+Sounds easy, but sticky `thead`'s or `tr`'s: not going to happen anytime soon.
 
 > For tables, position: sticky defers to the position: relative spec. At this time, Blink only supports CSS 2.1 for positioned elements, and the position: relative CSS 2.1 spec says that it does not apply to <thead> and <tr> elements.
 >
@@ -35,7 +35,7 @@ Sticky `thead`'s or `tr`'s: not going to happen anytime soon.
 
 For now, sticky positioning for `th`'s seems to be the only workaround and it works just fine in stable Chrome, Firefox, Edge and Safari browsers.
 
-### Useful links
+## Browser support and bugs tracking
 - [https://caniuse.com/#search=sticky](https://caniuse.com/#search=sticky)
 - [https://bugzilla.mozilla.org/show_bug.cgi?id=975644#c42](https://bugzilla.mozilla.org/show_bug.cgi?id=975644#c42)
 - [https://bugs.chromium.org/p/chromium/issues/detail?id=702927](https://bugs.chromium.org/p/chromium/issues/detail?id=702927)
