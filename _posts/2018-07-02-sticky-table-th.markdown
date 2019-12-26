@@ -18,9 +18,9 @@ Remember the last web app you're working on it that had a large table with lots 
 
 <!-- more -->
 
-## `thead`'s or `tr`'s do not support sticky positioning
+## Neither `thead` nor `tr` work with sticky positioning
 
-Sounds easy, but sticky `thead`'s or `tr`'s: not going to happen anytime soon.
+The CSS `position: sticky` declaration on `thead`'s or `tr`'s is not going to happen anytime soon.
 
 > For tables, position: sticky defers to the position: relative spec. At this time, Blink only supports CSS 2.1 for positioned elements, and the position: relative CSS 2.1 spec says that it does not apply to <thead> and <tr> elements.
 >
