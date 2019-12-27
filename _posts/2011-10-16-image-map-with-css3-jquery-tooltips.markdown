@@ -5,14 +5,10 @@ date: 2011-10-16 23:00:35+00:00
 layout: post
 slug: image-map-with-css3-jquery-tooltips
 title: Image map with CSS3 & jQuery tooltips
-description: Learn how to create your own CSS3 & jQuery image map with pins and tooltips. Also, you can get a demo example with the result.
-wordpress_id: 3504
+description: Learn how to create your own CSS3 & jQuery image map with pins and tooltips.
 categories:
 - CSS
 - JavaScript
-tags:
-- CSS3
-- jQuery
 - User experience
 ---
 
@@ -20,7 +16,7 @@ Tooltips can play a big role in your web designs and that isn't new anymore. Jus
 
 We have seen before how to create some good looking [CSS3 tooltips](/css3-tooltips) and today you'll learn how to create an image map with pins and tooltips.
 
-![Image map with CSS3 and jQuery](/dist/uploads/2011/10/image-map-with-css3-jquery-tooltips.jpg)
+![World map tooltips with CSS3 and jQuery](/dist/uploads/2011/10/image-map-with-css3-jquery-tooltips.jpg)
 
 <!-- more -->
 
@@ -41,13 +37,13 @@ As you will see further, you won't need any developer skills to add pins with to
 Here's how the syntax looks:
 
 {% highlight html %}
-<div data-foo="bar"></div>
+  <div data-foo="bar"></div>
 {% endhighlight %}
 
 ... and this is how you can get the above value with jQuery:
 
 {% highlight js %}
-var test = $('div').data('foo');
+  var test = $('div').data('foo');
 {% endhighlight %}
 
 In this article, we'll use data attributes to store information like **positioning coordinates** for our map pins. If you want to read more about HTML5 custom data attributes, go to [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes).
@@ -55,16 +51,18 @@ In this article, we'll use data attributes to store information like **positioni
 ## The HTML
 
 {% highlight html %}
-<div id="wrapper">
-   <img width="920" height="450" src="world-map.jpg" alt="World continents">
-   <div class="pin pin-down" data-xpos="450" data-ypos="110">
-      <h2>Europe</h2>
-      <ul>
-        <li><b>Area (km²):</b> 10,180,000</li>
-        <li><b>Population:</b> 731,000,000 </li>
-      </ul>
-   </div>
-</div>
+  <div id="wrapper">
+    <img  width="920" height="450"
+          src="world-map.jpg"
+          alt="World continents">
+    <div class="pin pin-down" data-xpos="450" data-ypos="110">
+        <h2>Europe</h2>
+        <ul>
+          <li><b>Area (km²):</b> 10,180,000</li>
+          <li><b>Population:</b> 731,000,000 </li>
+        </ul>
+    </div>
+  </div>
 {% endhighlight %}
 
   * `#wrapper` - This is the element that wraps all the other elements. Its `position` value is `relative` and I bet you guess why's that.
@@ -80,32 +78,32 @@ In this article, we'll use data attributes to store information like **positioni
 There's no much to explain here, I think the following lines are quite easy to understand:
 
 {% highlight css %}
-/* Relative positioning*/
-#wrapper {
+  /* Relative positioning*/
+  #wrapper {
     position: relative;
     margin: 50px auto 20px auto;
     border: 1px solid #fafafa;
     box-shadow: 0 3px 3px rgba(0,0,0,.5);
-}
+  }
 
-/* Hide the original tooltips contents */
-.pin {
+  /* Hide the original tooltips contents */
+  .pin {
     display: none;
-}
+  }
 
-/* Begin styling the tooltips and pins */
-.tooltip-up, .tooltip-down {
+  /* Begin styling the tooltips and pins */
+  .tooltip-up, .tooltip-down {
     position: absolute;
     background: url(arrow-up-down.png);
     width: 36px;
     height: 52px;
-}
+  }
 
-.tooltip-down {
+  .tooltip-down {
     background-position: 0 -52px;
-}
+  }
 
-.tooltip {
+  .tooltip {
     display: none;
     width: 200px;
     cursor: help;
@@ -121,9 +119,9 @@ There's no much to explain here, I think the following lines are quite easy to u
     box-shadow: 0 3px 0 rgba(0,0,0,.7);
     background: #fff1d3;
     background: linear-gradient(top, #fff1d3, #ffdb90);
-}
+  }
 
-.tooltip::after {
+  .tooltip::after {
     content: '';
     position: absolute;
     top: -10px;
@@ -132,30 +130,30 @@ There's no much to explain here, I think the following lines are quite easy to u
     border-bottom: 10px solid #fff1d3;
     border-left: 10px solid transparent;
     border-right :10px solid transparent;
-}
+  }
 
-.tooltip-down .tooltip {
+  .tooltip-down .tooltip {
     bottom: 12px;
     top: auto;
-}
+  }
 
-.tooltip-down .tooltip::after {
+  .tooltip-down .tooltip::after {
     bottom: -10px;
     top: auto;
     border-bottom: 0;
     border-top: 10px solid #ffdb90;
-}
+  }
 
-.tooltip h2 {
+  .tooltip h2 {
     font: bold 1.3em 'Trebuchet MS', Tahoma, Arial;
     margin: 0 0 10px;
-}
+  }
 
-.tooltip ul {
+  .tooltip ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+  }
 {% endhighlight %}
 
 ## The jQuery
@@ -163,8 +161,7 @@ There's no much to explain here, I think the following lines are quite easy to u
 Below you can find the jQuery code that will execute when the page loads:
 
 {% highlight js %}
-$(document).ready(function(){
-
+  $(document).ready(function(){
     // set the wrapper width and height to match the img size
     $('#wrapper').css({'width':$('#wrapper img').width(),
                       'height':$('#wrapper img').height()
@@ -175,17 +172,17 @@ $(document).ready(function(){
 
     for (i=0; i<$(".pin").length; i++)
     {
-        // set tooltip direction type - up or down
-        if ($(".pin").eq(i).hasClass('pin-down')) {
-            tooltipDirection = 'tooltip-down';
-        } else {
-            tooltipDirection = 'tooltip-up';
-            }
+      // set tooltip direction type - up or down
+      if ($(".pin").eq(i).hasClass('pin-down')) {
+          tooltipDirection = 'tooltip-down';
+      } else {
+          tooltipDirection = 'tooltip-up';
+          }
 
-        // append the tooltip
-        $("#wrapper").append("<div style='left:"+$(".pin").eq(i).data('xpos')+"px;top:"+$(".pin").eq(i).data('ypos')+"px' class='" + tooltipDirection +"'>\
-                                            <div class='tooltip'>" + $(".pin").eq(i).html() + "</div>\
-                                    </div>");
+      // append the tooltip
+      $("#wrapper").append("<div style='left:"+$(".pin").eq(i).data('xpos')+"px;top:"+$(".pin").eq(i).data('ypos')+"px' class='" + tooltipDirection +"'>\
+                                          <div class='tooltip'>" + $(".pin").eq(i).html() + "</div>\
+                                  </div>");
     }
 
     // show/hide the tooltip
@@ -194,7 +191,7 @@ $(document).ready(function(){
             }).mouseleave(function(){
                 $(this).children('.tooltip').fadeOut(100);
             })
-});
+  });
 {% endhighlight %}
 
 ## How it works and how to use it
@@ -207,7 +204,7 @@ This is an example that works even on older browsers like [IE6](/how-to-solve-co
 
   3. From now on, the **jQuery will do the rest**:
 
-    * Based on the image dimension, the relative wrapper inherits the img's width and height.
+    * Based on the image dimension, the relative wrapper inherits the image's `width` and `height`.
 
     * The initial content you added will be hidden (this is done via CSS) and new elements will be appended based on initial content.
 
@@ -217,4 +214,4 @@ This is an example that works even on older browsers like [IE6](/how-to-solve-co
 
 ## That's all!
 
-I hope you enjoyed this tutorial and feel free to comment if you have any suggestion. Thanks for reading!
+I hope you enjoyed this tutorial and feel free to get in toch if you have any suggestions. Thanks for reading!

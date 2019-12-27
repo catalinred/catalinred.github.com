@@ -4,80 +4,75 @@ comments: true
 date: 2012-02-20 06:00:16+00:00
 layout: post
 slug: fancy-faq-page-using-css3-only
-title: Fancy FAQ page using CSS3 only
-description: In this article I'll learn how to create a fancy FAQ page using CSS3 only, no JavaScript.
-wordpress_id: 4298
+title: Fancy FAQ design using CSS only
+description: Learn how to create a fancy FAQ design using CSS only, no JavaScript.
 categories:
 - CSS
-tags:
-- CSS3
-- HTML5
+- HTML
 ---
 
-Usually, a FAQ page is that long page with lots of questions and answers, the one we are searching for when we need some extra info regarding a subject. So, for example, if you own a website that sells stuff, then you will need a page like that.
+Usually, an FAQ page is that long page with lots of questions and answers, the one we are searching for when we need some extra info regarding a subject. So, for example, if you own a website that sells stuff, then you will need a FAQ page or a FAQ section.
 
-In this article I'll show you how to create a fancy FAQ page using CSS3 only, no JavaScript.
+In this article, you will learn how to create a fancy FAQ design using CSS only, no JavaScript.
 
-![](/dist/uploads/2012/02/css3-faq-page.png)
+![FAQ CSS design showing an expanded orange FAQ section](/dist/uploads/2012/02/css3-faq-page.png)
 
 <!-- more -->
 
 [View demo](/dist/uploads/2012/02/fancy-faq-page-using-css3-only-demo.html)
 
-## The idea
+## The FAQ page idea
 
-When I visited Facebook's [Help Center](https://www.facebook.com/help/privacy/sharing-choices) section (theirs FAQ's), I noticed a cool effect for the answers previews. They show a small, faded and clipped text preview for the answer, and then, when the question is clicked, the complete answer is revealed.
+I visited Facebook's Help Center section - their FAQ's page -  and I noticed a cool effect for the answers previews. So they were showing a small, faded and clipped text preview for the answer, and then, when the question was clicked, the complete answer was revealed.
 
-After seeing it, of course I immediately thought about how can I create a similar effect using CSS3 only. So, further you'll see how I made it.
+After seeing it, I immediately thought about how can I create a similar effect using CSS only.
 
-## The HTML
+## The FAQ markup
 
 We will start as usual with the markup structure:
 
 {% highlight html %}
-<section class="faq-section">
+  <section class="faq-section">
     <input type="checkbox" id="q1">
     <label for="q1">Question?</label>
-    <p>... The intro paragraph that will be clipped ...</p>
-    <p>... Extra and optional paragraph ...</p>
-</section>
+
+    <p>Clipped intro paragraph</p>
+    <p>Other paragraph</p>
+  </section>
 {% endhighlight %}
 
-![Faq markup](/dist/uploads/2012/02/fancy-faq-page-using-css3-only-markup.png)
+![FAQ section markup example, showing the CSS selectors used](/dist/uploads/2012/02/fancy-faq-page-using-css3-only-markup.png)
 
-  * In the above image, the label is the proper heading of the section. But, if you want to use better semantic, you can wrap the `label` into a `h1`.
+  * In the above image, the `label` is the proper heading of the section. But, if you want to use better semantic, you can wrap the `label` into a `h1` for example.
 
-  * Using `label::before` allow us to create the right triangle shape. On a side note, double colon for [pseudo-elements](/before-after-pseudo-elements) is the CSS3 way.
+  * Using the `label::before` pseudo-elements selector allow us to create the right [triangle shape](/how-to-create-triangle-shapes/) design. As a rule, using double colon (`::`) for the [CSS pseudo-elements](/things-you-should-know-about-css-anatomy/) is used instead of single colon (`:`) to distinguish CSS pseudo-classes from pseudo-elements.
 
-  * The first paragraph for each section is the intro preview for the complete answer. For this example, I used the [adjacent sibling combinator](http://www.w3.org/TR/css3-selectors/#adjacent-sibling-combinators) to target it.
+  * The first paragraph for each section is the intro paragraph for the complete answer. For this example, I used the [CSS adjacent sibling combinator](https://www.w3.org/TR/selectors-3/#adjacent-sibling-combinators) to target it.
 
+## How it works?
 
-### How it works?
+There's no rocket science here. The technique we will use today is called _the checkbox hack_ and it relies on the ability of toggling an `<input>` using the adjacent `<label>`. Also, in the same time, the checkbox `input` will be hidden.
 
-There's no rocket science here. The technique we will use today is called _the checkbox hack_ and it relies on the ability of [toggle-ing](/web-usability-tips-for-your-website) an `<input type="checkbox" id="abc">` using the `<label for="abc">`. Also, in the same time, the checkbox input will be hidden.
+I played before with this cool technique, but never had the opportunity to create a practical example actually. But if you want to read more about this technique, Chris Coyier wrote a while ago an article where he shows some cool stuff you can do with [the checkbox hack](https://css-tricks.com/the-checkbox-hack/).
 
-I played before with this cool technique, but never had the opportunity to create a practical example actually. So, this is my shot! :)
-
-If you want to read more about this technique, Chris Coyier wrote a while ago an article where he shows some cool stuff you can do with [the checkbox hack](http://css-tricks.com/the-checkbox-hack/).
-
-### The CSS
+## The CSS
 
 Below you have the styles, I commented some lines for a better understanding:
 
 {% highlight css %}
-/*Add some spacing*/
-.faq-section{
+  /*Add some spacing*/
+  .faq-section{
     margin: 40px 0;
-        position: relative;
-}
+    position: relative;
+  }
 
-/*Hide the paragraphs*/
-.faq-section p{
+  /*Hide the paragraphs*/
+  .faq-section p{
     display: none;
-}
+  }
 
-/*Hide the checkboxes */
-.faq-section input{
+  /*Hide the checkboxes */
+  .faq-section input{
     position: absolute;
     z-index: 2;
     cursor: pointer;
@@ -86,10 +81,10 @@ Below you have the styles, I commented some lines for a better understanding:
     margin: 0;
     width: 100%;
     height: 36px;
-}
+  }
 
-/*Show only the clipped intro */
-.faq-section label+p{
+  /*Show only the clipped intro */
+  .faq-section label+p{
     display: block;
     color: #999;
     font-size: .85em;
@@ -98,10 +93,10 @@ Below you have the styles, I commented some lines for a better understanding:
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-}
+  }
 
-/*If the checkbox is checked, show all paragraphs*/
-.faq-section input[type=checkbox]:checked~p{
+  /*If the checkbox is checked, show all paragraphs*/
+  .faq-section input[type=checkbox]:checked~p{
     display: block;
     color: #444;
     font-size: 1em;
@@ -109,42 +104,42 @@ Below you have the styles, I commented some lines for a better understanding:
     text-overflow: clip;
     white-space: normal;
     overflow: visible;
-}
+  }
 
-/*Style the label*/
-.faq-section label{
+  /*Style the label*/
+  .faq-section label{
     font-size: 1.2em;
     background: #eee;
     display: block;
     position: relative;
-        height: 20px;
+    height: 20px;
     padding: 7px 10px;
     font-weight: bold;
     border: 1px solid #ddd;
     border-left: 3px solid #888;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
     transition: all .15s ease-out;
-}
+  }
 
-/*Remove text selection when toggle-ing*/
-.faq-section label::selection{
+  /*Remove text selection when toggle-ing*/
+  .faq-section label::selection{
     background: none;
-}
+  }
 
-.faq-section label:hover{
+  .faq-section label:hover{
     background: #f5f5f5;
-}
+  }
 
-/*If the checkbox is checked, style the label accordingly*/
-.faq-section input[type=checkbox]:checked~label{
+  /*If the checkbox is checked, style the label accordingly*/
+  .faq-section input[type=checkbox]:checked~label{
     border-color: #ff7f50;
     background: #f5deb4;
     background-image: linear-gradient(to bottom, #fff, #f5deb4);
     box-shadow: 0 0 1px rgba(0,0,0,.4);
-}
+  }
 
-/*Label's arrow - default state */
-.faq-section label::before{
+  /*Label's arrow - default state */
+  .faq-section label::before{
     content: '';
     position: absolute;
     right: 4px;
@@ -152,15 +147,15 @@ Below you have the styles, I commented some lines for a better understanding:
     margin-top: -6px;
     border: 6px solid transparent;
     border-left-color: inherit;
-}
+  }
 
-/*Update the right arrow*/
-.faq-section input[type=checkbox]:checked~label::before{
+  /*Update the right arrow*/
+  .faq-section input[type=checkbox]:checked~label::before{
     border: 6px solid transparent;
     border-top-color: inherit;
     margin-top: -3px;
     right: 10px;
-}
+  }
 {% endhighlight %}
 
 
@@ -168,29 +163,29 @@ Below you have the styles, I commented some lines for a better understanding:
 
 What about the older browsers? That's a normal question, and the answer is **graceful degradation**:
 
-![Graceful degradation](/dist/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
+![Graceful degradation example for the FAQ CSS page](/dist/uploads/2012/02/fancy-faq-page-graceful-degradation.png)
 
 Using the following snippet, we're targeting browsers like [IE8 and below](/how-to-solve-common-ie-bugs). So, we'll enable the HTML5 elements like `section` and then add some custom styles in order to keep the FAQ's content readable.
 
 {% highlight html %}
-<!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <style>
-        .faq-section label,
-        .faq-section label:hover{
-            cursor: default;
-            background: #eee;
-        }
-        body .faq-section p{ /* Increase specificity */
-            display: block;
-            color: #444;
-            font-size: 1em;
-            text-overflow: clip;
-            white-space: normal;
-            overflow: visible;
-        }
-    </style>
-<![endif]-->
+  <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <style>
+          .faq-section label,
+          .faq-section label:hover{
+              cursor: default;
+              background: #eee;
+          }
+          body .faq-section p{ /* Increase specificity */
+              display: block;
+              color: #444;
+              font-size: 1em;
+              text-overflow: clip;
+              white-space: normal;
+              overflow: visible;
+          }
+      </style>
+  <![endif]-->
 {% endhighlight %}
 
 ## Update: i0S support
@@ -201,14 +196,14 @@ Here's my fix, **tested on iPhone and iPad** using the **latest iOS versions**:
 
 {% highlight css %}
 .faq-section input{
-    position: absolute;
-    z-index: 2;
-    cursor: pointer;
-    opacity: 0;
-    display: none\9; /* IE8 and below */
-    margin: 0;
-    width: 100%;
-    height: 36px;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0;
+  display: none\9; /* IE8 and below */
+  margin: 0;
+  width: 100%;
+  height: 36px;
 }
 {% endhighlight %}
 
@@ -222,14 +217,9 @@ Here's my fix, **tested on iPhone and iPad** using the **latest iOS versions**:
 
   * `margin: 0` - Remove default margin.
 
-  * `width: 100%` and `height: 36px` - The checkbox height value matches the height of the label. Also, using 100% for the width will expand the checbox in order to fully cover the label.
+  * `width: 100%` and `height: 36px` - The checkbox height value matches the height of the label. Also, using 100% for the width will expand the checkbox in order to fully cover the label.
 
 
-## Done!
+## That's it!
 
-
-That's all, I hope you liked this article. Please feel free to comment and share your thoughts/ideas about the result.
-
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary
-https://caniuse.com/#search=summary
+I hope you found this article useful, so feel free to to share your thoughts and ideas with me about the result.

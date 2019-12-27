@@ -6,17 +6,16 @@ layout: post
 slug: css3-dropdown-menu
 title: CSS3 dropdown menu
 description: Learn how to create an awesome CSS3 dropdown menu, without any additional JavaScript code.
-wordpress_id: 1947
 categories:
 - CSS
-tags:
-- CSS
-- CSS3
 - JavaScript
-- usability
 ---
 
-<ins>While this is still an up-to-date version, I just wanted to let you know I made an improved and [animated version](/css3-animated-dropdown-menu) of this CSS3 menu. You may want to check that first.</ins>
+<ins>
+  While this is still a working solution, I made an improved and animated version of this dropdown menu. Check out the [CSS3 animated dropdown menu](/css3-animated-dropdown-menu/) article!
+</ins>
+
+---
 
 Today you'll learn how to create your own CSS3 dropdown menu, without any additional Javascript code. There are no images used and, as usual, minimal HTML markup. Let's see how is made:
 
@@ -49,13 +48,13 @@ As you can see in the following lines, the HTML structure does not contain more 
 </ul>
 {% endhighlight %}
 
-One more thing, also very important, this is [semantic HTML](http://en.wikipedia.org/wiki/Semantic_HTML). It's a logical structure and has a correct meaning, even if styling is totally missing at this point:
+One more thing, also very important, this is semantic HTML. It's a logical structure and has a correct meaning, even if styling is totally missing at this point:
 
 ![Semantic HTML structure](/dist/uploads/2011/03/html-semantic-menu-structure.png)
 
 _Clean and accessible HTML structure_
 
-In my example, the "Categories" section is the only one who contains a sub-list, but you can easy add sub-lists to any item.
+In my example, the "Categories" section is the only one who contains a sub-list, but you can easily add sub-lists to any item.
 
 ## The CSS
 
@@ -197,11 +196,11 @@ _Quite long list, huh? This is it..._
 
 ## CSS shape
 
-You may have noticed the triangle shape that appears along with the sub-menu. That's a [CSS shape](http://css-tricks.com/examples/ShapesOfCSS/) and its purpose is to increase [usability](http://www.useit.com/) for this CSS3 menu.
+You may have noticed the triangle shape that appears along with the sub-menu. That's a [CSS triangle shape](/how-to-create-triangle-shapes/) and its purpose is to increase usability for this CSS3 dropdown menu.
 
 ![CSS triangle shape](/dist/uploads/2011/03/css-triangle-shape.png)
 
-It's made using the `:after` [pseudo-element](http://www.w3.org/TR/CSS2/selector.html#pseudo-elements):
+It's made using the `::after` [pseudo-element](/things-you-should-know-about-css-anatomy/):
 
 {% highlight css %}
 #menu ul li:first-child a:after {
@@ -221,14 +220,14 @@ It's made using the `:after` [pseudo-element](http://www.w3.org/TR/CSS2/selector
 }
 {% endhighlight %}
 
-### [Taming the IE6 "beast"](http://sixrevisions.com/web-development/definitive-guide-to-taming-the-ie6-beast/)
+### Taming the IE6 "beast"
 
 The sub-menu is displayed when hovering on a `li` element. As you already know, IE6 doesn't support hovering on a non-anchor element.
 
 Although, at the beginning of this article I said "without any Javascript", in order maintain accessibility also for IE6, please allow me to add some scripting code:
 
 {% highlight html %}
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
     $(function() {
       if ($.browser.msie && $.browser.version.substr(0,1)<7)

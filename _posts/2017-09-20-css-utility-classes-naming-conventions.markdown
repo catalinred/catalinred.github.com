@@ -10,9 +10,11 @@ categories:
 - CSS
 ---
 
-It happens pretty often to encounter situations when you don't like a default style for an HTML element. The methodology that has proven to be reliable over time is to use the so-called CSS utility classes. Their purpose is to allow you to quickly make HTML classes adjustments until the result looks just right.
+It happens pretty often to encounter situations when you don't like a default style for an HTML element. The methodology that has proven to be reliable over time is to use the so-called CSS utility classes. Their purpose is to allow you to quickly make HTML class adjustments until the result looks just right.
 
-![CSS utility classes for sizing and naming conventions](/dist/uploads/2017/09/css-utility-classes.png)
+In this article, we'll try to walk through the naming conventions that various frameworks and design systems use when it comes to typography, especially headings sizing.
+
+![CSS utility classes for headings sizing and naming conventions](/dist/uploads/2017/09/css-utility-classes.png)
 
 <!-- more -->
 
@@ -21,20 +23,15 @@ The utility classes, sometimes called helpers, are simple and reusable CSS class
 
 For example you may think about the well known `.float-right`, `.list-unstyled`, `.clearfix` or `.visually-hidden` utilities.
 
-## What is this about?
+## The `.h1` to `.h6` naming convention
 
-In this article, we'll try to walk through the naming conventions that various frameworks and design systems use when it comes to typography, especially headings sizing.
-
-## The .h1 to .h6 naming convention
-
-I remember I had an Aha! moment first time I ever saw the above naming convention. Ever since then, whenever it comes to typography for a new project, I often try to build my styles using utilities like `.h1` to `.h6`.
+I remember I had an Aha! moment the first time I ever saw the above naming convention. Ever since then, whenever it comes to typography for a new project, I often try to build my styles using utilities like `.h1` to `.h6`.
 
 {% highlight html %}
   <h2 class="h1">
     Keep semantics but alter the visual appearance.
   </h2>
 {% endhighlight %}
-
 
 In other words, this translates to: I want a larger font size for the `h2`, please make it look like an `h1`. That's actually a fair compromise between semantics, thus SEO and visual appearance requirements.
 
@@ -46,7 +43,7 @@ The truth is I didn't know for sure who came up first with this naming conventio
 
 How did I not know or guessed that? Of course, it had to be OOCSS!
 
-Object-oriented CSS or OOCSS is a methodology developed by [Nicole Sullivan](http://www.stubbornella.org), that helps writing write fast, lightweight and maintainable CSS by treating HTML elements as objects, giving all these objects classes.
+Object-oriented CSS or OOCSS is a methodology developed by [Nicole Sullivan](https://twitter.com/stubbornella), that helps writing write fast, lightweight and maintainable CSS by treating HTML elements as objects, giving all these objects classes.
 
 We now have ACSS, BEM, SMACSS or SUIT CSS but it all started with OOCSS at [Web Directions North in 2009](https://www.slideshare.net/stubbornella/object-oriented-css).
 
@@ -70,11 +67,11 @@ At the moment of this writing, many frameworks and design guides are using it:
 - [Codepen](https://codepen.io/guide)
 - [Starbucks](https://www.starbucks.com/static/reference/styleguide/headings.aspx)
 - [Yelp](https://www.yelp.com/styleguide#typography)
-- [Basscss](http://basscss.com/v7/docs/type-scale/)
-- [Foundation](http://foundation.zurb.com/sites/docs/typography-base.html)
-- [Code for America](http://style.codeforamerica.org/#headings)
-- [Disqus](https://disqus.com/pages/style-guide/#typography)
-- [Buffer](https://buffer.com/style-guide#typography)
+- [Basscss](https://basscss.com/v7/docs/type-scale/)
+- [Foundation](https://get.foundation/sites/docs/typography-base.html)
+- [Code for America](https://style.codeforamerica.org/#headings)
+- [Disqus](https://disqus.com/brand/#typography)
+- [Buffer](https://bufferapp.github.io/buffer-style/typography.html)
 - [turretcss](https://turretcss.com/typography/headings/)
 
 Let's go further and see other approaches (in random order) when it comes to typography and heading utilities.
@@ -94,7 +91,7 @@ Let's go further and see other approaches (in random order) when it comes to typ
 >
 >*Harry Roberts on [font sizing in CSS](https://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/)*
 
-## [Bulma](http://bulma.io/documentation/elements/title/)
+## [Bulma](https://bulma.io/documentation/elements/title/)
 
 {% highlight css %}
   .title.is-1 { ... }
@@ -133,7 +130,7 @@ On a side note, in a recent [HTML study](https://www.advancedwebranking.com/html
 
 When it comes to Atomic CSS, the [Atomizer](https://acss.io/guides/atomizer.html) tool generates your style sheets based on how you're writing the HTML classes.
 
-## [BBC's GEL](http://bbc.github.io/gel-typography/)
+## [BBC's GEL](https://bbc.github.io/gel-typography/)
 
 {% highlight css %}
   .gel-canon { ... }
@@ -150,7 +147,7 @@ When it comes to Atomic CSS, the [Atomizer](https://acss.io/guides/atomizer.html
 >
 >*Shaun Bent on [CSS at BBC](https://medium.com/bbc-design-engineering/css-at-bbc-sport-part-1-bab546184e66)*
 
-## [ALUX](http://afmarchetti.github.io/alux/#headings)
+## [ALUX](https://afmarchetti.github.io/alux/#headings)
 
 {% highlight css %}
   .gigantic { ... }
@@ -176,7 +173,7 @@ When it comes to Atomic CSS, the [Atomizer](https://acss.io/guides/atomizer.html
   .text-10 { ... }
 {% endhighlight %}
 
-## [Solid](http://solid.buzzfeed.com/typography.html)
+## [Solid](https://solid.buzzfeed.com/typography.html)
 
 {% highlight css %}
   h1, .xs-text-1 { ... }
@@ -189,7 +186,7 @@ When it comes to Atomic CSS, the [Atomizer](https://acss.io/guides/atomizer.html
 
 > Header sizes are defined from `h1` to `h6`. Additionally, Solid provides responsive prefixed utility classes ranging from `.xs-text-1` to `.xs-text-6` for sizing blocks of text. For the same font size across devices, use the default `.xs-text-n` class. Headers and text sizing classes have no margins or padding by default.
 
-## [Tachyons](http://tachyons.io/#style)
+## [Tachyons](https://tachyons.io/#style)
 
 {% highlight css %}
   .f-headline { ... }
@@ -249,17 +246,25 @@ Instead, they seem to use the following convention in their style sheets.
 
 ### GitHub's Primer
 
-The [GitHub's Primer](https://primer.style/css/) repository shows the following naming convention, which appears to be used across most of Github's website pages. And yes... I kinda manually checked several pages to make sure this info is correct.
+The [GitHub's Primer](https://primer.style/css/utilities/typography) uses `.h1` – `.h6` to change an elements font size and weight while relying on some typography SCSS variables:
 
 {% highlight css %}
-  .alt-h0 { ... }
-  .alt-h1 { ... }
-  .alt-h2 { ... }
-  .alt-h3 { ... }
-  .alt-h4 { ... }
-  .alt-h5 { ... }
-  .alt-h6 { ... }
-  .alt-lead  { ... }
+  // Heading sizes - mobile
+  $h00-size-mobile: 40px;
+  $h0-size-mobile: 32px;
+  $h1-size-mobile: 26px;
+  $h2-size-mobile: 22px;
+  $h3-size-mobile: 18px;
+
+  // Heading sizes - desktop
+  $h00-size: 48px;
+  $h0-size: 40px;
+  $h1-size: 32px;
+  $h2-size: 24px;
+  $h3-size: 20px;
+  $h4-size: 16px;
+  $h5-size: 14px;
+  $h6-size: 12px;
 {% endhighlight %}
 
 ## Conclusion

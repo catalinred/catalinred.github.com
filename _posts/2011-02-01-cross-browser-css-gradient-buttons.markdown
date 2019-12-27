@@ -5,20 +5,16 @@ date: 2011-02-01 07:30:56+00:00
 layout: post
 slug: cross-browser-css-gradient-buttons
 title: Cross-browser CSS gradient buttons
-description: Read about how to create some cool CSS3 buttons with no images.
-wordpress_id: 2173
+description: Learn how to create cool buttons with CSS gradients.
 categories:
 - CSS
-tags:
-- CSS
-- CSS3
 ---
 
 <ins>Due some performance issues, I don't recommend using these buttons anymore. You may try instead my latest [CSS3 patterned buttons](/css3-patterned-buttons/).</ins>
 
 Recently I talked about [CSS cross-browser gradients](/css-gradients-quick-tutorial) and last week I wrote again about [CSS3 gradients](/css3-webkit-gradient-support-updated). So what I'm going to do today? I will show you how to put the CSS gradient feature in practical use.
 
-In this article you will see how you can create a set of gradient buttons just with CSS **(no images)**. 
+In this article you will see how you can create a set of gradient buttons just with CSS **(no images)**.
 
 ![CSS3 gradient buttons](/dist/uploads/2011/01/css-gradient-buttons.png)
 
@@ -42,13 +38,13 @@ That's what you may say but, oh yes :) ... This is another buttons set, powered 
   * Box shadow
   * [Text shadow](/drop-shadow-effect-using-css)
   * Rounded corners
-  * Gradient patterns _thanks to [@leaverou](http://twitter.com/leaverou) for its enlightening article about [CSS3 gradients techniques](http://leaverou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/)_
+  * Gradient patterns _thanks to [@leaverou](http://twitter.com/leaverou) for its enlightening article about [CSS3 gradients techniques](https://lea.verou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/)_
 
 [View demo](/dist/uploads/2011/01/cross-browser-css-gradient-buttons-demo.html)
 
 ## HTML structure
 Let's see how the HTML looks for the _blue_ button for example:
-    
+
 {% highlight html %}
 <a href="#" class="button button-blue">
     <span>Button</span>
@@ -70,14 +66,14 @@ The top border could have been achieved with an `inset` box-shadow but, this way
     font: bold 1.5em 'Trebuchet MS',Arial, Helvetica; /*Change the em value to scale the button*/
     display: inline-block;
     text-align: center;
-    color: #fff;    
+    color: #fff;
     border: 1px solid #9c9c9c; /* Fallback style */
     border: 1px solid rgba(0, 0, 0, 0.3);
-    text-shadow: 0 1px 0 rgba(0,0,0,0.4);    
-    box-shadow: 0 0 .05em rgba(0,0,0,0.4);   
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 0 .05em rgba(0,0,0,0.4);
 }
 
-.button, 
+.button,
 .button span {
     -moz-border-radius: .3em;
     border-radius: .3em;
@@ -87,7 +83,7 @@ The top border could have been achieved with an `inset` box-shadow but, this way
     border-top: 1px solid #fff; /* Fallback style */
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     display: block;
-    padding: 0.5em 2.5em;    
+    padding: 0.5em 2.5em;
     /* The background pattern */
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.05) 25%, transparent 25%, transparent),
                       linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 25%, transparent 25%, transparent),
@@ -95,7 +91,7 @@ The top border could have been achieved with an `inset` box-shadow but, this way
                       linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.05) 75%);
 
     /* Pattern settings */
-    background-size: 3px 3px;            
+    background-size: 3px 3px;
 }
 
 .button:hover {
@@ -107,7 +103,7 @@ The top border could have been achieved with an `inset` box-shadow but, this way
     position: relative;
     top: 1px;
 }
-{% endhighlight %}    
+{% endhighlight %}
 
 ### Blue button:
 
@@ -123,7 +119,7 @@ The top border could have been achieved with an `inset` box-shadow but, this way
     background: #81a8cb;
     background: -webkit-gradient(linear, left top, left bottom, from(#4477a1), to(#81a8cb) );
     background: -moz-linear-gradient(-90deg, #4477a1, #81a8cb);
-    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1', endColorstr='#81a8cb');            
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4477a1', endColorstr='#81a8cb');
 }
 
 .button-blue:active {
@@ -137,7 +133,7 @@ And so on for the other buttons...
 
 ### Mozilla 3.6+
 
-Full support, including CSS3 gradient patterns (though I noticed some performance issues when page is rendered). 
+Full support, including CSS3 gradient patterns (though I noticed some performance issues when page is rendered).
 
 ![](/dist/uploads/2011/01/mozilla.png)
 

@@ -5,19 +5,15 @@ date: 2012-01-31 06:00:19+00:00
 layout: post
 slug: css3-jquery-folder-tabs
 title: CSS3 & jQuery folder tabs
-description: Check this article to learn how to create some cool folder tabs using CSS3 and jQuery.
-wordpress_id: 4230
+description: Check out this article to learn how to create some cool folder tabs with slanted corners using CSS3 and jQuery.
 categories:
 - CSS
 - JavaScript
-tags:
-- CSS3
-- jQuery
 ---
 
-Ever since I started working for one of my [CSS3 breadcrumbs](/css3-breadcrumbs) example, I thought about writing this tutorial. In this article, I will use a similar technique in order to create some good looking CSS3 tabs.
+Ever since I started working for one of my [CSS breadcrumbs](/css3-breadcrumbs) example, I thought about writing this tutorial. In this article, I will use a similar technique in order to create some good looking CSS3 tabs.
 
-![](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)
+![CSS folder tabs with slanted corners](/dist/uploads/2012/01/css3-jquery-folder-tabs.png)
 
 <!-- more -->
 
@@ -28,17 +24,17 @@ While in my previous [CSS3 tabs tutorial](/css3-tabs-with-beveled-corners) I tri
 ## The HTML
 
 
-The markup is self explanatory. <del>While the `title` attributes might seem to be extra, in this case they are needed for the jQuery stuff.</del> After reading your comments, I decided to update the `title` attribute with `name`. This way, you will avoid seeing unnecessary tooltip when hovering on the tabs.
+The markup is self-explanatory. <del>While the `title` attributes might seem to be extra, in this case, they are needed for the jQuery stuff.</del> After reading your comments, I decided to update the `title` attribute with `name`. This way, you will avoid seeing unnecessary tooltip when hovering on the tabs.
 
 {% highlight html %}
 <ul id="tabs">
     <li><a href="#" name="tab1">One</a></li>
     <li><a href="#" name="tab2">Two</a></li>
     <li><a href="#" name="tab3">Three</a></li>
-    <li><a href="#" name="tab4">Four</a></li>    
+    <li><a href="#" name="tab4">Four</a></li>
 </ul>
 
-<div id="content"> 
+<div id="content">
     <div id="tab1">...</div>
     <div id="tab2">...</div>
     <div id="tab3">...</div>
@@ -47,7 +43,7 @@ The markup is self explanatory. <del>While the `title` attributes might seem to 
 {% endhighlight %}
 
 So, here are the ingredients:
-  * `#tabs` - an unordered list that holds the tab navigation items.	
+  * `#tabs` - an unordered list that holds the tab navigation items.
   * `#content` - a wrapper for each tab content.
 
 ## The CSS
@@ -73,7 +69,7 @@ Below you'll find the CSS lines necessary for creating these tabs. Also, the dem
 #tabs a {
   position: relative;
   background: #ddd;
-  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  background-image: linear-gradient(to bottom, #fff, #ddd);
   padding: .7em 3.5em;
   float: left;
   text-decoration: none;
@@ -99,14 +95,14 @@ Below you'll find the CSS lines necessary for creating these tabs. Also, the dem
   position:absolute;
   z-index: 1;
   top: 0;
-  right: -.5em;  
+  right: -.5em;
   bottom: 0;
   width: 1em;
   background: #ddd;
-  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  background-image: linear-gradient(to bottom, #fff, #ddd);
   box-shadow: 2px 2px 2px rgba(0,0,0,.4);
   transform: skew(10deg);
-  border-radius: 0 5px 0 0;  
+  border-radius: 0 5px 0 0;
 }
 
 #tabs #current a,
@@ -120,7 +116,7 @@ Below you'll find the CSS lines necessary for creating these tabs. Also, the dem
   padding: 2em;
   height: 220px;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
   border-radius: 0 5px 5px 5px;
   box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
 }
@@ -131,19 +127,19 @@ Below you'll find the CSS lines necessary for creating these tabs. Also, the dem
 There is nothing to add here, it's similar to my previous tabs article.
 
 {% highlight html %}
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
 <script>
 $(document).ready(function() {
     $("#content").find("[id^='tab']").hide(); // Hide all content
     $("#tabs li:first").attr("id","current"); // Activate the first tab
     $("#content #tab1").fadeIn(); // Show first tab's content
-    
+
     $('#tabs a').click(function(e) {
         e.preventDefault();
         if ($(this).closest("li").attr("id") == "current"){ //detection for current tab
-         return;       
+         return;
         }
-        else{             
+        else{
           $("#content").find("[id^='tab']").hide(); // Hide all content
           $("#tabs li").attr("id",""); //Reset id's
           $(this).parent().attr("id","current"); // Activate this
@@ -158,7 +154,7 @@ Again, I updated a bit the above code to add detection when clicking on the curr
 
 ## The end (of this tutorial)
 
-This is just another small example that shows the **CSS3 awesomeness**. Everything is great also for older browsers, the tabs **degrade nice**. 
+This is just another small example that shows the **CSS3 awesomeness**. Everything is great also for older browsers, the tabs **degrade nice**.
 
 So, having said that, I hope you liked this article and **thanks for reading** it!
 
