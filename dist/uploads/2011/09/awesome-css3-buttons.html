@@ -9,15 +9,15 @@
         margin: 0;
         text-align: center;
     }
-    
+
     h2
     {
         font: bold 1.4em 'Lucida sans', 'Trebuchet MS', Tahoma, Arial;
         color: #555;
     }
-    
+
     .button
-    {        
+    {
         display: inline-block;
         white-space: nowrap;
         background-color: #ddd;
@@ -41,10 +41,10 @@
         -webkit-box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
         box-shadow: 0 0 1px 1px rgba(255,255,255,.8) inset, 0 1px 0 rgba(0,0,0,.3);
     }
-    
+
     .button:hover
     {
-        background-color: #eee;        
+        background-color: #eee;
         background-image: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ddd));
         background-image: -webkit-linear-gradient(top, #fafafa, #ddd);
         background-image: -moz-linear-gradient(top, #fafafa, #ddd);
@@ -52,7 +52,7 @@
         background-image: -o-linear-gradient(top, #fafafa, #ddd);
         background-image: linear-gradient(top, #fafafa, #ddd);
     }
-    
+
     .button:active
     {
         -moz-box-shadow: 0 0 4px 2px rgba(0,0,0,.3) inset;
@@ -61,18 +61,18 @@
         position: relative;
         top: 1px;
     }
-    
+
     .button:focus
     {
         outline: 0;
         background: #fafafa;
-    }    
-    
+    }
+
     .button:before
     {
         background: #ccc;
         background: rgba(0,0,0,.1);
-        float: left;        
+        float: left;
         width: 1em;
         text-align: center;
         font-size: 1.5em;
@@ -83,33 +83,33 @@
         box-shadow: 1px 0 0 rgba(0,0,0,.5), 2px 0 0 rgba(255,255,255,.5);
         -moz-border-radius: .15em 0 0 .15em;
         -webkit-border-radius: .15em 0 0 .15em;
-        border-radius: .15em 0 0 .15em;     
-        pointer-events: none;		
+        border-radius: .15em 0 0 .15em;
+        pointer-events: none;
     }
-	
+
 	/* Buttons and inputs */
-	
-	button.button, input.button 
-	{ 
+
+	button.button, input.button
+	{
 		cursor: pointer;
 		overflow: visible; /* removes extra side spacing in IE */
 	}
-	
+
 	/* removes extra inner spacing in Firefox */
-	button::-moz-focus-inner 
+	button::-moz-focus-inner
 	{
 	  border: 0;
 	  padding: 0;
 	}
-	
+
 	/* If line-height can't be modified, then fix Firefox spacing with padding */
-	 input::-moz-focus-inner 
+	 input::-moz-focus-inner
 	{
 	  padding: .4em;
 	}
 
 	/* The disabled styles */
-	.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover 
+	.button[disabled], .button[disabled]:hover, .button.disabled, .button.disabled:hover
 	{
 		background: #eee;
 		color: #aaa;
@@ -119,63 +119,63 @@
 		position: static;
 		-moz-box-shadow: none;
 		-webkit-box-shadow: none;
-		box-shadow: none;		
+		box-shadow: none;
 	}
-    
+
     /* Hexadecimal entities for the icons */
-    
+
     .add:before
     {
         content: "\271A";
     }
-    
+
     .edit:before
     {
-        content: "\270E";        
+        content: "\270E";
     }
-    
+
     .delete:before
     {
-        content: "\2718";        
+        content: "\2718";
     }
-    
+
     .save:before
     {
-        content: "\2714";        
+        content: "\2714";
     }
-    
+
     .email:before
     {
-        content: "\2709";        
+        content: "\2709";
     }
-    
+
     .like:before
     {
-        content: "\2764";        
+        content: "\2764";
     }
-    
+
     .next:before
     {
         content: "\279C";
     }
-    
+
     .star:before
     {
         content: "\2605";
     }
-    
+
     .spark:before
     {
         content: "\2737";
     }
-    
+
     .play:before
     {
         content: "\25B6";
     }
 
 
-	/* Social media buttons */	
+	/* Social media buttons */
 	.tw, .fb,
 	.tw:hover, .fb:hover
 	{
@@ -191,40 +191,40 @@
 	{
 	  background-color: #88E1E6;
 	}
-	
+
 	.fb, .fb:focus
 	{
 	  background-color: #3C5A98;
-	  color: #fff;	  
-	  text-shadow: 0 1px 0 rgba(0,0,0,.4);		
+	  color: #fff;
+	  text-shadow: 0 1px 0 rgba(0,0,0,.4);
 	}
 
 	.tw:hover
 	{
 	  background-color: #b1f0f3;
 	}
-	
+
 	.fb:hover
 	{
-	  background-color: #879bc3; 
+	  background-color: #879bc3;
 	}
-	
+
     .tw:before
     {
         content: "t";
         background: #91cfd3;
-        background: rgba(0,0,0,.1);		
+        background: rgba(0,0,0,.1);
 		color: #fff;
 		font-family: verdana;
 		text-shadow: 0 1px 0 rgba(0,0,0,.4);
     }
-    
+
     .fb:before
     {
         content: "f";
         background: #4467ac;
-        background: rgba(0,0,0,.1);		
-		color: #fff;	
+        background: rgba(0,0,0,.1);
+		color: #fff;
 		text-shadow: 0 1px 0 rgba(0,0,0,.4);
     }
 
@@ -257,7 +257,7 @@
 <h2>Social media buttons</h2>
 
 <a href="http://twitter.com/catalinred" class="button tw">Follow me</a>
-<a href="http://www.facebook.com/RedTeamDesign" class="button fb">Become a fan</a>
+<a href="http://www.facebook.com/" class="button fb">Become a fan</a>
 
 
 <h2>Buttons and inputs</h2>

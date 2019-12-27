@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>CSS 3D folding list with social buttons demo - RedTeamDesign</title>
+	<title>CSS 3D folding list with social buttons demo </title>
 	<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=fontawesome">
 	<style>
 		/* Demo only styles*/
@@ -25,7 +25,7 @@
 		}
 
 		/* CSS 3D list styles */
-		.folding {  			
+		.folding {
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
@@ -35,8 +35,8 @@
 			-webkit-perspective: 700px;
 			-moz-perspective: 700px;
 			-ms-perspective: 700px;
-			perspective: 700px;	
-		}		
+			perspective: 700px;
+		}
 
 		.folding li {
 			height: 50px;
@@ -50,8 +50,8 @@
 			-moz-transition: ease .15s all;
 			-o-transition: ease .15s all;
 			-ms-transition: ease .15s all;
-			transition: ease .15s all;			
-		}		
+			transition: ease .15s all;
+		}
 
 		.csstransforms3d .folding li:nth-child(even) {
 			margin-top: -1px;
@@ -78,19 +78,19 @@
 			-o-transform: rotateX(-10deg);
 			-ms-transform: rotateX(-10deg);
 			transform: rotateX(-10deg);
-		}		
+		}
 
 		.folding .fb {
 			background-color: #3959a6;
-		}	
+		}
 
 		.folding .tw {
 			background-color: #2fc6ff;
-		}	
+		}
 
 		.folding .gp {
 			background-color:#d84d30;
-		}	
+		}
 
 		.folding .rss {
 			background-color: #ff7e09;
@@ -107,7 +107,7 @@
 			display: block;
 			height: 20px;
 			padding: 15px 0;
-		}	
+		}
 
 		.csstransforms3d .folded li:nth-child(even) {
 			margin-top: -75px;
@@ -142,17 +142,17 @@
 			color: #fff;
 			border-left: 30px solid rgba(0,0,0,.2);
 			cursor: pointer;
-			font: bold .9em 'Lucida sans unicode',Arial, Helvetica;			
+			font: bold .9em 'Lucida sans unicode',Arial, Helvetica;
 			background-color: #555;
-		}		
+		}
 
-		.csstransforms3d .connect {	
+		.csstransforms3d .connect {
 			background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPCAMAAADeWG8gAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE2QjAxNjRDOUNEOTExRTE4RTNFRkI1RDQ2MUYxOTQ3IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE2QjAxNjREOUNEOTExRTE4RTNFRkI1RDQ2MUYxOTQ3Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTZCMDE2NEE5Q0Q5MTFFMThFM0VGQjVENDYxRjE5NDciIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTZCMDE2NEI5Q0Q5MTFFMThFM0VGQjVENDYxRjE5NDciLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz42AEtnAAAABlBMVEX///////9VfPVsAAAAAnRSTlP/AOW3MEoAAAAWSURBVHjaYmAgFzBiACKFho6NAAEGAD07AG1pn932AAAAAElFTkSuQmCC);
 			background-repeat: no-repeat;
 			background-position: -24px center;
 		}
 
-		/* Font awesome styles */		
+		/* Font awesome styles */
 		[class*="fontawesome-"]::before {
   		  font-family: 'FontAwesome', sans-serif;
 		  position: absolute;
@@ -164,7 +164,7 @@
 
 		[class*="fontawesome-"]:hover::before {
 			bottom: -10px;
-		}		
+		}
 	</style>
 
 </head>
@@ -177,26 +177,26 @@
 	<li class="fb">
 		<div class="content">
 			<div id="fb-root"></div>
-			<div class="fb-like" data-href="https://www.facebook.com/RedTeamDesign" data-send="false" data-layout="button_count" data-show-faces="false"></div>
-			<a href="https://www.facebook.com/RedTeamDesign" class="fontawesome-facebook"></a>
+			<div class="fb-like" data-href="https://www.facebook.com/" data-send="false" data-layout="button_count" data-show-faces="false"></div>
+			<a href="https://www.facebook.com/" class="fontawesome-facebook"></a>
 		</div>
 	</li>
 	<li class="tw">
 		<div class="content">
 			<a href="https://twitter.com/catalinred" class="twitter-follow-button" rel="nofollow" data-lang="en" data-width="250px"></a>
-			<a href="https://twitter.com/catalinred" class="fontawesome-twitter"></a> 
+			<a href="https://twitter.com/catalinred" class="fontawesome-twitter"></a>
 		</div>
 	</li>
 	<li class="gp">
 		<div class="content">
-			<g:plusone size="medium" href="http://www.red-team-design.com"></g:plusone>
-			<a href="https://plus.google.com/114910105297465575018/" class="fontawesome-google-plus"></a>
+			<g:plusone size="medium" href="/"></g:plusone>
+			<a href="/" class="fontawesome-google-plus"></a>
 		</div>
 	</li>
 	<li class="rss">
 		<div class="content">
-			<a class="rss-link" href="http://feeds.feedburner.com/redteamdesign">Subscribe to RSS Feed</a>
-			<a href="http://feeds.feedburner.com/redteamdesign" class="fontawesome-rss"></a>
+			<a class="rss-link" href="http://feeds.feedburner.com/catalinred">Subscribe to RSS Feed</a>
+			<a href="http://feeds.feedburner.com/catalinred" class="fontawesome-rss"></a>
 		</div>
 	</li>
 </ul>
@@ -211,7 +211,7 @@
 
 <!-- jQuery code for the 3D folding list -->
 <script>
-	(function(){			
+	(function(){
 
 		if ($('html').hasClass('csstransforms3d')) {
 
@@ -237,9 +237,9 @@
 				unfold();
 			// Check whether to unfold the list when scrolling/resizing
 			$(window).on("scroll resize", function(){
-				var th = $(this);				
+				var th = $(this);
 				if (th.scrollTop() + th.height() - foldingListHeight  >=  topElemOffset)
-					unfold();				
+					unfold();
 			})
 		}
 
@@ -249,7 +249,7 @@
 <!-- Optimised async loading of cross-domain scripts -->
 <script>
 	(function(doc, script) {
-	    var js, 
+	    var js,
 	        fjs = doc.getElementsByTagName(script)[0],
 	        add = function(url, id) {
 	            if (doc.getElementById(id)) {return;}

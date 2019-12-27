@@ -17,7 +17,7 @@ tags:
 - jQuery
 ---
 
-I think 2011 was a great year for RedTeamDesign and for me also. I published quite many articles here and just to recap some of my best content, here are my top 10 of 2011:
+I think 2011 was a great year for me. I published quite many articles here and just to recap some of my best content, here are my top 10 of 2011:
 
 ![Most read articles of 2011](/dist/uploads/2011/12/top-10-most-read-articles-of-2011.png)
 
@@ -60,6 +60,6 @@ I think 2011 was a great year for RedTeamDesign and for me also. I published qui
 
 ## Thank you all!
 
-In the end, I would also like to thank everyone who has supported me over the year. Especially, I would like to thank those who have sent encouragements [by email](/contact), those who have [tweeted](http://twitter.com/catalinred) my articles, those who have commented on my articles, those who are liking [RTD on facebook](https://www.facebook.com/RedTeamDesign), those who have [subscribed to my RSS feed](http://feeds.feedburner.com/redteamdesign), and to anyone who has read my articles.
+In the end, I would also like to thank everyone who has supported me over the year. Especially, I would like to thank those who have sent encouragements [by email](/contact), those who have [tweeted](http://twitter.com/catalinred) my articles, those who have commented on my articles, those who have [subscribed to my RSS feed](http://feeds.feedburner.com/catalinred), and to anyone who has read my articles.
 
 It is you who encourage me to go further and I will continue to write and publish articles for 2012.

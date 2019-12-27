@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
-<head>   	
-	<title>Just another dropdown menu concept demo - RedTeamDesign</title>
-	<meta charset="UTF-8"/>	
+<head>
+	<title>Just another dropdown menu concept demo </title>
+	<meta charset="UTF-8"/>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 	<style>
 
@@ -30,13 +30,13 @@
 		}
 
 		/* Main level */
-		.menu {			
+		.menu {
 			margin: 50px auto;
 			width: 800px;
 			/* /horizontal-centering-using-css-fit-content-value */
 			width: -moz-fit-content;
 			width: -webkit-fit-content;
-			width: fit-content;	
+			width: fit-content;
 		}
 
 		.menu > li {
@@ -53,11 +53,11 @@
 			text-decoration: none;
 			font-family: Arial, Helvetica;
 			font-size: 14px;
-		}		
+		}
 
 		.menu li:hover {
 			background: #e74c3c;
-		}		
+		}
 
 		.menu > li > a {
 			transform: skewX(-25deg);
@@ -76,11 +76,11 @@
 		.submenu li {
 			background-color: #34495e;
 			position: relative;
-			overflow: hidden;		
-		}						
+			overflow: hidden;
+		}
 
 		.submenu > li > a {
-			padding: 1em 2em;			
+			padding: 1em 2em;
 		}
 
 		.submenu > li::after {
@@ -88,9 +88,9 @@
 			position: absolute;
 			top: -125%;
 			height: 100%;
-			width: 100%;			
-			box-shadow: 0 0 50px rgba(0, 0, 0, .9);			
-		}		
+			width: 100%;
+			box-shadow: 0 0 50px rgba(0, 0, 0, .9);
+		}
 
 		/* Odd stuff */
 		.submenu > li:nth-child(odd){
@@ -104,7 +104,7 @@
 		.submenu > li:nth-child(odd)::after {
 			right: -50%;
 			transform: skewX(-25deg) rotate(3deg);
-		}				
+		}
 
 		/* Even stuff */
 		.submenu > li:nth-child(even){
@@ -124,7 +124,7 @@
 		.submenu,
 		.submenu li {
 			opacity: 0;
-			visibility: hidden;			
+			visibility: hidden;
 		}
 
 		.submenu li {
@@ -135,14 +135,14 @@
 		.menu > li:hover .submenu li {
 			opacity: 1;
 			visibility: visible;
-		}		
+		}
 
 		.menu > li:hover .submenu li:nth-child(even){
-			transform: skewX(25deg) translateX(15px);			
+			transform: skewX(25deg) translateX(15px);
 		}
 
 		.menu > li:hover .submenu li:nth-child(odd){
-			transform: skewX(-25deg) translateX(-15px);			
+			transform: skewX(-25deg) translateX(-15px);
 		}
 
         /* Demo only */
@@ -152,7 +152,7 @@
             font-family: Arial, Helvetica;
             text-align: center;
         }
-        
+
         #about a {
             color: #777;
         }
@@ -170,7 +170,7 @@
 				<li><a href="">Submenu item</a></li>
 				<li><a href="">Submenu item</a></li>
 				<li><a href="">Submenu item</a></li>
-			</ul>			
+			</ul>
 		</li>
 		<li><a href="">Menu item</a></li>
 		<li><a href="">Menu item</a></li>

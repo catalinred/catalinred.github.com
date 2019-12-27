@@ -48,6 +48,4 @@ When it comes about [writing code editors](/free-text-editors-tools-for-develope
 
 Next, I'm planning maybe to [retinafy](http://f.cl.ly/items/012n0O023v2S2N1m3Q1t/How%20to%20Retinafy%20your%20Website.pdf) this website. I also need to chose a code syntax highlighter. I think [Prettify](http://code.google.com/p/google-code-prettify/) will be my choice after all.
 
-Still, my main goal is to be able to write more and better articles on RedTeamDesign.
-
 P.S. If you have spotted any bug or inconsistency, please let me know! :)

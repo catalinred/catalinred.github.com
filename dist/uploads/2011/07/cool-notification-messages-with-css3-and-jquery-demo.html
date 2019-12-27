@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Cool notification messages with CSS3 & Jquery demo - Redteamdesign</title>
+<title>Cool notification messages with CSS3 & Jquery demo </title>
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
 <script>
-var myMessages = ['info','warning','error','success']; // define the messages types		 
+var myMessages = ['info','warning','error','success']; // define the messages types
 function hideAllMessages()
 {
 		 var messagesHeights = new Array(); // this array will store height for each
-	 
+
 		 for (i=0; i<myMessages.length; i++)
 		 {
 				  messagesHeights[i] = $('.' + myMessages[i]).outerHeight();
-				  $('.' + myMessages[i]).css('top', -messagesHeights[i]); //move element outside viewport	  
+				  $('.' + myMessages[i]).css('top', -messagesHeights[i]); //move element outside viewport
 		 }
 }
 
 function showMessage(type)
 {
 	$('.'+ type +'-trigger').click(function(){
-		  hideAllMessages();				  
+		  hideAllMessages();
 		  $('.'+type).animate({top:"0"}, 500);
 	});
 }
 
 $(document).ready(function(){
-		 
+
 		 // Initially, hide them all
 		 hideAllMessages();
-		 
+
 		 // Show message
 		 for(var i=0;i<myMessages.length;i++)
 		 {
 			showMessage(myMessages[i]);
 		 }
-		 
+
 		 // When message is clicked, hide it
-		 $('.message').click(function(){			  
+		 $('.message').click(function(){
 				  $(this).animate({top: -$(this).outerHeight()}, 500);
-		  });		 
-		 
-});       
+		  });
+
+});
 </script>
 
 <style>
@@ -58,7 +58,7 @@ body
 {
 		-webkit-background-size: 40px 40px;
 		-moz-background-size: 40px 40px;
-		background-size: 40px 40px;			
+		background-size: 40px 40px;
 		background-image: -webkit-gradient(linear, left top, right bottom,
 								color-stop(.25, rgba(255, 255, 255, .05)), color-stop(.25, transparent),
 								color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .05)),
@@ -79,9 +79,9 @@ body
 		background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
 							transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
 							transparent 75%, transparent);
-								
+
 		 -moz-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
-		 -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);		
+		 -webkit-box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
 		 box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
 		 width: 100%;
 		 border: 1px solid;
@@ -105,7 +105,7 @@ body
 		 background-color: #de4343;
 		 border-color: #c43d3d;
 }
-		 
+
 .warning
 {
 		 background-color: #eaaf51;
@@ -120,12 +120,12 @@ body
 
 .message h3
 {
-		 margin: 0 0 5px 0;													 
+		 margin: 0 0 5px 0;
 }
 
 .message p
 {
-		 margin: 0;													 
+		 margin: 0;
 }
 
 @-webkit-keyframes animate-bg
@@ -139,7 +139,7 @@ body
 }
 
 
-@-moz-keyframes animate-bg 
+@-moz-keyframes animate-bg
 {
     from {
         background-position: 0 0;

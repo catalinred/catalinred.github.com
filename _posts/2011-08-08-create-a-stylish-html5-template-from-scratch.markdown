@@ -36,19 +36,19 @@ Here's a screenshot with the HTML5 template layout we're going to code:
 As you may notice, the above HTML5 template is simple, minimal and stylish - thanks to the CSS3 awesome features. **Long live the CSS3!**
 
 ### The not-so-secret ingredients:
-	
-  * Simple logo using [Google Font API](/google-font-api-and-typekit-solutions-vs-font-face)	
-  * Nice [drop shadow effects](/how-to-create-slick-effects-with-css3-box-shadow).        
-  * Pattern background using [data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).	
-  * Vertical [drop down menu](/css3-dropdown-menu) animated with jQuery.	
-  * Arrow shapes made with [pseudo-elements](/before-after-pseudo-elements).	
+
+  * Simple logo using [Google Font API](/google-font-api-and-typekit-solutions-vs-font-face)
+  * Nice [drop shadow effects](/how-to-create-slick-effects-with-css3-box-shadow).
+  * Pattern background using [data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).
+  * Vertical [drop down menu](/css3-dropdown-menu) animated with jQuery.
+  * Arrow shapes made with [pseudo-elements](/before-after-pseudo-elements).
   * CSS3 [gradients](/css-gradients-quick-tutorial).
 
 ### A word on data URIs
 
 I wanted to create this HTML5 template demo without using any images and I made it. So, for the website background, instead of linking to an external image I just embedded that image with data URIs.
 
-So the result is something like that:    
+So the result is something like that:
 
 {% highlight css %}
 body {
@@ -79,18 +79,18 @@ _Basic structure for the HTML5 template._
 The _Document Type Declaration_, a.k.a _doctype_ was always an ugly and hard-to-remember thing. Not anymore.
 
 Check out the new doctype declaration, that tells a browser or other parsers that they are looking at a HTML5 document:
-    
+
 {% highlight html %}
 <!DOCTYPE html>
-{% endhighlight %}    
+{% endhighlight %}
 
 ### The HTML5 header
 
 {% highlight html %}
-<header> 
-    <hgroup class="clearfix"> 
-        <h1><a href="#">HTML5 <span>template</span></a></h1> 
-        <h2>Just another awesome description</h2> 
+<header>
+    <hgroup class="clearfix">
+        <h1><a href="#">HTML5 <span>template</span></a></h1>
+        <h2>Just another awesome description</h2>
     </hgroup>
 </header>
 {% endhighlight %}
@@ -98,8 +98,8 @@ Check out the new doctype declaration, that tells a browser or other parsers tha
 ### The body
 
 The template's body consists of two blocks:
-	
-  * `<aside>` - who wraps the navigation	
+
+  * `<aside>` - who wraps the navigation
   * `<div id="content">` - who wraps the `<article>` elements.
 
 Keep in mind that now that we have these new HTML elements, we should not forget entirely about the `<div>` element as some jobs are still available for it.
@@ -112,12 +112,12 @@ Keep in mind that now that we have these new HTML elements, we should not forget
                 <li><a href="#">Home</a></li>
                 <li>
                     <a href="#">Categories</a>
-                    <ul>                
+                    <ul>
                         <li><a href="#">Css</a></li>
                         <li><a href="#">Graphic Design</a></li>
                         <li><a href="#">Tools</a></li>
-                        <li><a href="#">Web design</a></li>                      
-                    </ul>        
+                        <li><a href="#">Web design</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">Work</a>
@@ -125,15 +125,15 @@ Keep in mind that now that we have these new HTML elements, we should not forget
                         <li><a href="#">Websites</a></li>
                         <li><a href="#">Logos and icons</a></li>
                         <li><a href="#">User Interfaces</a></li>
-                        <li><a href="#">Other stuff</a></li>                
+                        <li><a href="#">Other stuff</a></li>
                     </ul>
                 </li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>                   
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </aside>
-    
+
     <div id="content">
         <article>
             <section>
@@ -145,26 +145,26 @@ Keep in mind that now that we have these new HTML elements, we should not forget
             </section>
             <footer>Posted on <span>March 18th, 2011</span></footer>
         </article>
-        <article>        
+        <article>
             <section>
                 <h1><a href="/how-to-create-a-cool-and-usable-css3-search-box">CSS3 search box</a></h1>
                 <figure>
                     <img src="/dist/uploads/2011/02/css3-searchbox.png" width="600" height="200" alt="CSS3 search box">
-                    <figcaption>Modernizr's feature detection included.</figcaption>                    
+                    <figcaption>Modernizr's feature detection included.</figcaption>
                 </figure>
             </section>
-            <footer>Posted on <span>February 18th, 2011</span></footer>            
+            <footer>Posted on <span>February 18th, 2011</span></footer>
         </article>
-        <article>        
+        <article>
             <section>
                 <h1><a href="/css3-tooltips">CSS3 tooltips</a></h1>
                 <figure>
                     <img src="/dist/uploads/2011/04/css3-tooltips.png" width="600" height="200" alt="CSS3 tooltips">
-                    <figcaption>CSS3 gradients, box shadows, pseudo-elements.</figcaption>                    
+                    <figcaption>CSS3 gradients, box shadows, pseudo-elements.</figcaption>
                 </figure>
             </section>
-            <footer>Posted on <span>April 28th, 2011</span></footer>             
-        </article>        
+            <footer>Posted on <span>April 28th, 2011</span></footer>
+        </article>
     </div>
 </div>
 {% endhighlight %}
@@ -180,7 +180,7 @@ The jQuery code who animates this menu:
 <script>
     function initMenu() {
       $('#menu ul').hide(); // Hide the submenu
-      if ($('#menu li').has('ul')) $('#menu ul').prev().addClass('expandable'); // Expand/collapse a submenu when it exists  
+      if ($('#menu li').has('ul')) $('#menu ul').prev().addClass('expandable'); // Expand/collapse a submenu when it exists
       $('.expandable').click(
         function() {
             $(this).next().slideToggle();
@@ -188,9 +188,9 @@ The jQuery code who animates this menu:
           }
         );
       }
-    
-    // When document ready, call initMenu() function 
-    $(document).ready(function() {initMenu();});    
+
+    // When document ready, call initMenu() function
+    $(document).ready(function() {initMenu();});
 </script>
 {% endhighlight %}
 
@@ -198,7 +198,7 @@ The jQuery code who animates this menu:
 
 {% highlight html %}
 <footer>
-    Design and code by <a href="/">RedTeamDesign</a>
+    Footer design
 </footer>
 {% endhighlight %}
 
@@ -209,19 +209,19 @@ Below you can find the styles used to build this HTML5 template layout. Prefixed
 {% highlight css %}
 /* Small reset */
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
 ul{
     list-style: none;
     margin: 0;
-    padding: 0;         
+    padding: 0;
 }
 
 a{
   color: #6F3736;
-}      
+}
 
 /* Clear floats */
 .clearfix:after {
@@ -246,22 +246,22 @@ body{
 }
 
 header{
-    padding: 10px 0;            
+    padding: 10px 0;
     background-color: #4c2626;
-    background-image: linear-gradient(top, #6f3736, #4c2626);  
+    background-image: linear-gradient(top, #6f3736, #4c2626);
     box-shadow: 0 1px 0 #fff, 0 -3px 3px #000 inset;
 }
 
 header hgroup{
     margin: 0 auto;
-    width: 960px;            
+    width: 960px;
 }
-        
+
 header h1{
     margin: 0;
     font: 25px/1 'Luckiest Guy', cursive; /* Google font API */
     float: left;
-    text-shadow: 0 1px 0 rgba(0,0,0,.9);            
+    text-shadow: 0 1px 0 rgba(0,0,0,.9);
 }
 
 header h2{
@@ -296,7 +296,7 @@ footer{
     overflow: hidden;
 }
 
-/* --------------------------------------------------- */        
+/* --------------------------------------------------- */
 
 #main{
     margin: 20px auto 0 auto;
@@ -315,13 +315,13 @@ aside{
 }
 
 article{
-    position: relative;            
+    position: relative;
     padding: 20px;
     margin: 0 0 20px 0;
     text-align: center;
     background: #fff;
     box-shadow: 0 1px 1px #999;
-    border-radius:5px;            
+    border-radius:5px;
 }
 
 article:before, article:after{
@@ -342,7 +342,7 @@ article:after{
   transform: rotate(3deg);
   right: 10px;
   left: auto;
-}        
+}
 
 article footer{
     text-align: center;
@@ -373,7 +373,7 @@ article footer span:before{
   border-style: solid;
   border-width: 12px 12px 12px 0;
 }
- 
+
 article footer span:after{
   content: "";
   position: absolute;
@@ -384,7 +384,7 @@ article footer span:after{
   border-radius: 2px;
   background: #fff;
   box-shadow: -1px -1px 2px #777;
-}        
+}
 
 figure{
     margin: 1em 0;
@@ -399,31 +399,31 @@ figcaption{
 
 /* Vertical menu */
 #menu li{
-  margin: 0 0 3px 0;             
+  margin: 0 0 3px 0;
 }
 
 #menu a{
   display: block;
   *display: inline-block;
   *width: 240px;
-  text-decoration: none;              
+  text-decoration: none;
   background: #ddd;
-  color: #444;  
+  color: #444;
   padding: 10px 5px;
   text-transform: uppercase;
-  font: bold 12px Arial,Helvetica;          
+  font: bold 12px Arial,Helvetica;
   border-radius:5px;
-  box-shadow: 0 1px 0 #ccc;   
+  box-shadow: 0 1px 0 #ccc;
 }
 
 #menu a:hover{
   color: #eee;
   background: #9c9c9c;
-  background: linear-gradient(top, #bbb, #999);          
+  background: linear-gradient(top, #bbb, #999);
 }
 
 #menu .expandable{
-  position: relative; 
+  position: relative;
 }
 
 #menu .expandable:before,
@@ -434,7 +434,7 @@ figcaption{
   margin-top: 5px;
   border-top: 6px solid #444;
   border-right: 6px solid transparent;
-  border-left: 6px solid transparent;          
+  border-left: 6px solid transparent;
 }
 
 #menu .expandable:before{
@@ -444,26 +444,26 @@ figcaption{
 
 #menu .expanded:after{
   border-top: 0;
-  border-bottom: 6px solid #444;       
+  border-bottom: 6px solid #444;
 }
 
 #menu .expanded:before{
     border-top: 0;
-    border-bottom: 6px solid #fff;               
+    border-bottom: 6px solid #fff;
 }
 
 #menu ul a{
     background: #f2f2f2;
     text-transform: none;
-    font-weight: normal;            
+    font-weight: normal;
 }
 
 #menu ul a:hover{
     background: #fafafa;
     color: #444;
-} 
+}
 {% endhighlight %}
-    
+
 ## Browser support
 
 This is a cross browser HTML5 template which use graceful degradation. So, you don't have to worry for older browsers like the IE trident - they render the layout in a good way thanks to the HTML5 shiv:
@@ -471,8 +471,8 @@ This is a cross browser HTML5 template which use graceful degradation. So, you d
 {% highlight html %}
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]--> 
-{% endhighlight %}  
+<![endif]-->
+{% endhighlight %}
 
 ## Conclusion
 
