@@ -37,7 +37,7 @@ To keep it simple, a replaced element is any HTML element whose appearance and d
 
 ## Getting back to our topic
 
-I've seen a lot of cool demos like [this](https://jsfiddle.net/joshnh/evePU/), [this](httpss://github.com/simurai/umbrUI) or [this one](https://ericbidelman.tumblr.com/post/23615290220/data-binding-using-data-attributes) that work only on Chrome at this time whilst according to [the specs](https://drafts.csswg.org/css2/selector.html#pseudo-element-selectors), the interaction of `::before` and `::after` with "replaced elements" is not defined.
+I've seen a lot of cool demos like [this](https://jsfiddle.net/joshnh/evePU/), [this](https://github.com/simurai/umbrUI) or [this one](https://ericbidelman.tumblr.com/post/23615290220/data-binding-using-data-attributes) that work only on Chrome at this time whilst according to [the specs](https://drafts.csswg.org/css2/selector.html#pseudo-element-selectors), the interaction of `::before` and `::after` with "replaced elements" is not defined.
 
 More than that, it seems that all these Chrome examples have something to do with using Shadow DOM.
 
