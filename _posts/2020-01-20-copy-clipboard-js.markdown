@@ -20,7 +20,7 @@ The clipboard is a useful feature that helps to transfer data between a browser'
 
 ## How to copy an API token
 
-A classic scenario we all met in the wild is to copy an API token from an account settings form. I had to implement a similar example in the past weeks and decided to write this article down to show you an example on how to do to that effectively.
+A classic scenario we all met in the wild is to copy an API token from an account settings form. I had to implement a similar example in the past weeks and decided to write this article down to show you an example of how to effectively do that.
 
 There are two popular ways to copy to the clipboard:
 
@@ -48,17 +48,20 @@ Further on, you'll see how to copy to the clipboard using JS and the modern asyn
 
 *from [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard)*
 
-API, interface, property, object... reading and assembling all these in mind might seem confusing but to keep it simple, the Clipboard API can help you to cut, copy and paste stuff in a web page.
+API, interface, property, object... reading and assembling all these in mind might seem confusing but to keep it simple, the Clipboard API can help you to cut, copy and paste stuff on a web page.
 
 
 ## Copy an API token when double click
-The following HTML code might be a section in the account settings page. With using HTML `mark` and `code` elements, we'll make sure we have some good default and native stylings offered by the browser.
+The following HTML code might be merely a section on the account settings page. With using HTML `mark` and `code` elements, we'll make sure we have some good default and native stylings offered by the browser.
 
-{% highlight js %}
-API token: <mark><code>joiSldUIFJ1bGVzISIsImlhdCI6MTQ1OTQ</code></mark>
+{% highlight html %}
+API token:
+<mark>
+  <code>joiSldUIFJ1bGVzISIsImlhdCI6MTQ1OTQ</code>
+</mark>
 {% endhighlight %}
 
-For the sake of brevity, I queried the current token by the `code` element but I assume that in production that will most probably replaced by an unique identifier instead.
+For the sake of brevity, I queried the current token by the `code` element but I assume that in production that will most probably be replaced by a unique identifier instead.
 
 {% highlight js %}
 const token = document.querySelector("code");
@@ -107,14 +110,14 @@ On security and permissions, the write permission is granted automatically but w
 ![The browser permission prompt to read the clipboard](/dist/uploads/2020/01/browser-permission-prompt-read-clipboard.png)
 
 Read more on the interaction with the clipboard, including both write and read operations:
-- https://www.w3.org/TR/clipboard-apis/
-- https://developers.google.com/web/updates/2018/03/clipboardapi
-- https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
+- [Clipboard API and events](https://www.w3.org/TR/clipboard-apis/)
+- [Unblocking Clipboard Access](https://developers.google.com/web/updates/2018/03/clipboardapi)
+- [Interact with the clipboard](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard)
 
 ## Browser support
 
-The browser support for the code above is strictly related to supporting Clipboard API in your browser, because as [Caniuse data](https://caniuse.com/#feat=mdn-api_clipboard) shows, if the browser supports Clipboard API then most probably has support for JS async functions too.
+The browser support for the code above is strictly related to supporting Clipboard API in your browser because as [Caniuse data](https://caniuse.com/#feat=mdn-api_clipboard) shows, if the browser supports Clipboard API then most probably has support for JS async functions too.
 
-If you're targeting a wider browser support for copying to clipboard, you may use [clipboard.js](https://clipboardjs.com/), which is a 3KB gzipped library, based on both Selection and execCommand APIs and offers a very good support for legacy browsers.
+If you're targeting wider browser support for copying to clipboard, you may use [clipboard.js](https://clipboardjs.com/), which is a 3KB gzipped library, based on both Selection and execCommand APIs and offers very good support for legacy browsers.
 
 ![The browser permission prompt to read the clipboard](/dist/uploads/2020/01/clipboardjs-browser-support.png)
