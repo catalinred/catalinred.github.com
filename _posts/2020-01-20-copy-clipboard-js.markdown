@@ -51,7 +51,7 @@ Further on, you'll see how to copy to the clipboard using JS and the modern asyn
 API, interface, property, object... reading and assembling all these in mind might seem confusing but to keep it simple, the Clipboard API can help you to cut, copy and paste stuff on a web page.
 
 
-## Copy an API token when double click
+## Copy an API token when `click`
 The following HTML code might be merely a section on the account settings page. With using HTML `mark` and `code` elements, we'll make sure we have some good default and native stylings offered by the browser.
 
 {% highlight html %}
