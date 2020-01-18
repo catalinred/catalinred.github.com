@@ -3,7 +3,14 @@
 \*------------------------------------*/
 
 .master-content {
-  padding: $gutter-2x 0;
+  padding: $gutter-2x $gutter;
+}
+
+@include breakpoint(small) {
+  .master-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /**
@@ -154,15 +161,18 @@
 
     .site-widget {
       grid-area: widget;
-      margin-top: -3rem;
-
-      h3, p {
-        margin-bottom: 0;
-      }
     }
 
     .site-footer {
       grid-area: footer;
     }
+  }
+}
+
+.site-widget {
+  margin-top: -3rem;
+
+  h3, p {
+    margin-bottom: 0;
   }
 }

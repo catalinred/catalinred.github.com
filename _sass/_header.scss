@@ -42,7 +42,8 @@
   }
 
   li {
-    display: block;
+    display: inline-block;
+    margin-left: 5px;
 
     > a {
       display: block;
