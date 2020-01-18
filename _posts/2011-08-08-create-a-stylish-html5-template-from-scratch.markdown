@@ -38,7 +38,7 @@ As you may notice, the above HTML5 template is simple, minimal and stylish - tha
 ### The not-so-secret ingredients:
 
   * Simple logo using [Google Font API](/google-font-api-and-typekit-solutions-vs-font-face)
-  * Nice [drop shadow effects](/how-to-create-slick-effects-with-css3-box-shadow).
+  * Nice [CSS drop shadow effects](/how-to-create-slick-effects-with-css3-box-shadow).
   * Pattern background using [data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).
   * Vertical [drop down menu](/css3-dropdown-menu) animated with jQuery.
   * Arrow shapes made with [pseudo-elements](/before-after-pseudo-elements).

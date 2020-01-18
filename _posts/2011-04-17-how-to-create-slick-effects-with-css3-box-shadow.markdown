@@ -4,8 +4,8 @@ comments: true
 date: 2011-04-17 21:01:31+00:00
 layout: post
 slug: how-to-create-slick-effects-with-css3-box-shadow
-title: How to create drop shadows and inner shadows with CSS box-shadow
-description: Learn how to create slick drop shadows and inner shadows with CSS, pseudo-elements, transforms and RGBA color model.
+title: CSS drop and inner shadows with box-shadow
+description: Learn how to create beautiful CSS drop and inner shadows with pseudo-elements, transforms and RGBA color model.
 categories:
 - CSS
 - HTML
@@ -15,21 +15,17 @@ categories:
   Last updated on <time datetime="2019-12-27">2019, December 27</time>
 </ins>
 
-Adding drop shadows and inner shadows are some of the effects I first learned to apply by using Photoshop's Blending options. But now, with the CSS box-shadow feature, you don't need Adobe's design tool anymore in order to add a drop shadow or an inner shadow to an element.
+The CSS `box-shadow` property allows you to add multiple shadows, outer (often called drop shadows) or inner, on the HTML elements. To do that you must specify values as horizontal and vertical offsets, blur radius, spread distance, inset and color.
 
 ![A gray rectangle with a CSS box shadow effect](/dist/uploads/2011/04/css3-box-shadow.png)
 
 <!-- more -->
 
-## The CSS `box-shadow` property
-
-The CSS `box-shadow` property allows you to add multiple shadows, outer or inner, on rectangle elements. To do that you must specify values as horizontal and vertical offsets, blur radius, spread distance, inset and color.
+## The CSS `box-shadow` syntax
 
 {% highlight css %}
   <shadow> = inset? && [ <length>{2,4} && <color>? ]
 {% endhighlight %}
-
-## A simple CSS `box-shadow` example
 
 Rocket science? Not at all, here's a quick example:
 
@@ -37,7 +33,7 @@ Rocket science? Not at all, here's a quick example:
   box-shadow: 3px 3px 10px 5px #000;
 {% endhighlight %}
 
-The above CSS declaration will generate the following shadow:
+The above CSS declaration will generate the following shadow effect:
 
 ![Box shadow values explained, including horizontal and vertical offsets, blur radius, spread distance and color](/dist/uploads/2011/04/box-shadow-values.png)
 
@@ -125,7 +121,7 @@ Enough theory, let's see how can you take advantage of this wonderful CSS `box-s
 
 ### Use the RGBA color model
 
-Try spicing up shadows with using the RGBA color model. The `box-shadow` property can be used using RGBA colors to create shadows with differing levels of opacity. If your browsers supports the `box-shadow` property, then it will definitively support the RGBA color model.
+Try spicing up shadows using the RGBA color model. The `box-shadow` property can be used using RGBA colors to create shadows with differing levels of opacity. If your browsers support the `box-shadow` property, then it will definitively support the RGBA color model.
 
 ### Add multiple effects separated by commas
 Also, you can use multiple shadow effects in one CSS declaration, as seen below:

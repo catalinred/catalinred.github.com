@@ -14,7 +14,7 @@ tags:
 - usability
 ---
 
-The `:target` pseudo-class is one of those amazing CSS3 features. It matches an element that’s the target of a identifier in the document’s [URI](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier). 
+The `:target` pseudo-class is one of those amazing CSS3 features. It matches an element that’s the target of a identifier in the document’s [URI](http://en.wikipedia.org/wiki/Uniform_Resource_Identifier).
 
 This identifier in a URI contains a "#" character followed by an identifier name that matches the value of an id attribute of an element within the document.
 
@@ -67,7 +67,7 @@ Below you have a list of 4 links and also the same amount of blocks. You may not
 
 ## The CSS
 
-The following rows will style the content to get the desired effect, which is to show the current identifier (in this case a shadow will surround the box).
+The following rows will style the content to get the desired effect, which is to show the current identifier - in this case a [drop shadow made with CSS](/how-to-create-slick-effects-with-css3-box-shadow/) will surround the box).
 
 {% highlight css %}
 /* Add some spacing */
@@ -75,16 +75,16 @@ ul, div {
     margin-bottom: 10px;
 }
 
-/* Default block styles */   
+/* Default block styles */
 div {
     padding: 10px;
     border: 1px solid #eaeaea;
     border-radius: 5px;
 }
 
-/* Change its appearance when it's matched */    
+/* Change its appearance when it's matched */
 div:target {
-    border-color: #9c9c9c;      
+    border-color: #9c9c9c;
     box-shadow: 0 0 4px #9c9c9c;
 }
 {% endhighlight %}

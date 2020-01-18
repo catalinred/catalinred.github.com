@@ -63,16 +63,16 @@ Since Chrome and Safari began to use **border-radius** property, you no longer h
 border-radius: 10px; /* Chrome, Safari, Opera ... */
 {% endhighlight %}
 
-## 4. CSS3 Box-shadow, text-shadow, gradients and transform properties
+## 4. CSS3 box-shadow, text-shadow, gradients and transform properties
 
-Define complex **box shadow** declarations so you can tune up your website:
+Define complex **box shadow** declarations so you can tune up your website with [CSS drop shadow](/how-to-create-slick-effects-with-css3-box-shadow/) effects:
 
 {% highlight css %}
 box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2),
             0 1px 0 rgba(255, 255, 255, 0.8) inset;
 {% endhighlight %}
 
-**Text shadow** as a 1px white stroke effect:
+Use [CSS text shadow](/drop-shadow-effect-using-css/) as a `1px` white stroke effect:
 
 {% highlight css %}
 text-shadow: 0 1px 0 white, 0 -1px 0 white;

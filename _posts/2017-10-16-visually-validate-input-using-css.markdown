@@ -73,7 +73,7 @@ It looks a bit like the [CSS parent selector](https://drafts.csswg.org/selectors
 
 ![Focus within the form](/dist/uploads/2017/10/focus-within.gif)
 
-*Simple form drop shadow effect.*
+*Simple [CSS drop shadow](/how-to-create-slick-effects-with-css3-box-shadow/) effect.*
 
 {% highlight css %}
   #form:focus-within {

@@ -35,8 +35,8 @@ That's what you may say but, oh yes :) ... This is another buttons set, powered 
 ## "How it's made"
 
   * RGBA color mode
-  * Box shadow
-  * [Text shadow](/drop-shadow-effect-using-css)
+  * [CSS box shadow](/how-to-create-slick-effects-with-css3-box-shadow/)
+  * [CSS text shadow](/drop-shadow-effect-using-css)
   * Rounded corners
   * Gradient patterns _thanks to [@leaverou](http://twitter.com/leaverou) for its enlightening article about [CSS3 gradients techniques](https://lea.verou.me/2010/12/checkered-stripes-other-background-patterns-with-css3-gradients/)_
 

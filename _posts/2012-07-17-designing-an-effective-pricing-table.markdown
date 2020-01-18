@@ -38,15 +38,15 @@ Below you can find a markup excerpt. As usual, there is nothing complicated here
 <div id="pricing-table">
     <div class="plan plan1">
         <div class="header">Enterprise</div>
-        <div class="price">$59</div>  
-        <div class="monthly">per month</div>      
+        <div class="price">$59</div>
+        <div class="monthly">per month</div>
         <ul>
             <li><b>10GB</b> Disk Space</li>
             <li><b>100GB</b> Monthly Bandwidth</li>
             <li><b>20</b> Email Accounts</li>
-        <li><b>Unlimited</b> subdomains</li>            
+        <li><b>Unlimited</b> subdomains</li>
         </ul>
-        <a class="signup" href="">Sign up</a>         
+        <a class="signup" href="">Sign up</a>
     </div>
     <div class="plan plan2 popular-plan">
         ...
@@ -56,7 +56,7 @@ Below you can find a markup excerpt. As usual, there is nothing complicated here
     </div>
     <div class="plan plan4">
         ...
-    </div>        
+    </div>
 </div>
 {% endhighlight %}
 
@@ -65,7 +65,7 @@ Below you can find a markup excerpt. As usual, there is nothing complicated here
 ![Initial structure](/dist/uploads/2012/07/initial-css3-pricing-plan.png)
 
 The snippet below contains the initial styles for our pricing table layout:
-    
+
 {% highlight css %}
 #pricing-table {
     margin: 100px auto;
@@ -84,8 +84,8 @@ The snippet below contains the initial styles for our pricing table layout:
 }
 
 #pricing-table .plan {
-    font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;     
-    background: #fff;      
+    font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;
+    background: #fff;
     border: 1px solid #ddd;
     color: #333;
     padding: 20px;
@@ -94,27 +94,27 @@ The snippet below contains the initial styles for our pricing table layout:
     _display: inline; /* IE6 double margin fix */
     position: relative;
     margin: 0 5px;
-    box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);      
+    box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);
 }
-{% endhighlight %} 
+{% endhighlight %}
 
 ## Slick bottom shadow
 
 ![Slick drop shadow](/dist/uploads/2012/07/pricing-plan-slick-shadow.jpg)
 
-To add some depth to our pricing plans, we'll add a [cool shadow](/how-to-create-slick-effects-with-css3-box-shadow) for each.
-    
+To add some depth to our pricing plans, we'll add a cool [CSS drop shadow](/how-to-create-slick-effects-with-css3-box-shadow) for each plan.
+
 {% highlight css %}
 #pricing-table .plan:after {
-    z-index: -1; 
-    position: absolute; 
+    z-index: -1;
+    position: absolute;
     content: "";
     bottom: 10px;
     right: 4px;
-    width: 80%; 
-    top: 80%; 
+    width: 80%;
+    top: 80%;
     box-shadow: 0 12px 5px rgba(0, 0, 0, .3);
-    transform: rotate(3deg);    
+    transform: rotate(3deg);
 }
 {% endhighlight %}
 
@@ -123,7 +123,7 @@ To add some depth to our pricing plans, we'll add a [cool shadow](/how-to-create
 ![Popular plan](/dist/uploads/2012/07/css3-pricing-table-highlighted-plan.png)
 
 The plans are already relative positioned and that's why we can elevate the `.popular-plan` block using a negative `top` value.
-    
+
 {% highlight css %}
 #pricing-table .popular-plan {
     top: -20px;
@@ -135,7 +135,7 @@ The plans are already relative positioned and that's why we can elevate the `.po
 
 ![Pricing plan header](/dist/uploads/2012/07/css3-pricing-table-headers.png)
 
-For the jagged effect, you can use an [encoded](http://webcodertools.com/imagetobase64converter) white triangle image and repeat it above the bottom borders.    
+For the jagged effect, you can use an [encoded](http://webcodertools.com/imagetobase64converter) white triangle image and repeat it above the bottom borders.
 
 {% highlight css %}
 #pricing-table .header {
@@ -160,7 +160,7 @@ For the jagged effect, you can use an [encoded](http://webcodertools.com/imageto
 
 #pricing-table .popular-plan .header {
     margin-top: -40px;
-    padding-top: 60px;      
+    padding-top: 60px;
 }
 
 #pricing-table .plan1 .header {
@@ -177,14 +177,14 @@ For the jagged effect, you can use an [encoded](http://webcodertools.com/imageto
 
 #pricing-table .plan4 .header {
     border-bottom-color: #45D0DA;
-}   
+}
 {% endhighlight %}
 
 ## Price, feats and sign up styles
 
 ![Pricing plan final result](/dist/uploads/2012/07/css3-pricing-table-result.png)
 
-With these last styles, our pricing table is ready for action. 
+With these last styles, our pricing table is ready for action.
 
 {% highlight css %}
 
@@ -212,7 +212,7 @@ With these last styles, our pricing table is ready for action.
 }
 
 /* --------------- */
-    
+
 #pricing-table .signup {
     position: relative;
     padding: 10px 20px;
@@ -220,20 +220,20 @@ With these last styles, our pricing table is ready for action.
     font: bold 14px Arial, Helvetica;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;       
+    display: inline-block;
     background-color: #72ce3f;
-    border-radius: 3px;     
+    border-radius: 3px;
     text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-    opacity: .9;       
+    opacity: .9;
 }
 
 #pricing-table .signup:hover {
-    opacity: 1;       
+    opacity: 1;
 }
 
 #pricing-table .signup:active {
-    box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;       
-}           
+    box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
+}
 
 #pricing-table .plan1 .signup{
     background: #B3E03F;
@@ -255,6 +255,6 @@ With these last styles, our pricing table is ready for action.
 
 ## That's all!
 
-I hope you liked this tutorial. It's simple, easy to use, it degrades gracefully for older browsers and it looks nice. 
+I hope you liked this tutorial. It's simple, easy to use, it degrades gracefully for older browsers and it looks nice.
 
 Thanks for reading and please don't hesitate to share your thoughts with us!

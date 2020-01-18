@@ -6,14 +6,11 @@ layout: post
 slug: inset-box-shadow-behavior-on-chrome-beta
 title: Inset box-shadow behavior on Chrome beta
 description: Read more about a strange behavior on Chrome beta version for the inset box-shadow.
-wordpress_id: 2371
 categories:
 - CSS
-tags:
-- CSS3
 ---
 
-In my previous [article](/how-to-create-a-cool-and-usable-css3-search-box), `border`, ` border-radius` and `box-shadow` properties were used to create a slick HTML5 search box. As you may know, when using all these together, a well-known [Chrome bug](http://code.google.com/p/chromium/issues/detail?id=25334) is triggered.
+In my previous article, `border`, `border-radius` and [CSS `box-shadow`](/how-to-create-slick-effects-with-css3-box-shadow/) properties were used to create a [cool search box](/how-to-create-a-cool-and-usable-css3-search-box). As you may know, when using all these together, a well-known [Chrome bug](https://bugs.chromium.org/p/chromium/issues/detail?id=25334) is triggered.
 
 Although this bug was fixed in the latest Chrome beta releases, below you'll see the _strange_ (may I call it like that?) or should I better say _different_ behavior:
 
@@ -75,6 +72,7 @@ This happens when you use for example:
 {% endhighlight %}
 
 ![Chrome beta bug](/dist/uploads/2011/02/beta-chrome-bug.png)
+
 Here's the live [example](http://jsfiddle.net/catalinred/MEXx2/10/) - again: you must have BETA Chrome version.
 
 So, the problem (re-) appears only **when the radius value is greater than half-width or half-height**. If the box will have also some padding, plus the borders, height, width... Hm, should you always re-calculate the radius?! Do you get my point? :)

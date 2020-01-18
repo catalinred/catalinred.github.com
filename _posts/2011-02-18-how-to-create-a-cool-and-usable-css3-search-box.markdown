@@ -196,7 +196,7 @@ $(document).ready(function() {
 
 ![Chrome inset shadow bug](/dist/uploads/2011/02/chrome-inset-box-shadow-bug.png)
 
-There is a bug on Chrome when both `border-radius` and inset `box-shadow` is used. Anyway, there is good news about that. [Paul Irish](https://www.paulirish.com/) announced last month that [Chrome's inset box-shadow bug is fixed](https://www.paulirish.com/2011/chrome-inset-box-shadow-bug-fixed/).
+There is a bug on Chrome when both CSS `border-radius` and [inset `box-shadow`](/how-to-create-slick-effects-with-css3-box-shadow/) properties are used. Anyway, there is good news about that. [Paul Irish](https://www.paulirish.com/) announced last month that [Chrome's inset box-shadow bug is fixed](https://www.paulirish.com/2011/chrome-inset-box-shadow-bug-fixed/).
 
 ### Later update
 
