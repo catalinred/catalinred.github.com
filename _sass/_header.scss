@@ -43,14 +43,14 @@
 
   li {
     display: inline-block;
-    margin-left: 5px;
+    margin: 0 5px;
 
     > a {
       display: block;
       color: $color-black;
       text-transform: uppercase;
-      letter-spacing: 2px;
-      padding: 10px 0;
+      letter-spacing: 1px;
+      padding: 6px;
 
       &:hover{
         text-decoration: none;
@@ -61,6 +61,7 @@
   .current {
     a {
       background-color: $color-primary;
+      border-radius: 3px;
       color: #fff;
     }
   }
@@ -82,7 +83,7 @@
 
     li {
       display: inline-block;
-      margin-left: 2rem;
+      margin: 0 0 0 2rem;
 
       > a {
         position: relative;
