@@ -82,4 +82,4 @@ Similar to React and Vue.js components, in Angular, a scope is an object that co
 - [Safari Web Inspector](https://developer.apple.com/safari/tools/)
 - [Opera DevTools](https://dev.opera.com/extensions/dev-tools/)
 
-Also, if debugging is something you're interested in, I'm sure you'll digg the [`vanilla JS remove()` method](/removing-an-element-with-plain-javascript-remove-method/) or like to fiddle with [JS and the `Clipboard API`](/copy-clipboard-js/) too.
+Also, if debugging is something you're interested in, you'll also like the [`vanilla JS remove()` method](/removing-an-element-with-plain-javascript-remove-method/) and to fiddle with [JS and the `Clipboard API`](/copy-clipboard-js/).
