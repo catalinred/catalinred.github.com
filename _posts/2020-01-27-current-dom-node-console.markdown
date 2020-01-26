@@ -17,11 +17,10 @@ When it comes to debugging in the browser's console, getting the current DOM nod
 <!-- more -->
 
 ## Summary
-- `$0` returns the current DOM node
-- `$0` on CSS pseudo-elements in the DOM returns inconsistent results
-- `$r` returns the current React component
-- `$vm0` returns the current Vue.js component
-- `angular.element($0).scope()` returns the Angular scope that is bound to the current DOM node
+- `$0` returns the current DOM node. The same `$0` on CSS pseudo-elements in the DOM returns inconsistent results across different browsers.
+- `$r` returns the current React component.
+- `$vm0` returns the current Vue.js component.
+- `angular.element($0).scope()` returns the Angular scope that is bound to the current DOM node.
 
 ## `$0`
 
