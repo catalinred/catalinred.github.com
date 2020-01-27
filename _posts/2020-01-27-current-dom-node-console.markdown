@@ -12,7 +12,7 @@ categories:
 
 When it comes to debugging in the browser's console, getting the current DOM node, React and Vue.js components or current Angular scope are something I found very useful in my daily workflow.
 
-![The current DOM node, React and Vue.js components and Angular scope in the browser console](/dist/uploads/2020/01/current-dom-node.png)
+![The current DOM node, React and Vue.js components or Angular scope in the browser console](/dist/uploads/2020/01/current-dom-node.png)
 
 <!-- more -->
 
