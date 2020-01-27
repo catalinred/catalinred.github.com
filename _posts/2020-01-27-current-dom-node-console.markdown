@@ -12,6 +12,8 @@ categories:
 
 When it comes to debugging in the browser's console, getting the current DOM node, React and Vue.js components or current Angular scope are something I found very useful in my daily workflow.
 
+In this article, you'll learn how to get the current DOM node using `$0` in the browser's console and what to expect when you run it on the CSS pseudo-elements displayed in the elements tree.
+
 ![The current DOM node, React and Vue.js components or Angular scope in the browser console](/dist/uploads/2020/01/current-dom-node.png)
 
 <!-- more -->
@@ -70,9 +72,9 @@ Similar to React and Vue.js components, in Angular, a scope is an object that co
 
 - The newly released Edge browser supports extensions installed from other stores, e.g. Chrome Web Store, so that means that besides the well-known Chrome and Firefox support, now you get Microsoft Edge browser support too for the popular JavaScript frameworks.
 
-- Note that selecting the React and Vue.js components or Angular current scope mostly works for applications that are built in development mode. In most cases, that is the intended behavior when the production mode is set as `true`.
+- Note that selecting the React and Vue.js components or Angular current scope mostly works for applications that are built in development mode. In most cases, when the production mode is set as `true`, that is the intended behavior.
 
-- The *DevTools* naming convention is unanimously used by most of the popular browsers when it comes to their integrated development tools. Oh, and there's Safari and uses *Web Inspector*.
+- The *DevTools* naming convention is unanimously used by most of the popular browsers when it comes to their integrated development tools. Oh, and there's Safari that uses *Web Inspector*.
 
 ## Browser and development tools
 - [Firefox Developer Tools - Console](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Use_the_Inspector_from_the_Web_Console)
