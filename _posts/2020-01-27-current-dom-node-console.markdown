@@ -84,3 +84,6 @@ Similar to React and Vue.js components, in Angular, a scope is an object that co
 - [Opera DevTools](https://dev.opera.com/extensions/dev-tools/)
 
 Also, if debugging is something you're interested in, you'll also like the [`vanilla JS remove()` method](/removing-an-element-with-plain-javascript-remove-method/) and to fiddle with [JS and the `Clipboard API`](/copy-clipboard-js/).
+
+## Update on <time datetime="2020-01-29">2020, January 29</time>
+While writing this article down, I also filled a [bug report](https://bugs.chromium.org/p/chromium/issues/detail?id=1045857) for this Chrome DevTools behavior. Two days later, the [bug was fixed already](https://twitter.com/catalinred/status/1222463986312060928) and I couldn't be impressed more!
