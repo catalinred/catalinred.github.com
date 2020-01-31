@@ -36,7 +36,7 @@ Sometimes you need to type a long reply that consists of many paragraphs and wra
 
 According to [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/resize), the resize CSS property sets whether an element is resizable, and if so, in which directions. Also, it's important to keep in mind that the `resize` property does not apply to the inline elements and block elements for which the overflow property is set to `visible`.
 
-The CSS `resize` property is ofter applied to `textarea` in order to disable its resizability and this is what this article is about. I felt like an inner contradiction considering the amount of reputation I keep getting on my above Stack Overflow answer while finding on my own this bad UX. Besides that, it looks like the number of GitHub code results on this matter is growing, from 2 millions in 2017 as found by [@humphd](https://twitter.com/humphd/status/911287694550028288) to more than 3 millions two years later.
+The CSS `resize` property is often applied to `textarea` in order to disable its resizability and this is what this article is about. I felt like an inner contradiction considering the amount of reputation I keep getting on my above Stack Overflow answer while finding on my own this bad UX. Besides that, it looks like the number of GitHub code results on this matter is growing, from 2 millions in 2017 as found by [@humphd](https://twitter.com/humphd/status/911287694550028288) to more than 3 millions two years later.
 
 ## Auto height `textarea`s
 
