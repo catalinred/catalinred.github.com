@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 160.5 140">
+  <style>
+    .st {
+      fill: none;
+      stroke: #2c3e50;
+      stroke-width: 17;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 1
+    }
+
+    .st1 {
+      stroke: #2c3e50;
+    }
+
+    .st2 {
+      stroke: #e74c3c;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .st1 {
+        stroke: #ddd;
+      }
+    }
+  </style>
+  <path d="M49.5 111l-41-41 41-41M111 111l41-41-41-41" class="st st1"/>
+  <path d="M70 131.5l20.5-123" class="st st2"/>
+</svg>
