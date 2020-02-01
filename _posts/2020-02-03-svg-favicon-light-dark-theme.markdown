@@ -25,7 +25,7 @@ In this article you'll learn how to use an SVG as a favicon for your website, co
 - [Light & Dark theme detection in the browser](#light--dark-theme-detection-in-the-browser)
   - [CSS detection](#css-detection)
   - [JS detection](#javascript-detection)
-- [How to switch the favicon when in Dark Mode](#how-to-switch-the-favicon-when-in-dark-mode)
+- [How to switch the SVG favicon when in Dark Mode](#how-to-switch-the-svg-favicon-when-in-dark-mode)
 - [Browser support and fallbacks](#browser-support-and-fallbacks)
 - [Google SERP and favicons](#google-serp-and-favicons)
   - [Failed SERP redesign](#failed-serp-redesign)
@@ -80,7 +80,7 @@ if (window.matchMedia &&
 
 Although the above is a possible and working solution for switching the favicon in the HTML, I wouldn't recommend it, as now you can do that without JavaScript at all.
 
-## How to switch the favicon when in Dark Mode
+## How to switch the SVG favicon when in Dark Mode
 
 First, add the SVG favicon to your HTML `<head>` section:
 
@@ -88,21 +88,21 @@ First, add the SVG favicon to your HTML `<head>` section:
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 {% endhighlight %}
 
-Regarding the SVG `favicon.svg`'s inner content, below is a rough example of an SVG circle icon design, which has a different color, depending on the active theme. The detection is made using the above CSS `prefers-color-scheme` media feature.
+Regarding the SVG `favicon.svg`'s inner content, below is a rough example of an SVG rectangle with rounded corners, which has a different color, depending on the active theme. The detection is made using the above CSS `prefers-color-scheme` media feature.
 
 {% highlight html%}
 <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
   <style>
-    circle {
+    rect {
       fill: green;
     }
     @media (prefers-color-scheme: dark) {
-      circle {
+      rect {
         fill: red;
       }
     }
   </style>
-  <circle cx="25" cy="25" r="25"/>
+  <rect width="50" height="50" rx="5"/>
 </svg>
 {% endhighlight %}
 
