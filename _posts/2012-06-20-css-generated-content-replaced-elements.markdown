@@ -4,14 +4,14 @@ comments: true
 date: 2012-06-20 05:00:57+00:00
 layout: post
 slug: css-generated-content-replaced-elements
-title: CSS generated content on replaced elements
-description: Read more about the HTML replaced elements and pseudo-elements.
+title: CSS generated content on HTML replaced elements
+description: Read more about the HTML replaced elements and what happens when you apply the ::before and ::after pseudo-elements on replaced elements.
 categories:
 - CSS
 - HTML
 ---
 
-Using pseudo-elements like `::before` and `::after` helps you specifying which content should be inserted before or after the content of an element. Replaced elements like `input` or `img` have no content, therefore, you shouldn't be able to use any generated content for them.
+Using pseudo-elements like `::before` and `::after` helps you specifying which content should be inserted before or after the content of an element. HTML replaced elements like `input` or `img` have no content, therefore, you shouldn't be able to use any generated content for them.
 
 But, there's almost always a but, it seems that you can use generated content on a number of replaced elements that vary from browser to browser. This is something that has intrigued me lately and that's why I decided to write down this article.
 
@@ -21,19 +21,22 @@ But, there's almost always a but, it seems that you can use generated content on
 
 ## What is a replaced element
 
-> In CSS, a replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
+> A replaced element is an element whose representation is outside the scope of CSS; they're external objects whose representation is independent of the CSS formatting model.
 >
 > *from [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)*
 
-To keep it simple, a replaced element is any HTML element whose appearance and dimensions are predefined without any use of CSS:
+To keep it simple, a replaced element is any HTML element whose appearance and dimensions are predefined without any use of CSS. Here's the updated list, according to the [WHATWG](https://html.spec.whatwg.org/multipage/rendering.html#replaced-elements):
 
-  * `<img>`
-  * `<input>`
-  * `<select>`
-  * `<textarea>`
-  * `<object>`
-  * `<br>`
-  * `<hr>`
+- `audio`
+- `canvas`
+- `embed`
+- `iframe`
+- `img`
+- `input`
+- `object`
+- `video`
+
+In the meantime, I wrote some lines on [HTML replaced and void elements](/html-replaced-void-elements/), what is what and how they differ while they also have some common elements such as `img` and `input`.
 
 ## Getting back to our topic
 
