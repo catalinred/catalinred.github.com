@@ -29,9 +29,9 @@ So I thought that a Venn diagram does the job perfectly when it comes to represe
 
 ### HTML replaced elements
 
-According to [W3C](https://drafts.csswg.org/css-display/#replaced-element), a HTML replaced element is an element whose content is outside the scope of the CSS formatting model, such as the HTML `img` element, whose content is replaced by the image that its `src` attribute designates.
+According to [W3C](https://drafts.csswg.org/css-display/#replaced-element), an HTML replaced element is an element whose content is outside the scope of the CSS formatting model, such as the HTML `img` element, whose content is replaced by the image that its `src` attribute designates.
 
-Oh, and the `img` elements is one of the HTML void elements too.
+Oh, and the `img` element is one of the HTML void elements too.
 
 ![An img as a HTML replaced elements](/dist/uploads/2020/02/html-img-replaced-element.png)
 
@@ -52,7 +52,7 @@ Here's the HTML replaced elements, according to the [WHATWG](https://html.spec.w
 
 *from [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element)*
 
-I did stumble upon this while writing on how to get the [current DOM node in browser's console](/current-dom-node-console/#0-on-css-pseudo-elements-in-the-dom) but didn't actually know that they are called anonymous replaced elements. So, you can run `$0` on CSS pseudo-elements in the DOM, because the `::before` and `::after` pseudo-elements are displayed in browsers' elements tree.
+I did stumble upon this while writing on how to get the [current DOM node in browser's console](/current-dom-node-console/#0-on-css-pseudo-elements-in-the-dom) but didn't actually know they are called anonymous replaced elements. So, you can run `$0` on CSS pseudo-elements in the DOM, because the `::before` and `::after` pseudo-elements are displayed in browsers' elements tree.
 
 ### CSS properties that apply only to HTML replaced elements
 
@@ -62,7 +62,7 @@ So, a while ago, after gathering input from some really cool people, I did wrote
 
 On this matter, `object-fit` and `object-position` are two CSS properties that apply only to the HTML replaced elements.
 
-- [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) specifies how the contents of a HTML replaced element should be fitted to the box established by its used height and width.
+- [`object-fit`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit) specifies how the contents of an HTML replaced element should be fitted to the box established by its used height and width.
 - [`object-position`](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) determines the alignment of the replaced element inside its box.
 
 ### 300x150px
@@ -82,9 +82,9 @@ The HTML void elements don't have a proper end tag, therefore they can't have an
 
 *Void elements only have a start tag e.g. `<input type="url">`.*
 
-It often happens to see void elements in the wild with a *closing* forward slash like `<br/>` or even with an extra space e.g. `<br />`, which is specific to the XHTML syntax. For a better compatibility with with XHTML, the slash is allowed on void elements by the HTML specification, therefore the document passes the [markup validation](https://validator.w3.org/).
+It often happens to see void elements in the wild with a *closing* forward slash like `<br/>` or even with an extra space e.g. `<br />`, which is specific to the XHTML syntax. For better compatibility with XHTML, the slash is allowed on void elements by the HTML specification, therefore the document passes the [markup validation](https://validator.w3.org/).
 
-As a side note, depending on the [type of the HTML element](https://html.spec.whatwg.org/multipage/syntax.html#elements-2), here's what the forward slash does on `<foo/>`:
+As a side note, depending on the [type of the HTML element](https://html.spec.whatwg.org/multipage/syntax.html#elements-2) here's what the forward slash does on `<foo/>`:
 
 - If `foo` is a void element, then the `/` gets ignored.
 - If [foreign element](https://html.spec.whatwg.org/multipage/syntax.html#foreign-elements), meaning an element from the MathML namespace and the SVG namespace, e.g. `<defs/>` within an inline SVG, then the self-closing syntax is valid.
@@ -113,7 +113,7 @@ Here's what I noticed, after lurking through W3C, WHATWG and MDN docs, old issue
 
 - The void elements are often called empty elements, single elements, stand-alone elements, unpaired elements or *singleton* elements. Yes, singleton, the design pattern, because I guess that's what happens when programmers start writing HTML.
 
-- Both [W3C](https://www.w3.org/TR/html52/syntax.html#void-elements) and [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element) list the void elements as if they were start tags, while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html#void-elements) seem to do it the right way.
+- Both [W3C](https://www.w3.org/TR/html52/syntax.html#void-elements) and [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element) list the void elements as if they are start tags, while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html#void-elements) seem to do it the right way.
 
 - Within the MDN docs, the void elements are referred solely as [*empty* elements](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element), that cannot have any child nodes.
 
