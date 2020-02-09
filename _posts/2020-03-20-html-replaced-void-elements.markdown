@@ -33,7 +33,7 @@ According to [W3C](https://drafts.csswg.org/css-display/#replaced-element), an H
 
 Oh, and the `img` element is one of the HTML void elements too.
 
-![An img as a HTML replaced elements](/dist/uploads/2020/02/html-img-replaced-element.png)
+![An img as an HTML replaced element](/dist/uploads/2020/02/html-img-replaced-element.png)
 
 Here's the HTML replaced elements, according to the [WHATWG](https://html.spec.whatwg.org/multipage/rendering.html#replaced-elements):
 
@@ -78,7 +78,7 @@ To better explain HTML void elements, we should point out first what tags are. W
 
 The HTML void elements don't have a proper end tag, therefore they can't have any kind of content between the start tag and the end tag.
 
-![An URL input as a HTML void element](/dist/uploads/2020/02/html-input-void-element.png)
+![An URL input as an HTML void element](/dist/uploads/2020/02/html-input-void-element.png)
 
 *Void elements only have a start tag e.g. `<input type="url">`.*
 
