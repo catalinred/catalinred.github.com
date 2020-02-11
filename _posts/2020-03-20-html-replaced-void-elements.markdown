@@ -32,7 +32,7 @@ With that in mind, I thought about a Venn diagram that does the job perfectly wh
 
 ### HTML replaced elements
 
-According to [W3C](https://drafts.csswg.org/css-display/#replaced-element), an HTML replaced element is an element whose content is outside the scope of the CSS formatting model, such as the HTML `img` element, whose content is replaced by the image that its `src` attribute designates.
+According to [W3C](https://drafts.csswg.org/css-display/#replaced-element), an HTML replaced element is an element whose content is outside the scope of the CSS formatting model. An example is the HTML `img` element, whose content is replaced by the image that its `src` attribute designates.
 
 Oh, and the `img` element is one of the HTML void elements too.
 
