@@ -27,6 +27,7 @@ In this article, you'll find out how to use the HTML `disabled` boolean attribut
   - [`disabled` != `readonly`](#disabled--readonly)
   - [The `aria-disabled` attribute](#the-aria-disabled-attribute)
 - [Toggle the `disabled` state with JS](#toggle-the-disabled-state-with-js)
+  - [Firing events](#firing-events)
 - [Style the `disabled` form controls](#style-the-disabled-form-controls)
   - ["disabled" links](#disabled-links)
   - [Default User Agent `disabled` styles](#default-user-agent-disabled-styles)
@@ -109,6 +110,25 @@ Also, besides the classic `removeAttribute()` and `setAttribute()` methods, you 
 {% highlight js %}
 let el = document.querySelector(".myFormControl");
 el.toggleAttribute("disabled");
+{% endhighlight %}
+
+### Firing events
+
+Speaking of disabled elements and JavaScript, Jake Archibald wrote an interesting piece on [firing events on disabled form controls](https://jakearchibald.com/2017/events-and-disabled-form-fields/), in which he argues about the need to use `pointer-events: none` on all the `:disabled` elements.
+
+With better [browser support for the `:matches()`](https://caniuse.com/#feat=css-matches-pseudo) (formerly `:any()`) CSS pseudo-class, here's how we could write a bulletproof CSS rule, to prevent interaction and event issues on the disabled form controls:
+
+{% highlight css %}
+:disabled:matches(
+button,
+optgroup,
+option,
+select,
+textarea,
+input
+) {
+  pointer-events: none;
+}
 {% endhighlight %}
 
 ---
