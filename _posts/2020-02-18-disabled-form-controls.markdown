@@ -131,7 +131,7 @@ input
 }
 {% endhighlight %}
 
-The `fieldset` element is excluded in the above rule in order to avoid breaking other elements or `title`s attributes wrapped within it.
+The `fieldset` element is excluded in the above rule in order to avoid breaking other elements or `title` attributes wrapped within it.
 
 ---
 
