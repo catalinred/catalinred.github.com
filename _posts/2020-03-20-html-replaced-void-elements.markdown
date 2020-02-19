@@ -135,7 +135,7 @@ Here's what I noticed, after lurking through W3C, WHATWG and MDN docs, old issue
 
 - The void elements are often called empty elements, single elements, stand-alone elements, unpaired elements or *singleton* elements. Yes, singleton, the design pattern, because I guess that's what happens when Java programmers start writing HTML.
 
-- Both [W3C](https://www.w3.org/TR/html52/syntax.html) and [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) list the HTML elements as if they are start tags e.g. `U+003C`(`<`), tag name (element's name) and `U+003E`(`>`), while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html) seem to do it the right way.
+- Both [W3C](https://www.w3.org/TR/html52/syntax.html) and [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) list the HTML elements as if they are start tags e.g. `U+003C`(`<`), tag name (element's name) and `U+003E`(`>`), while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html) seems to do it the right way.
 
 - Within the MDN docs, the void elements are referred solely as [*empty* elements](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element), that cannot have any child nodes.
 
