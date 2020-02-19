@@ -116,10 +116,10 @@ el.toggleAttribute("disabled");
 
 Speaking of disabled elements and JavaScript, Jake Archibald wrote an interesting piece on [firing events on disabled form controls](https://jakearchibald.com/2017/events-and-disabled-form-fields/), in which he argues about the need to use `pointer-events: none` on all the `:disabled` elements.
 
-With better [browser support for the `:matches()`](https://caniuse.com/#feat=css-matches-pseudo) (formerly `:any()`) CSS pseudo-class, here's how we could write a bulletproof CSS rule, to prevent interaction and event issues on the disabled form controls:
+With better [browser support for the `:is()`](https://caniuse.com/#feat=mdn-css_selectors_is) (formerly `:any()` or `:matches()`, as [@SelenIT2 pointed out](https://twitter.com/SelenIT2/status/1230027841720463360)) CSS pseudo-class, here's how we could write a bulletproof CSS rule, to prevent interaction and event issues on the disabled form controls:
 
 {% highlight css %}
-:disabled:matches(
+:disabled:is(
 button,
 optgroup,
 option,
