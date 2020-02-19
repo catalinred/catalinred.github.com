@@ -135,7 +135,7 @@ Here's what I noticed, after lurking through W3C, WHATWG and MDN docs, old issue
 
 - The void elements are often called empty elements, single elements, stand-alone elements, unpaired elements or *singleton* elements. Yes, singleton, the design pattern, because I guess that's what happens when Java programmers start writing HTML.
 
-- Both [W3C](https://www.w3.org/TR/html52/syntax.html#void-elements) and [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element) list the void elements as if they are start tags e.g. `U+003C`(`<`), tag name (element's name) and `U+003E`(`>`), while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html#void-elements) seem to do it the right way.
+- Both [W3C](https://www.w3.org/TR/html52/syntax.html) and [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) list the HTML elements as if they are start tags e.g. `U+003C`(`<`), tag name (element's name) and `U+003E`(`>`), while [WHATWG](https://html.spec.whatwg.org/multipage/syntax.html) seem to do it the right way.
 
 - Within the MDN docs, the void elements are referred solely as [*empty* elements](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element), that cannot have any child nodes.
 
@@ -145,7 +145,7 @@ Here's what I noticed, after lurking through W3C, WHATWG and MDN docs, old issue
 
 - I stumbled upon [this issue](https://www.w3.org/Bugs/Public/show_bug.cgi?id=28904) on the need to add an exhaustive list of replaced elements [to the specs](https://html.spec.whatwg.org/multipage/rendering.html#replaced-elements). That [happened](https://github.com/whatwg/html/pull/2857) eventually, it just took a bit longer.
 
-- On the [W3C vs WHATWG](https://lists.w3.org/Archives/Public/www-archive/2014Apr/0034.html) matter, here's something from 2014 in order to better understand the *versus* wording. Hopefully, things are going in the right direction now, as in 2019, [W3C and the WHATWG have signed an agreement](https://www.w3.org/blog/2019/05/w3c-and-whatwg-to-work-together-to-advance-the-open-web-platform/) to collaborate on the development of a single version of the HTML and DOM specifications.
+- On the [W3C vs WHATWG](https://lists.w3.org/Archives/Public/www-archive/2014Apr/0034.html) matter, hopefully, things are going in the right direction now, as in 2019, [W3C and the WHATWG have signed an agreement](https://www.w3.org/blog/2019/05/w3c-and-whatwg-to-work-together-to-advance-the-open-web-platform/) to collaborate on the development of a single version of the HTML and DOM specifications.
 
 ## Conclusion
 
