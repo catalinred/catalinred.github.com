@@ -118,7 +118,7 @@ The common approach when it comes to older browsers that support neither the PNG
 
 {% highlight html%}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon alternate" href="/favicon.png" type="image/png">
+<link rel="icon" href="/favicon.png" type="image/png">
 <!-- favicon.ico in the root -->
 {% endhighlight %}
 
