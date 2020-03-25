@@ -18,26 +18,30 @@ description: Articles on front-end development, CSS, HTML, JavaScript and more.
 </article>
 {% endfor %}
 
-<ul class="pagination text-center">
-  <li class="pagination__prev">
-    {% if paginator.previous_page %}
-    {% if paginator.previous_page == 1 %}
-      <a href="/" class="btn">Previous</a>
+<hr class="bold">
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination text-center">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}">&lsaquo; Prev</a>
+  {% else %}
+    <span>&lsaquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="active">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="btn">Previous</a>
+      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
-    {% else %}
-      <span class="btn btn--disabled">Previous</span>
-    {% endif %}
-  </li>
-  <li class="pagination__status">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </li>
-  <li class="pagination__next">
-    {% if paginator.next_page %}
-      <a href="/page{{paginator.next_page}}" class="btn">Next</a>
-    {% else %}
-      <span class="btn btn--disabled">Next</span>
-    {% endif %}
-  </li>
-</ul>
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}">Next &rsaquo;</a>
+  {% else %}
+    <span>Next &rsaquo;</span>
+  {% endif %}
+</nav>
+{% endif %}
