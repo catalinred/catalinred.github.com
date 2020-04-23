@@ -132,45 +132,9 @@ Yes, lots of browsers, because we have to love them all!
 
 ![Modern browsers icons](/dist/uploads/2020/02/modern-browsers-icons.png)
 
-## Google SERP and favicons
-
-Browsers began to accept SVG favicons and I'm pretty sure we'll all implement that eventually using the CSS `prefers-color-scheme` media feature. I mean I just did, while writing this article.
-
-The latest Google SERP design, with favicons, available for only a couple of days, raised some questions in my head. Their documentation on defining a favicon in search results states they support any valid favicon format, including SVG.
-
-Hypothetically, if Google will ever get back to displaying favicons again in their SERP, which SVG favicon would they pick for their SERP?
-
-- Will they pick the SVG format to show in search results too, or they will fall back to PNG or ICO?
-- If they'll show SVG in the SERP, which *side* they'd choose? If your answer is the *light* side, that wouldn't be that accurate because it might be considered a dark pattern. I wrote some lines on this scenario below in this article.
-- If they'll choose to fallback to PNG or ICO, knowing that [Chrome supports SVG favicons](https://www.chromestatus.com/feature/5180316371124224), will not be a good idea either.
-
-### Failed SERP redesign
-
-Google made a release with the favicons design within the search engine results pages and then, after the amount of feedback received, they reverted the change.
-
-> Last week we updated the look of Search on desktop to mirror what’s been on mobile for months. We’ve heard your feedback about the update. We always want to make Search better, so we’re going to experiment with new placements for favicons.
-
-*via [@searchliaison on Twitter](https://twitter.com/searchliaison/status/1220768238490939394)*
-
-### Dark pattern design scenario
-
-A dark pattern is a user interface carefully crafted to trick or mislead users into doing things they might not otherwise do.
-
-I might push things way too far away with this scenario I mentioned above, maybe it's just me, but here's a thought that popped out in my head, considering the increasing browsers support for SVG favicon customization using CSS `prefers-color-scheme`:
-
-1. There are chances that the users to see an appealing or familiar favicon in the Google SERP. This usually impacts the CTR (Click-through rate).
-
-2. When they click on the SERP result and arrive at the actual web page, there is also a chance for the users, this time, to see a slightly different favicon in the browser tab.
-
-3. That's due to the possibility of the current web page to contain an implementation of the SVG favicon using the `prefers-color-scheme` CSS media feature.
-
-This can lead to an initial confusion, depending on the level of the current SVG favicon customization. Because besides changing colors you can manipulate all sort of things when it comes to the SVG overall appearance: show/hide `paths`, sizes, modify `stoke`'s, etc, therefore you have the ability to serve a totally different SVG favicon once the user enters a page from the SERP.
-
-As I said, maybe it’s just me, and maybe there are too many `if`s above!
-
 ## Read more
 
-Anyways, getting back to the track, you might want to read more on SVG, favicons and CSS media features:
+You might want to read more on SVG, favicons and CSS media features:
 
 - [Favicon - Wikipedia](https://en.wikipedia.org/wiki/Favicon)
 - [`prefers-color-scheme` in SVG favicons for dark mode icons](https://blog.tomayac.com/2019/09/21/prefers-color-scheme-in-svg-favicons-for-dark-mode-icons/)
