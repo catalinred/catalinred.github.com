@@ -88,7 +88,7 @@ This means that using `::before` and `::after` pseudo-elements on `<input type="
 - [Checkbox](https://codepen.io/jensimmons/pen/KKPzxJa) and [radio](https://codepen.io/jensimmons/pen/JjPXeqN) custom styles, by Jen Simmons
 - [Styled Form Controls](https://scottaohara.github.io/a11y_styled_form_controls/) by Scott O'Hara
 - [Custom Radio Buttons and Checkboxes](https://adrianroselli.com/2017/05/under-engineered-custom-radio-buttons-and-checkboxen.html) by Adrian Roselli
-- [Bootstrap v5 checkboxes and radios](https://twbs-bootstrap.netlify.com/docs/4.3/forms/checks/)
+- [Bootstrap checkboxes and radios](https://getbootstrap.com/docs/4.5/components/forms/#checkboxes-and-radios-1)
 
 ---
 
