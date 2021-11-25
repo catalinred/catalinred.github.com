@@ -30,57 +30,6 @@
 }
 
 /**
- * Get updates via RSS or email
- */
-
-.email-form {
-  position: relative;
-
-  &__text {
-    font-size: .8rem;
-    padding: 5px;
-    height: 40px;
-    border: 0;
-    width: 100%;
-  }
-
-  &__text:not(:placeholder-shown) + &__submit {
-    background: $color-primary;
-  }
-
-  &__submit {
-    position: absolute;
-    right: 4px;
-    top: 4px;
-    width: 50px;
-    height: 32px;
-    padding: 0;
-    margin: 0;
-    color: #fff;
-    cursor: pointer;
-    text-transform: uppercase;
-    background: #aaa;
-    border: 0;
-  }
-
-  &__message {
-    font-size: .9rem;
-    padding: .3rem;
-    margin-top: .3rem;
-
-    &--success {
-      color: #137a46;
-      background-color: #aaedb0;
-    }
-
-    &--error {
-      color: #D11717;
-      background-color: #ffd3d3;
-    }
-  }
-}
-
-/**
  * BSA
  */
 
