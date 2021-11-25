@@ -20,7 +20,7 @@ If you're like me, you hit `view source` on a regular basis while browsing just 
 
 So, I started thinking on a tool that could deliver relevant info for a web page without having to repeat the above steps every time I wanted to find out more about the tools and frameworks a page uses. Feedback was crucial and I was interested mainly if there were more people having my problem - trying to get as many data possible for an URL at first sight.
 
-As a result, together with my colleagues at Caphyon, we made [AWRstudyr](http://www.awrstudyr.com/) - a Chrome extension that shows web page insights on SEO gathered from a keyword research database compiled from a set of 30 million keywords, plus lots of web development answers like:
+As a result, together with my colleagues at Caphyon, we made AWRstudyr - a Chrome extension that shows web page insights on SEO gathered from a keyword research database compiled from a set of 30 million keywords, plus lots of web development answers like:
 
 - What web server is behind the URL?
 - What Analytics tool is used to get visitor insights?
@@ -52,9 +52,9 @@ The cool thing is that we were able to use the latest cutting-edge technologies 
 - Sass is the preprocessor tool and Grunt does the automation.
 - On postprocessing CSS, Autoprefixer does the job.
 - We're not using any CSS framework but we tried to create ours for this, inspired by the ones available in the wild.
-- The grid system that makes everything straightforward is made using Flexbox. 
+- The grid system that makes everything straightforward is made using Flexbox.
 - The JavaScript framework that made our lives easier is AngularJS.
 - Most of graphics are SVG and it's a wonderful feeling to be able to use it without any polyfills or fallbacks.
 
 ## Where to get it
-You can go to [AWRstudyr](http://www.awrstudyr.com/) website or [get it on Chrome Store](https://chrome.google.com/webstore/detail/awrstudyr/mbkehkfjhncahcaggkncdaacfnikmoid) directly to give it a try. I hope you enjoy it and looking forward to your feedback!
+You can go to [AWRstudyr](https://wattspeed.com/) website or [get it on Chrome Store](https://chrome.google.com/webstore/detail/awrstudyr/mbkehkfjhncahcaggkncdaacfnikmoid) directly to give it a try. I hope you enjoy it and looking forward to your feedback!
