@@ -3,7 +3,7 @@
 \*------------------------------------*/
 
 .master-content {
-  padding: $gutter-2x $gutter;
+  padding: $gutter-2x $gutter 0 $gutter;
 }
 
 @include breakpoint(small) {
@@ -122,8 +122,47 @@
 /**
  * Grid
  */
+ .site-header {
+  grid-area: header;
+}
+
+.site-main {
+  grid-area: main;
+  max-width: 100vw;
+}
+
+.site-sidebar {
+  grid-area: sidebar;
+}
+
+.site-widget {
+  grid-area: widget;
+}
+
+.site-footer {
+  grid-area: footer;
+}
 
 @supports (grid-area: auto) {
+  .site {
+    display: grid;
+    grid-gap: 0 1.5rem;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-areas:  "header"
+                          "sidebar"
+                          "main"
+                          "footer";
+
+    &--post {
+      grid-template-areas:  "header"
+                            "sidebar"
+                            "main"
+                            "widget"
+                            "footer";
+    }
+  }
+
   @include breakpoint(small) {
     .site {
       display: grid;
@@ -147,31 +186,12 @@
                               "footer footer footer footer";
       }
     }
-
-    .site-header {
-      grid-area: header;
-    }
-
-    .site-main {
-      grid-area: main;
-    }
-
-    .site-sidebar {
-      grid-area: sidebar;
-    }
-
-    .site-widget {
-      grid-area: widget;
-    }
-
-    .site-footer {
-      grid-area: footer;
-    }
   }
 }
 
 .site-widget {
   margin-top: -3rem;
+  margin-bottom: 2rem;
 
   h3, p {
     margin-bottom: 0;
