@@ -24,12 +24,14 @@
 
   // index separator dots
   &:not(:last-of-type):after {
-    content: '...';
+    content: "...";
     position: absolute;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     color: $color-black;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
     font-size: 2.5rem;
     pointer-events: none;
   }
@@ -38,7 +40,8 @@
 // because the previous post previews are narrower
 @include breakpoint(xsmall) {
   img {
-    .post &, .single-post & {
+    .post &,
+    .single-post & {
       //width: 100%;
       border: 8px solid #fff;
       outline: 2px solid darken($color-light, 5%);
@@ -48,25 +51,24 @@
 
 @include breakpoint(large) {
   @supports (writing-mode: vertical-lr) {
-    .post__time--vertical  {
+    .post__time--vertical {
       writing-mode: vertical-lr;
       float: left;
       margin-left: -2rem;
       white-space: nowrap;
 
       &::before {
-        content: '';
+        content: "";
         display: inline-block;
         width: 1ch;
         height: 2.5rem;
         margin: 10px 0;
-        background: linear-gradient(currentColor, currentColor)
-                    no-repeat center / 1px 100%;
+        background: linear-gradient(currentColor, currentColor) no-repeat center /
+          1px 100%;
       }
     }
   }
 }
-
 
 /**
  * Archive list
@@ -96,10 +98,11 @@
   @extend %unstyled-list;
   margin: $gutter-2x 0;
 
-  a, span {
+  a,
+  span {
     display: inline-block;
-    margin: .2rem;
-    padding: .1rem .4rem;
+    margin: 0.2rem;
+    padding: 0.1rem 0.4rem;
   }
 
   a:hover {
@@ -122,7 +125,7 @@
 /**
  * Grid
  */
- .site-header {
+.site-header {
   grid-area: header;
 }
 
@@ -145,21 +148,24 @@
 
 @supports (grid-area: auto) {
   .site {
+    min-height: 100vh;
     display: grid;
     grid-gap: 0 1.5rem;
     grid-template-rows: auto;
     grid-template-columns: auto;
-    grid-template-areas:  "header"
-                          "sidebar"
-                          "main"
-                          "footer";
+    grid-template-areas:
+      "header"
+      "sidebar"
+      "main"
+      "footer";
 
     &--post {
-      grid-template-areas:  "header"
-                            "sidebar"
-                            "main"
-                            "widget"
-                            "footer";
+      grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "widget"
+        "footer";
     }
   }
 
@@ -167,23 +173,27 @@
     .site {
       display: grid;
       grid-gap: 0 1.5rem;
-      grid-template-rows: auto
-                          1fr
-                          auto
-                          auto;
-      grid-template-columns:  auto
-                              minmax(0, 770px)
-                              330px
-                              auto;
-      grid-template-areas:  ". header header ."
-                            ". main sidebar ."
-                            "footer footer footer footer";
+      grid-template-rows:
+        auto
+        1fr
+        auto
+        auto;
+      grid-template-columns:
+        auto
+        minmax(0, 770px)
+        330px
+        auto;
+      grid-template-areas:
+        ". header header ."
+        ". main sidebar ."
+        "footer footer footer footer";
 
       &--post {
-        grid-template-areas:  ". header header ."
-                              ". main sidebar ."
-                              ". widget sidebar ."
-                              "footer footer footer footer";
+        grid-template-areas:
+          ". header header ."
+          ". main sidebar ."
+          ". widget sidebar ."
+          "footer footer footer footer";
       }
     }
   }
@@ -192,7 +202,8 @@
 .site-widget {
   margin-bottom: $gutter-2x;
 
-  h3, p {
+  h3,
+  p {
     margin-bottom: 0;
   }
 }
