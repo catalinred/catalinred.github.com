@@ -15,19 +15,19 @@
   display: inline-block;
 
   .svg-path {
-    fill:none;
+    fill: none;
     stroke-width: 10;
     stroke-linecap: round;
     stroke-linejoin: round;
-    transition: .1s stroke-width;
+    transition: 0.1s stroke-width;
   }
 
   polyline {
-    stroke:#353a4a;
+    stroke: #353a4a;
   }
 
   line {
-    stroke:#eb5055;
+    stroke: #eb5055;
   }
 
   &:hover .svg-path {
@@ -52,7 +52,7 @@
       letter-spacing: 1px;
       padding: 6px;
 
-      &:hover{
+      &:hover {
         text-decoration: none;
       }
     }
@@ -78,9 +78,7 @@
 }
 
 @include breakpoint(xsmall) {
-
   .red-nav {
-
     li {
       display: inline-block;
       margin: 0 0 0 2rem;
@@ -92,15 +90,21 @@
         line-height: 35px;
 
         &:after {
-          content: '';
+          content: "";
           position: absolute;
-          height: 4px; width: 100%;
-          left: 0; bottom: 0;
-          background: linear-gradient(to right, $color-primary, $color-secondary);
+          height: 4px;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+          background: linear-gradient(
+            to right,
+            $color-primary,
+            $color-secondary
+          );
 
           visibility: hidden;
           transform: scaleX(0);
-          transition: all .1s ease;
+          transition: all 0.1s ease;
         }
 
         &:hover:after {
@@ -121,12 +125,15 @@
       }
     }
   }
-
 }
 
 .master-header {
   background-color: $color-dark;
-  background-image:  linear-gradient(to left, lighten($color-dark, 10%), $color-dark);
+  background-image: linear-gradient(
+    to left,
+    lighten($color-dark, 10%),
+    $color-dark
+  );
   padding: $gutter-6x 0;
 
   // full width
@@ -147,13 +154,17 @@
   background: linear-gradient(to right, $color-primary, $color-secondary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  &::selection {
+    -webkit-text-fill-color: #fff;
+  }
 }
 
 @include breakpoint(small) {
   .master-head--title {
     // comment style title
     &::before {
-      content: '//';
+      content: "//";
       margin-right: 10px;
     }
   }
