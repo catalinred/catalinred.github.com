@@ -13,7 +13,7 @@ categories:
 ---
 
 <ins>
-  Last updated on <time datetime="2019-12-27">2019, December 27</time>
+  Last updated on <time datetime="2026-20-27">2026, Oct 27</time>
 </ins>
 
 Nowadays, encoding stuff is not a secret anymore and we're using data URI for small images, SVG's and even custom fonts. After all, this is one of the best ways to minimize the number of HTTP requests. On this matter, I thought about making a list with some online conversion tools you can use right away.
@@ -49,13 +49,12 @@ and if we deconstruct the encoded string:
 
 I'm not going to explain Data URI here, others did it before and did it well. Further, I'll list some online conversion tools that do exactly what they suppose to do, encode or decode your content as Base64 string so you can use it right away in your projects.
 
-  * [b64.io](http://b64.io/)
   * [base64decode.org](https://www.base64decode.org/)
   * [AskApache's Base64 encoder/decoder](https://www.askapache.com/online-tools/base64-image-converter/)
   * [Image2Base64](https://image2base64.wemakesites.net/)
-  * [base64encoder.io](https://www.base64encoder.io/)
   * [base64-image.de](https://www.base64-image.de/)
   * [FreeFormatter's Base 64 Encoder / Decoder](https://www.freeformatter.com/base64-encoder.html)
+  * [Image to Base64 Converter](https://vayce.app/tools/image-to-base64-converter/)
 
 ## Using Grunt
 
